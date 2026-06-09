@@ -1,0 +1,755 @@
+{
+	"id": "unit-01",
+	"n": 1,
+	"arc": 1,
+	"title": "What happened?",
+	"titleAr": "شو صار؟",
+	"mission": "The frame everything else hangs on: asking what happened, following the answer, and reacting like a native listener. Everyday Arabic — but at real speed, about real things.",
+	"cover": "img/covers/unit-01.png",
+	"registerMix": { "street": 80, "news": 0, "shared": 20 },
+	"sources": [
+		"Forms cross-checked against Madrasa dictionary and Living Arabic Project (Levantine)",
+		"Urban Palestinian koine (Jerusalem/Ramallah); native-speaker review pending — low-confidence items avoided"
+	],
+	"lessons": [
+		{
+			"n": 1,
+			"title": "What happened today?",
+			"titleAr": "شو صار اليوم؟",
+			"canDo": "I can ask what happened, follow the basic answer, and ask the follow-up questions — who, when, why.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Every conversation about news — from street gossip to war reporting — runs on one tiny verb: صار, 'it happened.' This lesson installs the question battery you'll use for the rest of the trajectory."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u1-sar",
+							"ar": "صَار",
+							"arPlain": "صار",
+							"en": "happened; became",
+							"he": "קרה; נהיה",
+							"root": "ص ي ر",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "شو صار اليوم؟", "en": "What happened today?" },
+							"audio": "audio/tts/u1/u1-sar.wav",
+							"note": "Double duty: events happen (صار إشي) and things become (صار غالي — it got expensive)."
+						},
+						{
+							"id": "u1-simi3",
+							"ar": "سِمِع",
+							"arPlain": "سمع",
+							"en": "heard",
+							"he": "שמע",
+							"root": "س م ع",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "שָׁמַע",
+								"note": "Same Semitic root, same meaning. A freebie — you already own this verb."
+							},
+							"example": { "ar": "سمعت شو صار؟", "en": "Did you hear what happened?" },
+							"audio": "audio/tts/u1/u1-simi3.wav"
+						},
+						{
+							"id": "u1-shaf",
+							"ar": "شاف",
+							"arPlain": "شاف",
+							"en": "saw",
+							"he": "ראה",
+							"root": "ش و ف",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "شفت الأخبار مبارح؟", "en": "Did you see the news yesterday?" },
+							"audio": "audio/tts/u1/u1-shaf.wav",
+							"note": "MSA رأى is almost never said on the street — it's شاف everywhere in the Levant."
+						},
+						{
+							"id": "u1-haka",
+							"ar": "حَكى",
+							"arPlain": "حكى",
+							"en": "spoke, told",
+							"he": "דיבר; סיפר",
+							"root": "ح ك ي",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "false-friend",
+								"he": "חִכָּה",
+								"note": "Sounds like Hebrew חיכה 'waited' — unrelated. حكى is talking, not waiting."
+							},
+							"example": { "ar": "حكى معي عن الوضع.", "en": "He talked to me about the situation." },
+							"audio": "audio/tts/u1/u1-haka.wav"
+						},
+						{
+							"id": "u1-khabar",
+							"ar": "خَبَر",
+							"arPlain": "خبر",
+							"en": "a piece of news",
+							"he": "ידיעה, חדשה",
+							"root": "خ ب ر",
+							"pos": "noun",
+							"register": "shared",
+							"cognate": {
+								"kind": "false-friend",
+								"he": "חָבֵר",
+								"note": "Looks like חבר 'friend' — different root entirely. خبر is news; plural أخبار."
+							},
+							"example": { "ar": "في خبر مهم اليوم.", "en": "There's an important piece of news today." },
+							"audio": "audio/tts/u1/u1-khabar.wav",
+							"note": "شو أخبارك؟ — literally 'what's your news?' — is just 'how are you?'"
+						},
+						{
+							"id": "u1-3anjad",
+							"ar": "عَنْجَد",
+							"arPlain": "عنجد",
+							"en": "really, seriously",
+							"he": "באמת, ברצינות",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "عنجد؟ مش معقول!", "en": "Seriously? Unbelievable!" },
+							"audio": "audio/tts/u1/u1-3anjad.wav",
+							"note": "From عن جد — 'in earnest.' The all-purpose 'wait, really?'"
+						},
+						{
+							"id": "u1-wallah",
+							"ar": "واللهِ",
+							"arPlain": "والله",
+							"en": "wallah — I swear, honestly",
+							"he": "וואלה",
+							"pos": "particle",
+							"register": "street",
+							"cognate": {
+								"kind": "loan",
+								"he": "וואלה",
+								"note": "Israeli slang borrowed it wholesale. You already use this word — now meet it at home."
+							},
+							"example": { "ar": "والله ما سمعت إشي.", "en": "I swear I didn't hear anything." },
+							"audio": "audio/tts/u1/u1-wallah.wav"
+						},
+						{
+							"id": "u1-ishi",
+							"ar": "إشي",
+							"arPlain": "إشي",
+							"en": "thing; anything",
+							"he": "משהו; כלום",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "ما صار إشي، اهدا.", "en": "Nothing happened, calm down." },
+							"audio": "audio/tts/u1/u1-ishi.wav",
+							"note": "Palestinian shibboleth — Lebanese say شي, Egyptians حاجة. From MSA شيء."
+						},
+						{
+							"id": "u1-ya7aram",
+							"ar": "يا حَرام",
+							"arPlain": "يا حرام",
+							"en": "what a pity, poor thing",
+							"he": "חבל; מסכן",
+							"root": "ح ر م",
+							"pos": "phrase",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "חֵרֶם",
+								"note": "Root ḥ-r-m — the sacred/forbidden zone. Hebrew kept the ban (חרם); Arabic حرام 'forbidden' softened into an exclamation of pity."
+							},
+							"example": { "ar": "يا حرام، خسروا بيتهم.", "en": "What a pity — they lost their house." },
+							"audio": "audio/tts/u1/u1-ya7aram.wav"
+						},
+						{
+							"id": "u1-heik",
+							"ar": "هيك",
+							"arPlain": "هيك",
+							"en": "like this, so",
+							"he": "ככה",
+							"pos": "adv",
+							"register": "street",
+							"example": { "ar": "ليش هيك؟", "en": "Why is it like this? / Why so?" },
+							"audio": "audio/tts/u1/u1-heik.wav",
+							"note": "هيك الوضع — 'that's how things are.' You'll hear it forty times a day."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Did you hear?",
+					"titleAr": "سمعتي شو صار؟",
+					"situation": "Samer runs into Layla on the street. Something happened downtown this morning.",
+					"audio": "audio/tts/u1/d1.wav",
+					"lines": [
+						{ "speaker": "سامر", "ar": "مرحبا ليلى، شو أخبارك؟", "en": "Hi Layla, how are you?" },
+						{ "speaker": "ليلى", "ar": "أهلين سامر! الحمدلله. اسمع، سمعت شو صار اليوم؟", "en": "Hey Samer! Fine, thank God. Listen — did you hear what happened today?" },
+						{ "speaker": "سامر", "ar": "لأ، شو صار؟", "en": "No — what happened?" },
+						{ "speaker": "ليلى", "ar": "في مظاهرة كبيرة في وسط البلد، الناس كلها نزلت عالشارع.", "en": "There's a big demonstration downtown — everyone took to the street." },
+						{ "speaker": "سامر", "ar": "عنجد؟ ليش؟", "en": "Seriously? Why?" },
+						{ "speaker": "ليلى", "ar": "بسبب الأسعار. كل إشي صار غالي.", "en": "Because of the prices. Everything's gotten expensive." },
+						{ "speaker": "سامر", "ar": "والله صحيح. وإيمتى صارت المظاهرة؟", "en": "That's true, wallah. And when was the demonstration?" },
+						{ "speaker": "ليلى", "ar": "اليوم الصبح، حوالي الساعة عشرة.", "en": "This morning, around ten." },
+						{ "speaker": "سامر", "ar": "ومين كان هناك؟", "en": "And who was there?" },
+						{ "speaker": "ليلى", "ar": "شباب، كبار، عيلات كاملة... كل الناس.", "en": "Young people, old people, whole families... everyone." },
+						{ "speaker": "سامر", "ar": "هيك الوضع صعب عالكل. بدي أشوف الأخبار المسا.", "en": "Yeah — things are hard for everyone. I'll watch the news tonight." }
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "What happened downtown?",
+							"options": ["مظاهرة كبيرة", "حادث سير", "قطعت الكهربا", "عرس كبير"],
+							"answer": 0,
+							"why": "ليلى: في مظاهرة كبيرة في وسط البلد."
+						},
+						{
+							"prompt": "Why did people take to the street?",
+							"options": ["بسبب الأسعار", "بسبب الجو", "بسبب المي", "بسبب الجيش"],
+							"answer": 0,
+							"why": "كل إشي صار غالي — everything got expensive."
+						},
+						{
+							"prompt": "When did it happen?",
+							"options": ["الصبح، حوالي الساعة عشرة", "المسا", "الضهر", "مبارح بالليل"],
+							"answer": 0
+						},
+						{
+							"prompt": "Who was there?",
+							"options": ["كل الناس", "بس الشباب", "بس الصحفيين", "ولا حدا"],
+							"answer": 0,
+							"why": "شباب، كبار، عيلات كاملة — كل الناس."
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "The past, fast",
+					"points": [
+						{
+							"ar": "سِمِع — سْمِعِت — سَمَعتي — سِمْعوا",
+							"explanation": "Past-tense endings are your ear's anchors: -it (I/you m.), -ti (you f.), -u (they). They fly by in speech — train on them now and half of every story unlocks.",
+							"examples": [
+								{ "ar": "سمعتي شو صار؟", "en": "Did you (f.) hear what happened?" },
+								{ "ar": "سمعنا صوت قوي الصبح.", "en": "We heard a loud sound this morning." },
+								{ "ar": "الناس سمعوا الخبر ونزلوا.", "en": "People heard the news and went out." }
+							]
+						},
+						{
+							"ar": "صار + اسم/صفة",
+							"explanation": "صار before a noun or adjective means 'became': the price-protest sentence كل إشي صار غالي is the pattern. Before an event, it means 'happened'. Context decides — and context comes by ear.",
+							"examples": [
+								{ "ar": "الوضع صار أصعب.", "en": "The situation got harder." },
+								{ "ar": "شو صار بعدين؟", "en": "What happened next?" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "____ صار في وسط البلد؟", "en": "What happened downtown?", "options": ["شو", "وين", "مين"], "answer": 0 },
+						{ "ar": "ما سمعت ____ عن المظاهرة.", "en": "I didn't hear anything about the demonstration.", "options": ["إشي", "هيك", "خبر"], "answer": 0 },
+						{ "ar": "كل إشي صار ____.", "en": "Everything got expensive.", "options": ["غالي", "كبير", "قديم"], "answer": 0 },
+						{ "ar": "____ ما سمعت الخبر؟ عنجد؟", "en": "You seriously didn't hear the news? Really?", "options": ["والله", "هيك", "حرام"], "answer": 0 }
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "سِمِع",
+							"he": "שָׁמַע",
+							"kind": "true",
+							"story": "s-m-ʕ / ש-מ-ע. Identical root, identical meaning. اسمع = שמע! — the app's name is an imperative you already understand."
+						},
+						{
+							"ar": "يا حَرام",
+							"he": "חֵרֶם",
+							"kind": "shifted",
+							"story": "One ancient root, ḥ-r-m, 'set apart — sacred or forbidden.' Hebrew went to the ban and boycott; Arabic went to حرام 'forbidden,' which softened into 'what a pity.' When you later meet مقاطعة 'boycott,' remember the Hebrew cousin sat here all along."
+						},
+						{
+							"ar": "حَكى",
+							"he": "חִכָּה",
+							"kind": "false-friend",
+							"story": "حكى 'he spoke' sounds like חיכה 'he waited.' If you hear حكى معي and think 'waited for me,' the whole story changes. Different roots — just an acoustic trap."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 2,
+			"title": "Where the news comes from",
+			"titleAr": "من وين الأخبار؟",
+			"canDo": "I can follow someone describing how they get their news, and name the channels, sites, and people involved.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Before the news itself: the words for who carries it. Channels, sites, journalists, correspondents — and the crucial Palestinian distinction between خبر and إشاعة, news and rumor."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u1-qanat",
+							"ar": "قَناة",
+							"arPlain": "قناة",
+							"en": "channel",
+							"he": "ערוץ",
+							"pos": "noun",
+							"register": "shared",
+							"example": { "ar": "على أي قناة الأخبار؟", "en": "What channel is the news on?" },
+							"audio": "audio/tts/u1/u1-qanat.wav",
+							"note": "Also a Telegram/YouTube channel — same word carries old and new media."
+						},
+						{
+							"id": "u1-mawqi3",
+							"ar": "مَوْقِع",
+							"arPlain": "موقع",
+							"en": "website; location",
+							"he": "אתר",
+							"root": "و ق ع",
+							"pos": "noun",
+							"register": "shared",
+							"example": { "ar": "قريت الخبر على موقع فلسطيني.", "en": "I read the news on a Palestinian site." },
+							"audio": "audio/tts/u1/u1-mawqi3.wav",
+							"note": "Double duty in news language: a website — and a physical site (موقع القصف, the site of the strike)."
+						},
+						{
+							"id": "u1-jarideh",
+							"ar": "جَريدة",
+							"arPlain": "جريدة",
+							"en": "newspaper",
+							"he": "עיתון",
+							"pos": "noun",
+							"register": "shared",
+							"example": { "ar": "أبوي بقرا الجريدة كل صبح.", "en": "My father reads the paper every morning." },
+							"audio": "audio/tts/u1/u1-jarideh.wav",
+							"note": "Plural جرايد."
+						},
+						{
+							"id": "u1-sahafi",
+							"ar": "صَحَفي",
+							"arPlain": "صحفي",
+							"en": "journalist",
+							"he": "עיתונאי",
+							"root": "ص ح ف",
+							"pos": "noun",
+							"register": "shared",
+							"example": { "ar": "الصحفي عمل مقابلة مع العيلة.", "en": "The journalist did an interview with the family." },
+							"audio": "audio/tts/u1/u1-sahafi.wav"
+						},
+						{
+							"id": "u1-murasil",
+							"ar": "مُراسِل",
+							"arPlain": "مراسل",
+							"en": "correspondent",
+							"he": "כתב",
+							"root": "ر س ل",
+							"pos": "noun",
+							"register": "news",
+							"example": { "ar": "مراسل الجزيرة حكى من غزة.", "en": "Al Jazeera's correspondent reported from Gaza." },
+							"audio": "audio/tts/u1/u1-murasil.wav",
+							"note": "Root ر-س-ل 'send' — the one who is sent. Compare رسالة, a message."
+						},
+						{
+							"id": "u1-isha3a",
+							"ar": "إشاعة",
+							"arPlain": "إشاعة",
+							"en": "rumor",
+							"he": "שמועה",
+							"root": "ش ي ع",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "هاد مش خبر، هاي إشاعة.", "en": "That's not news — that's a rumor." },
+							"audio": "audio/tts/u1/u1-isha3a.wav",
+							"note": "Semantic twin of שמועה but a different root: ش-ي-ع is 'to spread.' A rumor is a spread-thing in Arabic, a heard-thing in Hebrew."
+						},
+						{
+							"id": "u1-saddaq",
+							"ar": "صَدَّق",
+							"arPlain": "صدّق",
+							"en": "believed",
+							"he": "האמין",
+							"root": "ص د ق",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "צֶדֶק",
+								"note": "Root ṣ-d-q, truth. Arabic: صدّق believe, صديق friend (the true one), صادق honest. Hebrew took it to justice — צדק, צדיק."
+							},
+							"example": { "ar": "ما بصدّق كل إشي بسمعه.", "en": "I don't believe everything I hear." },
+							"audio": "audio/tts/u1/u1-saddaq.wav"
+						},
+						{
+							"id": "u1-kizib",
+							"ar": "كِذِب",
+							"arPlain": "كذب",
+							"en": "lies, lying",
+							"he": "שקר",
+							"root": "ك ذ ب",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "כָּזָב",
+								"note": "k-ḏ-b = כ-ז-ב, same root, same meaning. Hebrew אַכְזָבָה 'disappointment' is family too — a hope that lied."
+							},
+							"example": { "ar": "هاد الحكي كله كذب.", "en": "That talk is all lies." },
+							"audio": "audio/tts/u1/u1-kizib.wav"
+						},
+						{
+							"id": "u1-taba3",
+							"ar": "تابَع",
+							"arPlain": "تابع",
+							"en": "followed (news, an account)",
+							"he": "עקב אחרי",
+							"root": "ت ب ع",
+							"pos": "verb",
+							"register": "shared",
+							"example": { "ar": "بتابع الأخبار عالتلفون.", "en": "I follow the news on my phone." },
+							"audio": "audio/tts/u1/u1-taba3.wav"
+						},
+						{
+							"id": "u1-sahih",
+							"ar": "صَحيح",
+							"arPlain": "صحيح",
+							"en": "true, correct",
+							"he": "נכון",
+							"root": "ص ح ح",
+							"pos": "adj",
+							"register": "shared",
+							"example": { "ar": "الخبر طلع صحيح.", "en": "The news turned out to be true." },
+							"audio": "audio/tts/u1/u1-sahih.wav",
+							"note": "Sentence-initial صحيح، ... means 'by the way' — صحيح، سمعت شو صار؟"
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "How Umm Mohammad follows the news",
+					"titleAr": "كيف بتتابع أم محمد الأخبار",
+					"brief": "One speaker, natural pace. Listen twice before opening the transcript. A woman describes her morning news routine — and her daughter's media literacy lecture.",
+					"audio": "audio/tts/u1/listen2.wav",
+					"preQuestions": [
+						"How many different news sources does she mention?",
+						"Who in the family prefers the newspaper?",
+						"What does her daughter warn her about?"
+					],
+					"transcript": [
+						{ "speaker": "أم محمد", "ar": "أنا بصحى الصبح، أول إشي بفتح التلفون.", "en": "I wake up in the morning — first thing, I open the phone." },
+						{ "speaker": "أم محمد", "ar": "بشوف تلغرام، في قنوات أخبار فلسطينية كتير.", "en": "I check Telegram — there are lots of Palestinian news channels." },
+						{ "speaker": "أم محمد", "ar": "بعدين بسمع الراديو وأنا بعمل القهوة.", "en": "Then I listen to the radio while I make the coffee." },
+						{ "speaker": "أم محمد", "ar": "جوزي بحب الجريدة، بس أنا بقول الجريدة بطيئة.", "en": "My husband loves the newspaper, but I say the paper is slow." },
+						{ "speaker": "أم محمد", "ar": "كل إشي بصير، بنشوفه عالتلفون أول بأول.", "en": "Everything that happens, we see it on the phone as it happens." },
+						{ "speaker": "أم محمد", "ar": "بنتي بتقولّي: يما، مش كل إشي عالفيسبوك صحيح!", "en": "My daughter tells me: Mom, not everything on Facebook is true!" },
+						{ "speaker": "أم محمد", "ar": "ومعها حق، في إشاعات كتير هالأيام.", "en": "And she's right — there are a lot of rumors these days." },
+						{ "speaker": "أم محمد", "ar": "عشان هيك بتابع صحفيين بعرفهم، مش أي حدا.", "en": "That's why I follow journalists I know — not just anyone." }
+					],
+					"questions": [
+						{
+							"prompt": "What does she open first in the morning?",
+							"options": ["التلفون", "التلفزيون", "الجريدة", "الراديو"],
+							"answer": 0
+						},
+						{
+							"prompt": "Who likes the newspaper?",
+							"options": ["جوزها", "بنتها", "أمها", "جارتها"],
+							"answer": 0,
+							"why": "جوزي بحب الجريدة — her husband."
+						},
+						{
+							"prompt": "What's her complaint about the newspaper?",
+							"options": ["بطيئة", "غالية", "كذب", "قديمة وممزقة"],
+							"answer": 0,
+							"why": "الجريدة بطيئة — by the time it prints, the phone already told her."
+						},
+						{
+							"prompt": "Why does she follow specific journalists?",
+							"options": ["عشان في إشاعات كتير", "عشان بحبهم", "عشان أرخص", "عشان بنتها قالت"],
+							"answer": 0
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "The b- prefix: how habits sound",
+					"points": [
+						{
+							"ar": "بـ + فعل مضارع",
+							"explanation": "بصحى، بفتح، بشوف، بسمع، بتابع — the b- prefix marks the habitual present. It's the sound of someone describing their routine. Strip it (أصحى، أفتح) and you have the bare form used after بدّي and لازم.",
+							"examples": [
+								{ "ar": "بتابع الأخبار كل يوم.", "en": "I follow the news every day." },
+								{ "ar": "بنتي بتقرا كتير.", "en": "My daughter reads a lot." },
+								{ "ar": "بدي أتابع صحفيين جداد.", "en": "I want to follow new journalists. (no b- after بدي)" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "كِذِب",
+							"he": "כָּזָב",
+							"kind": "true",
+							"story": "Straight match: k-ḏ-b / כ-ז-ב. And Hebrew hides a poem in the family: אַכְזָבָה, disappointment — what a lie leaves behind."
+						},
+						{
+							"ar": "صَدَّق",
+							"he": "צֶדֶק",
+							"kind": "shifted",
+							"story": "ṣ-d-q split beautifully: Arabic kept truth personal (صدّق believe, صديق the true friend), Hebrew made it institutional (צדק justice, צדיק the righteous). One root, two moral vocabularies."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 3,
+			"title": "Reacting like a native",
+			"titleAr": "ردّات فعل",
+			"canDo": "I can catch the reactions in a conversation — surprise, sympathy, worry, hope — in real time, and produce the right one myself.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Half of any Palestinian conversation is the listener reacting: عنجد؟ والله؟ يا حرام... These discourse markers are small, constant, and carry the emotional plot. Learn them and suddenly conversations have a shape."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u1-mish-ma3qul",
+							"ar": "مِش مَعْقول",
+							"arPlain": "مش معقول",
+							"en": "unbelievable",
+							"he": "לא ייאמן",
+							"root": "ع ق ل",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "مش معقول شو صار اليوم!", "en": "Unbelievable what happened today!" },
+							"audio": "audio/tts/u1/u1-mish-ma3qul.wav",
+							"note": "From عقل, mind — 'it doesn't fit in the mind.' Works for horror and for delight."
+						},
+						{
+							"id": "u1-tab3an",
+							"ar": "طَبْعًا",
+							"arPlain": "طبعا",
+							"en": "of course",
+							"he": "ברור, כמובן",
+							"pos": "adv",
+							"register": "shared",
+							"example": { "ar": "طبعًا سمعت، كل البلد سمعت.", "en": "Of course I heard — the whole town heard." },
+							"audio": "audio/tts/u1/u1-tab3an.wav"
+						},
+						{
+							"id": "u1-akid",
+							"ar": "أكيد",
+							"arPlain": "أكيد",
+							"en": "for sure; definitely",
+							"he": "בטוח",
+							"pos": "adv",
+							"register": "street",
+							"example": { "ar": "أكيد الخبر صحيح؟", "en": "Are you sure the news is true?" },
+							"audio": "audio/tts/u1/u1-akid.wav",
+							"note": "Statement and question in one word — tone does the work. أكيد. / أكيد؟"
+						},
+						{
+							"id": "u1-ma3lish",
+							"ar": "مَعْلِش",
+							"arPlain": "معلش",
+							"en": "never mind, it's OK",
+							"he": "לא נורא",
+							"pos": "particle",
+							"register": "street",
+							"cognate": {
+								"kind": "loan",
+								"he": "מַעֲלֵיש",
+								"note": "Borrowed into Israeli slang as-is. From ما عليه شي — 'nothing's on it.'"
+							},
+							"example": { "ar": "معلش، مش مشكلة.", "en": "Never mind — not a problem." },
+							"audio": "audio/tts/u1/u1-ma3lish.wav"
+						},
+						{
+							"id": "u1-allah-yustur",
+							"ar": "الله يُسْتُر",
+							"arPlain": "الله يستر",
+							"en": "God protect us (worry about what's coming)",
+							"he": "שהשם ישמור",
+							"root": "س ت ر",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "الله يستر من اللي جاي.", "en": "God protect us from what's coming." },
+							"audio": "audio/tts/u1/u1-allah-yustur.wav",
+							"note": "Exact functional twin of השם ישמור. The worry-formula before news you don't want."
+						},
+						{
+							"id": "u1-inshallah",
+							"ar": "إن شاء الله",
+							"arPlain": "ان شاء الله",
+							"en": "hopefully, God willing",
+							"he": "אינשאללה",
+							"pos": "phrase",
+							"register": "street",
+							"cognate": {
+								"kind": "loan",
+								"he": "אִינְשַׁאלְלָה",
+								"note": "Another full borrowing into Hebrew slang. Covers everything from sincere prayer to polite 'probably never.'"
+							},
+							"example": { "ar": "إن شاء الله بترجع الكهربا قبل المسا.", "en": "Hopefully the electricity comes back before evening." },
+							"audio": "audio/tts/u1/u1-inshallah.wav"
+						},
+						{
+							"id": "u1-ya-reit",
+							"ar": "يا رَيْت",
+							"arPlain": "يا ريت",
+							"en": "I wish, if only",
+							"he": "הלוואי",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "يا ريت الوضع يتغيّر.", "en": "If only the situation would change." },
+							"audio": "audio/tts/u1/u1-ya-reit.wav",
+							"note": "The exact functional twin of הלוואי — wistful, frequent, essential."
+						},
+						{
+							"id": "u1-ya-salam",
+							"ar": "يا سَلام",
+							"arPlain": "يا سلام",
+							"en": "wow — admiration or pure irony",
+							"he": "איזה יופי (גם באירוניה)",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "يا سلام، هاد كل إشي عندهم؟", "en": "Oh wow, that's all they've got?" },
+							"audio": "audio/tts/u1/u1-ya-salam.wav",
+							"note": "Flat tone = sarcasm. You'll need this for Arc 4's political commentary."
+						},
+						{
+							"id": "u1-hamdillah",
+							"ar": "الحَمْدِلله",
+							"arPlain": "الحمدلله",
+							"en": "thank God (all-purpose OK)",
+							"he": "ברוך השם",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "كيف العيلة؟ — الحمدلله، كلهم بخير.", "en": "How's the family? — Thank God, all fine." },
+							"audio": "audio/tts/u1/u1-hamdillah.wav",
+							"note": "Functional twin of ברוך השם — including the resigned shrug version."
+						},
+						{
+							"id": "u1-wala-ishi",
+							"ar": "ولا إشي",
+							"arPlain": "ولا إشي",
+							"en": "nothing at all",
+							"he": "שום דבר",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "شو سمعتوا؟ — ولا إشي.", "en": "What did you hear? — Nothing at all." },
+							"audio": "audio/tts/u1/u1-wala-ishi.wav"
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "The electricity's out",
+					"titleAr": "قطعت الكهربا",
+					"situation": "Abu Yousef comes home with bad news about the neighborhood. Count the reactions — they carry the whole conversation.",
+					"audio": "audio/tts/u1/d3.wav",
+					"lines": [
+						{ "speaker": "أبو يوسف", "ar": "سمعتي؟ قطعوا الكهربا عالحارة كلها.", "en": "Did you hear? They cut the electricity to the whole neighborhood." },
+						{ "speaker": "أم يوسف", "ar": "عنجد؟ يا زلمة لسا حاطّين اللحمة بالفريزر!", "en": "Seriously? Man, we just put the meat in the freezer!" },
+						{ "speaker": "أبو يوسف", "ar": "معلش، يمكن ساعة وبترجع.", "en": "Never mind — maybe an hour and it's back." },
+						{ "speaker": "أم يوسف", "ar": "يا ريت... المرة الماضية ضلّت مقطوعة يومين.", "en": "If only... last time it stayed out for two days." },
+						{ "speaker": "أبو يوسف", "ar": "الله يستر.", "en": "God protect us." },
+						{ "speaker": "أم يوسف", "ar": "إن شاء الله بترجع قبل المسا.", "en": "Hopefully it's back before evening." },
+						{ "speaker": "أبو يوسف", "ar": "أكيد بترجع. مش معقول يومين كمان.", "en": "It'll be back for sure. No way it's two days again." },
+						{ "speaker": "أم يوسف", "ar": "الحمدلله إنه الجو مش شوب.", "en": "Thank God the weather isn't hot." }
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Hear the function",
+					"questions": [
+						{
+							"prompt": "A friend sighs «الله يستر» after reading a headline. What are they expressing?",
+							"options": ["Worry about what's coming", "Gratitude", "Disbelief at a lie", "Indifference"],
+							"answer": 0
+						},
+						{
+							"prompt": "«يا ريت» signals…",
+							"options": ["A wish that probably won't happen", "Total certainty", "Anger", "Agreement"],
+							"answer": 0,
+							"why": "הלוואי — same melancholy, same frequency."
+						},
+						{
+							"prompt": "Your plans fall through and you tell a Palestinian friend. The natural response:",
+							"options": ["معلش", "يا سلام", "طبعًا", "أكيد"],
+							"answer": 0,
+							"why": "معلش is the consolation move — 'never mind, it's OK.'"
+						},
+						{
+							"prompt": "«يا سلام» said in a flat, dry tone means…",
+							"options": ["Sarcasm — 'oh, great.'", "Sincere admiration", "A greeting", "Goodbye"],
+							"answer": 0,
+							"why": "Tone flips it. The ironic version dominates political talk."
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "والله / معلش / إن شاء الله / أهلين",
+							"he": "וואלה / מעליש / אינשאללה / אהלן",
+							"kind": "loan",
+							"story": "Israeli Hebrew borrowed its entire casual-reaction layer from Palestinian Arabic. You've been speaking fragments of this dialect for years — the app just turns the direction around."
+						},
+						{
+							"ar": "الله يستر / الحمدلله",
+							"he": "השם ישמור / ברוך השם",
+							"kind": "shifted",
+							"story": "Not loans but parallel engineering: two religious cultures built the same emotional valves — the worry-formula and the gratitude-shrug — from the same Semitic toolbox."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 4,
+			"title": "Where and when?",
+			"titleAr": "وين وإيمتى؟",
+			"canDo": "I can place an event — neighborhood, town, square — and its time, caught by ear.",
+			"status": "planned",
+			"blocks": []
+		},
+		{
+			"n": 5,
+			"title": "Who said?",
+			"titleAr": "مين قال؟",
+			"canDo": "I can track who a piece of information came from, and how sure the speaker sounds about it.",
+			"status": "planned",
+			"blocks": []
+		},
+		{
+			"n": 6,
+			"title": "Review & free listening",
+			"titleAr": "مراجعة واستماع حر",
+			"canDo": "I can follow a real 90-second street clip about a local event, unsimplified.",
+			"status": "planned",
+			"blocks": []
+		}
+	]
+}

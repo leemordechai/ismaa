@@ -1,0 +1,4 @@
+[
+	{ "text": "قَناة.", "out": "static/audio/tts/u1/u1-qanat.wav", "voice": "Sulafat", "style": "Read aloud the following Arabic word slowly and clearly, one time, in Levantine Arabic pronunciation:" },
+	{ "text": "كِذِب.", "out": "static/audio/tts/u1/u1-kizib.wav", "voice": "Sulafat", "style": "Read aloud the following Arabic word slowly and clearly, one time, in Levantine Arabic pronunciation:" }
+]

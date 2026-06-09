@@ -1,0 +1,33 @@
+[
+  {
+    "out": "static/audio/tts-samples/sample-1-dialogue.wav",
+    "speakers": "Rana=Sulafat,Karim=Algieba",
+    "style": "TTS the following short everyday conversation between Rana and Karim. Both speak authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) exactly as natives from Ramallah chat with friends — NOT Modern Standard Arabic. Casual, warm, relaxed pace. Pronounce شو صار as 'shu sar', إشي as 'ishi', and كل النهار as 'kull in-nhar'.",
+    "text": "Rana: شو صار اليوم في الأخبار؟\nKarim: والله ما سمعت إشي، كنت مشغول كل النهار."
+  },
+  {
+    "out": "static/audio/tts-samples/sample-1b-dialogue-gemini31.wav",
+    "model": "gemini-3.1-flash-tts-preview",
+    "speakers": "Rana=Sulafat,Karim=Algieba",
+    "style": "TTS the following short everyday conversation between Rana and Karim. Both speak authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) exactly as natives from Ramallah chat with friends — NOT Modern Standard Arabic. Casual, warm, relaxed pace. Pronounce شو صار as 'shu sar', إشي as 'ishi', and كل النهار as 'kull in-nhar'.",
+    "text": "Rana: شو صار اليوم في الأخبار؟\nKarim: والله ما سمعت إشي، كنت مشغول كل النهار."
+  },
+  {
+    "out": "static/audio/tts-samples/sample-2-news.wav",
+    "voice": "Charon",
+    "style": "Read the following news item as a Palestinian radio news anchor: serious, clear broadcast news register, steady measured pace, natural Palestinian Levantine accent in the pronunciation.",
+    "text": "آلاف المتظاهرين خرجوا اليوم في رام الله ضد الاحتلال."
+  },
+  {
+    "out": "static/audio/tts-samples/sample-3-vocab.wav",
+    "voice": "Sulafat",
+    "style": "You are a patient Arabic teacher recording a vocabulary flashcard for a learner. Say only the single Arabic word below, once, slowly and very clearly, with authentic Palestinian Levantine pronunciation, warm and encouraging tone.",
+    "text": "مُظاهَرة"
+  },
+  {
+    "out": "static/audio/tts-samples/sample-3b-vocab-iapetus.wav",
+    "voice": "Iapetus",
+    "style": "Vocabulary flashcard recording. Read aloud only the single Arabic word in the transcript below, once, slowly and very clearly, with authentic Palestinian Levantine pronunciation. Calm teacher's voice.",
+    "text": "مُظاهَرة"
+  }
+]
