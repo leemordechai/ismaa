@@ -1,10 +1,22 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import type { ClozeItem } from '$lib/types';
+	import { permutation } from '$lib/shuffle';
 	import AudioButton from './AudioButton.svelte';
 
 	let { items }: { items: ClozeItem[] } = $props();
 
+	// picked stores the ORIGINAL option index; options render in a random order.
 	let picked = $state<Record<number, number>>({});
+	let order = $state<number[][]>([]);
+
+	onMount(() => {
+		order = items.map((item) => permutation(item.options.length));
+	});
+
+	function displayOrder(i: number, item: ClozeItem): number[] {
+		return order[i] ?? item.options.map((_, k) => k);
+	}
 </script>
 
 <div class="space-y-6">
@@ -32,7 +44,8 @@
 				</div>
 			{/if}
 			<div class="mt-3 flex flex-wrap gap-2" dir="rtl">
-				{#each item.options as opt, oi}
+				{#each displayOrder(i, item) as oi (oi)}
+					{@const opt = item.options[oi]}
 					<button
 						type="button"
 						disabled={answered}

@@ -28,4 +28,4 @@ The deployed site is fully static — no keys, no backend, progress lives in loc
 
 ## Status
 
-Phase 0+ : **Unit 1 complete** — all 6 lessons playable end-to-end (50 vocab items, 3 dialogues, 2 monologues, 1 real Ask Project street clip), audio on every word, example sentence, dialogue line, grammar example, and cloze answer (~190 files, slow learner pace), global 1×/0.8× speed toggle, SRS review queue with audio, trajectory map, Audio Lab gate. Next: word-bank onboarding triage + Unit 2.
+Phase 1 in progress: **Units 1–2 complete** (12 lessons, ~100 vocab items, 5 dialogues, 5 monologues, 2 real Ask Project street clips, ~350 audio files at slow learner pace). Exercise engine: quiz + tap-to-match + cloze after every listening section, answer order randomized per visit, number-discrimination drills (Unit 2), global 1×/0.8× speed toggle, SRS review queue with audio. Next: word-bank onboarding triage + Unit 3 عالطريق.

@@ -1,0 +1,8 @@
+[
+	{ "text": "تلاتة وعشرين.", "out": "static/audio/tts/u2/num-23.wav", "voice": "Iapetus", "style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):" },
+	{ "text": "تلاتة وتلاتين.", "out": "static/audio/tts/u2/num-33.wav", "voice": "Iapetus", "style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):" },
+	{ "text": "خمسطعش.", "out": "static/audio/tts/u2/num-15.wav", "voice": "Iapetus", "style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation — khamista'sh (NOT Modern Standard Arabic):" },
+	{ "text": "خمسين.", "out": "static/audio/tts/u2/num-50.wav", "voice": "Iapetus", "style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):" },
+	{ "text": "الساعة إحدعش إلا ربع.", "out": "static/audio/tts/u2/time-1045.wav", "voice": "Iapetus", "style": "Read aloud the following Arabic clock time exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation — ihda'sh illa rub' (NOT Modern Standard Arabic):" },
+	{ "text": "الساعة أربعة ونص.", "out": "static/audio/tts/u2/time-430.wav", "voice": "Iapetus", "style": "Read aloud the following Arabic clock time exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):" }
+]

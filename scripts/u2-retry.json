@@ -1,0 +1,32 @@
+[
+	{
+		"text": "جوز",
+		"out": "static/audio/tts/u2/u2-joz.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "جار",
+		"out": "static/audio/tts/u2/u2-jar.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "مُهَنْدِس",
+		"out": "static/audio/tts/u2/u2-muhandis.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "تلاتة وعشرين.",
+		"out": "static/audio/tts/u2/num-23.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "خمسين.",
+		"out": "static/audio/tts/u2/num-50.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):"
+	}
+]

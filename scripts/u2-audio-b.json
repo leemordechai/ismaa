@@ -1,0 +1,674 @@
+[
+	{
+		"text": "بلشت الدوام بكير اليوم — ستة ونص.",
+		"out": "static/audio/tts/u2/d3-l02.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "وليش راجع هلّق؟ الساعة سبعة المسا!",
+		"out": "static/audio/tts/u2/d3-l03.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خلصت الشغل وكان عندي مشوار بالبلد.",
+		"out": "static/audio/tts/u2/d3-l04.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "مشوار شو؟",
+		"out": "static/audio/tts/u2/d3-l05.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "جبت إشي لعزومة بكرا. مش رح أقولك شو.",
+		"out": "static/audio/tts/u2/d3-l06.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "يا زلمة احكي! شو جبت؟",
+		"out": "static/audio/tts/u2/d3-l07.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "صبري عليّ. وين الولاد؟",
+		"out": "static/audio/tts/u2/d3-l08.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "ناموا قبل شوي — كانوا تعبانين من المدرسة.",
+		"out": "static/audio/tts/u2/d3-l09.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "منيح. أنا كمان تعبان، بدي أنام بدري.",
+		"out": "static/audio/tts/u2/d3-l10.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بلشت الدوام بكير اليوم.",
+		"out": "static/audio/tts/u2/c3-1.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خلصت شغلي ورحت عالبيت.",
+		"out": "static/audio/tts/u2/c3-2.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عندي مشوار صغير بالبلد.",
+		"out": "static/audio/tts/u2/c3-3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الولاد ناموا بكير مبارح.",
+		"out": "static/audio/tts/u2/c3-4.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عنا عزومة عند الجيران الجمعة.",
+		"out": "static/audio/tts/u2/c3-5.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "أنا تعبان، بدي أنام.",
+		"out": "static/audio/tts/u2/c3-6.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "ما بشتغلش يوم الجمعة.",
+		"out": "static/audio/tts/u2/g3-1-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "ما خلصتش الشغل لسا.",
+		"out": "static/audio/tts/u2/g3-1-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "ما نمتش منيح مبارح.",
+		"out": "static/audio/tts/u2/g3-1-3.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "لسا ما وصلوش من المشوار.",
+		"out": "static/audio/tts/u2/g3-2-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "لسا تعبان من مبارح؟",
+		"out": "static/audio/tts/u2/g3-2-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "إحْدَعِش",
+		"out": "static/audio/tts/u2/u2-ihda3sh.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الساعة إحدعش وربع.",
+		"out": "static/audio/tts/u2/u2-ihda3sh-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خَمِسْطَعِش",
+		"out": "static/audio/tts/u2/u2-khamista3sh.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "صار لي خمسطعش سنة هون.",
+		"out": "static/audio/tts/u2/u2-khamista3sh-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عِشْرين",
+		"out": "static/audio/tts/u2/u2-3ishrin.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الباص بيجي كل عشرين دقيقة.",
+		"out": "static/audio/tts/u2/u2-3ishrin-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "تَلاتين",
+		"out": "static/audio/tts/u2/u2-talatin.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عمرها تلاتين سنة.",
+		"out": "static/audio/tts/u2/u2-talatin-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خَمْسين",
+		"out": "static/audio/tts/u2/u2-khamsin.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "المشوار بكلف خمسين شيكل.",
+		"out": "static/audio/tts/u2/u2-khamsin-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "مِيّة",
+		"out": "static/audio/tts/u2/u2-miyyeh.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "في مية واحد بالعزومة!",
+		"out": "static/audio/tts/u2/u2-miyyeh-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "نُص",
+		"out": "static/audio/tts/u2/u2-nuss.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الساعة أربعة ونص.",
+		"out": "static/audio/tts/u2/u2-nuss-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "رُبع",
+		"out": "static/audio/tts/u2/u2-rub3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بوصل بعد ربع ساعة.",
+		"out": "static/audio/tts/u2/u2-rub3-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "إلّا",
+		"out": "static/audio/tts/u2/u2-illa.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الساعة عشرة إلا ربع.",
+		"out": "static/audio/tts/u2/u2-illa-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عُمُر",
+		"out": "static/audio/tts/u2/u2-3umur.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "قديش عمرك؟",
+		"out": "static/audio/tts/u2/u2-3umur-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بدي أحكيلكم عن عيلتي — بس بالأرقام. جوزي عمره خمسة وأربعين سنة. وأنا؟ ما بقول. عنا أربع ولاد: الكبيرة عمرها اتنعش، والصغير عمره أربع سنين. بيتنا رقم تلاتة وعشرين، الطابق التاني. بصحى الساعة خمسة ونص، وبنام إحدعش ونص. الدوام تبعي من سبعة إلا ربع لتلاتة. جوزي بشتغل ستة أيام وبستريح يوم واحد. هاي حياتنا: كلها أرقام — والحمدلله على كل حال.",
+		"out": "static/audio/tts/u2/listen4.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following monologue in authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) — NOT Modern Standard Arabic. A warm, chatty woman from Ramallah telling a neighbor a story. Speak noticeably slower than natural: calm, learner-friendly pace with small pauses between sentences, clear articulation, but keep the casual dialect pronunciation (إشي as 'ishi').",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الساعة عشرة إلا ربع.",
+		"out": "static/audio/tts/u2/c4-1.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عمري خمسة وأربعين سنة.",
+		"out": "static/audio/tts/u2/c4-2.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بوصل بعد ربع ساعة.",
+		"out": "static/audio/tts/u2/c4-3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الباص بيجي كل عشرين دقيقة.",
+		"out": "static/audio/tts/u2/c4-4.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الدوام بخلص الساعة تلاتة ونص.",
+		"out": "static/audio/tts/u2/c4-5.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الساعة تلاتة وتلت.",
+		"out": "static/audio/tts/u2/g4-1-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الساعة سبعة إلا تلت.",
+		"out": "static/audio/tts/u2/g4-1-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بشوفك إحدعش إلا ربع.",
+		"out": "static/audio/tts/u2/g4-1-3.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "قديش عمر بنتك؟ — عمرها عشر سنين.",
+		"out": "static/audio/tts/u2/g4-2-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عمري ما سمعت هيك خبرية.",
+		"out": "static/audio/tts/u2/g4-2-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "تَبَع",
+		"out": "static/audio/tts/u2/u2-taba3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "هاد الكتاب تبع سيدو.",
+		"out": "static/audio/tts/u2/u2-taba3-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عِنْد",
+		"out": "static/audio/tts/u2/u2-3ind.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عندي تلات إخوة وأخت.",
+		"out": "static/audio/tts/u2/u2-3ind-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "لازِم",
+		"out": "static/audio/tts/u2/u2-lazem.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "لازم أزور خالي بكرا.",
+		"out": "static/audio/tts/u2/u2-lazem-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خَبَّر",
+		"out": "static/audio/tts/u2/u2-khabbar.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خبّرني إذا صار إشي.",
+		"out": "static/audio/tts/u2/u2-khabbar-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "سَأل",
+		"out": "static/audio/tts/u2/u2-saal.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "سألت عنك مبارح.",
+		"out": "static/audio/tts/u2/u2-saal-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "زار",
+		"out": "static/audio/tts/u2/u2-zar.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "زرنا قرايبنا في الخليل.",
+		"out": "static/audio/tts/u2/u2-zar-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "اشْتاق",
+		"out": "static/audio/tts/u2/u2-ishtaq.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "اشتقتلك يا تيتا!",
+		"out": "static/audio/tts/u2/u2-ishtaq-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "ساعَد",
+		"out": "static/audio/tts/u2/u2-sa3ad.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بساعد أبوي بالشغل كل صيف.",
+		"out": "static/audio/tts/u2/u2-sa3ad-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "صَرَف",
+		"out": "static/audio/tts/u2/u2-saraf.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بصرف نص المعاش عالبيت.",
+		"out": "static/audio/tts/u2/u2-saraf-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "دير بالَك",
+		"out": "static/audio/tts/u2/u2-dirbalak.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "دير بالك عالولاد بالشارع!",
+		"out": "static/audio/tts/u2/u2-dirbalak-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عيلتي كبيرة — وكلهم بدهم إشي مني. أبوي كبير بالعمر، لازم أزوره كل يومين. وإمي بتسأل عني عالتلفون عشر مرات باليوم. أخوي الصغير بدرس برة — بشتاق له كتير. بخبره كل إشي بصير بالحارة، أول بأول. الشغل تبعي منيح، بس بصرف نص المعاش على البيت. وجارتنا الختيارة، بساعدها بالمشاوير. هيك أنا: بنت، وأخت، وموظفة، وجارة. والحمدلله.",
+		"out": "static/audio/tts/u2/listen5.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following monologue in authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) — NOT Modern Standard Arabic. A warm, chatty woman from Ramallah telling a neighbor a story. Speak noticeably slower than natural: calm, learner-friendly pace with small pauses between sentences, clear articulation, but keep the casual dialect pronunciation (إشي as 'ishi').",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "هاد التلفون تبع أخوي.",
+		"out": "static/audio/tts/u2/c5-1.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "لازم أساعد إمي بالبيت.",
+		"out": "static/audio/tts/u2/c5-2.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "سألت عنك كتير — وينك يا زلمة؟",
+		"out": "static/audio/tts/u2/c5-3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "زرنا قرايبنا بالعيد.",
+		"out": "static/audio/tts/u2/c5-4.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "ديري بالك يا ستي عالدرج!",
+		"out": "static/audio/tts/u2/c5-5.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "اشتقتلك كتير يا أخوي.",
+		"out": "static/audio/tts/u2/c5-6.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "شفته مبارح بالسوق.",
+		"out": "static/audio/tts/u2/g5-1-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خبّرني عن العزومة بكير.",
+		"out": "static/audio/tts/u2/g5-1-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بزورهم كل جمعة بعد الدوام.",
+		"out": "static/audio/tts/u2/g5-1-3.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "رح أزور سيدو بكرا الصبح.",
+		"out": "static/audio/tts/u2/g5-2-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "مين رح يساعدنا بالعزومة؟",
+		"out": "static/audio/tts/u2/g5-2-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "رح نخلص قريب، إن شاء الله.",
+		"out": "static/audio/tts/u2/g5-2-3.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "جوز أختي بشتغل في المستشفى.",
+		"out": "static/audio/tts/u2/c6-1.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "عمي إخو أبوي، وخالي إخو إمي.",
+		"out": "static/audio/tts/u2/c6-2.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الدوام من سبعة إلا ربع لتلاتة.",
+		"out": "static/audio/tts/u2/c6-3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "صار لي خمسطعش سنة بهالشغل.",
+		"out": "static/audio/tts/u2/c6-4.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "بصرف نص المعاش على العيلة.",
+		"out": "static/audio/tts/u2/c6-5.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "لسا ما رجعش من الشغل.",
+		"out": "static/audio/tts/u2/c6-6.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "تلاتة وعشرين.",
+		"out": "static/audio/tts/u2/num-23.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "تلاتة وتلاتين.",
+		"out": "static/audio/tts/u2/num-33.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خمسطعش.",
+		"out": "static/audio/tts/u2/num-15.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation — khamista'sh (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "خمسين.",
+		"out": "static/audio/tts/u2/num-50.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following Arabic number exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الساعة إحدعش إلا ربع.",
+		"out": "static/audio/tts/u2/time-1045.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following Arabic clock time exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation — ihda'sh illa rub' (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الساعة أربعة ونص.",
+		"out": "static/audio/tts/u2/time-430.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following Arabic clock time exactly once, slowly and clearly, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic):",
+		"model": "gemini-3.1-flash-tts-preview"
+	}
+]

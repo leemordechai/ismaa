@@ -60,6 +60,12 @@ export interface GrammarPoint {
 	examples: { ar: string; en: string; audio?: string }[];
 }
 
+export interface MatchPair {
+	ar: string;
+	en: string;
+	audio?: string; // played when the Arabic side is tapped
+}
+
 export type Block =
 	| { type: 'intro'; body: string }
 	| { type: 'vocab'; title: string; items: VocabItem[] }
@@ -87,6 +93,7 @@ export type Block =
 	  }
 	| { type: 'grammar'; title: string; points: GrammarPoint[] }
 	| { type: 'quiz'; title: string; questions: QuizQuestion[] }
+	| { type: 'match'; title: string; pairs: MatchPair[] }
 	| { type: 'cloze'; title: string; items: ClozeItem[] }
 	| { type: 'cognates'; title: string; items: CognateEntry[] };
 

@@ -5,6 +5,7 @@
 	import DialogueBlock from '$lib/components/DialogueBlock.svelte';
 	import ListenBlock from '$lib/components/ListenBlock.svelte';
 	import QuizBlock from '$lib/components/QuizBlock.svelte';
+	import MatchBlock from '$lib/components/MatchBlock.svelte';
 	import ClozeBlock from '$lib/components/ClozeBlock.svelte';
 	import GrammarBlock from '$lib/components/GrammarBlock.svelte';
 	import CognatesBlock from '$lib/components/CognatesBlock.svelte';
@@ -24,6 +25,7 @@
 		listen: 'Listening',
 		grammar: 'Pattern',
 		quiz: 'Check',
+		match: 'Match',
 		cloze: 'Fill the gap',
 		cognates: 'Hebrew bridges'
 	};
@@ -96,6 +98,8 @@
 					<GrammarBlock points={block.points} />
 				{:else if block.type === 'quiz'}
 					<QuizBlock questions={block.questions} />
+				{:else if block.type === 'match'}
+					<MatchBlock pairs={block.pairs} />
 				{:else if block.type === 'cloze'}
 					<ClozeBlock items={block.items} />
 				{:else if block.type === 'cognates'}

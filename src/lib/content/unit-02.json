@@ -1,0 +1,1668 @@
+{
+	"id": "unit-02",
+	"n": 2,
+	"arc": 1,
+	"title": "Family & work at speed",
+	"titleAr": "أهل وشغل",
+	"mission": "Known ground — family, work, the clock — pushed to real listening speed. The family tree the way Palestinians actually draw it (عم is not خال), the working day with its شيكل-counting realism, and numbers that fly by until your ear learns to catch them.",
+	"cover": "img/covers/unit-02.png",
+	"registerMix": { "street": 90, "news": 0, "shared": 10 },
+	"sources": [
+		"Forms cross-checked against Madrasa dictionary and Living Arabic Project (Levantine)",
+		"Urban Palestinian koine (Jerusalem/Ramallah); native-speaker review pending — low-confidence items avoided"
+	],
+	"lessons": [
+		{
+			"n": 1,
+			"title": "Who's in the family?",
+			"titleAr": "مين في العيلة؟",
+			"canDo": "I can follow someone walking me through their family — and never confuse the father's side with the mother's.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Arabic splits the family tree down the middle: عم is your father's brother, خال your mother's — Hebrew's one דוד covers both, so your ear has a new distinction to learn. Add سيدو and تيتا, the neighbors who count as family, and you can follow any family story."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u2-joz",
+							"ar": "جوز",
+							"arPlain": "جوز",
+							"en": "husband",
+							"he": "בעל",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "זוּג",
+								"note": "Both from Greek ζεῦγος 'yoke, pair' via Aramaic. Hebrew kept the pair (בן זוג); Palestinian made the pair itself the husband."
+							},
+							"example": { "ar": "جوز أختي بشتغل في المستشفى.", "en": "My sister's husband works at the hospital." },
+							"audio": "audio/tts/u2/u2-joz.wav",
+							"audioEx": "audio/tts/u2/u2-joz-ex.wav"
+						},
+						{
+							"id": "u2-mara",
+							"ar": "مَرَة",
+							"arPlain": "مرة",
+							"en": "wife; woman",
+							"he": "אישה",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "مرتو من نابلس.", "en": "His wife is from Nablus." },
+							"audio": "audio/tts/u2/u2-mara.wav",
+							"audioEx": "audio/tts/u2/u2-mara-ex.wav",
+							"note": "From امرأة. Possessed it grows a ت: مرتي، مرتو. Everyday and neutral in the dialect; the formal word is زوجة."
+						},
+						{
+							"id": "u2-wlad",
+							"ar": "ولاد",
+							"arPlain": "ولاد",
+							"en": "kids, children",
+							"he": "ילדים",
+							"root": "و ل د",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "יֶלֶד",
+								"note": "Proto-Semitic w- became y- in Hebrew: walad → yeled. Same root, same kid."
+							},
+							"example": { "ar": "الولاد في المدرسة هلّق.", "en": "The kids are at school right now." },
+							"audio": "audio/tts/u2/u2-wlad.wav",
+							"audioEx": "audio/tts/u2/u2-wlad-ex.wav",
+							"note": "Singular ولد. Also 'boys' specifically, vs بنات — context decides."
+						},
+						{
+							"id": "u2-ikhweh",
+							"ar": "إخْوة",
+							"arPlain": "اخوة",
+							"en": "siblings, brothers",
+							"he": "אחים",
+							"root": "أ خ و",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "אָח",
+								"note": "أخ = אח, أخت = אחות — the whole sibling set is a freebie."
+							},
+							"example": { "ar": "عندي تلات إخوة وأختين.", "en": "I have three brothers and two sisters." },
+							"audio": "audio/tts/u2/u2-ikhweh.wav",
+							"audioEx": "audio/tts/u2/u2-ikhweh-ex.wav"
+						},
+						{
+							"id": "u2-3amm",
+							"ar": "عَمّ",
+							"arPlain": "عم",
+							"en": "uncle (father's side)",
+							"he": "דוד (מצד האב)",
+							"root": "ع م م",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "עַם",
+								"note": "Proto-Semitic ʕamm — the paternal clan. Arabic kept the clan's uncle (عم); Hebrew widened the clan into the whole people (עם)."
+							},
+							"example": { "ar": "عمي أبو سمير ساكن جنبنا.", "en": "My uncle Abu Samir lives next to us." },
+							"audio": "audio/tts/u2/u2-3amm.wav",
+							"audioEx": "audio/tts/u2/u2-3amm-ex.wav",
+							"note": "عمو is also how kids address any older man. عمة = paternal aunt."
+						},
+						{
+							"id": "u2-khal",
+							"ar": "خال",
+							"arPlain": "خال",
+							"en": "uncle (mother's side)",
+							"he": "דוד (מצד האם)",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "خالي ساكن في عمّان.", "en": "My maternal uncle lives in Amman." },
+							"audio": "audio/tts/u2/u2-khal.wav",
+							"audioEx": "audio/tts/u2/u2-khal-ex.wav",
+							"note": "Hebrew has one דוד; Arabic files the family in two cabinets — عم/عمة father's side, خال/خالة mother's side. Mixing them up genuinely confuses people."
+						},
+						{
+							"id": "u2-sido",
+							"ar": "سيدو",
+							"arPlain": "سيدو",
+							"en": "grandpa",
+							"he": "סבא",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "سيدو بحكي عن البلد القديمة.", "en": "Grandpa tells stories about the old town." },
+							"audio": "audio/tts/u2/u2-sido.wav",
+							"audioEx": "audio/tts/u2/u2-sido-ex.wav",
+							"note": "Literally 'his master' — affectionate. The formal word is جدّ."
+						},
+						{
+							"id": "u2-teta",
+							"ar": "تيتا",
+							"arPlain": "تيتا",
+							"en": "grandma",
+							"he": "סבתא",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "تيتا عملت مفتول لكل العيلة.", "en": "Grandma made maftoul for the whole family." },
+							"audio": "audio/tts/u2/u2-teta.wav",
+							"audioEx": "audio/tts/u2/u2-teta-ex.wav",
+							"note": "مفتول — Palestinian hand-rolled couscous. تيتا cooking it is half the culture."
+						},
+						{
+							"id": "u2-jar",
+							"ar": "جار",
+							"arPlain": "جار",
+							"en": "neighbor",
+							"he": "שכן",
+							"root": "ج و ر",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "גֵּר",
+								"note": "j-w-r, 'to turn aside and dwell.' Arabic: the one dwelling beside you. Hebrew: the resident outsider — גר — who later became the convert."
+							},
+							"example": { "ar": "جارنا أبو إلياس من حيفا.", "en": "Our neighbor Abu Elias is from Haifa." },
+							"audio": "audio/tts/u2/u2-jar.wav",
+							"audioEx": "audio/tts/u2/u2-jar-ex.wav",
+							"note": "You met جارتي in Umm Samir's rumor chain. الجار قبل الدار — 'the neighbor before the house' — is proverbial law."
+						},
+						{
+							"id": "u2-qarayib",
+							"ar": "قَرايِب",
+							"arPlain": "قرايب",
+							"en": "relatives",
+							"he": "קרובים",
+							"root": "ق ر ب",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "קְרוֹבִים",
+								"note": "q-r-b, near. Relatives are 'the near ones' in both languages — קרובי משפחה, قرايب."
+							},
+							"example": { "ar": "نص البلد قرايبنا.", "en": "Half the town is our relatives." },
+							"audio": "audio/tts/u2/u2-qarayib.wav",
+							"audioEx": "audio/tts/u2/u2-qarayib-ex.wav",
+							"note": "Singular قريب — which also just means 'near.'"
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Who's this in the photo?",
+					"titleAr": "مين هاد بالصورة؟",
+					"situation": "Salma shows her colleague Fadi a family wedding photo. Ten lines, the whole family tree — follow who's on which side.",
+					"audio": "audio/tts/u2/d1.wav",
+					"ttsVoices": {
+						"فادي": { "label": "Fadi", "voice": "Algieba" },
+						"سلمى": { "label": "Salma", "voice": "Sulafat" }
+					},
+					"lines": [
+						{ "speaker": "فادي", "ar": "مين هاد بالصورة؟ عريس؟", "en": "Who's this in the photo? A groom?", "audio": "audio/tts/u2/d1-l01.wav" },
+						{ "speaker": "سلمى", "ar": "هاد أخوي الكبير يوم عرسه. وهاي مرته، رنا.", "en": "That's my big brother on his wedding day. And this is his wife, Rana.", "audio": "audio/tts/u2/d1-l02.wav" },
+						{ "speaker": "فادي", "ar": "الله يهنيهم. ومين الختيار اللي قاعد قدام؟", "en": "Congratulations to them. And who's the old man sitting in front?", "audio": "audio/tts/u2/d1-l03.wav" },
+						{ "speaker": "سلمى", "ar": "هاد سيدو، وجنبه تيتا.", "en": "That's my grandpa, and next to him grandma.", "audio": "audio/tts/u2/d1-l04.wav" },
+						{ "speaker": "فادي", "ar": "وهاد اللي واقف وراهم؟ شكله زعلان.", "en": "And the one standing behind them? He looks upset.", "audio": "audio/tts/u2/d1-l05.wav" },
+						{ "speaker": "سلمى", "ar": "ههه، هاد عمي أبو سمير. هو هيك دايمًا.", "en": "Haha — that's my uncle Abu Samir, my father's brother. He's always like that.", "audio": "audio/tts/u2/d1-l06.wav" },
+						{ "speaker": "فادي", "ar": "والمرة اللي حاملة البيبي؟", "en": "And the woman holding the baby?", "audio": "audio/tts/u2/d1-l07.wav" },
+						{ "speaker": "سلمى", "ar": "خالتي ريم، إخت إمي. والبيبي ابنها.", "en": "My aunt Reem — my mother's sister. The baby is her son.", "audio": "audio/tts/u2/d1-l08.wav" },
+						{ "speaker": "فادي", "ar": "عيلة كبيرة ما شاء الله. كلهم قرايب؟", "en": "Big family, mashallah. All relatives?", "audio": "audio/tts/u2/d1-l09.wav" },
+						{ "speaker": "سلمى", "ar": "قرايب وجيران — عنا الجيران زي العيلة.", "en": "Relatives and neighbors — for us, neighbors are like family.", "audio": "audio/tts/u2/d1-l10.wav" }
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "Whose wedding is in the photo?",
+							"options": ["أخوها الكبير", "عمها", "خالها", "جارها"],
+							"answer": 0,
+							"why": "هاد أخوي الكبير يوم عرسه."
+						},
+						{
+							"prompt": "Who is sitting in front?",
+							"options": ["سيدو وتيتا", "الولاد", "خالتها", "الجيران"],
+							"answer": 0
+						},
+						{
+							"prompt": "Abu Samir is Salma's…",
+							"options": ["عم — her father's brother", "خال — her mother's brother", "جوز أختها", "سيدو"],
+							"answer": 0,
+							"why": "عمي أبو سمير — and عم is always the father's side."
+						},
+						{
+							"prompt": "Aunt Reem is whose sister?",
+							"options": ["إخت إمها", "إخت أبوها", "مرة عمها", "جارتها"],
+							"answer": 0,
+							"why": "خالتي ريم، إخت إمي — خالة is the mother's side, every time."
+						},
+						{
+							"prompt": "What does Salma say about the neighbors?",
+							"options": ["الجيران زي العيلة", "الجيران زعلانين", "ما في جيران", "الجيران مسافرين"],
+							"answer": 0
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "The family tree",
+					"pairs": [
+						{ "ar": "جوز", "en": "husband", "audio": "audio/tts/u2/u2-joz.wav" },
+						{ "ar": "مرة", "en": "wife", "audio": "audio/tts/u2/u2-mara.wav" },
+						{ "ar": "عمّ", "en": "uncle — father's side", "audio": "audio/tts/u2/u2-3amm.wav" },
+						{ "ar": "خال", "en": "uncle — mother's side", "audio": "audio/tts/u2/u2-khal.wav" },
+						{ "ar": "سيدو", "en": "grandpa", "audio": "audio/tts/u2/u2-sido.wav" },
+						{ "ar": "تيتا", "en": "grandma", "audio": "audio/tts/u2/u2-teta.wav" },
+						{ "ar": "جار", "en": "neighbor", "audio": "audio/tts/u2/u2-jar.wav" },
+						{ "ar": "قرايب", "en": "relatives", "audio": "audio/tts/u2/u2-qarayib.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "هاد ____ أختي، بشتغل مهندس.", "en": "That's my sister's husband — he works as an engineer.", "options": ["جوز", "خال", "جار"], "answer": 0, "audio": "audio/tts/u2/c1-1.wav" },
+						{ "ar": "عمي إخو ____.", "en": "My ʕamm is my father's brother.", "options": ["أبوي", "إمي", "جاري"], "answer": 0, "audio": "audio/tts/u2/c1-2.wav" },
+						{ "ar": "خالتي إخت ____.", "en": "My khāle is my mother's sister.", "options": ["إمي", "أبوي", "مرتي"], "answer": 0, "audio": "audio/tts/u2/c1-3.wav" },
+						{ "ar": "ساكنين جنبنا من زمان — هم ____ منيحين.", "en": "They've lived next to us forever — they're good neighbors.", "options": ["جيران", "قرايب", "إخوة"], "answer": 0, "audio": "audio/tts/u2/c1-4.wav" },
+						{ "ar": "كل ____ إجوا عالعرس.", "en": "All the relatives came to the wedding.", "options": ["القرايب", "الجرايد", "الأخبار"], "answer": 0, "audio": "audio/tts/u2/c1-5.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "The family fuses: kin + possessives",
+					"points": [
+						{
+							"ar": "أبوي — أبوك — أبوه — أبوها",
+							"explanation": "Kinship words fuse straight onto possessive endings: أبوي my father, إمك your mother, أخوه his brother. The endings are the same ones from وينك — one quick syllable carries the whole relationship.",
+							"examples": [
+								{ "ar": "أبوي وأبوك بشتغلوا مع بعض.", "en": "My father and your father work together.", "audio": "audio/tts/u2/g1-1-1.wav" },
+								{ "ar": "إمها من القدس وأبوها من الخليل.", "en": "Her mother is from Jerusalem and her father from Hebron.", "audio": "audio/tts/u2/g1-1-2.wav" },
+								{ "ar": "أخوه ساكن برة من عشر سنين.", "en": "His brother has lived abroad for ten years.", "audio": "audio/tts/u2/g1-1-3.wav" }
+							]
+						},
+						{
+							"ar": "مرتو وجوزها",
+							"explanation": "Possessed spouses: جوزي، جوزها — and مرة grows a ت when owned: مرتي my wife, مرتو his wife. Hear the ت and you know a wife is being mentioned, not 'a time' (مرة also means 'once' — context and the ت decide).",
+							"examples": [
+								{ "ar": "مرتو دكتورة في رام الله.", "en": "His wife is a doctor in Ramallah.", "audio": "audio/tts/u2/g1-2-1.wav" },
+								{ "ar": "جوزها مسافر عالخليج للشغل.", "en": "Her husband is away in the Gulf for work.", "audio": "audio/tts/u2/g1-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "ولد",
+							"he": "יֶלֶד",
+							"kind": "true",
+							"story": "The oldest sound law you'll ever use: Proto-Semitic w- became y- in Hebrew. walad → yeled, and the same shift hides in dozens of pairs. When an Arabic word starts with و, try a י on it."
+						},
+						{
+							"ar": "عَمّ",
+							"he": "עַם",
+							"kind": "shifted",
+							"story": "ʕamm meant the paternal clan. Arabic zoomed in — the clan's representative, your father's brother. Hebrew zoomed out — the clan of clans, the people. עם ישראל and عمي أبو سمير share a grandfather."
+						},
+						{
+							"ar": "جار",
+							"he": "גֵּר",
+							"kind": "shifted",
+							"story": "One root, j/g-w-r, 'to turn aside and dwell.' The Arabic جار dwells beside you and is owed protection; the Hebrew גר dwells among you and is owed protection — וְגֵר לֹא תוֹנֶה. Two legal traditions, one root, same ethic."
+						},
+						{
+							"ar": "قَرايِب",
+							"he": "קְרוֹבִים",
+							"kind": "true",
+							"story": "q-r-b — near. Your relatives are your near ones; so are theirs. Even the idiom matches: קרוב משפחה, قريبي."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 2,
+			"title": "What do you do for work?",
+			"titleAr": "شو بتشتغل؟",
+			"canDo": "I can follow someone describing their job, hours, and pay — including the complaint that comes with them.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "شو بتشتغل؟ is the second question any Palestinian asks you (right after where you're from). This lesson is the working day: the professions, the دوام, the معاش — and the economics underneath, where an engineer's diploma meets a taxi's steering wheel."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u2-shughul",
+							"ar": "شُغُل",
+							"arPlain": "شغل",
+							"en": "work, job",
+							"he": "עבודה",
+							"root": "ش غ ل",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "لقيت شغل جديد في البلد.", "en": "I found a new job downtown." },
+							"audio": "audio/tts/u2/u2-shughul.wav",
+							"audioEx": "audio/tts/u2/u2-shughul-ex.wav",
+							"note": "The all-purpose word: شغل البيت housework, عنده شغل he's busy, شغلة a thing/matter."
+						},
+						{
+							"id": "u2-ishtaghal",
+							"ar": "اشْتَغَل",
+							"arPlain": "اشتغل",
+							"en": "worked; works",
+							"he": "עבד",
+							"root": "ش غ ل",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "اشتغلت خمس سنين في المستشفى.", "en": "I worked five years at the hospital." },
+							"audio": "audio/tts/u2/u2-ishtaghal.wav",
+							"audioEx": "audio/tts/u2/u2-ishtaghal-ex.wav",
+							"note": "Present بشتغل — you've been hearing it since Unit 1. Also 'to function': التلفون مش شغّال — the phone's not working."
+						},
+						{
+							"id": "u2-muwazzaf",
+							"ar": "مُوَظَّف",
+							"arPlain": "موظف",
+							"en": "employee, clerk",
+							"he": "פקיד, עובד",
+							"root": "و ظ ف",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "أخوي موظف في البلدية.", "en": "My brother is a clerk at the municipality." },
+							"audio": "audio/tts/u2/u2-muwazzaf.wav",
+							"audioEx": "audio/tts/u2/u2-muwazzaf-ex.wav",
+							"note": "وظيفة = a position/job — the steady, salaried kind people pray for."
+						},
+						{
+							"id": "u2-m3allem",
+							"ar": "مْعَلِّم",
+							"arPlain": "معلم",
+							"en": "teacher; (street) boss",
+							"he": "מורה",
+							"root": "ع ل م",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "معلم رياضيات في مدرسة حكومية.", "en": "A math teacher in a government school." },
+							"audio": "audio/tts/u2/u2-m3allem.wav",
+							"audioEx": "audio/tts/u2/u2-m3allem-ex.wav",
+							"note": "Twin life: the classroom teacher — and the workshop boss or any respected guy: يا معلم! Note: מלמד looks parallel but it's root ל-מ-ד, not ע-ל-م — semantic twins, not cognates."
+						},
+						{
+							"id": "u2-muhandis",
+							"ar": "مُهَنْدِس",
+							"arPlain": "مهندس",
+							"en": "engineer",
+							"he": "מהנדס",
+							"pos": "noun",
+							"register": "shared",
+							"cognate": {
+								"kind": "true",
+								"he": "מְהַנְדֵס",
+								"note": "Hebrew borrowed the Arabic مهندس whole — same word, Hebrew vowels. One of the quiet Arabic loans inside modern Hebrew."
+							},
+							"example": { "ar": "بنتها مهندسة في شركة كبيرة.", "en": "Her daughter is an engineer at a big company." },
+							"audio": "audio/tts/u2/u2-muhandis.wav",
+							"audioEx": "audio/tts/u2/u2-muhandis-ex.wav"
+						},
+						{
+							"id": "u2-sawwaq",
+							"ar": "سَوّاق",
+							"arPlain": "سواق",
+							"en": "driver",
+							"he": "נהג",
+							"root": "س و ق",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "שׁוּק",
+								"note": "s-w-q means 'to drive (herds).' The שוק/سوق is where you drove them to sell; the سواق still drives. Market and driver, one root."
+							},
+							"example": { "ar": "سواق السرفيس بعرف كل الطرق.", "en": "The serveece driver knows every road." },
+							"audio": "audio/tts/u2/u2-sawwaq.wav",
+							"audioEx": "audio/tts/u2/u2-sawwaq-ex.wav",
+							"note": "السرفيس — the shared taxi that runs fixed routes. Unit 3 rides it properly."
+						},
+						{
+							"id": "u2-dawam",
+							"ar": "دَوام",
+							"arPlain": "دوام",
+							"en": "work hours, shift",
+							"he": "שעות עבודה, משמרת",
+							"root": "د و م",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "الدوام من تمانية للأربعة.", "en": "Work hours are eight to four." },
+							"audio": "audio/tts/u2/u2-dawam.wav",
+							"audioEx": "audio/tts/u2/u2-dawam-ex.wav",
+							"note": "School hours, office hours, your shift — all دوام. بعد الدوام = after work."
+						},
+						{
+							"id": "u2-ma3ash",
+							"ar": "مَعاش",
+							"arPlain": "معاش",
+							"en": "salary",
+							"he": "משכורת",
+							"root": "ع ي ش",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "المعاش بنزل آخر الشهر.", "en": "The salary comes in at the end of the month." },
+							"audio": "audio/tts/u2/u2-ma3ash.wav",
+							"audioEx": "audio/tts/u2/u2-ma3ash-ex.wav",
+							"note": "From عاش, to live — the living-money. Salaries 'come down' (بنزل) in Arabic. Formal twin: راتب."
+						},
+						{
+							"id": "u2-battal",
+							"ar": "بَطّال",
+							"arPlain": "بطال",
+							"en": "bad, no good; idle",
+							"he": "גרוע; בטל",
+							"root": "ب ط ل",
+							"pos": "adj",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "בַּטְלָן",
+								"note": "b-ṭ-l, idle/void. Hebrew kept the idler (בטלן) and the void (בטל); Palestinian slid from 'idle' to plain 'bad' — الوضع بطال."
+							},
+							"example": { "ar": "الوضع الاقتصادي بطّال هالأيام.", "en": "The economic situation is bad these days." },
+							"audio": "audio/tts/u2/u2-battal.wav",
+							"audioEx": "audio/tts/u2/u2-battal-ex.wav"
+						},
+						{
+							"id": "u2-3atel",
+							"ar": "عاطِل عن الشُغُل",
+							"arPlain": "عاطل عن الشغل",
+							"en": "unemployed",
+							"he": "מובטל",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "ابنه خلّص جامعة وبعده عاطل عن الشغل.", "en": "His son finished university and is still unemployed." },
+							"audio": "audio/tts/u2/u2-3atel.wav",
+							"audioEx": "audio/tts/u2/u2-3atel-ex.wav",
+							"note": "A word doing heavy lifting in the West Bank and crushing work in Gaza. Street softer version: قاعد بلا شغل — sitting without work."
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Abu Khalil, taxi driver",
+					"titleAr": "أبو خليل، سواق تاكسي",
+					"brief": "One speaker, eight sentences, a whole economy. Listen twice before the transcript: how long has he been driving, and what's the story with his son?",
+					"audio": "audio/tts/u2/listen2.wav",
+					"ttsVoice": "Charon",
+					"preQuestions": [
+						"How many years has he been driving a taxi?",
+						"What does his wife do?",
+						"Why won't his son come work with him?"
+					],
+					"transcript": [
+						{ "speaker": "أبو خليل", "ar": "أنا أبو خليل، سواق تاكسي من خمسطعش سنة.", "en": "I'm Abu Khalil — a taxi driver for fifteen years." },
+						{ "speaker": "أبو خليل", "ar": "الدوام تبعي طويل: من ستة الصبح لتمانية المسا.", "en": "My shift is long: six in the morning to eight at night." },
+						{ "speaker": "أبو خليل", "ar": "الشغل تعبان والبنزين غالي، بس الحمدلله.", "en": "The work is tiring and fuel is expensive — but thank God." },
+						{ "speaker": "أبو خليل", "ar": "معاش ثابت ما في — كل يوم برزقه.", "en": "There's no fixed salary — each day brings its own." },
+						{ "speaker": "أبو خليل", "ar": "مرتي معلمة في مدرسة بنات.", "en": "My wife is a teacher in a girls' school." },
+						{ "speaker": "أبو خليل", "ar": "ابني الكبير مهندس — بس عاطل عن الشغل من سنة.", "en": "My eldest son is an engineer — but unemployed for a year." },
+						{ "speaker": "أبو خليل", "ar": "بقوله: تعال اشتغل معي عالتاكسي. بضحك ويقول: يابا، درست خمس سنين!", "en": "I tell him: come work with me on the taxi. He laughs and says: Dad, I studied five years!" },
+						{ "speaker": "أبو خليل", "ar": "هيك الشغل في بلادنا — الشهادة في إيد، والإيد التانية فاضية.", "en": "That's work in our country — the diploma in one hand, and the other hand empty." }
+					],
+					"questions": [
+						{
+							"prompt": "How long has Abu Khalil been driving?",
+							"options": ["خمسطعش سنة", "خمس سنين", "سنة وحدة", "خمسين سنة"],
+							"answer": 0,
+							"why": "خمسطعش — fifteen. The ـطعش ending is the teens' signature."
+						},
+						{
+							"prompt": "His دوام runs…",
+							"options": ["من ستة الصبح لتمانية المسا", "من تمانية للأربعة", "بالليل بس", "يومين بالأسبوع"],
+							"answer": 0
+						},
+						{
+							"prompt": "What does his wife do?",
+							"options": ["معلمة", "مهندسة", "موظفة بالبلدية", "دكتورة"],
+							"answer": 0
+						},
+						{
+							"prompt": "His eldest son is…",
+							"options": ["مهندس وعاطل عن الشغل", "سواق تاكسي", "موظف", "معلم رياضيات"],
+							"answer": 0,
+							"why": "The diploma-in-hand line — the unit's whole economics in one sentence."
+						},
+						{
+							"prompt": "«كل يوم برزقه» means…",
+							"options": [
+								"No fixed pay — each day earns what it earns",
+								"He's paid daily a fixed wage",
+								"He saves every day",
+								"He works for free"
+							],
+							"answer": 0,
+							"why": "رزق — sustenance, what a day provides. A worldview in three words."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Who does what",
+					"pairs": [
+						{ "ar": "شغل", "en": "work, job", "audio": "audio/tts/u2/u2-shughul.wav" },
+						{ "ar": "موظف", "en": "employee, clerk", "audio": "audio/tts/u2/u2-muwazzaf.wav" },
+						{ "ar": "معلم", "en": "teacher; boss", "audio": "audio/tts/u2/u2-m3allem.wav" },
+						{ "ar": "مهندس", "en": "engineer", "audio": "audio/tts/u2/u2-muhandis.wav" },
+						{ "ar": "سواق", "en": "driver", "audio": "audio/tts/u2/u2-sawwaq.wav" },
+						{ "ar": "دوام", "en": "work hours", "audio": "audio/tts/u2/u2-dawam.wav" },
+						{ "ar": "معاش", "en": "salary", "audio": "audio/tts/u2/u2-ma3ash.wav" },
+						{ "ar": "عاطل عن الشغل", "en": "unemployed", "audio": "audio/tts/u2/u2-3atel.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "لقيت ____ جديد، الحمدلله.", "en": "I found a new job, thank God.", "options": ["شغل", "معاش", "دوام"], "answer": 0, "audio": "audio/tts/u2/c2-1.wav" },
+						{ "ar": "____ بنزل آخر الشهر.", "en": "The salary comes in at the end of the month.", "options": ["المعاش", "الدوام", "الشغل"], "answer": 0, "audio": "audio/tts/u2/c2-2.wav" },
+						{ "ar": "أختي ____ في مدرسة حكومية.", "en": "My sister is a teacher in a government school.", "options": ["معلمة", "سواقة", "مهندسة"], "answer": 0, "audio": "audio/tts/u2/c2-3.wav" },
+						{ "ar": "الوضع ____ هالأيام، ما في شغل.", "en": "Things are bad these days — there's no work.", "options": ["بطّال", "مزبوط", "منيح"], "answer": 0, "audio": "audio/tts/u2/c2-4.wav" },
+						{ "ar": "ابنه ____ عن الشغل من سنتين.", "en": "His son has been unemployed for two years.", "options": ["عاطل", "موظف", "معلم"], "answer": 0, "audio": "audio/tts/u2/c2-5.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Right now vs. always — and how long",
+					"points": [
+						{
+							"ar": "بَشْتَغِل ↔ عم بَشْتَغِل",
+							"explanation": "بشتغل = I work (in general). عم بشتغل = I'm working right now. One tiny عم flips the timeline — and it's unstressed, so this is pure ear training. شو عم تعمل؟ asks what you're doing this minute.",
+							"examples": [
+								{ "ar": "بشتغل في البلدية من زمان.", "en": "I've worked at the municipality for ages. (habit)", "audio": "audio/tts/u2/g2-1-1.wav" },
+								{ "ar": "عم بشتغل هلّق، بحكيك بعدين.", "en": "I'm working right now — I'll call you later.", "audio": "audio/tts/u2/g2-1-2.wav" },
+								{ "ar": "شو عم تعمل؟ — عم بساعد أبوي.", "en": "What are you doing? — I'm helping my dad.", "audio": "audio/tts/u2/g2-1-3.wav" }
+							]
+						},
+						{
+							"ar": "صار لـ + مدة",
+							"explanation": "Duration runs on صار + ل: صار لي خمسطعش سنة — it's been fifteen years for me. صار له سنة عاطل — he's been unemployed a year. Your Unit 1 صار, promoted to timekeeper.",
+							"examples": [
+								{ "ar": "صار لي عشر سنين بهالشغل.", "en": "I've been in this job ten years.", "audio": "audio/tts/u2/g2-2-1.wav" },
+								{ "ar": "صار لها شهرين بتدوّر على شغل.", "en": "She's been looking for work for two months.", "audio": "audio/tts/u2/g2-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "مُهَنْدِس",
+							"he": "מְהַנְדֵס",
+							"kind": "true",
+							"story": "Modern Hebrew needed an engineer and simply took the Arabic مهندس (itself built on Persian andāza, 'measure'). Same word, retuned vowels — a loan hiding in plain sight in every Israeli office."
+						},
+						{
+							"ar": "سوق / سَوّاق",
+							"he": "שׁוּק",
+							"kind": "shifted",
+							"story": "The root s-w-q means to drive herds. Drive them where? To market — the سوق/שוק. The سواق kept the original job: he still drives. Your shuk runs on a driving root."
+						},
+						{
+							"ar": "بَطّال",
+							"he": "בַּטְלָן",
+							"kind": "true",
+							"story": "b-ṭ-l: idle, void. The Hebrew בטלן idles; ביטול cancels into nothing; the Palestinian بطّال slid from idle to no-good. When work talk turns gloomy, this root carries it in both languages."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 3,
+			"title": "An ordinary day",
+			"titleAr": "يوم عادي",
+			"canDo": "I can follow someone narrating their day — start, finish, errand, collapse — verb by verb, at speed.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "The day has a skeleton: بلش، خلص، رجع، وصل، نام. Hang a مشوار and an عزومة on it and you have Palestinian daily life. These are the highest-frequency verbs you'll ever learn — and the negation that wraps them, ما...ش, is this lesson's real boss."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u2-sihi",
+							"ar": "صِحي",
+							"arPlain": "صحي",
+							"en": "woke up",
+							"he": "התעורר, קם",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "بصحى كل يوم خمسة ونص الصبح.", "en": "I wake up every day at five thirty in the morning." },
+							"audio": "audio/tts/u2/u2-sihi.wav",
+							"audioEx": "audio/tts/u2/u2-sihi-ex.wav",
+							"note": "You met بصحى in Umm Mohammad's routine. Synonym you'll also hear: فاق."
+						},
+						{
+							"id": "u2-ballash",
+							"ar": "بَلَّش",
+							"arPlain": "بلش",
+							"en": "started",
+							"he": "התחיל",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "بلشت الدوام بكير اليوم.", "en": "I started work early today." },
+							"audio": "audio/tts/u2/u2-ballash.wav",
+							"audioEx": "audio/tts/u2/u2-ballash-ex.wav",
+							"note": "The Levantine 'start' — MSA بدأ stays in the news. بلش الشتا — the rain has started."
+						},
+						{
+							"id": "u2-khallas",
+							"ar": "خَلَّص",
+							"arPlain": "خلص",
+							"en": "finished",
+							"he": "סיים, גמר",
+							"root": "خ ل ص",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "נֶחְלַץ",
+								"note": "ḥ-l-ṣ — to pull free. Arabic خلص: finished, free of it. Hebrew נחלץ: extricated. Done = out."
+							},
+							"example": { "ar": "خلصت شغلي ورُحت عالبيت.", "en": "I finished my work and went home." },
+							"audio": "audio/tts/u2/u2-khallas.wav",
+							"audioEx": "audio/tts/u2/u2-khallas-ex.wav",
+							"note": "Bare خلص! is also 'enough! done!' — the conversation-ender you'll hear daily."
+						},
+						{
+							"id": "u2-rij3",
+							"ar": "رِجِع",
+							"arPlain": "رجع",
+							"en": "returned, came back",
+							"he": "חזר",
+							"root": "ر ج ع",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "رجعنا من عند تيتا المسا.", "en": "We came back from grandma's in the evening." },
+							"audio": "audio/tts/u2/u2-rij3.wav",
+							"audioEx": "audio/tts/u2/u2-rij3-ex.wav",
+							"note": "هلّق رجعت — you said this in Unit 1. Also 'again': رجع حكى نفس الإشي."
+						},
+						{
+							"id": "u2-wisil",
+							"ar": "وِصِل",
+							"arPlain": "وصل",
+							"en": "arrived",
+							"he": "הגיע",
+							"root": "و ص ل",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "وصلت متأخر عشان الأزمة.", "en": "I arrived late because of the traffic." },
+							"audio": "audio/tts/u2/u2-wisil.wav",
+							"audioEx": "audio/tts/u2/u2-wisil-ex.wav",
+							"note": "وصلت وصلت! — 'I'm here, I'm here!' from Marwan at the roundabout."
+						},
+						{
+							"id": "u2-mishwar",
+							"ar": "مِشْوار",
+							"arPlain": "مشوار",
+							"en": "errand; a quick outing",
+							"he": "סידור; יציאה קצרה",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "عندي مشوار صغير بالبلد.", "en": "I have a quick errand downtown." },
+							"audio": "audio/tts/u2/u2-mishwar.wav",
+							"audioEx": "audio/tts/u2/u2-mishwar-ex.wav",
+							"note": "Untranslatable gem: an errand, a spin, a short visit — any small going-out. Also a life's journey, in songs."
+						},
+						{
+							"id": "u2-3azumeh",
+							"ar": "عَزومة",
+							"arPlain": "عزومة",
+							"en": "dinner invitation, a hosted meal",
+							"he": "ארוחה אצל מארחים",
+							"root": "ع ز م",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "عنا عزومة عند الجيران الجمعة.", "en": "We're invited to dinner at the neighbors' on Friday." },
+							"audio": "audio/tts/u2/u2-3azumeh.wav",
+							"audioEx": "audio/tts/u2/u2-3azumeh-ex.wav",
+							"note": "From عزم, to resolve/invite. Careful with the ear: عَزومة is dinner, أَزمة is a traffic jam. One vowel between feast and gridlock."
+						},
+						{
+							"id": "u2-ta3ban",
+							"ar": "تَعْبان",
+							"arPlain": "تعبان",
+							"en": "tired",
+							"he": "עייף",
+							"root": "ت ع ب",
+							"pos": "adj",
+							"register": "street",
+							"example": { "ar": "اليوم كان طويل — أنا تعبان.", "en": "It's been a long day — I'm tired." },
+							"audio": "audio/tts/u2/u2-ta3ban.wav",
+							"audioEx": "audio/tts/u2/u2-ta3ban-ex.wav",
+							"note": "Also 'in bad shape' generally: الوضع تعبان, السيارة تعبانة. Abu Khalil's الشغل تعبان."
+						},
+						{
+							"id": "u2-nam",
+							"ar": "نام",
+							"arPlain": "نام",
+							"en": "slept; went to bed",
+							"he": "ישן",
+							"root": "ن و م",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "נִמְנֵם",
+								"note": "n-w-m. Hebrew kept the doze — נמנם, תנומה; Arabic made it the whole night. אל ינום שומר ישראל uses your verb."
+							},
+							"example": { "ar": "الولاد ناموا بكير مبارح.", "en": "The kids went to sleep early yesterday." },
+							"audio": "audio/tts/u2/u2-nam.wav",
+							"audioEx": "audio/tts/u2/u2-nam-ex.wav"
+						},
+						{
+							"id": "u2-mashghul",
+							"ar": "مَشْغول",
+							"arPlain": "مشغول",
+							"en": "busy",
+							"he": "עסוק",
+							"root": "ش غ ل",
+							"pos": "adj",
+							"register": "street",
+							"example": { "ar": "أبوي مشغول طول الأسبوع.", "en": "My father is busy all week." },
+							"audio": "audio/tts/u2/u2-mashghul.wav",
+							"audioEx": "audio/tts/u2/u2-mashghul-ex.wav",
+							"note": "Same شغل root, passive shape: occupied. Also the phone: الخط مشغول — the line is busy."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Where were you all day?",
+					"titleAr": "وينك من الصبح؟",
+					"situation": "Abu Yousef comes home at seven in the evening — Umm Yousef has questions. (Yes, the electricity couple from Unit 1. He's hiding something about tomorrow's dinner.)",
+					"audio": "audio/tts/u2/d3.wav",
+					"ttsVoices": {
+						"أم يوسف": { "label": "UmYousef", "voice": "Sulafat" },
+						"أبو يوسف": { "label": "AbuYousef", "voice": "Charon" }
+					},
+					"lines": [
+						{ "speaker": "أم يوسف", "ar": "وينك من الصبح؟ صحيت وما لقيتك.", "en": "Where have you been since morning? I woke up and didn't find you.", "audio": "audio/tts/u2/d3-l01.wav" },
+						{ "speaker": "أبو يوسف", "ar": "بلشت الدوام بكير اليوم — ستة ونص.", "en": "I started work early today — six thirty.", "audio": "audio/tts/u2/d3-l02.wav" },
+						{ "speaker": "أم يوسف", "ar": "وليش راجع هلّق؟ الساعة سبعة المسا!", "en": "And why are you back only now? It's seven in the evening!", "audio": "audio/tts/u2/d3-l03.wav" },
+						{ "speaker": "أبو يوسف", "ar": "خلصت الشغل وكان عندي مشوار بالبلد.", "en": "I finished work and had an errand downtown.", "audio": "audio/tts/u2/d3-l04.wav" },
+						{ "speaker": "أم يوسف", "ar": "مشوار شو؟", "en": "What errand?", "audio": "audio/tts/u2/d3-l05.wav" },
+						{ "speaker": "أبو يوسف", "ar": "جبت إشي لعزومة بكرا. مش رح أقولك شو.", "en": "I got something for tomorrow's dinner. I'm not telling you what.", "audio": "audio/tts/u2/d3-l06.wav" },
+						{ "speaker": "أم يوسف", "ar": "يا زلمة احكي! شو جبت؟", "en": "Come on, man, talk! What did you get?", "audio": "audio/tts/u2/d3-l07.wav" },
+						{ "speaker": "أبو يوسف", "ar": "صبري عليّ. وين الولاد؟", "en": "Be patient with me. Where are the kids?", "audio": "audio/tts/u2/d3-l08.wav" },
+						{ "speaker": "أم يوسف", "ar": "ناموا قبل شوي — كانوا تعبانين من المدرسة.", "en": "They fell asleep a little while ago — tired from school.", "audio": "audio/tts/u2/d3-l09.wav" },
+						{ "speaker": "أبو يوسف", "ar": "منيح. أنا كمان تعبان، بدي أنام بدري.", "en": "Good. I'm tired too — I want to sleep early.", "audio": "audio/tts/u2/d3-l10.wav" }
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "When did Abu Yousef start work?",
+							"options": ["ستة ونص الصبح", "سبعة المسا", "الضهر", "ما اشتغل اليوم"],
+							"answer": 0
+						},
+						{
+							"prompt": "Why is he back so late?",
+							"options": ["كان عنده مشوار بالبلد", "نام بالشغل", "كان عند سيدو", "راح على عزومة"],
+							"answer": 0
+						},
+						{
+							"prompt": "What did he bring from downtown?",
+							"options": ["إشي للعزومة — ومش رح يقول شو", "جريدة", "دوا لإمه", "ولا إشي"],
+							"answer": 0,
+							"why": "مش رح أقولك شو — the رح future, negated. Tomorrow's dinner stays a secret."
+						},
+						{
+							"prompt": "Why did the kids sleep early?",
+							"options": ["تعبانين من المدرسة", "زعلانين", "ما في كهربا", "بدهم يصحوا بكير"],
+							"answer": 0
+						},
+						{
+							"prompt": "What does Abu Yousef want now?",
+							"options": ["ينام بدري", "يشتغل كمان شوي", "يطلع مشوار تاني", "يحكي مع الجيران"],
+							"answer": 0
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "The day's verbs",
+					"pairs": [
+						{ "ar": "بَلَّش", "en": "started", "audio": "audio/tts/u2/u2-ballash.wav" },
+						{ "ar": "خَلَّص", "en": "finished", "audio": "audio/tts/u2/u2-khallas.wav" },
+						{ "ar": "رِجِع", "en": "returned", "audio": "audio/tts/u2/u2-rij3.wav" },
+						{ "ar": "وِصِل", "en": "arrived", "audio": "audio/tts/u2/u2-wisil.wav" },
+						{ "ar": "مِشْوار", "en": "errand, quick outing", "audio": "audio/tts/u2/u2-mishwar.wav" },
+						{ "ar": "عَزومة", "en": "dinner invitation", "audio": "audio/tts/u2/u2-3azumeh.wav" },
+						{ "ar": "تَعْبان", "en": "tired", "audio": "audio/tts/u2/u2-ta3ban.wav" },
+						{ "ar": "مَشْغول", "en": "busy", "audio": "audio/tts/u2/u2-mashghul.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "____ الدوام بكير اليوم.", "en": "I started work early today.", "options": ["بلشت", "خلصت", "نمت"], "answer": 0, "audio": "audio/tts/u2/c3-1.wav" },
+						{ "ar": "____ شغلي ورحت عالبيت.", "en": "I finished my work and went home.", "options": ["خلصت", "بلشت", "صحيت"], "answer": 0, "audio": "audio/tts/u2/c3-2.wav" },
+						{ "ar": "عندي ____ صغير بالبلد.", "en": "I have a quick errand downtown.", "options": ["مشوار", "معاش", "دوام"], "answer": 0, "audio": "audio/tts/u2/c3-3.wav" },
+						{ "ar": "الولاد ____ بكير مبارح.", "en": "The kids went to sleep early yesterday.", "options": ["ناموا", "وصلوا", "بلشوا"], "answer": 0, "audio": "audio/tts/u2/c3-4.wav" },
+						{ "ar": "عنا ____ عند الجيران الجمعة.", "en": "We're invited to dinner at the neighbors' on Friday.", "options": ["عزومة", "أزمة", "إشاعة"], "answer": 0, "audio": "audio/tts/u2/c3-5.wav" },
+						{ "ar": "أنا ____، بدي أنام.", "en": "I'm tired — I want to sleep.", "options": ["تعبان", "مشغول", "بطّال"], "answer": 0, "audio": "audio/tts/u2/c3-6.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "ما…ش — the negation wrap",
+					"points": [
+						{
+							"ar": "ما بَشْتَغِلْش الجمعة",
+							"explanation": "Palestinian negation wraps the verb: ما in front, ش behind. In fast speech the ما often drops and the ش alone carries it: بشتغلش. Train your ear on that final ش — it's the difference between working Fridays and not.",
+							"examples": [
+								{ "ar": "ما بشتغلش يوم الجمعة.", "en": "I don't work on Fridays.", "audio": "audio/tts/u2/g3-1-1.wav" },
+								{ "ar": "ما خلصتش الشغل لسا.", "en": "I haven't finished the work yet.", "audio": "audio/tts/u2/g3-1-2.wav" },
+								{ "ar": "ما نمتش منيح مبارح.", "en": "I didn't sleep well yesterday.", "audio": "audio/tts/u2/g3-1-3.wav" }
+							]
+						},
+						{
+							"ar": "لِسّا — still / not yet",
+							"explanation": "لسا flips with polarity: before an adjective it's 'still' (لسا بكير — it's still early, from the pharmacy call); with a negative verb it's 'not yet' (لسا ما وصلوش). One word, both ends of waiting.",
+							"examples": [
+								{ "ar": "لسا ما وصلوش من المشوار.", "en": "They haven't arrived back from the errand yet.", "audio": "audio/tts/u2/g3-2-1.wav" },
+								{ "ar": "لسا تعبان من مبارح؟", "en": "Still tired from yesterday?", "audio": "audio/tts/u2/g3-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "نام",
+							"he": "נִמְנֵם",
+							"kind": "true",
+							"story": "n-w-m: Hebrew kept the light doze — נמנם, תנומה, אל ינום — while Arabic stretched it across the whole night. When the kids ناموا, they did the thing the שומר ישראל famously doesn't."
+						},
+						{
+							"ar": "خَلَّص",
+							"he": "נֶחְלַץ",
+							"kind": "shifted",
+							"story": "ḥ-l-ṣ is pulling something free. Hebrew extricates — נחלץ מהבוץ; Arabic finishes — خلصت الشغل: I pulled free of it. And bare خلص! is the universal 'enough' — the act of pulling yourself out of a conversation."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 4,
+			"title": "Numbers & hours, by ear",
+			"titleAr": "أرقام وساعات",
+			"canDo": "I can catch numbers, ages, and clock times in real speech — including the backwards ones (عشرة إلا ربع).",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Numbers are where listening actually fails: they fly past in half a syllable and carry the whole fact — the age, the price, the time, the count. This lesson is a number gym. The drills after the listening are the unit's hardest and most useful minutes."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u2-ihda3sh",
+							"ar": "إحْدَعِش",
+							"arPlain": "احدعش",
+							"en": "eleven",
+							"he": "אחת עשרה",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "الساعة إحدعش وربع.", "en": "It's quarter past eleven." },
+							"audio": "audio/tts/u2/u2-ihda3sh.wav",
+							"audioEx": "audio/tts/u2/u2-ihda3sh-ex.wav",
+							"note": "The teens all end in ـعش: اتنعش 12، تلتطعش 13، أربعطعش 14... hear that ending and you know you're in 11–19 territory."
+						},
+						{
+							"id": "u2-khamista3sh",
+							"ar": "خَمِسْطَعِش",
+							"arPlain": "خمسطعش",
+							"en": "fifteen",
+							"he": "חמש עשרה",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "صار لي خمسطعش سنة هون.", "en": "I've been here fifteen years." },
+							"audio": "audio/tts/u2/u2-khamista3sh.wav",
+							"audioEx": "audio/tts/u2/u2-khamista3sh-ex.wav",
+							"note": "Abu Khalil's fifteen. The classic ear-trap pair: خمسطعش 15 vs خمسين 50 — the drills below hammer it."
+						},
+						{
+							"id": "u2-3ishrin",
+							"ar": "عِشْرين",
+							"arPlain": "عشرين",
+							"en": "twenty",
+							"he": "עשרים",
+							"root": "ع ش ر",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "עֶשְׂרִים",
+								"note": "ʕ-ś-r — ten and its multiples match across the languages: عشرة/עשר, عشرين/עשרים."
+							},
+							"example": { "ar": "الباص بيجي كل عشرين دقيقة.", "en": "The bus comes every twenty minutes." },
+							"audio": "audio/tts/u2/u2-3ishrin.wav",
+							"audioEx": "audio/tts/u2/u2-3ishrin-ex.wav"
+						},
+						{
+							"id": "u2-talatin",
+							"ar": "تَلاتين",
+							"arPlain": "تلاتين",
+							"en": "thirty",
+							"he": "שלושים",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "תְּלָת",
+								"note": "Hebrew counts שלוש, but Aramaic counted תלת — and Palestinian تلاتة sits with the Aramaic. The substrate under the dialect is the same one under the Gemara."
+							},
+							"example": { "ar": "عمرها تلاتين سنة.", "en": "She's thirty years old." },
+							"audio": "audio/tts/u2/u2-talatin.wav",
+							"audioEx": "audio/tts/u2/u2-talatin-ex.wav",
+							"note": "Ear-trap with تلاتة وعشرين (23) vs تلاتة وتلاتين (33) — drilled below."
+						},
+						{
+							"id": "u2-khamsin",
+							"ar": "خَمْسين",
+							"arPlain": "خمسين",
+							"en": "fifty",
+							"he": "חמישים",
+							"root": "خ م س",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "חֲמִשִּׁים",
+								"note": "ḥ-m-š — five and fifty walk together in both languages: خمسة/חמש, خمسين/חמישים."
+							},
+							"example": { "ar": "المشوار بكلف خمسين شيكل.", "en": "The trip costs fifty shekels." },
+							"audio": "audio/tts/u2/u2-khamsin.wav",
+							"audioEx": "audio/tts/u2/u2-khamsin-ex.wav",
+							"note": "Yes — شيكل. West Bank prices run in the currency you know, pronounced the Arabic way."
+						},
+						{
+							"id": "u2-miyyeh",
+							"ar": "مِيّة",
+							"arPlain": "مية",
+							"en": "hundred",
+							"he": "מאה",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "מֵאָה",
+								"note": "miyyeh is מאה with Palestinian vowels — same ancient hundred."
+							},
+							"example": { "ar": "في مية واحد بالعزومة!", "en": "There are a hundred people at the dinner!" },
+							"audio": "audio/tts/u2/u2-miyyeh.wav",
+							"audioEx": "audio/tts/u2/u2-miyyeh-ex.wav",
+							"note": "ميتين 200, تلاتمية 300 — the hundreds stack the same way."
+						},
+						{
+							"id": "u2-nuss",
+							"ar": "نُص",
+							"arPlain": "نص",
+							"en": "half",
+							"he": "חצי",
+							"root": "ن ص ف",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "الساعة أربعة ونص.", "en": "It's half past four." },
+							"audio": "audio/tts/u2/u2-nuss.wav",
+							"audioEx": "audio/tts/u2/u2-nuss-ex.wav",
+							"note": "From نصف. Everywhere: نص ساعة half an hour, نص المعاش half the salary, نص الليل midnight."
+						},
+						{
+							"id": "u2-rub3",
+							"ar": "رُبع",
+							"arPlain": "ربع",
+							"en": "quarter",
+							"he": "רבע",
+							"root": "ر ب ع",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "רֶבַע",
+								"note": "r-b-ʕ — the quarter is identical: ربع ساعة = רבע שעה, sound for sound almost."
+							},
+							"example": { "ar": "بوصل بعد ربع ساعة.", "en": "I'll arrive in a quarter of an hour." },
+							"audio": "audio/tts/u2/u2-rub3.wav",
+							"audioEx": "audio/tts/u2/u2-rub3-ex.wav"
+						},
+						{
+							"id": "u2-illa",
+							"ar": "إلّا",
+							"arPlain": "الا",
+							"en": "minus, to (in clock time)",
+							"he": "פחות; רבע ל…",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "الساعة عشرة إلا ربع.", "en": "It's a quarter to ten. (9:45)" },
+							"audio": "audio/tts/u2/u2-illa.wav",
+							"audioEx": "audio/tts/u2/u2-illa-ex.wav",
+							"note": "Time runs backwards with إلا, exactly like רבע ל: عشرة إلا ربع = 9:45, not 10:15. The drills will test you on this — everyone falls for it once."
+						},
+						{
+							"id": "u2-3umur",
+							"ar": "عُمُر",
+							"arPlain": "عمر",
+							"en": "age",
+							"he": "גיל",
+							"root": "ع م ر",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "قديش عمرك؟", "en": "How old are you?" },
+							"audio": "audio/tts/u2/u2-3umur.wav",
+							"audioEx": "audio/tts/u2/u2-3umur-ex.wav",
+							"note": "Answer: عمري + number + سنة. Bonus idiom: عمري ما... = never in my life — عمري ما سمعت هيك إشي."
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Umm Fadi, in numbers",
+					"titleAr": "أم فادي — بالأرقام",
+					"brief": "A family portrait told entirely in numbers: ages, floor, clock, shift. Listen with a pencil — the after-questions are number-catching drills, and one of them involves إلا.",
+					"audio": "audio/tts/u2/listen4.wav",
+					"ttsVoice": "Sulafat",
+					"preQuestions": [
+						"How old is her husband? (It goes by in half a second.)",
+						"What floor do they live on, and what's the house number?",
+						"Her shift starts with an إلا — what time is it really?"
+					],
+					"transcript": [
+						{ "speaker": "أم فادي", "ar": "بدي أحكيلكم عن عيلتي — بس بالأرقام.", "en": "Let me tell you about my family — but in numbers." },
+						{ "speaker": "أم فادي", "ar": "جوزي عمره خمسة وأربعين سنة. وأنا؟ ما بقول.", "en": "My husband is forty-five. Me? I'm not saying." },
+						{ "speaker": "أم فادي", "ar": "عنا أربع ولاد: الكبيرة عمرها اتنعش، والصغير عمره أربع سنين.", "en": "We have four kids: the eldest is twelve, the youngest is four." },
+						{ "speaker": "أم فادي", "ar": "بيتنا رقم تلاتة وعشرين، الطابق التاني.", "en": "Our building is number twenty-three, second floor." },
+						{ "speaker": "أم فادي", "ar": "بصحى الساعة خمسة ونص، وبنام إحدعش ونص.", "en": "I wake at five thirty and sleep at eleven thirty." },
+						{ "speaker": "أم فادي", "ar": "الدوام تبعي من سبعة إلا ربع لتلاتة.", "en": "My shift runs from quarter to seven until three." },
+						{ "speaker": "أم فادي", "ar": "جوزي بشتغل ستة أيام وبستريح يوم واحد.", "en": "My husband works six days and rests one." },
+						{ "speaker": "أم فادي", "ar": "هاي حياتنا: كلها أرقام — والحمدلله على كل حال.", "en": "That's our life: all numbers — and thank God regardless." }
+					],
+					"questions": [
+						{
+							"prompt": "How old is her husband?",
+							"options": ["45", "54", "35", "44"],
+							"answer": 0,
+							"why": "خمسة وأربعين — five-and-forty. Arabic says the small digit first."
+						},
+						{
+							"prompt": "The building number and floor:",
+							"options": ["رقم ٢٣، الطابق التاني", "رقم ٣٣، الطابق التالت", "رقم ٢٣، الطابق الأول", "رقم ١٣، الطابق التاني"],
+							"answer": 0
+						},
+						{
+							"prompt": "Her shift starts at سبعة إلا ربع — that is…",
+							"options": ["6:45", "7:15", "7:45", "6:15"],
+							"answer": 0,
+							"why": "إلا subtracts: seven minus a quarter. The single most-missed listening detail in Levantine."
+						},
+						{
+							"prompt": "When does she go to sleep?",
+							"options": ["11:30", "5:30", "10:30", "12:30"],
+							"answer": 0,
+							"why": "إحدعش ونص — the ـعش ending says teens… of the clock."
+						}
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Number gym — by ear only",
+					"questions": [
+						{
+							"prompt": "Play it. Which number did you hear?",
+							"audio": "audio/tts/u2/num-23.wav",
+							"options": ["23", "33", "32", "20"],
+							"answer": 0,
+							"why": "تلاتة وعشرين — three-and-twenty."
+						},
+						{
+							"prompt": "Play it. Which number did you hear?",
+							"audio": "audio/tts/u2/num-33.wav",
+							"options": ["33", "23", "30", "13"],
+							"answer": 0,
+							"why": "تلاتة وتلاتين — the doubled ت is your clue."
+						},
+						{
+							"prompt": "Play it. Which number did you hear?",
+							"audio": "audio/tts/u2/num-15.wav",
+							"options": ["15", "50", "5", "55"],
+							"answer": 0,
+							"why": "خمسطعش — the ـطعش ending = teens."
+						},
+						{
+							"prompt": "Play it. Which number did you hear?",
+							"audio": "audio/tts/u2/num-50.wav",
+							"options": ["50", "15", "55", "5"],
+							"answer": 0,
+							"why": "خمسين — the ـين ending = tens. طعش vs ين is the whole game."
+						},
+						{
+							"prompt": "Play it. What time is it?",
+							"audio": "audio/tts/u2/time-1045.wav",
+							"options": ["10:45", "11:15", "11:45", "10:15"],
+							"answer": 0,
+							"why": "إحدعش إلا ربع — eleven minus a quarter."
+						},
+						{
+							"prompt": "Play it. What time is it?",
+							"audio": "audio/tts/u2/time-430.wav",
+							"options": ["4:30", "4:15", "5:30", "4:45"],
+							"answer": 0,
+							"why": "أربعة ونص."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Digits to words",
+					"pairs": [
+						{ "ar": "إحدعش", "en": "11", "audio": "audio/tts/u2/u2-ihda3sh.wav" },
+						{ "ar": "خمسطعش", "en": "15", "audio": "audio/tts/u2/u2-khamista3sh.wav" },
+						{ "ar": "عشرين", "en": "20", "audio": "audio/tts/u2/u2-3ishrin.wav" },
+						{ "ar": "تلاتين", "en": "30", "audio": "audio/tts/u2/u2-talatin.wav" },
+						{ "ar": "خمسين", "en": "50", "audio": "audio/tts/u2/u2-khamsin.wav" },
+						{ "ar": "مية", "en": "100", "audio": "audio/tts/u2/u2-miyyeh.wav" },
+						{ "ar": "نص", "en": "half (:30)", "audio": "audio/tts/u2/u2-nuss.wav" },
+						{ "ar": "ربع", "en": "quarter (:15)", "audio": "audio/tts/u2/u2-rub3.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "الساعة عشرة ____ ربع.", "en": "It's a quarter to ten.", "options": ["إلا", "و", "نص"], "answer": 0, "audio": "audio/tts/u2/c4-1.wav" },
+						{ "ar": "عمري خمسة و____ سنة.", "en": "I'm forty-five years old.", "options": ["أربعين", "أربعة", "ربع"], "answer": 0, "audio": "audio/tts/u2/c4-2.wav" },
+						{ "ar": "بوصل بعد ____ ساعة.", "en": "I'll arrive in a quarter of an hour.", "options": ["ربع", "مية", "إحدعش"], "answer": 0, "audio": "audio/tts/u2/c4-3.wav" },
+						{ "ar": "الباص بيجي كل ____ دقيقة.", "en": "The bus comes every twenty minutes.", "options": ["عشرين", "عمر", "إلا"], "answer": 0, "audio": "audio/tts/u2/c4-4.wav" },
+						{ "ar": "الدوام بخلص الساعة تلاتة و____.", "en": "Work ends at three thirty.", "options": ["نص", "مية", "عمر"], "answer": 0, "audio": "audio/tts/u2/c4-5.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Clock arithmetic",
+					"points": [
+						{
+							"ar": "ونص / وربع / وتلت / إلا ربع",
+							"explanation": "Palestinian time is arithmetic: ونص +30, وربع +15, وتلت +20 (a third of an hour — twenty minutes!), إلا ربع −15. The وتلت surprises everyone; the إلا ربع catches everyone. Both are constant in real speech.",
+							"examples": [
+								{ "ar": "الساعة تلاتة وتلت.", "en": "It's three twenty. (+a third)", "audio": "audio/tts/u2/g4-1-1.wav" },
+								{ "ar": "الساعة سبعة إلا تلت.", "en": "It's six forty. (seven minus a third)", "audio": "audio/tts/u2/g4-1-2.wav" },
+								{ "ar": "بشوفك إحدعش إلا ربع.", "en": "See you at quarter to eleven.", "audio": "audio/tts/u2/g4-1-3.wav" }
+							]
+						},
+						{
+							"ar": "قَدّيش عُمرَك؟",
+							"explanation": "Ages: عمر + possessive, answer in سنة/سنين. And the idiom that makes عمر worth its card: عمري ما + verb = never in my life.",
+							"examples": [
+								{ "ar": "قديش عمر بنتك؟ — عمرها عشر سنين.", "en": "How old is your daughter? — She's ten.", "audio": "audio/tts/u2/g4-2-1.wav" },
+								{ "ar": "عمري ما سمعت هيك خبرية.", "en": "Never in my life have I heard such a story.", "audio": "audio/tts/u2/g4-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "مِيّة",
+							"he": "מֵאָה",
+							"kind": "true",
+							"story": "The Semitic hundred never changed hands: مية is מאה with the vowels relaxed. Same for the tens you already saw — עשרים/عشرين, חמישים/خمسين. Numbers are the most conservative words a language owns."
+						},
+						{
+							"ar": "رُبع",
+							"he": "רֶבַע",
+							"kind": "true",
+							"story": "r-b-ʕ: ربع ساعة and רבע שעה are practically the same utterance. When a Palestinian says بعد ربع ساعة, your Hebrew ear already knows exactly how late they'll be."
+						},
+						{
+							"ar": "تَلاتة",
+							"he": "תְּלָת",
+							"kind": "shifted",
+							"story": "Hebrew says שלוש — but its sibling Aramaic said תלת (תלת־ממדי survives in modern Hebrew!). Palestinian تلاتة keeps the Aramaic consonants. The dialect's deep layer and the Talmud's language are neighbors."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 5,
+			"title": "My people, my work",
+			"titleAr": "عيلتي وشغلي",
+			"canDo": "I can follow someone describing their obligations — who they visit, help, miss, and pay for — with the verbs' endings telling me who's who.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "This lesson glues the unit together: family + work + the verbs of obligation between them. The grammar payoff is big — object endings (شفته، خبّرني، بساعدها) carry whole pronouns in a single sound, and رح opens the future."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u2-taba3",
+							"ar": "تَبَع",
+							"arPlain": "تبع",
+							"en": "of, belonging to",
+							"he": "של",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "هاد الكتاب تبع سيدو.", "en": "This book is grandpa's." },
+							"audio": "audio/tts/u2/u2-taba3.wav",
+							"audioEx": "audio/tts/u2/u2-taba3-ex.wav",
+							"note": "The dialect's של. Kin fuse possessives directly (أبوي); things take تبع: الشغل تبعي، السيارة تبعتنا."
+						},
+						{
+							"id": "u2-3ind",
+							"ar": "عِنْد",
+							"arPlain": "عند",
+							"en": "to have; at someone's place",
+							"he": "יש לְ־; אצל",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "عندي تلات إخوة وأخت.", "en": "I have three brothers and a sister." },
+							"audio": "audio/tts/u2/u2-3ind.wav",
+							"audioEx": "audio/tts/u2/u2-3ind-ex.wav",
+							"note": "Arabic 'has' nothing — it puts things at you: عندي = יש לי, exactly the אצל logic. نمنا عند تيتا — we slept at grandma's."
+						},
+						{
+							"id": "u2-lazem",
+							"ar": "لازِم",
+							"arPlain": "لازم",
+							"en": "must, have to",
+							"he": "צריך, חייב",
+							"root": "ل ز م",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "لازم أزور خالي بكرا.", "en": "I have to visit my uncle tomorrow." },
+							"audio": "audio/tts/u2/u2-lazem.wav",
+							"audioEx": "audio/tts/u2/u2-lazem-ex.wav",
+							"note": "Frozen form — no conjugation, ever: لازم أروح، لازم نروح. Negative: مش لازم."
+						},
+						{
+							"id": "u2-khabbar",
+							"ar": "خَبَّر",
+							"arPlain": "خبر",
+							"en": "told, informed",
+							"he": "סיפר, הודיע",
+							"root": "خ ب ر",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "خبّرني إذا صار إشي.", "en": "Let me know if anything happens." },
+							"audio": "audio/tts/u2/u2-khabbar.wav",
+							"audioEx": "audio/tts/u2/u2-khabbar-ex.wav",
+							"note": "Your Unit 1 خبر turned into a verb: to news someone. خبّرني — the most common imperative in any Palestinian friendship."
+						},
+						{
+							"id": "u2-saal",
+							"ar": "سَأل",
+							"arPlain": "سأل",
+							"en": "asked",
+							"he": "שאל",
+							"root": "س أ ل",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "שָׁאַל",
+								"note": "š-ʔ-l: سؤال is שאלה. Even the kindness matches — سأل عن someone is לשאול בשלומו."
+							},
+							"example": { "ar": "سألت عنك مبارح.", "en": "I asked about you yesterday." },
+							"audio": "audio/tts/u2/u2-saal.wav",
+							"audioEx": "audio/tts/u2/u2-saal-ex.wav",
+							"note": "سأل عن = asking after someone — care, not interrogation. اسأل عنّي — ask around about me."
+						},
+						{
+							"id": "u2-zar",
+							"ar": "زار",
+							"arPlain": "زار",
+							"en": "visited",
+							"he": "ביקר",
+							"root": "ز و ر",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "זָר",
+								"note": "z-w-r, 'to turn aside.' Arabic: turn aside to someone — visit (زار). Hebrew: the one turned aside — the stranger (זר). Visitor and stranger, one root apart."
+							},
+							"example": { "ar": "زرنا قرايبنا في الخليل.", "en": "We visited our relatives in Hebron." },
+							"audio": "audio/tts/u2/u2-zar.wav",
+							"audioEx": "audio/tts/u2/u2-zar-ex.wav"
+						},
+						{
+							"id": "u2-ishtaq",
+							"ar": "اشْتاق",
+							"arPlain": "اشتاق",
+							"en": "missed (someone)",
+							"he": "התגעגע",
+							"root": "ش و ق",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "תְּשׁוּקָה",
+								"note": "š-w-q — longing. Genesis's תשוקתך and the Palestinian اشتقتلك share a root and an ache."
+							},
+							"example": { "ar": "اشتقتلك يا تيتا!", "en": "I missed you, grandma!" },
+							"audio": "audio/tts/u2/u2-ishtaq.wav",
+							"audioEx": "audio/tts/u2/u2-ishtaq-ex.wav",
+							"note": "اشتقتلك — the ل fuses on: I-missed-to-you. The word every phone call home opens with."
+						},
+						{
+							"id": "u2-sa3ad",
+							"ar": "ساعَد",
+							"arPlain": "ساعد",
+							"en": "helped",
+							"he": "עזר",
+							"root": "س ع د",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "بساعد أبوي بالشغل كل صيف.", "en": "I help my father with work every summer." },
+							"audio": "audio/tts/u2/u2-sa3ad.wav",
+							"audioEx": "audio/tts/u2/u2-sa3ad-ex.wav",
+							"note": "From ساعِد, the forearm — to lend an arm. الله يساعدك — the blessing for anyone mid-task."
+						},
+						{
+							"id": "u2-saraf",
+							"ar": "صَرَف",
+							"arPlain": "صرف",
+							"en": "spent (money)",
+							"he": "הוציא (כסף)",
+							"root": "ص ر ف",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "بصرف نص المعاش عالبيت.", "en": "I spend half the salary on the house." },
+							"audio": "audio/tts/u2/u2-saraf.wav",
+							"audioEx": "audio/tts/u2/u2-saraf-ex.wav",
+							"note": "صرف على = to provide for. The صرّاف gives out money — that's the ATM and the money-changer both."
+						},
+						{
+							"id": "u2-dirbalak",
+							"ar": "دير بالَك",
+							"arPlain": "دير بالك",
+							"en": "take care; watch out",
+							"he": "שים לב; תשמור על עצמך",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "دير بالك عالولاد بالشارع!", "en": "Watch the kids in the street!" },
+							"audio": "audio/tts/u2/u2-dirbalak.wav",
+							"audioEx": "audio/tts/u2/u2-dirbalak-ex.wav",
+							"note": "Literally 'turn your mind.' To a woman: ديري بالك. Farewell version: دير بالك على حالك — take care of yourself."
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Samia's ledger",
+					"titleAr": "دفتر سامية",
+					"brief": "A daughter, sister, employee, and neighbor counts her obligations. Every sentence has an object ending or a duty word — listen once for the story, again for the لازم/بساعدها/بخبره machinery.",
+					"audio": "audio/tts/u2/listen5.wav",
+					"ttsVoice": "Sulafat",
+					"preQuestions": [
+						"How often must she visit her father?",
+						"Where does her little brother live, and how does she keep him in the loop?",
+						"What does she do for the elderly neighbor?"
+					],
+					"transcript": [
+						{ "speaker": "سامية", "ar": "عيلتي كبيرة — وكلهم بدهم إشي مني.", "en": "My family is big — and they all want something from me." },
+						{ "speaker": "سامية", "ar": "أبوي كبير بالعمر، لازم أزوره كل يومين.", "en": "My father is getting old; I have to visit him every other day." },
+						{ "speaker": "سامية", "ar": "وإمي بتسأل عني عالتلفون عشر مرات باليوم.", "en": "And my mother asks after me on the phone ten times a day." },
+						{ "speaker": "سامية", "ar": "أخوي الصغير بدرس برة — بشتاق له كتير.", "en": "My little brother studies abroad — I miss him a lot." },
+						{ "speaker": "سامية", "ar": "بخبره كل إشي بصير بالحارة، أول بأول.", "en": "I tell him everything that happens in the neighborhood, as it happens." },
+						{ "speaker": "سامية", "ar": "الشغل تبعي منيح، بس بصرف نص المعاش على البيت.", "en": "My job is good — but I spend half the salary on the house." },
+						{ "speaker": "سامية", "ar": "وجارتنا الختيارة، بساعدها بالمشاوير.", "en": "And our elderly neighbor — I help her with errands." },
+						{ "speaker": "سامية", "ar": "هيك أنا: بنت، وأخت، وموظفة، وجارة. والحمدلله.", "en": "That's me: a daughter, a sister, an employee, and a neighbor. And thank God." }
+					],
+					"questions": [
+						{
+							"prompt": "Why must she visit her father every other day?",
+							"options": ["كبير بالعمر", "عاطل عن الشغل", "ساكن بعيد", "بشتغل معها"],
+							"answer": 0
+						},
+						{
+							"prompt": "Who studies abroad?",
+							"options": ["أخوها الصغير", "ابنها", "جوزها", "خالها"],
+							"answer": 0,
+							"why": "بدرس برة — and the اشتاق that follows is the unit's emotional center."
+						},
+						{
+							"prompt": "What does she do for the neighbor?",
+							"options": ["بتساعدها بالمشاوير", "بتصرف عليها", "بتخبرها الأخبار", "بتزورها كل ساعة"],
+							"answer": 0
+						},
+						{
+							"prompt": "How much of her salary goes to the house?",
+							"options": ["النص", "الكل", "الربع", "ولا شيكل"],
+							"answer": 0
+						},
+						{
+							"prompt": "How many times a day does her mother call?",
+							"options": ["عشر مرات", "مرة وحدة", "كل يومين", "مية مرة"],
+							"answer": 0,
+							"why": "عشر مرات باليوم — and بتسأل عني is the caring 'asks after me,' your سأل عن in action."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "The duty verbs",
+					"pairs": [
+						{ "ar": "تَبَع", "en": "belonging to", "audio": "audio/tts/u2/u2-taba3.wav" },
+						{ "ar": "لازِم", "en": "must", "audio": "audio/tts/u2/u2-lazem.wav" },
+						{ "ar": "خَبَّر", "en": "told, informed", "audio": "audio/tts/u2/u2-khabbar.wav" },
+						{ "ar": "سَأل", "en": "asked", "audio": "audio/tts/u2/u2-saal.wav" },
+						{ "ar": "زار", "en": "visited", "audio": "audio/tts/u2/u2-zar.wav" },
+						{ "ar": "اشْتاق", "en": "missed (someone)", "audio": "audio/tts/u2/u2-ishtaq.wav" },
+						{ "ar": "دير بالَك", "en": "take care, watch out", "audio": "audio/tts/u2/u2-dirbalak.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "هاد التلفون ____ أخوي.", "en": "This phone is my brother's.", "options": ["تبع", "عند", "إلا"], "answer": 0, "audio": "audio/tts/u2/c5-1.wav" },
+						{ "ar": "____ أساعد إمي بالبيت.", "en": "I have to help my mother at home.", "options": ["لازم", "يمكن", "لسا"], "answer": 0, "audio": "audio/tts/u2/c5-2.wav" },
+						{ "ar": "____ عنك كتير — وينك يا زلمة؟", "en": "I asked about you a lot — where have you been, man?", "options": ["سألت", "صرفت", "نمت"], "answer": 0, "audio": "audio/tts/u2/c5-3.wav" },
+						{ "ar": "____ قرايبنا بالعيد.", "en": "We visited our relatives over the holiday.", "options": ["زرنا", "خبرنا", "صرفنا"], "answer": 0, "audio": "audio/tts/u2/c5-4.wav" },
+						{ "ar": "____ يا ستي عالدرج!", "en": "Careful on the stairs, grandma!", "options": ["ديري بالك", "يا ريت", "معلش"], "answer": 0, "audio": "audio/tts/u2/c5-5.wav" },
+						{ "ar": "اشتقت____ كتير يا أخوي.", "en": "I missed you so much, brother.", "options": ["لك", "معك", "منك"], "answer": 0, "audio": "audio/tts/u2/c5-6.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "One sound, whole pronoun",
+					"points": [
+						{
+							"ar": "شُفْتُه — خَبَّرني — بَساعِدها",
+							"explanation": "Objects fuse onto the verb's tail: شفته I saw him, خبّرني he told me, بساعدها I help her, بزورهم I visit them. The pronoun is one unstressed sound — which is why untrained ears lose track of who did what to whom. Train here.",
+							"examples": [
+								{ "ar": "شفته مبارح بالسوق.", "en": "I saw him yesterday at the market.", "audio": "audio/tts/u2/g5-1-1.wav" },
+								{ "ar": "خبّرني عن العزومة بكير.", "en": "Tell me about the dinner early on.", "audio": "audio/tts/u2/g5-1-2.wav" },
+								{ "ar": "بزورهم كل جمعة بعد الدوام.", "en": "I visit them every Friday after work.", "audio": "audio/tts/u2/g5-1-3.wav" }
+							]
+						},
+						{
+							"ar": "رح + فعل",
+							"explanation": "The future is رح + bare verb: رح أزور I'll visit, رح نشوف we'll see. It's quick and breathy — sometimes just حـ: حنشوف. You met its negative in the dinner secret: مش رح أقولك.",
+							"examples": [
+								{ "ar": "رح أزور سيدو بكرا الصبح.", "en": "I'll visit grandpa tomorrow morning.", "audio": "audio/tts/u2/g5-2-1.wav" },
+								{ "ar": "مين رح يساعدنا بالعزومة؟", "en": "Who's going to help us with the dinner?", "audio": "audio/tts/u2/g5-2-2.wav" },
+								{ "ar": "رح نخلص قريب، إن شاء الله.", "en": "We'll finish soon, hopefully.", "audio": "audio/tts/u2/g5-2-3.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "سَأل",
+							"he": "שָׁאַל",
+							"kind": "true",
+							"story": "š-ʔ-l, to ask. שאלה and سؤال are the same noun; and both cultures ask after people, not just about facts — לשאול בשלומו is سأل عنه exactly."
+						},
+						{
+							"ar": "اشْتاق",
+							"he": "תְּשׁוּקָה",
+							"kind": "true",
+							"story": "š-w-q is longing. Hebrew gave it to desire — וְאֵלַיִךְ תְּשׁוּקָתוֹ — and Palestinian gave it to the phone call home: اشتقتلك. One root, both aches."
+						},
+						{
+							"ar": "زار",
+							"he": "זָר",
+							"kind": "shifted",
+							"story": "z-w-r, to turn aside. In Arabic you turn aside toward someone — a visit. In Hebrew the one who turned aside stayed outside — a stranger. The visitor and the stranger are one root apart; the difference is whether the door opens."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 6,
+			"title": "Review & free listening",
+			"titleAr": "مراجعة واستماع حر",
+			"canDo": "I can follow real people telling family stories — how they met, who introduced them, how old they were — at street speed.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "The family tree, the working day, the clock — now hear them braided together by strangers in Ramallah telling Corey how they met their spouses. جوز، مرة، قرايب، سنين — every answer runs on this unit's words. You will miss plenty; catch the skeleton."
+				},
+				{
+					"type": "quiz",
+					"title": "Hear it, know it",
+					"questions": [
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u2/u2-joz.wav",
+							"options": ["husband", "wife", "uncle", "neighbor"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u2/u2-khal.wav",
+							"options": ["uncle — mother's side", "uncle — father's side", "grandpa", "son-in-law"],
+							"answer": 0,
+							"why": "خال = mother's brother. The axis question — forever."
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u2/u2-dawam.wav",
+							"options": ["work hours", "salary", "errand", "day off"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u2/u2-mishwar.wav",
+							"options": ["errand, quick outing", "salary", "dinner party", "shift"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u2/u2-battal.wav",
+							"options": ["bad; no good", "great", "busy", "tired"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u2/u2-nuss.wav",
+							"options": ["half", "quarter", "hundred", "eleven"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What is the speaker doing?",
+							"audio": "audio/tts/u2/u2-ishtaq.wav",
+							"options": ["missing someone", "asking", "visiting", "helping"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the phrase. What is the speaker doing?",
+							"audio": "audio/tts/u2/u2-dirbalak.wav",
+							"options": ["warning you to be careful", "consoling you", "hoping", "agreeing"],
+							"answer": 0
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "The unit in eight pairs",
+					"pairs": [
+						{ "ar": "تيتا", "en": "grandma", "audio": "audio/tts/u2/u2-teta.wav" },
+						{ "ar": "معاش", "en": "salary", "audio": "audio/tts/u2/u2-ma3ash.wav" },
+						{ "ar": "تعبان", "en": "tired", "audio": "audio/tts/u2/u2-ta3ban.wav" },
+						{ "ar": "عزومة", "en": "dinner invitation", "audio": "audio/tts/u2/u2-3azumeh.wav" },
+						{ "ar": "خمسين", "en": "50", "audio": "audio/tts/u2/u2-khamsin.wav" },
+						{ "ar": "إلا ربع", "en": "quarter to (:45)" },
+						{ "ar": "ساعد", "en": "helped", "audio": "audio/tts/u2/u2-sa3ad.wav" },
+						{ "ar": "قرايب", "en": "relatives", "audio": "audio/tts/u2/u2-qarayib.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "The unit in six gaps",
+					"items": [
+						{ "ar": "جوز أختي ____ في المستشفى.", "en": "My sister's husband works at the hospital.", "options": ["بشتغل", "بنام", "بصرف"], "answer": 0, "audio": "audio/tts/u2/c6-1.wav" },
+						{ "ar": "عمي إخو أبوي، و____ إخو إمي.", "en": "My ʕamm is my father's brother, and my khāl is my mother's brother.", "options": ["خالي", "جاري", "سيدو"], "answer": 0, "audio": "audio/tts/u2/c6-2.wav" },
+						{ "ar": "الدوام من سبعة ____ ربع لتلاتة.", "en": "The shift runs from quarter to seven until three.", "options": ["إلا", "و", "نص"], "answer": 0, "audio": "audio/tts/u2/c6-3.wav" },
+						{ "ar": "صار لي ____ سنة بهالشغل.", "en": "I've been in this job fifteen years.", "options": ["خمسطعش", "خمسة وخمسين", "مية"], "answer": 0, "audio": "audio/tts/u2/c6-4.wav" },
+						{ "ar": "____ نص المعاش على العيلة.", "en": "I spend half the salary on the family.", "options": ["بصرف", "بسأل", "بزور"], "answer": 0, "audio": "audio/tts/u2/c6-5.wav" },
+						{ "ar": "لسا ما ____ من الشغل.", "en": "He hasn't come back from work yet.", "options": ["رجعش", "رجع", "برجع"], "answer": 0, "audio": "audio/tts/u2/c6-6.wav" }
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Real street: how did you meet your spouse?",
+					"titleAr": "استماع حر — كيف تعرفت على جوزك؟",
+					"brief": "The Ask Project again — Ramallah and around, one question: how did you meet your husband or wife? The answers run on exactly this unit's machinery: قرايب who introduced them, جامعة or شغل where they met, خطبنا (we got engaged), and ages and years flying by. Watch a few minutes; replay any answer that almost lands.",
+					"youtubeId": "rLfkPLEzzPo",
+					"preQuestions": [
+						"Family-arranged or chance? Count who says قرايب/عيلة introduced them vs who met بالجامعة أو بالشغل.",
+						"Listen for خطب/خطبنا — 'got engaged.' It marks the turn in almost every story.",
+						"Ages and years fly past: catch three numbers (عمري كان...، من عشر سنين...) and write them down."
+					],
+					"transcript": [],
+					"questions": []
+				}
+			]
+		}
+	]
+}

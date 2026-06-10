@@ -1,10 +1,23 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import type { QuizQuestion } from '$lib/types';
+	import { permutation } from '$lib/shuffle';
 	import AudioButton from './AudioButton.svelte';
 
 	let { questions }: { questions: QuizQuestion[] } = $props();
 
+	// picked stores the ORIGINAL option index; display order is a per-question
+	// permutation, randomized on the client after mount (prerender-safe).
 	let picked = $state<Record<number, number>>({});
+	let order = $state<number[][]>([]);
+
+	onMount(() => {
+		order = questions.map((q) => permutation(q.options.length));
+	});
+
+	function displayOrder(qi: number, q: QuizQuestion): number[] {
+		return order[qi] ?? q.options.map((_, i) => i);
+	}
 
 	function isArabic(s: string) {
 		return /[؀-ۿ]/.test(s);
@@ -27,7 +40,8 @@
 				{/if}
 			</div>
 			<div class="mt-3 grid gap-2 sm:grid-cols-2">
-				{#each q.options as opt, oi}
+				{#each displayOrder(qi, q) as oi (oi)}
+					{@const opt = q.options[oi]}
 					{@const answered = picked[qi] !== undefined}
 					{@const state = !answered
 						? 'idle'
