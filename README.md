@@ -28,4 +28,4 @@ The deployed site is fully static — no keys, no backend, progress lives in loc
 
 ## Status
 
-Phase 0 (vertical slice): Unit 1 lessons 1–3 playable end-to-end, SRS review queue, trajectory map, Audio Lab naturalness gate with five generated samples awaiting the learner's verdict.
+Phase 0+ : **Unit 1 complete** — all 6 lessons playable end-to-end (50 vocab items, 3 dialogues, 2 monologues, 1 real Ask Project street clip), audio on every word, example sentence, dialogue line, grammar example, and cloze answer (~190 files, slow learner pace), global 1×/0.8× speed toggle, SRS review queue with audio, trajectory map, Audio Lab gate. Next: word-bank onboarding triage + Unit 2.

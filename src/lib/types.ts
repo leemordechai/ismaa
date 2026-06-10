@@ -19,6 +19,7 @@ export interface VocabItem {
 	cognate?: CognateNote;
 	example: { ar: string; en: string };
 	audio?: string; // path under /audio, tts-generated paths start with audio/tts/
+	audioEx?: string; // example-sentence audio
 	note?: string;
 }
 
@@ -26,6 +27,7 @@ export interface DialogueLine {
 	speaker: string;
 	ar: string;
 	en: string;
+	audio?: string; // per-line audio
 }
 
 export interface QuizQuestion {
@@ -42,6 +44,7 @@ export interface ClozeItem {
 	en: string;
 	options: string[];
 	answer: number;
+	audio?: string; // the completed sentence, revealed after answering
 }
 
 export interface CognateEntry {
@@ -54,7 +57,7 @@ export interface CognateEntry {
 export interface GrammarPoint {
 	ar: string;
 	explanation: string;
-	examples: { ar: string; en: string }[];
+	examples: { ar: string; en: string; audio?: string }[];
 }
 
 export type Block =
@@ -67,6 +70,8 @@ export type Block =
 			situation: string;
 			lines: DialogueLine[];
 			audio?: string;
+			// TTS metadata: maps Arabic speaker names to Latin labels + Gemini voices
+			ttsVoices?: Record<string, { label: string; voice: string }>;
 	  }
 	| {
 			type: 'listen';
@@ -74,6 +79,7 @@ export type Block =
 			titleAr: string;
 			brief: string;
 			audio?: string;
+			ttsVoice?: string;
 			youtubeId?: string;
 			preQuestions: string[];
 			transcript: DialogueLine[];

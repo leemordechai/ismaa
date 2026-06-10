@@ -7,6 +7,7 @@ interface Stored {
 	cards: Record<string, CardState>;
 	audioVerdict: AudioVerdict;
 	lastStudied: number | null;
+	slowAudio?: boolean;
 }
 
 const KEY = 'ismaa-progress-v1';
@@ -29,6 +30,7 @@ class Progress {
 	cards = $state<Record<string, CardState>>({});
 	audioVerdict = $state<AudioVerdict>('pending');
 	lastStudied = $state<number | null>(null);
+	slowAudio = $state(false);
 
 	constructor() {
 		const s = load();
@@ -36,6 +38,7 @@ class Progress {
 		this.cards = s.cards;
 		this.audioVerdict = s.audioVerdict;
 		this.lastStudied = s.lastStudied;
+		this.slowAudio = s.slowAudio ?? false;
 	}
 
 	private save() {
@@ -44,9 +47,15 @@ class Progress {
 			lessonsDone: this.lessonsDone,
 			cards: this.cards,
 			audioVerdict: this.audioVerdict,
-			lastStudied: this.lastStudied
+			lastStudied: this.lastStudied,
+			slowAudio: this.slowAudio
 		};
 		localStorage.setItem(KEY, JSON.stringify(s));
+	}
+
+	toggleSlowAudio() {
+		this.slowAudio = !this.slowAudio;
+		this.save();
 	}
 
 	lessonKey(unitId: string, n: number) {

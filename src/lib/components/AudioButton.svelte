@@ -26,6 +26,9 @@
 		}
 		stopCurrent?.();
 		const audio = new Audio(`${base}/${src}`);
+		// Global slow mode: 0.8× with pitch preserved (modern Chromium/Safari default).
+		audio.playbackRate = progress.slowAudio ? 0.8 : 1;
+		audio.preservesPitch = true;
 		current = audio;
 		const stop = () => {
 			audio.pause();

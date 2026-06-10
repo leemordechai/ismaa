@@ -110,7 +110,7 @@
 	{#if done}
 		<div class="flex flex-wrap items-center gap-4">
 			<span class="bg-olive text-paper inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium">
-				✓ Lesson complete — {data.vocabIds.length} words in your review queue
+				✓ Lesson complete{data.vocabIds.length ? ` — ${data.vocabIds.length} words in your review queue` : ''}
 			</span>
 			{#if nextLesson}
 				<a
@@ -134,8 +134,12 @@
 			onclick={complete}
 			class="bg-olive-deep text-paper hover:bg-olive cursor-pointer rounded-full px-7 py-3 text-sm font-medium shadow-[0_4px_16px_-4px_rgba(92,107,60,0.5)] transition-all active:scale-[0.98]"
 		>
-			Finish lesson — queue {data.vocabIds.length} words for review
+			{data.vocabIds.length
+				? `Finish lesson — queue ${data.vocabIds.length} words for review`
+				: 'Finish lesson'}
 		</button>
-		<p class="text-ink-faint mt-2 text-xs">New words enter spaced repetition; they'll resurface tomorrow.</p>
+		{#if data.vocabIds.length}
+			<p class="text-ink-faint mt-2 text-xs">New words enter spaced repetition; they'll resurface tomorrow.</p>
+		{/if}
 	{/if}
 </div>

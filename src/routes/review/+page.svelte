@@ -82,7 +82,12 @@
 			<div class="border-line mt-8 border-t pt-6 text-center">
 				<p class="text-xl font-medium">{current.en}</p>
 				<p class="font-he text-ink-soft mt-1 text-lg" dir="rtl">{current.he}</p>
-				<p class="ar-text mt-4 text-xl" dir="rtl">{current.example.ar}</p>
+				<div class="mt-4 flex items-center justify-center gap-3">
+					{#if current.audioEx}
+						<AudioButton src={current.audioEx} size="sm" label="Hear the example" />
+					{/if}
+					<p class="ar-text text-xl" dir="rtl">{current.example.ar}</p>
+				</div>
 				<p class="text-ink-soft mt-1 text-sm">{current.example.en}</p>
 			</div>
 			<div class="mt-8 grid grid-cols-3 gap-3">

@@ -6,7 +6,7 @@
 	"titleAr": "شو صار؟",
 	"mission": "The frame everything else hangs on: asking what happened, following the answer, and reacting like a native listener. Everyday Arabic — but at real speed, about real things.",
 	"cover": "img/covers/unit-01.png",
-	"registerMix": { "street": 80, "news": 0, "shared": 20 },
+	"registerMix": { "street": 80, "news": 5, "shared": 15 },
 	"sources": [
 		"Forms cross-checked against Madrasa dictionary and Living Arabic Project (Levantine)",
 		"Urban Palestinian koine (Jerusalem/Ramallah); native-speaker review pending — low-confidence items avoided"
@@ -38,6 +38,7 @@
 							"register": "street",
 							"example": { "ar": "شو صار اليوم؟", "en": "What happened today?" },
 							"audio": "audio/tts/u1/u1-sar.wav",
+							"audioEx": "audio/tts/u1/u1-sar-ex.wav",
 							"note": "Double duty: events happen (صار إشي) and things become (صار غالي — it got expensive)."
 						},
 						{
@@ -55,7 +56,8 @@
 								"note": "Same Semitic root, same meaning. A freebie — you already own this verb."
 							},
 							"example": { "ar": "سمعت شو صار؟", "en": "Did you hear what happened?" },
-							"audio": "audio/tts/u1/u1-simi3.wav"
+							"audio": "audio/tts/u1/u1-simi3.wav",
+							"audioEx": "audio/tts/u1/u1-simi3-ex.wav"
 						},
 						{
 							"id": "u1-shaf",
@@ -68,6 +70,7 @@
 							"register": "street",
 							"example": { "ar": "شفت الأخبار مبارح؟", "en": "Did you see the news yesterday?" },
 							"audio": "audio/tts/u1/u1-shaf.wav",
+							"audioEx": "audio/tts/u1/u1-shaf-ex.wav",
 							"note": "MSA رأى is almost never said on the street — it's شاف everywhere in the Levant."
 						},
 						{
@@ -85,7 +88,8 @@
 								"note": "Sounds like Hebrew חיכה 'waited' — unrelated. حكى is talking, not waiting."
 							},
 							"example": { "ar": "حكى معي عن الوضع.", "en": "He talked to me about the situation." },
-							"audio": "audio/tts/u1/u1-haka.wav"
+							"audio": "audio/tts/u1/u1-haka.wav",
+							"audioEx": "audio/tts/u1/u1-haka-ex.wav"
 						},
 						{
 							"id": "u1-khabar",
@@ -103,6 +107,7 @@
 							},
 							"example": { "ar": "في خبر مهم اليوم.", "en": "There's an important piece of news today." },
 							"audio": "audio/tts/u1/u1-khabar.wav",
+							"audioEx": "audio/tts/u1/u1-khabar-ex.wav",
 							"note": "شو أخبارك؟ — literally 'what's your news?' — is just 'how are you?'"
 						},
 						{
@@ -115,6 +120,7 @@
 							"register": "street",
 							"example": { "ar": "عنجد؟ مش معقول!", "en": "Seriously? Unbelievable!" },
 							"audio": "audio/tts/u1/u1-3anjad.wav",
+							"audioEx": "audio/tts/u1/u1-3anjad-ex.wav",
 							"note": "From عن جد — 'in earnest.' The all-purpose 'wait, really?'"
 						},
 						{
@@ -131,7 +137,8 @@
 								"note": "Israeli slang borrowed it wholesale. You already use this word — now meet it at home."
 							},
 							"example": { "ar": "والله ما سمعت إشي.", "en": "I swear I didn't hear anything." },
-							"audio": "audio/tts/u1/u1-wallah.wav"
+							"audio": "audio/tts/u1/u1-wallah.wav",
+							"audioEx": "audio/tts/u1/u1-wallah-ex.wav"
 						},
 						{
 							"id": "u1-ishi",
@@ -143,6 +150,7 @@
 							"register": "street",
 							"example": { "ar": "ما صار إشي، اهدا.", "en": "Nothing happened, calm down." },
 							"audio": "audio/tts/u1/u1-ishi.wav",
+							"audioEx": "audio/tts/u1/u1-ishi-ex.wav",
 							"note": "Palestinian shibboleth — Lebanese say شي, Egyptians حاجة. From MSA شيء."
 						},
 						{
@@ -160,7 +168,8 @@
 								"note": "Root ḥ-r-m — the sacred/forbidden zone. Hebrew kept the ban (חרם); Arabic حرام 'forbidden' softened into an exclamation of pity."
 							},
 							"example": { "ar": "يا حرام، خسروا بيتهم.", "en": "What a pity — they lost their house." },
-							"audio": "audio/tts/u1/u1-ya7aram.wav"
+							"audio": "audio/tts/u1/u1-ya7aram.wav",
+							"audioEx": "audio/tts/u1/u1-ya7aram-ex.wav"
 						},
 						{
 							"id": "u1-heik",
@@ -172,6 +181,7 @@
 							"register": "street",
 							"example": { "ar": "ليش هيك؟", "en": "Why is it like this? / Why so?" },
 							"audio": "audio/tts/u1/u1-heik.wav",
+							"audioEx": "audio/tts/u1/u1-heik-ex.wav",
 							"note": "هيك الوضع — 'that's how things are.' You'll hear it forty times a day."
 						}
 					]
@@ -182,18 +192,22 @@
 					"titleAr": "سمعتي شو صار؟",
 					"situation": "Samer runs into Layla on the street. Something happened downtown this morning.",
 					"audio": "audio/tts/u1/d1.wav",
+					"ttsVoices": {
+						"سامر": { "label": "Samer", "voice": "Algieba" },
+						"ليلى": { "label": "Layla", "voice": "Sulafat" }
+					},
 					"lines": [
-						{ "speaker": "سامر", "ar": "مرحبا ليلى، شو أخبارك؟", "en": "Hi Layla, how are you?" },
-						{ "speaker": "ليلى", "ar": "أهلين سامر! الحمدلله. اسمع، سمعت شو صار اليوم؟", "en": "Hey Samer! Fine, thank God. Listen — did you hear what happened today?" },
-						{ "speaker": "سامر", "ar": "لأ، شو صار؟", "en": "No — what happened?" },
-						{ "speaker": "ليلى", "ar": "في مظاهرة كبيرة في وسط البلد، الناس كلها نزلت عالشارع.", "en": "There's a big demonstration downtown — everyone took to the street." },
-						{ "speaker": "سامر", "ar": "عنجد؟ ليش؟", "en": "Seriously? Why?" },
-						{ "speaker": "ليلى", "ar": "بسبب الأسعار. كل إشي صار غالي.", "en": "Because of the prices. Everything's gotten expensive." },
-						{ "speaker": "سامر", "ar": "والله صحيح. وإيمتى صارت المظاهرة؟", "en": "That's true, wallah. And when was the demonstration?" },
-						{ "speaker": "ليلى", "ar": "اليوم الصبح، حوالي الساعة عشرة.", "en": "This morning, around ten." },
-						{ "speaker": "سامر", "ar": "ومين كان هناك؟", "en": "And who was there?" },
-						{ "speaker": "ليلى", "ar": "شباب، كبار، عيلات كاملة... كل الناس.", "en": "Young people, old people, whole families... everyone." },
-						{ "speaker": "سامر", "ar": "هيك الوضع صعب عالكل. بدي أشوف الأخبار المسا.", "en": "Yeah — things are hard for everyone. I'll watch the news tonight." }
+						{ "speaker": "سامر", "ar": "مرحبا ليلى، شو أخبارك؟", "en": "Hi Layla, how are you?", "audio": "audio/tts/u1/d1-l01.wav" },
+						{ "speaker": "ليلى", "ar": "أهلين سامر! الحمدلله. اسمع، سمعت شو صار اليوم؟", "en": "Hey Samer! Fine, thank God. Listen — did you hear what happened today?", "audio": "audio/tts/u1/d1-l02.wav" },
+						{ "speaker": "سامر", "ar": "لأ، شو صار؟", "en": "No — what happened?", "audio": "audio/tts/u1/d1-l03.wav" },
+						{ "speaker": "ليلى", "ar": "في مظاهرة كبيرة في وسط البلد، الناس كلها نزلت عالشارع.", "en": "There's a big demonstration downtown — everyone took to the street.", "audio": "audio/tts/u1/d1-l04.wav" },
+						{ "speaker": "سامر", "ar": "عنجد؟ ليش؟", "en": "Seriously? Why?", "audio": "audio/tts/u1/d1-l05.wav" },
+						{ "speaker": "ليلى", "ar": "بسبب الأسعار. كل إشي صار غالي.", "en": "Because of the prices. Everything's gotten expensive.", "audio": "audio/tts/u1/d1-l06.wav" },
+						{ "speaker": "سامر", "ar": "والله صحيح. وإيمتى صارت المظاهرة؟", "en": "That's true, wallah. And when was the demonstration?", "audio": "audio/tts/u1/d1-l07.wav" },
+						{ "speaker": "ليلى", "ar": "اليوم الصبح، حوالي الساعة عشرة.", "en": "This morning, around ten.", "audio": "audio/tts/u1/d1-l08.wav" },
+						{ "speaker": "سامر", "ar": "ومين كان هناك؟", "en": "And who was there?", "audio": "audio/tts/u1/d1-l09.wav" },
+						{ "speaker": "ليلى", "ar": "شباب، كبار، عيلات كاملة... كل الناس.", "en": "Young people, old people, whole families... everyone.", "audio": "audio/tts/u1/d1-l10.wav" },
+						{ "speaker": "سامر", "ar": "هيك الوضع صعب عالكل. بدي أشوف الأخبار المسا.", "en": "Yeah — things are hard for everyone. I'll watch the news tonight.", "audio": "audio/tts/u1/d1-l11.wav" }
 					]
 				},
 				{
@@ -233,17 +247,17 @@
 							"ar": "سِمِع — سْمِعِت — سَمَعتي — سِمْعوا",
 							"explanation": "Past-tense endings are your ear's anchors: -it (I/you m.), -ti (you f.), -u (they). They fly by in speech — train on them now and half of every story unlocks.",
 							"examples": [
-								{ "ar": "سمعتي شو صار؟", "en": "Did you (f.) hear what happened?" },
-								{ "ar": "سمعنا صوت قوي الصبح.", "en": "We heard a loud sound this morning." },
-								{ "ar": "الناس سمعوا الخبر ونزلوا.", "en": "People heard the news and went out." }
+								{ "ar": "سمعتي شو صار؟", "en": "Did you (f.) hear what happened?", "audio": "audio/tts/u1/g1-1-1.wav" },
+								{ "ar": "سمعنا صوت قوي الصبح.", "en": "We heard a loud sound this morning.", "audio": "audio/tts/u1/g1-1-2.wav" },
+								{ "ar": "الناس سمعوا الخبر ونزلوا.", "en": "People heard the news and went out.", "audio": "audio/tts/u1/g1-1-3.wav" }
 							]
 						},
 						{
 							"ar": "صار + اسم/صفة",
 							"explanation": "صار before a noun or adjective means 'became': the price-protest sentence كل إشي صار غالي is the pattern. Before an event, it means 'happened'. Context decides — and context comes by ear.",
 							"examples": [
-								{ "ar": "الوضع صار أصعب.", "en": "The situation got harder." },
-								{ "ar": "شو صار بعدين؟", "en": "What happened next?" }
+								{ "ar": "الوضع صار أصعب.", "en": "The situation got harder.", "audio": "audio/tts/u1/g1-2-1.wav" },
+								{ "ar": "شو صار بعدين؟", "en": "What happened next?", "audio": "audio/tts/u1/g1-2-2.wav" }
 							]
 						}
 					]
@@ -252,10 +266,10 @@
 					"type": "cloze",
 					"title": "Fill the gap",
 					"items": [
-						{ "ar": "____ صار في وسط البلد؟", "en": "What happened downtown?", "options": ["شو", "وين", "مين"], "answer": 0 },
-						{ "ar": "ما سمعت ____ عن المظاهرة.", "en": "I didn't hear anything about the demonstration.", "options": ["إشي", "هيك", "خبر"], "answer": 0 },
-						{ "ar": "كل إشي صار ____.", "en": "Everything got expensive.", "options": ["غالي", "كبير", "قديم"], "answer": 0 },
-						{ "ar": "____ ما سمعت الخبر؟ عنجد؟", "en": "You seriously didn't hear the news? Really?", "options": ["والله", "هيك", "حرام"], "answer": 0 }
+						{ "ar": "____ صار في وسط البلد؟", "en": "What happened downtown?", "options": ["شو", "وين", "مين"], "answer": 0, "audio": "audio/tts/u1/c1-1.wav" },
+						{ "ar": "ما سمعت ____ عن المظاهرة.", "en": "I didn't hear anything about the demonstration.", "options": ["إشي", "هيك", "خبر"], "answer": 0, "audio": "audio/tts/u1/c1-2.wav" },
+						{ "ar": "كل إشي صار ____.", "en": "Everything got expensive.", "options": ["غالي", "كبير", "قديم"], "answer": 0, "audio": "audio/tts/u1/c1-3.wav" },
+						{ "ar": "____ ما سمعت الخبر؟ عنجد؟", "en": "You seriously didn't hear the news? Really?", "options": ["والله", "هيك", "حرام"], "answer": 0, "audio": "audio/tts/u1/c1-4.wav" }
 					]
 				},
 				{
@@ -309,6 +323,7 @@
 							"register": "shared",
 							"example": { "ar": "على أي قناة الأخبار؟", "en": "What channel is the news on?" },
 							"audio": "audio/tts/u1/u1-qanat.wav",
+							"audioEx": "audio/tts/u1/u1-qanat-ex.wav",
 							"note": "Also a Telegram/YouTube channel — same word carries old and new media."
 						},
 						{
@@ -322,6 +337,7 @@
 							"register": "shared",
 							"example": { "ar": "قريت الخبر على موقع فلسطيني.", "en": "I read the news on a Palestinian site." },
 							"audio": "audio/tts/u1/u1-mawqi3.wav",
+							"audioEx": "audio/tts/u1/u1-mawqi3-ex.wav",
 							"note": "Double duty in news language: a website — and a physical site (موقع القصف, the site of the strike)."
 						},
 						{
@@ -334,6 +350,7 @@
 							"register": "shared",
 							"example": { "ar": "أبوي بقرا الجريدة كل صبح.", "en": "My father reads the paper every morning." },
 							"audio": "audio/tts/u1/u1-jarideh.wav",
+							"audioEx": "audio/tts/u1/u1-jarideh-ex.wav",
 							"note": "Plural جرايد."
 						},
 						{
@@ -346,7 +363,8 @@
 							"pos": "noun",
 							"register": "shared",
 							"example": { "ar": "الصحفي عمل مقابلة مع العيلة.", "en": "The journalist did an interview with the family." },
-							"audio": "audio/tts/u1/u1-sahafi.wav"
+							"audio": "audio/tts/u1/u1-sahafi.wav",
+							"audioEx": "audio/tts/u1/u1-sahafi-ex.wav"
 						},
 						{
 							"id": "u1-murasil",
@@ -359,6 +377,7 @@
 							"register": "news",
 							"example": { "ar": "مراسل الجزيرة حكى من غزة.", "en": "Al Jazeera's correspondent reported from Gaza." },
 							"audio": "audio/tts/u1/u1-murasil.wav",
+							"audioEx": "audio/tts/u1/u1-murasil-ex.wav",
 							"note": "Root ر-س-ل 'send' — the one who is sent. Compare رسالة, a message."
 						},
 						{
@@ -372,6 +391,7 @@
 							"register": "street",
 							"example": { "ar": "هاد مش خبر، هاي إشاعة.", "en": "That's not news — that's a rumor." },
 							"audio": "audio/tts/u1/u1-isha3a.wav",
+							"audioEx": "audio/tts/u1/u1-isha3a-ex.wav",
 							"note": "Semantic twin of שמועה but a different root: ش-ي-ع is 'to spread.' A rumor is a spread-thing in Arabic, a heard-thing in Hebrew."
 						},
 						{
@@ -389,7 +409,8 @@
 								"note": "Root ṣ-d-q, truth. Arabic: صدّق believe, صديق friend (the true one), صادق honest. Hebrew took it to justice — צדק, צדיק."
 							},
 							"example": { "ar": "ما بصدّق كل إشي بسمعه.", "en": "I don't believe everything I hear." },
-							"audio": "audio/tts/u1/u1-saddaq.wav"
+							"audio": "audio/tts/u1/u1-saddaq.wav",
+							"audioEx": "audio/tts/u1/u1-saddaq-ex.wav"
 						},
 						{
 							"id": "u1-kizib",
@@ -406,7 +427,8 @@
 								"note": "k-ḏ-b = כ-ז-ב, same root, same meaning. Hebrew אַכְזָבָה 'disappointment' is family too — a hope that lied."
 							},
 							"example": { "ar": "هاد الحكي كله كذب.", "en": "That talk is all lies." },
-							"audio": "audio/tts/u1/u1-kizib.wav"
+							"audio": "audio/tts/u1/u1-kizib.wav",
+							"audioEx": "audio/tts/u1/u1-kizib-ex.wav"
 						},
 						{
 							"id": "u1-taba3",
@@ -418,7 +440,8 @@
 							"pos": "verb",
 							"register": "shared",
 							"example": { "ar": "بتابع الأخبار عالتلفون.", "en": "I follow the news on my phone." },
-							"audio": "audio/tts/u1/u1-taba3.wav"
+							"audio": "audio/tts/u1/u1-taba3.wav",
+							"audioEx": "audio/tts/u1/u1-taba3-ex.wav"
 						},
 						{
 							"id": "u1-sahih",
@@ -431,6 +454,7 @@
 							"register": "shared",
 							"example": { "ar": "الخبر طلع صحيح.", "en": "The news turned out to be true." },
 							"audio": "audio/tts/u1/u1-sahih.wav",
+							"audioEx": "audio/tts/u1/u1-sahih-ex.wav",
 							"note": "Sentence-initial صحيح، ... means 'by the way' — صحيح، سمعت شو صار؟"
 						}
 					]
@@ -439,8 +463,9 @@
 					"type": "listen",
 					"title": "How Umm Mohammad follows the news",
 					"titleAr": "كيف بتتابع أم محمد الأخبار",
-					"brief": "One speaker, natural pace. Listen twice before opening the transcript. A woman describes her morning news routine — and her daughter's media literacy lecture.",
+					"brief": "One speaker, calm pace. Listen twice before opening the transcript. A woman describes her morning news routine — and her daughter's media literacy lecture.",
 					"audio": "audio/tts/u1/listen2.wav",
+					"ttsVoice": "Sulafat",
 					"preQuestions": [
 						"How many different news sources does she mention?",
 						"Who in the family prefers the newspaper?",
@@ -489,9 +514,9 @@
 							"ar": "بـ + فعل مضارع",
 							"explanation": "بصحى، بفتح، بشوف، بسمع، بتابع — the b- prefix marks the habitual present. It's the sound of someone describing their routine. Strip it (أصحى، أفتح) and you have the bare form used after بدّي and لازم.",
 							"examples": [
-								{ "ar": "بتابع الأخبار كل يوم.", "en": "I follow the news every day." },
-								{ "ar": "بنتي بتقرا كتير.", "en": "My daughter reads a lot." },
-								{ "ar": "بدي أتابع صحفيين جداد.", "en": "I want to follow new journalists. (no b- after بدي)" }
+								{ "ar": "بتابع الأخبار كل يوم.", "en": "I follow the news every day.", "audio": "audio/tts/u1/g2-1-1.wav" },
+								{ "ar": "بنتي بتقرا كتير.", "en": "My daughter reads a lot.", "audio": "audio/tts/u1/g2-1-2.wav" },
+								{ "ar": "بدي أتابع صحفيين جداد.", "en": "I want to follow new journalists. (no b- after بدي)", "audio": "audio/tts/u1/g2-1-3.wav" }
 							]
 						}
 					]
@@ -542,6 +567,7 @@
 							"register": "street",
 							"example": { "ar": "مش معقول شو صار اليوم!", "en": "Unbelievable what happened today!" },
 							"audio": "audio/tts/u1/u1-mish-ma3qul.wav",
+							"audioEx": "audio/tts/u1/u1-mish-ma3qul-ex.wav",
 							"note": "From عقل, mind — 'it doesn't fit in the mind.' Works for horror and for delight."
 						},
 						{
@@ -553,7 +579,8 @@
 							"pos": "adv",
 							"register": "shared",
 							"example": { "ar": "طبعًا سمعت، كل البلد سمعت.", "en": "Of course I heard — the whole town heard." },
-							"audio": "audio/tts/u1/u1-tab3an.wav"
+							"audio": "audio/tts/u1/u1-tab3an.wav",
+							"audioEx": "audio/tts/u1/u1-tab3an-ex.wav"
 						},
 						{
 							"id": "u1-akid",
@@ -565,6 +592,7 @@
 							"register": "street",
 							"example": { "ar": "أكيد الخبر صحيح؟", "en": "Are you sure the news is true?" },
 							"audio": "audio/tts/u1/u1-akid.wav",
+							"audioEx": "audio/tts/u1/u1-akid-ex.wav",
 							"note": "Statement and question in one word — tone does the work. أكيد. / أكيد؟"
 						},
 						{
@@ -581,7 +609,8 @@
 								"note": "Borrowed into Israeli slang as-is. From ما عليه شي — 'nothing's on it.'"
 							},
 							"example": { "ar": "معلش، مش مشكلة.", "en": "Never mind — not a problem." },
-							"audio": "audio/tts/u1/u1-ma3lish.wav"
+							"audio": "audio/tts/u1/u1-ma3lish.wav",
+							"audioEx": "audio/tts/u1/u1-ma3lish-ex.wav"
 						},
 						{
 							"id": "u1-allah-yustur",
@@ -594,6 +623,7 @@
 							"register": "street",
 							"example": { "ar": "الله يستر من اللي جاي.", "en": "God protect us from what's coming." },
 							"audio": "audio/tts/u1/u1-allah-yustur.wav",
+							"audioEx": "audio/tts/u1/u1-allah-yustur-ex.wav",
 							"note": "Exact functional twin of השם ישמור. The worry-formula before news you don't want."
 						},
 						{
@@ -610,7 +640,8 @@
 								"note": "Another full borrowing into Hebrew slang. Covers everything from sincere prayer to polite 'probably never.'"
 							},
 							"example": { "ar": "إن شاء الله بترجع الكهربا قبل المسا.", "en": "Hopefully the electricity comes back before evening." },
-							"audio": "audio/tts/u1/u1-inshallah.wav"
+							"audio": "audio/tts/u1/u1-inshallah.wav",
+							"audioEx": "audio/tts/u1/u1-inshallah-ex.wav"
 						},
 						{
 							"id": "u1-ya-reit",
@@ -622,6 +653,7 @@
 							"register": "street",
 							"example": { "ar": "يا ريت الوضع يتغيّر.", "en": "If only the situation would change." },
 							"audio": "audio/tts/u1/u1-ya-reit.wav",
+							"audioEx": "audio/tts/u1/u1-ya-reit-ex.wav",
 							"note": "The exact functional twin of הלוואי — wistful, frequent, essential."
 						},
 						{
@@ -634,6 +666,7 @@
 							"register": "street",
 							"example": { "ar": "يا سلام، هاد كل إشي عندهم؟", "en": "Oh wow, that's all they've got?" },
 							"audio": "audio/tts/u1/u1-ya-salam.wav",
+							"audioEx": "audio/tts/u1/u1-ya-salam-ex.wav",
 							"note": "Flat tone = sarcasm. You'll need this for Arc 4's political commentary."
 						},
 						{
@@ -646,6 +679,7 @@
 							"register": "street",
 							"example": { "ar": "كيف العيلة؟ — الحمدلله، كلهم بخير.", "en": "How's the family? — Thank God, all fine." },
 							"audio": "audio/tts/u1/u1-hamdillah.wav",
+							"audioEx": "audio/tts/u1/u1-hamdillah-ex.wav",
 							"note": "Functional twin of ברוך השם — including the resigned shrug version."
 						},
 						{
@@ -657,7 +691,8 @@
 							"pos": "phrase",
 							"register": "street",
 							"example": { "ar": "شو سمعتوا؟ — ولا إشي.", "en": "What did you hear? — Nothing at all." },
-							"audio": "audio/tts/u1/u1-wala-ishi.wav"
+							"audio": "audio/tts/u1/u1-wala-ishi.wav",
+							"audioEx": "audio/tts/u1/u1-wala-ishi-ex.wav"
 						}
 					]
 				},
@@ -667,15 +702,19 @@
 					"titleAr": "قطعت الكهربا",
 					"situation": "Abu Yousef comes home with bad news about the neighborhood. Count the reactions — they carry the whole conversation.",
 					"audio": "audio/tts/u1/d3.wav",
+					"ttsVoices": {
+						"أبو يوسف": { "label": "AbuYousef", "voice": "Charon" },
+						"أم يوسف": { "label": "UmYousef", "voice": "Sulafat" }
+					},
 					"lines": [
-						{ "speaker": "أبو يوسف", "ar": "سمعتي؟ قطعوا الكهربا عالحارة كلها.", "en": "Did you hear? They cut the electricity to the whole neighborhood." },
-						{ "speaker": "أم يوسف", "ar": "عنجد؟ يا زلمة لسا حاطّين اللحمة بالفريزر!", "en": "Seriously? Man, we just put the meat in the freezer!" },
-						{ "speaker": "أبو يوسف", "ar": "معلش، يمكن ساعة وبترجع.", "en": "Never mind — maybe an hour and it's back." },
-						{ "speaker": "أم يوسف", "ar": "يا ريت... المرة الماضية ضلّت مقطوعة يومين.", "en": "If only... last time it stayed out for two days." },
-						{ "speaker": "أبو يوسف", "ar": "الله يستر.", "en": "God protect us." },
-						{ "speaker": "أم يوسف", "ar": "إن شاء الله بترجع قبل المسا.", "en": "Hopefully it's back before evening." },
-						{ "speaker": "أبو يوسف", "ar": "أكيد بترجع. مش معقول يومين كمان.", "en": "It'll be back for sure. No way it's two days again." },
-						{ "speaker": "أم يوسف", "ar": "الحمدلله إنه الجو مش شوب.", "en": "Thank God the weather isn't hot." }
+						{ "speaker": "أبو يوسف", "ar": "سمعتي؟ قطعوا الكهربا عالحارة كلها.", "en": "Did you hear? They cut the electricity to the whole neighborhood.", "audio": "audio/tts/u1/d3-l01.wav" },
+						{ "speaker": "أم يوسف", "ar": "عنجد؟ يا زلمة لسا حاطّين اللحمة بالفريزر!", "en": "Seriously? Man, we just put the meat in the freezer!", "audio": "audio/tts/u1/d3-l02.wav" },
+						{ "speaker": "أبو يوسف", "ar": "معلش، يمكن ساعة وبترجع.", "en": "Never mind — maybe an hour and it's back.", "audio": "audio/tts/u1/d3-l03.wav" },
+						{ "speaker": "أم يوسف", "ar": "يا ريت... المرة الماضية ضلّت مقطوعة يومين.", "en": "If only... last time it stayed out for two days.", "audio": "audio/tts/u1/d3-l04.wav" },
+						{ "speaker": "أبو يوسف", "ar": "الله يستر.", "en": "God protect us.", "audio": "audio/tts/u1/d3-l05.wav" },
+						{ "speaker": "أم يوسف", "ar": "إن شاء الله بترجع قبل المسا.", "en": "Hopefully it's back before evening.", "audio": "audio/tts/u1/d3-l06.wav" },
+						{ "speaker": "أبو يوسف", "ar": "أكيد بترجع. مش معقول يومين كمان.", "en": "It'll be back for sure. No way it's two days again.", "audio": "audio/tts/u1/d3-l07.wav" },
+						{ "speaker": "أم يوسف", "ar": "الحمدلله إنه الجو مش شوب.", "en": "Thank God the weather isn't hot.", "audio": "audio/tts/u1/d3-l08.wav" }
 					]
 				},
 				{
@@ -684,11 +723,13 @@
 					"questions": [
 						{
 							"prompt": "A friend sighs «الله يستر» after reading a headline. What are they expressing?",
+							"audio": "audio/tts/u1/u1-allah-yustur.wav",
 							"options": ["Worry about what's coming", "Gratitude", "Disbelief at a lie", "Indifference"],
 							"answer": 0
 						},
 						{
 							"prompt": "«يا ريت» signals…",
+							"audio": "audio/tts/u1/u1-ya-reit.wav",
 							"options": ["A wish that probably won't happen", "Total certainty", "Anger", "Agreement"],
 							"answer": 0,
 							"why": "הלוואי — same melancholy, same frequency."
@@ -701,6 +742,7 @@
 						},
 						{
 							"prompt": "«يا سلام» said in a flat, dry tone means…",
+							"audio": "audio/tts/u1/u1-ya-salam.wav",
 							"options": ["Sarcasm — 'oh, great.'", "Sincere admiration", "A greeting", "Goodbye"],
 							"answer": 0,
 							"why": "Tone flips it. The ironic version dominates political talk."
@@ -731,25 +773,609 @@
 			"n": 4,
 			"title": "Where and when?",
 			"titleAr": "وين وإيمتى؟",
-			"canDo": "I can place an event — neighborhood, town, square — and its time, caught by ear.",
-			"status": "planned",
-			"blocks": []
+			"canDo": "I can place an event — neighborhood, square, roundabout — and its time, caught by ear.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Every report answers two questions before any other: where and when. This lesson is the city's coordinate system — the square, the alley, the roundabout — and the time words that fly by fastest in real speech."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u1-saha",
+							"ar": "ساحة",
+							"arPlain": "ساحة",
+							"en": "square, plaza",
+							"he": "כיכר",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "الساحة مليانة ناس اليوم.", "en": "The square is full of people today." },
+							"audio": "audio/tts/u1/u1-saha.wav",
+							"audioEx": "audio/tts/u1/u1-saha-ex.wav",
+							"note": "Where demonstrations happen — you'll hear it constantly in Arc 2."
+						},
+						{
+							"id": "u1-hara",
+							"ar": "حارة",
+							"arPlain": "حارة",
+							"en": "neighborhood, quarter",
+							"he": "שכונה",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "ساكنين بنفس الحارة من زمان.", "en": "They've lived in the same neighborhood for ages." },
+							"audio": "audio/tts/u1/u1-hara.wav",
+							"audioEx": "audio/tts/u1/u1-hara-ex.wav",
+							"note": "You met it in قطعوا الكهربا عالحارة. Also the quarters of the Old City — حارة النصارى، حارة المغاربة."
+						},
+						{
+							"id": "u1-balad",
+							"ar": "بَلَد",
+							"arPlain": "بلد",
+							"en": "town; downtown",
+							"he": "עיר; מרכז העיר",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "رايح عالبلد، بدك إشي؟", "en": "I'm going downtown — need anything?" },
+							"audio": "audio/tts/u1/u1-balad.wav",
+							"audioEx": "audio/tts/u1/u1-balad-ex.wav",
+							"note": "وسط البلد = the center of town. البلد can also mean the country — context decides."
+						},
+						{
+							"id": "u1-mafraq",
+							"ar": "مَفْرَق",
+							"arPlain": "مفرق",
+							"en": "intersection, junction",
+							"he": "צומת",
+							"root": "ف ر ق",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "מִפְרָק",
+								"note": "Root f-r-q, 'to split.' Arabic: where roads split. Hebrew: מפרק, where the bone splits — a joint. Same shape, same logic."
+							},
+							"example": { "ar": "استنّاني عند المفرق.", "en": "Wait for me at the intersection." },
+							"audio": "audio/tts/u1/u1-mafraq.wav",
+							"audioEx": "audio/tts/u1/u1-mafraq-ex.wav"
+						},
+						{
+							"id": "u1-duwwar",
+							"ar": "دُوّار",
+							"arPlain": "دوار",
+							"en": "roundabout",
+							"he": "כיכר תנועה",
+							"root": "د و ر",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "דּוֹר",
+								"note": "Root d-w-r, turning. Arabic made the turning circle of traffic; Hebrew made דור — the turning of generations."
+							},
+							"example": { "ar": "في أزمة سير عند الدوار.", "en": "There's a traffic jam at the roundabout." },
+							"audio": "audio/tts/u1/u1-duwwar.wav",
+							"audioEx": "audio/tts/u1/u1-duwwar-ex.wav",
+							"note": "دوار المنارة in Ramallah is THE meeting point — and where the news happens. أزمة = traffic jam."
+						},
+						{
+							"id": "u1-jamb",
+							"ar": "جَنْب",
+							"arPlain": "جنب",
+							"en": "next to",
+							"he": "ליד",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "البيت جنب الصيدلية.", "en": "The house is next to the pharmacy." },
+							"audio": "audio/tts/u1/u1-jamb.wav",
+							"audioEx": "audio/tts/u1/u1-jamb-ex.wav",
+							"note": "From جانب 'side.' The everyday glue word of every address you'll ever hear."
+						},
+						{
+							"id": "u1-shwai",
+							"ar": "شْوَي",
+							"arPlain": "شوي",
+							"en": "a little; (قبل شوي) a little while ago",
+							"he": "קצת; (לפני) רגע",
+							"pos": "adv",
+							"register": "street",
+							"example": { "ar": "استنّى شوي، جايين.", "en": "Wait a bit — they're coming." },
+							"audio": "audio/tts/u1/u1-shwai.wav",
+							"audioEx": "audio/tts/u1/u1-shwai-ex.wav",
+							"note": "شوي شوي — 'slowly, easy now.' قبل شوي — 'just now.' Tiny word, huge mileage."
+						},
+						{
+							"id": "u1-hallaq",
+							"ar": "هَلَّق",
+							"arPlain": "هلّق",
+							"en": "now",
+							"he": "עכשיו",
+							"pos": "adv",
+							"register": "street",
+							"example": { "ar": "هلّق رجعت من الشغل.", "en": "I just got back from work." },
+							"audio": "audio/tts/u1/u1-hallaq.wav",
+							"audioEx": "audio/tts/u1/u1-hallaq-ex.wav",
+							"note": "From هالوقت 'this time.' Jerusalemites often say هلّأ; villages and the Galilee say إسا. All mean now."
+						},
+						{
+							"id": "u1-bakkir",
+							"ar": "بَكّير",
+							"arPlain": "بكير",
+							"en": "early",
+							"he": "מוקדם",
+							"root": "ب ك ر",
+							"pos": "adv",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "בָּכִיר",
+								"note": "Root b-k-r, 'first.' Arabic kept it on the clock (early); Hebrew sent it up the ladder (בכיר, senior) and into the family (בכור, firstborn)."
+							},
+							"example": { "ar": "لسا بكير، ليش صاحي؟", "en": "It's still early — why are you up?" },
+							"audio": "audio/tts/u1/u1-bakkir.wav",
+							"audioEx": "audio/tts/u1/u1-bakkir-ex.wav"
+						},
+						{
+							"id": "u1-mbareh",
+							"ar": "مْبارِح",
+							"arPlain": "مبارح",
+							"en": "yesterday",
+							"he": "אתמול",
+							"pos": "adv",
+							"register": "street",
+							"example": { "ar": "مبارح صار إشي غريب بالحارة.", "en": "Yesterday something strange happened in the neighborhood." },
+							"audio": "audio/tts/u1/u1-mbareh.wav",
+							"audioEx": "audio/tts/u1/u1-mbareh-ex.wav",
+							"note": "From البارحة. The trio to automate: مبارح، اليوم، بكرا — yesterday, today, tomorrow."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Where are you, man?",
+					"titleAr": "وينك يا زلمة؟",
+					"situation": "Khaled has been waiting downtown; Marwan is stuck in traffic. A phone call, two place-names per breath — exactly how Palestinians actually give directions.",
+					"audio": "audio/tts/u1/d4.wav",
+					"ttsVoices": {
+						"خالد": { "label": "Khaled", "voice": "Algieba" },
+						"مروان": { "label": "Marwan", "voice": "Iapetus" }
+					},
+					"lines": [
+						{ "speaker": "خالد", "ar": "ألو مروان، وينك يا زلمة؟", "en": "Hello Marwan — where are you, man?", "audio": "audio/tts/u1/d4-l01.wav" },
+						{ "speaker": "مروان", "ar": "أنا هلّق عند الدوار، في أزمة سير فظيعة.", "en": "I'm at the roundabout right now — terrible traffic.", "audio": "audio/tts/u1/d4-l02.wav" },
+						{ "speaker": "خالد", "ar": "استنّيتك عند المفرق نص ساعة!", "en": "I've been waiting for you at the intersection for half an hour!", "audio": "audio/tts/u1/d4-l03.wav" },
+						{ "speaker": "مروان", "ar": "معلش، خمس دقايق وبكون عندك. وين بالظبط؟", "en": "Sorry — five minutes and I'm there. Where exactly?", "audio": "audio/tts/u1/d4-l04.wav" },
+						{ "speaker": "خالد", "ar": "جنب الصيدلية، قبال الساحة.", "en": "Next to the pharmacy, opposite the square.", "audio": "audio/tts/u1/d4-l05.wav" },
+						{ "speaker": "مروان", "ar": "ماشي. ليش بدك تروح عالبلد أصلًا؟", "en": "Got it. Why do you need to go downtown anyway?", "audio": "audio/tts/u1/d4-l06.wav" },
+						{ "speaker": "خالد", "ar": "بدي أجيب دوا لإمي قبل ما يسكروا.", "en": "I need to get medicine for my mother before they close.", "audio": "audio/tts/u1/d4-l07.wav" },
+						{ "speaker": "مروان", "ar": "لسا بكير، بسكروا المسا.", "en": "It's still early — they close in the evening.", "audio": "audio/tts/u1/d4-l08.wav" },
+						{ "speaker": "خالد", "ar": "مبارح سكروا الضهر! ما حدا بعرف ليش.", "en": "Yesterday they closed at noon! Nobody knows why.", "audio": "audio/tts/u1/d4-l09.wav" },
+						{ "speaker": "مروان", "ar": "طيب طيب، وصلت. شايفك!", "en": "OK, OK — I've arrived. I see you!", "audio": "audio/tts/u1/d4-l10.wav" }
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "Where is Marwan stuck?",
+							"options": ["عند الدوار", "عند المفرق", "في الساحة", "جنب الصيدلية"],
+							"answer": 0,
+							"why": "أنا هلّق عند الدوار — في أزمة سير."
+						},
+						{
+							"prompt": "Where exactly are they meeting?",
+							"options": ["جنب الصيدلية، قبال الساحة", "عند الدوار", "في الحارة", "عند البنك"],
+							"answer": 0
+						},
+						{
+							"prompt": "Why is Khaled downtown at all?",
+							"options": ["بدو دوا لإمه", "بدو يشتري جريدة", "بدو يشوف المظاهرة", "بدو قهوة"],
+							"answer": 0,
+							"why": "بدي أجيب دوا لإمي — medicine for his mother."
+						},
+						{
+							"prompt": "What happened yesterday?",
+							"options": ["سكروا الضهر", "سكروا المسا", "ما فتحوا", "كان في عطلة"],
+							"answer": 0,
+							"why": "مبارح سكروا الضهر — ما حدا بعرف ليش. Noticing unexplained closures is very Unit 1."
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Where + you: question words take suffixes",
+					"points": [
+						{
+							"ar": "وينَك؟ وينها؟ وينهم؟",
+							"explanation": "وين glues straight onto person endings: وينك 'where are you,' وينها 'where is she,' وينهم 'where are they.' One word does the work of a whole English sentence — and it opens half the phone calls you'll ever overhear.",
+							"examples": [
+								{ "ar": "وينك يا زلمة؟ استنّيتك ساعة!", "en": "Where are you, man? I waited an hour!", "audio": "audio/tts/u1/g4-1-1.wav" },
+								{ "ar": "وينها أختك؟ مش شايفها.", "en": "Where's your sister? I don't see her.", "audio": "audio/tts/u1/g4-1-2.wav" },
+								{ "ar": "وينهم الشباب؟ كلهم راحوا؟", "en": "Where are the guys? Did they all leave?", "audio": "audio/tts/u1/g4-1-3.wav" }
+							]
+						},
+						{
+							"ar": "قبل ما / بعد ما + فعل",
+							"explanation": "Before and after a verb need ما: قبل ما يسكروا 'before they close,' بعد ما رجعت 'after I got back.' That little ما is unstressed and easy to miss by ear — train on it now.",
+							"examples": [
+								{ "ar": "بدي أوصل قبل ما يسكروا.", "en": "I want to arrive before they close.", "audio": "audio/tts/u1/g4-2-1.wav" },
+								{ "ar": "بعد ما رجعت من الشغل، سمعت الخبر.", "en": "After I got back from work, I heard the news.", "audio": "audio/tts/u1/g4-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "____ رجعت من الشغل.", "en": "I just now got back from work.", "options": ["هلّق", "مبارح", "بكير"], "answer": 0, "audio": "audio/tts/u1/c4-1.wav" },
+						{ "ar": "البيت ____ الصيدلية.", "en": "The house is next to the pharmacy.", "options": ["جنب", "هلّق", "شوي"], "answer": 0, "audio": "audio/tts/u1/c4-2.wav" },
+						{ "ar": "كانوا هون قبل ____.", "en": "They were here a little while ago.", "options": ["شوي", "بكير", "هيك"], "answer": 0, "audio": "audio/tts/u1/c4-3.wav" },
+						{ "ar": "____ سكروا الصيدلية بكير.", "en": "Yesterday they closed the pharmacy early.", "options": ["مبارح", "هلّق", "المسا"], "answer": 0, "audio": "audio/tts/u1/c4-4.wav" }
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "مَفْرَق",
+							"he": "מִפְרָק",
+							"kind": "shifted",
+							"story": "f-r-q / פ-ר-ק, 'to split.' Arabic: the intersection, where roads split apart. Hebrew: the joint, where the bone does. Same template (maCCaC), same logic, two maps — one of the city, one of the body."
+						},
+						{
+							"ar": "دُوّار",
+							"he": "דּוֹר",
+							"kind": "shifted",
+							"story": "d-w-r is the Semitic wheel. Arabic spun it into the roundabout (دوّار) and the house the family circles back to (دار). Hebrew spun it into דור — generations, turning one into the next."
+						},
+						{
+							"ar": "بَكّير",
+							"he": "בָּכִיר",
+							"kind": "shifted",
+							"story": "b-k-r, 'first.' In Ramallah it's early morning; in Jerusalem officialese it's a senior official; in both traditions it's the firstborn (بِكر / בכור). Hear بكير and think 'first hours of the day.'"
+						}
+					]
+				}
+			]
 		},
 		{
 			"n": 5,
 			"title": "Who said?",
 			"titleAr": "مين قال؟",
 			"canDo": "I can track who a piece of information came from, and how sure the speaker sounds about it.",
-			"status": "planned",
-			"blocks": []
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "In a place where rumors move faster than news, Palestinians constantly mark their sources: who said, according to whom, how sure. This is the lesson where you start hearing certainty itself — the difference between أكيد and يمكن and شكله is the difference between fact and hope."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u1-qal",
+							"ar": "قال",
+							"arPlain": "قال",
+							"en": "said",
+							"he": "אמר",
+							"root": "ق و ل",
+							"pos": "verb",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "קוֹל",
+								"note": "q-w-l / ק-ו-ל. Arabic turned the voice into the saying (قال); Hebrew kept the voice itself (קול). Every قال you hear is a קול being used."
+							},
+							"example": { "ar": "شو قال المراسل؟", "en": "What did the correspondent say?" },
+							"audio": "audio/tts/u1/u1-qal.wav",
+							"audioEx": "audio/tts/u1/u1-qal-ex.wav",
+							"note": "قال، قالت، قالوا — the reporting verb. With suffixes it compresses: قالّي 'he told me.'"
+						},
+						{
+							"id": "u1-hasab",
+							"ar": "حَسَب",
+							"arPlain": "حسب",
+							"en": "according to",
+							"he": "לפי",
+							"root": "ح س ب",
+							"pos": "particle",
+							"register": "shared",
+							"cognate": {
+								"kind": "shifted",
+								"he": "חָשַׁב",
+								"note": "ḥ-s-b, to reckon. Arabic: according to the count (حسب). Hebrew: to think it through (חשב). Accountants on one side, philosophers on the other."
+							},
+							"example": { "ar": "حسب الأخبار، الوضع هادي.", "en": "According to the news, the situation is calm." },
+							"audio": "audio/tts/u1/u1-hasab.wav",
+							"audioEx": "audio/tts/u1/u1-hasab-ex.wav",
+							"note": "The sourcing word of every news report: حسب مصادر، حسب شهود عيان..."
+						},
+						{
+							"id": "u1-yimkin",
+							"ar": "يِمْكِن",
+							"arPlain": "يمكن",
+							"en": "maybe",
+							"he": "אולי",
+							"root": "م ك ن",
+							"pos": "adv",
+							"register": "street",
+							"example": { "ar": "يمكن بكرا، يمكن بعد أسبوع.", "en": "Maybe tomorrow, maybe in a week." },
+							"audio": "audio/tts/u1/u1-yimkin.wav",
+							"audioEx": "audio/tts/u1/u1-yimkin-ex.wav",
+							"note": "The official soundtrack of waiting. Doubled (يمكن... يمكن...) it means nobody knows anything."
+						},
+						{
+							"id": "u1-bihku",
+							"ar": "بِحْكوا",
+							"arPlain": "بحكوا",
+							"en": "they say, word is",
+							"he": "אומרים",
+							"root": "ح ك ي",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "بحكوا إنه رح يسكروا الشارع.", "en": "They say they're going to close the street." },
+							"audio": "audio/tts/u1/u1-bihku.wav",
+							"audioEx": "audio/tts/u1/u1-bihku-ex.wav",
+							"note": "The rumor-frame. Whoever 'they' are, بحكوا إنه... starts half the stories in the حارة."
+						},
+						{
+							"id": "u1-masdar",
+							"ar": "مَصْدَر",
+							"arPlain": "مصدر",
+							"en": "source",
+							"he": "מקור",
+							"root": "ص د ر",
+							"pos": "noun",
+							"register": "news",
+							"example": { "ar": "مصدر مش رسمي حكى للقناة.", "en": "An unofficial source spoke to the channel." },
+							"audio": "audio/tts/u1/u1-masdar.wav",
+							"audioEx": "audio/tts/u1/u1-masdar-ex.wav",
+							"note": "News-register word you'll hear constantly: مصادر طبية (medical sources), مصدر أمني (a security source)."
+						},
+						{
+							"id": "u1-khabariyyeh",
+							"ar": "خَبَرِيّة",
+							"arPlain": "خبرية",
+							"en": "a story, a tidbit",
+							"he": "סיפור קטן, שמועה",
+							"root": "خ ب ر",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "اسمع هاي الخبرية.", "en": "Listen to this story." },
+							"audio": "audio/tts/u1/u1-khabariyyeh.wav",
+							"audioEx": "audio/tts/u1/u1-khabariyyeh-ex.wav",
+							"note": "خبر in house slippers: the street version of a news item, often gossip-adjacent."
+						},
+						{
+							"id": "u1-mazbut",
+							"ar": "مَزْبوط",
+							"arPlain": "مزبوط",
+							"en": "right, exact",
+							"he": "מדויק, נכון",
+							"root": "ض ب ط",
+							"pos": "adj",
+							"register": "street",
+							"example": { "ar": "كلامك مزبوط.", "en": "What you're saying is exactly right." },
+							"audio": "audio/tts/u1/u1-mazbut.wav",
+							"audioEx": "audio/tts/u1/u1-mazbut-ex.wav",
+							"note": "From ضبط 'precision.' Alone — مزبوط! — it's the satisfying 'exactly!' of agreement."
+						},
+						{
+							"id": "u1-shiklo",
+							"ar": "شِكْلُه",
+							"arPlain": "شكله",
+							"en": "it seems, looks like",
+							"he": "נראה ש...",
+							"root": "ش ك ل",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "شكله في إضراب بكرا.", "en": "Looks like there's a strike tomorrow." },
+							"audio": "audio/tts/u1/u1-shiklo.wav",
+							"audioEx": "audio/tts/u1/u1-shiklo-ex.wav",
+							"note": "Literally 'its shape (is).' Bends to its subject: شكلها، شكلهم، شكلك تعبان — 'you look tired.'"
+						},
+						{
+							"id": "u1-zaher",
+							"ar": "الظاهِر",
+							"arPlain": "الظاهر",
+							"en": "apparently",
+							"he": "כנראה",
+							"root": "ظ ه ر",
+							"pos": "adv",
+							"register": "street",
+							"example": { "ar": "الظاهر الخبر صحيح.", "en": "Apparently the news is true." },
+							"audio": "audio/tts/u1/u1-zaher.wav",
+							"audioEx": "audio/tts/u1/u1-zaher-ex.wav",
+							"note": "From ظهر 'to appear' — what shows on the surface. A notch more confident than شكله."
+						},
+						{
+							"id": "u1-mish-mitakked",
+							"ar": "مِش مِتْأكِّد",
+							"arPlain": "مش متأكد",
+							"en": "not sure",
+							"he": "לא בטוח",
+							"root": "أ ك د",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "مش متأكد، بس هيك سمعت.", "en": "Not sure — but that's what I heard." },
+							"audio": "audio/tts/u1/u1-mish-mitakked.wav",
+							"audioEx": "audio/tts/u1/u1-mish-mitakked-ex.wav",
+							"note": "Same أكيد root from Lesson 3, negated and stretched. مش متأكدة for a woman speaking."
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Umm Samir's story",
+					"titleAr": "خبرية أم سمير",
+					"brief": "A neighbor relays a rumor — and marks, in every single sentence, where the information came from and how much she trusts it. Listen once for the story; listen again ONLY for the source-words: قالت، بحكوا، حسب، شكله، الظاهر، يمكن.",
+					"audio": "audio/tts/u1/listen5.wav",
+					"ttsVoice": "Sulafat",
+					"preQuestions": [
+						"Who first told her the street will be closed?",
+						"What is supposedly the reason for the closure?",
+						"Who in her family doubts the whole story?"
+					],
+					"transcript": [
+						{ "speaker": "أم سمير", "ar": "اسمعي هاي الخبرية.", "en": "Listen to this story." },
+						{ "speaker": "أم سمير", "ar": "مبارح بالليل، سمعت صوت سيارات كتير بالحارة.", "en": "Last night I heard a lot of cars in the neighborhood." },
+						{ "speaker": "أم سمير", "ar": "الصبح، جارتي قالت لي إنه رح يسكروا الشارع كله.", "en": "In the morning, my neighbor told me they're going to close the whole street." },
+						{ "speaker": "أم سمير", "ar": "حسب اللي بحكوا، في حفريات جديدة جنب الدوار.", "en": "According to what people are saying, there's new roadwork next to the roundabout." },
+						{ "speaker": "أم سمير", "ar": "بس ابني بقول: يما، هاي إشاعة، مش خبر.", "en": "But my son says: Mom, that's a rumor, not news." },
+						{ "speaker": "أم سمير", "ar": "شكله ما حدا متأكد من إشي.", "en": "It seems nobody is sure of anything." },
+						{ "speaker": "أم سمير", "ar": "الظاهر لازم نستنّى ونشوف.", "en": "Apparently we just have to wait and see." },
+						{ "speaker": "أم سمير", "ar": "يمكن بكرا بنعرف الحكاية كاملة.", "en": "Maybe tomorrow we'll know the whole story." }
+					],
+					"questions": [
+						{
+							"prompt": "What did she hear last night?",
+							"options": ["صوت سيارات", "صوت مظاهرة", "صوت مطر", "ولا إشي"],
+							"answer": 0
+						},
+						{
+							"prompt": "Who said the street will be closed?",
+							"options": ["جارتها", "ابنها", "المراسل", "جوزها"],
+							"answer": 0,
+							"why": "جارتي قالت لي إنه رح يسكروا الشارع."
+						},
+						{
+							"prompt": "What does her son think?",
+							"options": ["هاي إشاعة، مش خبر", "الخبر صحيح", "لازم يسافروا", "في مظاهرة"],
+							"answer": 0
+						},
+						{
+							"prompt": "By the end, how sure is anyone about what's happening?",
+							"options": ["ما حدا متأكد", "كلهم متأكدين", "بس ابنها متأكد", "الجارة متأكدة"],
+							"answer": 0,
+							"why": "شكله ما حدا متأكد من إشي — the whole lesson in one sentence."
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "إنّه — the 'that' of reported speech",
+					"points": [
+						{
+							"ar": "قال إنه... / بحكوا إنه... / شكله إنه...",
+							"explanation": "Reported information hangs on إنه ('that'). After قال, بحكوا, الظاهر, شكله — the إنه opens the actual content. By ear it's a tiny 'inno' — once you hear it, you know a claim is coming, and that it's secondhand.",
+							"examples": [
+								{ "ar": "قالت لي إنه رح يسكروا الشارع.", "en": "She told me (that) they're going to close the street.", "audio": "audio/tts/u1/g5-1-1.wav" },
+								{ "ar": "بحكوا إنه الأسعار رح تنزل.", "en": "They say (that) prices are going to come down.", "audio": "audio/tts/u1/g5-1-2.wav" },
+								{ "ar": "الظاهر إنه ما حدا بعرف.", "en": "Apparently (it's that) nobody knows.", "audio": "audio/tts/u1/g5-1-3.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "قال",
+							"he": "קוֹל",
+							"kind": "shifted",
+							"story": "q-w-l / ק-ו-ל. Arabic turned the voice into speech — قال, he said. Hebrew kept the raw sound — קול, a voice. בת קול, the heavenly echo, and شو قال؟, what did he say?, are cousins."
+						},
+						{
+							"ar": "حَسَب",
+							"he": "חָשַׁב",
+							"kind": "shifted",
+							"story": "ḥ-s-b is reckoning. Arabic counts with it (حسب — according to the count; حساب — the bill), Hebrew thinks with it (חשב, מחשבה — and מחשב, the computer). When a news anchor says حسب مصادر, a Hebrew calculator is humming underneath."
+						},
+						{
+							"ar": "خَبَرِيّة",
+							"he": "חֶבְרֶ'ה",
+							"kind": "false-friend",
+							"story": "خبرية (a little story) sounds uncannily like חבר'ה (the gang). Different roots, pure acoustic trap — unless the خبرية happens to be about the חבר'ה."
+						}
+					]
+				}
+			]
 		},
 		{
 			"n": 6,
 			"title": "Review & free listening",
 			"titleAr": "مراجعة واستماع حر",
-			"canDo": "I can follow a real 90-second street clip about a local event, unsimplified.",
-			"status": "planned",
-			"blocks": []
+			"canDo": "I can follow real Palestinian street answers — short, fast, unscripted — and catch the pattern even when I miss words.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Five lessons of asking what happened, sourcing it, placing it, reacting to it. Now the unit keeps its promise: real people, on a real street, answering a real question — no actors, no script, no slowed-down audio. You will miss words. That's the exercise."
+				},
+				{
+					"type": "quiz",
+					"title": "Hear it, know it",
+					"questions": [
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u1/u1-isha3a.wav",
+							"options": ["rumor", "news item", "lie", "channel"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u1/u1-hallaq.wav",
+							"options": ["now", "early", "yesterday", "a little"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u1/u1-saddaq.wav",
+							"options": ["he believed", "he lied", "he heard", "he followed"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u1/u1-mbareh.wav",
+							"options": ["yesterday", "tomorrow", "this morning", "now"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u1/u1-mazbut.wav",
+							"options": ["exactly right", "maybe", "not sure", "apparently"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the phrase. What is the speaker doing?",
+							"audio": "audio/tts/u1/u1-ya-reit.wav",
+							"options": ["wishing", "agreeing", "worrying", "thanking"],
+							"answer": 0
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "The unit in four gaps",
+					"items": [
+						{ "ar": "حسب ____، الوضع هادي اليوم.", "en": "According to the news, the situation is calm today.", "options": ["الأخبار", "الكهربا", "الساحة"], "answer": 0, "audio": "audio/tts/u1/c6-1.wav" },
+						{ "ar": "____ في إضراب بكرا.", "en": "Looks like there's a strike tomorrow.", "options": ["شكله", "جنب", "مبارح"], "answer": 0, "audio": "audio/tts/u1/c6-2.wav" },
+						{ "ar": "ما حدا ____ من إشي.", "en": "Nobody is sure of anything.", "options": ["متأكد", "مزبوط", "صحيح"], "answer": 0, "audio": "audio/tts/u1/c6-3.wav" },
+						{ "ar": "الناس كلها نزلت ____.", "en": "Everyone took to the street.", "options": ["عالشارع", "عالفريزر", "عالجريدة"], "answer": 0, "audio": "audio/tts/u1/c6-4.wav" }
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Real street: where are your grandparents from?",
+					"titleAr": "استماع حر — من وين أجدادك؟",
+					"brief": "The Ask Project, Ramallah and around: one question, many strangers, real answers in real dialect. The answers are short and patterned — من + a city, sometimes a year. Cities you'll hear pronounced the Palestinian way: يافا، حيفا، اللد، الرملة. The year that needs no explanation: سنة ٤٨. Watch the first few minutes; replay any answer that almost made sense — that 'almost' is exactly your level.",
+					"youtubeId": "X79OF5QY49k",
+					"preQuestions": [
+						"Count the cities you can catch — يافا؟ حيفا؟ اللد؟ Which one comes up most?",
+						"Listen for سنة ٤٨ ('in 48') — how many speakers say it without being asked?",
+						"Most answers follow one tiny pattern: من + place. Catch three full answers and you've passed the unit."
+					],
+					"transcript": [],
+					"questions": []
+				}
+			]
 		}
 	]
 }

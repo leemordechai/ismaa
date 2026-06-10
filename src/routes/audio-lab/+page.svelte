@@ -50,6 +50,12 @@
 		voice on every word and dialogue. These five samples are the trial. Authentic clips in lessons are
 		always real media regardless — this verdict only governs vocab cards and dialogues.
 	</p>
+	<p class="border-olive/30 bg-olive-wash/40 text-olive-deep mt-4 rounded-lg border px-4 py-3 text-sm leading-relaxed">
+		Update after your feedback: every lesson audio file has been regenerated at a calmer, slower pace,
+		and audio now covers example sentences, individual dialogue lines, grammar examples, and cloze
+		answers. The <span class="font-semibold">1× / 0.8×</span> toggle in the header slows anything
+		further, pitch preserved. (These five gate samples are kept at the original pace for comparison.)
+	</p>
 </header>
 
 <div class="space-y-4">

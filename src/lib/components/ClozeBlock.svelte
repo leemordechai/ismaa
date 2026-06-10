@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { ClozeItem } from '$lib/types';
+	import AudioButton from './AudioButton.svelte';
 
 	let { items }: { items: ClozeItem[] } = $props();
 
@@ -23,7 +24,12 @@
 				>{parts[1] ?? ''}
 			</p>
 			{#if answered}
-				<p class="text-ink-soft mt-1.5 text-sm">{item.en}</p>
+				<div class="mt-1.5 flex items-center gap-2.5">
+					{#if item.audio}
+						<AudioButton src={item.audio} size="sm" label="Hear the full sentence" />
+					{/if}
+					<p class="text-ink-soft text-sm">{item.en}</p>
+				</div>
 			{/if}
 			<div class="mt-3 flex flex-wrap gap-2" dir="rtl">
 				{#each item.options as opt, oi}

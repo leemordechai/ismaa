@@ -2,6 +2,7 @@
 	import '../app.css';
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
+	import { progress } from '$lib/progress.svelte';
 
 	let { children } = $props();
 
@@ -34,6 +35,16 @@
 					{item.label}
 				</a>
 			{/each}
+			<button
+				type="button"
+				onclick={() => progress.toggleSlowAudio()}
+				title="Audio speed — slow mode plays everything at 0.8×"
+				class="ms-2 cursor-pointer rounded-full border px-2.5 py-1 text-xs font-medium tabular-nums transition-all active:scale-[0.96] {progress.slowAudio
+					? 'border-clay bg-clay-wash text-clay-deep'
+					: 'border-line text-ink-soft hover:border-ink-soft'}"
+			>
+				{progress.slowAudio ? '0.8×' : '1×'}
+			</button>
 		</nav>
 	</header>
 

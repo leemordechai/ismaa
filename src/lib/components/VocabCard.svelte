@@ -52,10 +52,15 @@
 				<span class="font-ar text-ink-faint text-sm" dir="rtl">{item.root}</span>
 			{/if}
 		</div>
-		<p class="mt-3 leading-relaxed">
-			<span class="ar-text text-xl" dir="rtl">{item.example.ar}</span>
-			<span class="text-ink-soft mt-0.5 block text-sm">{item.example.en}</span>
-		</p>
+		<div class="mt-3 flex items-start gap-2.5 leading-relaxed">
+			{#if item.audioEx}
+				<AudioButton src={item.audioEx} size="sm" label="Hear the example" />
+			{/if}
+			<p class="min-w-0">
+				<span class="ar-text text-xl" dir="rtl">{item.example.ar}</span>
+				<span class="text-ink-soft mt-0.5 block text-sm">{item.example.en}</span>
+			</p>
+		</div>
 		{#if item.note}
 			<p class="text-ink-soft mt-2 max-w-[58ch] text-sm leading-relaxed italic">{item.note}</p>
 		{/if}

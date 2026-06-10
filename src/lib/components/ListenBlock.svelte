@@ -49,6 +49,14 @@
 				allowfullscreen
 			></iframe>
 		</div>
+		<p class="text-ink-faint mt-1.5 text-xs">
+			Embed not loading? <a
+				class="underline hover:text-ink-soft"
+				href="https://www.youtube.com/watch?v={youtubeId}"
+				target="_blank"
+				rel="noreferrer">Open on YouTube</a
+			> — and use YouTube's own speed control (⚙ → 0.75×) for slow listening.
+		</p>
 	{:else if audio}
 		<div class="border-line flex items-center gap-4 rounded-lg border p-4">
 			<AudioButton src={audio} size="lg" label="Play the clip" />
@@ -57,7 +65,7 @@
 	{/if}
 </div>
 
-<div class="mt-5">
+<div class="mt-5" hidden={!transcript.length}>
 	<button
 		type="button"
 		onclick={() => (showTranscript = !showTranscript)}

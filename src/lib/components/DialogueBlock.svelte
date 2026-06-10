@@ -39,12 +39,16 @@
 		>
 			<div class="flex items-center justify-between gap-3" dir="rtl">
 				<span class="font-ar-ui text-ink-faint shrink-0 text-xs">{line.speaker}</span>
-				<button
-					type="button"
-					class="text-ink-faint hover:text-ink-soft shrink-0 cursor-pointer text-[10px] tracking-wider uppercase opacity-0 transition-opacity group-hover:opacity-100 {revealed[i] || showAll ? 'opacity-100' : ''}"
-					onclick={() => (revealed[i] = !revealed[i])}
-					dir="ltr">EN</button
-				>
+				<span class="flex shrink-0 items-center gap-2" dir="ltr">
+					<button
+						type="button"
+						class="text-ink-faint hover:text-ink-soft cursor-pointer text-[10px] tracking-wider uppercase opacity-0 transition-opacity group-hover:opacity-100 {revealed[i] || showAll ? 'opacity-100' : ''}"
+						onclick={() => (revealed[i] = !revealed[i])}>EN</button
+					>
+					{#if line.audio}
+						<AudioButton src={line.audio} size="sm" label="Hear this line" />
+					{/if}
+				</span>
 			</div>
 			<p class="ar-text text-[1.35rem]" dir="rtl">{line.ar}</p>
 			{#if showAll || revealed[i]}

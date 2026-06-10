@@ -1,0 +1,79 @@
+[
+	{
+		"text": "كِذِب",
+		"out": "static/audio/tts/u1/u1-kizib.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "تابَع",
+		"out": "static/audio/tts/u1/u1-taba3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "مِش مَعْقول",
+		"out": "static/audio/tts/u1/u1-mish-ma3qul.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "طَبْعًا",
+		"out": "static/audio/tts/u1/u1-tab3an.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "أكيد",
+		"out": "static/audio/tts/u1/u1-akid.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "مَعْلِش",
+		"out": "static/audio/tts/u1/u1-ma3lish.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "يا رَيْت",
+		"out": "static/audio/tts/u1/u1-ya-reit.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "يا سَلام",
+		"out": "static/audio/tts/u1/u1-ya-salam.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "الحَمْدِلله",
+		"out": "static/audio/tts/u1/u1-hamdillah.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "ولا إشي",
+		"out": "static/audio/tts/u1/u1-wala-ishi.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:",
+		"model": "gemini-3.1-flash-tts-preview"
+	},
+	{
+		"text": "AbuYousef: سمعتي؟ قطعوا الكهربا عالحارة كلها.\nUmYousef: عنجد؟ يا زلمة لسا حاطّين اللحمة بالفريزر!\nAbuYousef: معلش، يمكن ساعة وبترجع.\nUmYousef: يا ريت... المرة الماضية ضلّت مقطوعة يومين.\nAbuYousef: الله يستر.\nUmYousef: إن شاء الله بترجع قبل المسا.\nAbuYousef: أكيد بترجع. مش معقول يومين كمان.\nUmYousef: الحمدلله إنه الجو مش شوب.",
+		"out": "static/audio/tts/u1/d3.wav",
+		"speakers": "AbuYousef=Charon,UmYousef=Sulafat",
+		"style": "TTS the following everyday conversation. Both speakers use authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) exactly as natives from Ramallah talk — NOT Modern Standard Arabic. Speak noticeably SLOWER than natural conversation: calm, learner-friendly pacing, clear articulation, brief pauses between turns — while keeping the casual dialect pronunciation. Pronounce شو صار as 'shu sar', إشي as 'ishi', هلّق as 'hallaq'.",
+		"model": "gemini-3.1-flash-tts-preview"
+	}
+]

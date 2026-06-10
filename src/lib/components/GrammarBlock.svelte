@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { GrammarPoint } from '$lib/types';
+	import AudioButton from './AudioButton.svelte';
 
 	let { points }: { points: GrammarPoint[] } = $props();
 </script>
@@ -13,9 +14,14 @@
 			</div>
 			<div class="border-line space-y-3 border-s ps-5">
 				{#each point.examples as ex}
-					<div>
-						<p class="ar-text text-xl" dir="rtl">{ex.ar}</p>
-						<p class="text-ink-soft text-sm">{ex.en}</p>
+					<div class="flex items-start gap-2.5">
+						{#if ex.audio}
+							<AudioButton src={ex.audio} size="sm" label="Hear the example" />
+						{/if}
+						<div class="min-w-0">
+							<p class="ar-text text-xl" dir="rtl">{ex.ar}</p>
+							<p class="text-ink-soft text-sm">{ex.en}</p>
+						</div>
 					</div>
 				{/each}
 			</div>
