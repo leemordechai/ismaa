@@ -28,4 +28,4 @@ The deployed site is fully static — no keys, no backend, progress lives in loc
 
 ## Status
 
-Phase 1 in progress: **Units 1–2 complete** (12 lessons, ~100 vocab items, 5 dialogues, 5 monologues, 2 real Ask Project street clips, ~350 audio files at slow learner pace). Exercise engine: quiz + tap-to-match + cloze after every listening section, answer order randomized per visit, number-discrimination drills (Unit 2), global 1×/0.8× speed toggle, SRS review queue with audio. Next: word-bank onboarding triage + Unit 3 عالطريق.
+Phase 1 in progress: **Units 1–3 complete** (18 lessons, ~150 vocab items, 8 dialogues, 7 monologues, 3 real Ask Project street clips, ~570 audio files at slow learner pace). Exercise engine: quiz + tap-to-match + cloze after every listening section, answer order randomized per visit, number-discrimination drills, city-name listening, global 1×/0.8× speed toggle, SRS review queue with audio. One pending file: `node scripts/tts.mjs --jobs scripts/u3-retry.json` after quota reset (u3-servees.wav). Next: word-bank onboarding triage + Unit 4 السوق والقهوة.

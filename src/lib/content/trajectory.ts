@@ -54,7 +54,7 @@ export const arcs: ArcMeta[] = [
 export const units: UnitMeta[] = [
 	{ id: 'unit-01', n: 1, arc: 1, title: 'What happened?', titleAr: 'شو صار؟', focus: 'The "news of the day" frame in everyday talk; reacting to events.', status: 'ready' },
 	{ id: 'unit-02', n: 2, arc: 1, title: 'Family & work at speed', titleAr: 'أهل وشغل', focus: 'Known ground pushed to listening fluency; numbers and times by ear.', status: 'ready' },
-	{ id: 'unit-03', n: 3, arc: 1, title: 'On the road', titleAr: 'عالطريق', focus: 'Serveece, directions, the checkpoint as daily procedure.', status: 'upcoming' },
+	{ id: 'unit-03', n: 3, arc: 1, title: 'On the road', titleAr: 'عالطريق', focus: 'Serveece, directions, the checkpoint as daily procedure.', status: 'ready' },
 	{ id: 'unit-04', n: 4, arc: 1, title: 'Market & coffee', titleAr: 'السوق والقهوة', focus: 'Buying, haggling, hospitality scripts.', status: 'upcoming' },
 	{ id: 'unit-05', n: 5, arc: 2, title: 'Breaking news', titleAr: 'خبر عاجل', focus: 'News meta-language; the anchor-vs-street register split.', status: 'upcoming' },
 	{ id: 'unit-06', n: 6, arc: 2, title: 'The West Bank', titleAr: 'الضفة', focus: 'The occupation’s daily lexicon; geography as people reference it.', status: 'upcoming' },

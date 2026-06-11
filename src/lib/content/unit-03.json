@@ -1,0 +1,1660 @@
+{
+	"id": "unit-03",
+	"n": 3,
+	"arc": 1,
+	"title": "On the road",
+	"titleAr": "عالطريق",
+	"mission": "Getting anywhere in Palestine is a language event: flagging the serveece, paying the أجرة, taking directions past the mosque, and the checkpoint with its procedural grammar — هوية، تصريح، تفتيش. This unit teaches movement the way it actually works, city names the way they're actually said.",
+	"cover": "img/covers/unit-03.png",
+	"registerMix": { "street": 85, "news": 0, "shared": 15 },
+	"sources": [
+		"Forms cross-checked against Madrasa dictionary and Living Arabic Project (Levantine)",
+		"Urban Palestinian koine (Jerusalem/Ramallah); native-speaker review pending — low-confidence items avoided"
+	],
+	"lessons": [
+		{
+			"n": 1,
+			"title": "The serveece",
+			"titleAr": "السرفيس",
+			"canDo": "I can board a serveece, pay, follow the driver's patter, and get let off exactly where I want.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "The serveece — the shared taxi running fixed routes — is Palestine's circulatory system, and it runs on formulas: في محل؟ قديش الأجرة؟ نزّلني هون. Ten words and you ride like a local. The imperatives you'll meet here are the unit's engine."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u3-servees",
+							"ar": "سِرفيس",
+							"arPlain": "سرفيس",
+							"en": "serveece (shared taxi)",
+							"he": "מונית שירות",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "بستنى السرفيس عالمحطة.", "en": "I'm waiting for the serveece at the station." },
+							"audio": "audio/tts/u3/u3-servees.wav",
+							"audioEx": "audio/tts/u3/u3-servees-ex.wav",
+							"note": "From English 'service' — the yellow shared taxi on a fixed route. Same institution as the Israeli שירות, same borrowed word."
+						},
+						{
+							"id": "u3-mahatta",
+							"ar": "مَحَطّة",
+							"arPlain": "محطة",
+							"en": "station, stop",
+							"he": "תחנה",
+							"root": "ح ط ط",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "محطة السرفيسات جنب السوق.", "en": "The serveece station is next to the market." },
+							"audio": "audio/tts/u3/u3-mahatta.wav",
+							"audioEx": "audio/tts/u3/u3-mahatta-ex.wav",
+							"note": "Root ح-ط-ط 'to set down' — where things get set down. Semantic twin of תחנה but a different root (that one is from חנה, to encamp)."
+						},
+						{
+							"id": "u3-rakeb",
+							"ar": "راكِب",
+							"arPlain": "راكب",
+							"en": "passenger",
+							"he": "נוסע",
+							"root": "ر ك ب",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "السرفيس بوخد سبع ركاب.", "en": "The serveece takes seven passengers." },
+							"audio": "audio/tts/u3/u3-rakeb.wav",
+							"audioEx": "audio/tts/u3/u3-rakeb-ex.wav",
+							"note": "From ركب, to ride — also מרכבה territory: the Hebrew chariot rides the same root."
+						},
+						{
+							"id": "u3-ujra",
+							"ar": "أُجْرة",
+							"arPlain": "اجرة",
+							"en": "fare",
+							"he": "מחיר הנסיעה",
+							"root": "أ ج ر",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "אַגְרָה",
+								"note": "Both descend from Aramaic אגרא (hire, wage — ultimately Akkadian). The Israeli toll-road אגרה and the serveece أجرة are the same ancient invoice."
+							},
+							"example": { "ar": "قديش الأجرة عالقدس؟", "en": "How much is the fare to Jerusalem?" },
+							"audio": "audio/tts/u3/u3-ujra.wav",
+							"audioEx": "audio/tts/u3/u3-ujra-ex.wav"
+						},
+						{
+							"id": "u3-fadi",
+							"ar": "فاضي",
+							"arPlain": "فاضي",
+							"en": "empty; free",
+							"he": "פנוי, ריק",
+							"pos": "adj",
+							"register": "street",
+							"example": { "ar": "في محل فاضي قدام؟", "en": "Is there a free seat up front?" },
+							"audio": "audio/tts/u3/u3-fadi.wav",
+							"audioEx": "audio/tts/u3/u3-fadi-ex.wav",
+							"note": "Seats, time, people: إنت فاضي بكرا؟ — are you free tomorrow? Opposite of مشغول."
+						},
+						{
+							"id": "u3-malyan",
+							"ar": "مَلْيان",
+							"arPlain": "مليان",
+							"en": "full",
+							"he": "מלא",
+							"root": "م ل أ",
+							"pos": "adj",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "מָלֵא",
+								"note": "m-l-ʔ — full is full: مليان/מלא, and the square that was مليانة ناس in Unit 2 was מלאה אנשים."
+							},
+							"example": { "ar": "السرفيس مليان، استنى الجاي.", "en": "The serveece is full — wait for the next one." },
+							"audio": "audio/tts/u3/u3-malyan.wav",
+							"audioEx": "audio/tts/u3/u3-malyan-ex.wav"
+						},
+						{
+							"id": "u3-tariq",
+							"ar": "طَريق",
+							"arPlain": "طريق",
+							"en": "road, way",
+							"he": "דרך, כביש",
+							"root": "ط ر ق",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "الطريق كلها أزمة من الصبح.", "en": "The road's been one traffic jam since morning." },
+							"audio": "audio/tts/u3/u3-tariq.wav",
+							"audioEx": "audio/tts/u3/u3-tariq-ex.wav",
+							"note": "عالطريق — on the way (this unit's name). Feminine in the dialect: الطريق مسكرة."
+						},
+						{
+							"id": "u3-nazzel",
+							"ar": "نَزِّل",
+							"arPlain": "نزل",
+							"en": "let (someone) off, drop off",
+							"he": "תוריד (אותי)",
+							"root": "ن ز ل",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "نزّلني عند المفرق، لو سمحت.", "en": "Drop me at the junction, please." },
+							"audio": "audio/tts/u3/u3-nazzel.wav",
+							"audioEx": "audio/tts/u3/u3-nazzel-ex.wav",
+							"note": "نزّلني هون! is THE serveece sentence. The doubled middle letter makes نزل (go down) into 'make go down' — same trick as خبّر from خبر."
+						},
+						{
+							"id": "u3-waqqef",
+							"ar": "وَقِّف",
+							"arPlain": "وقف",
+							"en": "stop! (make stop)",
+							"he": "עצור!",
+							"root": "و ق ف",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "وقّف هون يا معلم!", "en": "Stop here, boss!" },
+							"audio": "audio/tts/u3/u3-waqqef.wav",
+							"audioEx": "audio/tts/u3/u3-waqqef-ex.wav",
+							"note": "Same root as موقف (stop/parking) and واقف (standing). يا معلم to the driver — your Unit 2 'boss' usage, live."
+						},
+						{
+							"id": "u3-yalla",
+							"ar": "يَلّا",
+							"arPlain": "يلا",
+							"en": "come on, let's go",
+							"he": "יאללה",
+							"pos": "particle",
+							"register": "street",
+							"cognate": {
+								"kind": "loan",
+								"he": "יאללה",
+								"note": "From يا الله — 'O God (let's move).' Israeli Hebrew took it whole; you've said it your entire life. Now it drives the serveece."
+							},
+							"example": { "ar": "يلا، سكروا الباب!", "en": "Yalla — close the door!" },
+							"audio": "audio/tts/u3/u3-yalla.wav",
+							"audioEx": "audio/tts/u3/u3-yalla-ex.wav"
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Any room?",
+					"titleAr": "في محل؟",
+					"situation": "Flagging a serveece from Ramallah toward Birzeit: the boarding ritual, the fare, the drop-off — every line is a formula you'll reuse weekly.",
+					"audio": "audio/tts/u3/d1.wav",
+					"ttsVoices": {
+						"راكب": { "label": "Rakeb", "voice": "Algieba" },
+						"سواق": { "label": "Sawwaq", "voice": "Charon" }
+					},
+					"lines": [
+						{ "speaker": "راكب", "ar": "عالجامعة؟ في محل؟", "en": "To the university? Any room?", "audio": "audio/tts/u3/d1-l01.wav" },
+						{ "speaker": "سواق", "ar": "اطلع يا زلمة، في محل قدام.", "en": "Get in, man — there's a seat up front.", "audio": "audio/tts/u3/d1-l02.wav" },
+						{ "speaker": "راكب", "ar": "قديش الأجرة؟", "en": "How much is the fare?", "audio": "audio/tts/u3/d1-l03.wav" },
+						{ "speaker": "سواق", "ar": "سبعة شيكل.", "en": "Seven shekels.", "audio": "audio/tts/u3/d1-l04.wav" },
+						{ "speaker": "راكب", "ar": "تفضل. والله السرفيس مليان اليوم.", "en": "Here you go. Wow, the serveece is packed today.", "audio": "audio/tts/u3/d1-l05.wav" },
+						{ "speaker": "سواق", "ar": "الطريق كلها أزمة من الصبح، والناس مستعجلة.", "en": "The road's been jammed since morning, and everyone's in a hurry.", "audio": "audio/tts/u3/d1-l06.wav" },
+						{ "speaker": "راكب", "ar": "المهم نوصل قبل الضهر.", "en": "Main thing is we arrive before noon.", "audio": "audio/tts/u3/d1-l07.wav" },
+						{ "speaker": "سواق", "ar": "إن شاء الله. وين بدك تنزل؟", "en": "God willing. Where do you want to get off?", "audio": "audio/tts/u3/d1-l08.wav" },
+						{ "speaker": "راكب", "ar": "نزّلني عند المفرق، الله يعطيك العافية.", "en": "Drop me at the junction — God give you strength.", "audio": "audio/tts/u3/d1-l09.wav" },
+						{ "speaker": "سواق", "ar": "تكرم. يلا، سكروا الباب!", "en": "You got it. Yalla — close the door!", "audio": "audio/tts/u3/d1-l10.wav" }
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "Where is the passenger headed?",
+							"options": ["عالجامعة", "عالسوق", "عالمستشفى", "عالمحطة"],
+							"answer": 0
+						},
+						{
+							"prompt": "How much is the fare?",
+							"options": ["سبعة شيكل", "سبعطعش شيكل", "سبعين شيكل", "خمسة شيكل"],
+							"answer": 0,
+							"why": "سبعة — single digit. If you heard a ـطعش or ـين ending, the number gym wants you back."
+						},
+						{
+							"prompt": "Why is the road bad?",
+							"options": ["أزمة من الصبح", "في إضراب", "الطريق مسكرة", "بسبب الشتا"],
+							"answer": 0
+						},
+						{
+							"prompt": "Where does he ask to be dropped?",
+							"options": ["عند المفرق", "عند الدوار", "قدام الجامعة", "عالمحطة"],
+							"answer": 0,
+							"why": "نزّلني عند المفرق — your Unit 1 مفرق, now from inside the serveece."
+						},
+						{
+							"prompt": "«الله يعطيك العافية» is…",
+							"options": [
+								"A blessing for someone working — the polite driver-thank-you",
+								"A complaint",
+								"A goodbye to a friend",
+								"A request to hurry"
+							],
+							"answer": 0,
+							"why": "Said to anyone mid-labor. The unwritten serveece exit line."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Serveece kit",
+					"pairs": [
+						{ "ar": "سِرفيس", "en": "shared taxi", "audio": "audio/tts/u3/u3-servees.wav" },
+						{ "ar": "مَحَطّة", "en": "station, stop", "audio": "audio/tts/u3/u3-mahatta.wav" },
+						{ "ar": "أُجْرة", "en": "fare", "audio": "audio/tts/u3/u3-ujra.wav" },
+						{ "ar": "راكِب", "en": "passenger", "audio": "audio/tts/u3/u3-rakeb.wav" },
+						{ "ar": "فاضي", "en": "empty, free", "audio": "audio/tts/u3/u3-fadi.wav" },
+						{ "ar": "مَلْيان", "en": "full", "audio": "audio/tts/u3/u3-malyan.wav" },
+						{ "ar": "نَزِّل", "en": "drop (someone) off", "audio": "audio/tts/u3/u3-nazzel.wav" },
+						{ "ar": "وَقِّف", "en": "stop!", "audio": "audio/tts/u3/u3-waqqef.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "قديش ____ عالخليل؟", "en": "How much is the fare to Hebron?", "options": ["الأجرة", "المحطة", "الطريق"], "answer": 0, "audio": "audio/tts/u3/c1-1.wav" },
+						{ "ar": "السرفيس ____، استنى الجاي.", "en": "The serveece is full — wait for the next one.", "options": ["مليان", "فاضي", "مستعجل"], "answer": 0, "audio": "audio/tts/u3/c1-2.wav" },
+						{ "ar": "____ هون لو سمحت، يا معلم.", "en": "Drop me here please, boss.", "options": ["نزّلني", "طلّعني", "خبّرني"], "answer": 0, "audio": "audio/tts/u3/c1-3.wav" },
+						{ "ar": "في محل ____ قدام؟", "en": "Is there a free seat up front?", "options": ["فاضي", "مليان", "بعيد"], "answer": 0, "audio": "audio/tts/u3/c1-4.wav" },
+						{ "ar": "____، سكروا الباب!", "en": "Yalla — close the door!", "options": ["يلا", "معلش", "أكيد"], "answer": 0, "audio": "audio/tts/u3/c1-5.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "The road runs on imperatives",
+					"points": [
+						{
+							"ar": "وَقِّف! نَزِّلني! اطلَع! خود!",
+							"explanation": "Serveece Arabic is imperative Arabic: stop, drop me, get in, take. To a woman: وقّفي، نزّليني. Softened with لو سمحت or paid forward with الله يعطيك العافية — commands here are polite by formula, not by phrasing.",
+							"examples": [
+								{ "ar": "وقّف عند المحطة، لو سمحت.", "en": "Stop at the station, please.", "audio": "audio/tts/u3/g1-1-1.wav" },
+								{ "ar": "اطلعي يا ستي، في محل ورا.", "en": "Get in, ma'am — there's a seat in back.", "audio": "audio/tts/u3/g1-1-2.wav" },
+								{ "ar": "خود يمين بعد الجامع.", "en": "Take a right after the mosque.", "audio": "audio/tts/u3/g1-1-3.wav" }
+							]
+						},
+						{
+							"ar": "نِزِل ↔ طِلِع",
+							"explanation": "The motion pair of public transport: طلع gets you on (and up), نزل gets you off (and down). Same verbs run stairs, hills, and prices — الأسعار طلعت. With the doubling trick they push others: نزّلني، طلّعني.",
+							"examples": [
+								{ "ar": "طلعت عالسرفيس من المحطة.", "en": "I got on the serveece at the station.", "audio": "audio/tts/u3/g1-2-1.wav" },
+								{ "ar": "نزلنا عند الدوار ومشينا.", "en": "We got off at the roundabout and walked.", "audio": "audio/tts/u3/g1-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "أُجْرة",
+							"he": "אַגְרָה",
+							"kind": "true",
+							"story": "Aramaic אגרא — a wage, a hire — flowed into both languages: the Hebrew toll (אגרת כביש 6) and the Palestinian fare (أجرة السرفيس) are the same Akkadian-old payment, still collected on roads."
+						},
+						{
+							"ar": "مَلْيان",
+							"he": "מָלֵא",
+							"kind": "true",
+							"story": "m-l-ʔ. Full in Hebron is full in Haifa: مليان/מלא. And when the driver says مليان and waves you off, the disappointment, too, is fully shared."
+						},
+						{
+							"ar": "يَلّا",
+							"he": "יאללה",
+							"kind": "loan",
+							"story": "يا الله — 'O God, (let's move).' The single most successful Arabic export into Israeli Hebrew. You arrive at this word already fluent; the serveece just gives it a steering wheel."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 2,
+			"title": "Which way?",
+			"titleAr": "وين بدك تروح؟",
+			"canDo": "I can ask for directions and survive the answer — دغري, take a right at the mosque, it's opposite the spice market.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Palestinian directions don't use street names — they use the mosque, the pharmacy, the spice market, and the immortal word دغري: straight ahead. This lesson installs the six direction words and the بدّي machinery for saying where you're trying to go."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u3-dughri",
+							"ar": "دُغْري",
+							"arPlain": "دغري",
+							"en": "straight ahead",
+							"he": "ישר",
+							"pos": "adv",
+							"register": "street",
+							"example": { "ar": "روح دغري لعند الجامع.", "en": "Go straight until the mosque." },
+							"audio": "audio/tts/u3/u3-dughri.wav",
+							"audioEx": "audio/tts/u3/u3-dughri-ex.wav",
+							"note": "From Turkish doğru — 'straight/true.' Also a personality: واحد دغري is a straight-shooter. The Ottoman Empire left, the word stayed."
+						},
+						{
+							"id": "u3-yamin",
+							"ar": "يَمين",
+							"arPlain": "يمين",
+							"en": "right (side)",
+							"he": "ימין",
+							"root": "ي م ن",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "יָמִין",
+								"note": "y-m-n — identical, down to the politics: the right is ימין in the Knesset and يمين on the serveece."
+							},
+							"example": { "ar": "خود يمين عند الصيدلية.", "en": "Take a right at the pharmacy." },
+							"audio": "audio/tts/u3/u3-yamin.wav",
+							"audioEx": "audio/tts/u3/u3-yamin-ex.wav"
+						},
+						{
+							"id": "u3-shmal",
+							"ar": "شْمال",
+							"arPlain": "شمال",
+							"en": "left; north",
+							"he": "שמאל",
+							"root": "ش م ل",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "שְׂמֹאל",
+								"note": "ś-m-ʔ-l — same left. Bonus quirk: Arabic شمال is ALSO 'north' (face east like the ancients — north is on your left). Hebrew kept שמאל for left only and built צפון for north."
+							},
+							"example": { "ar": "البيت تالت شارع عالشمال.", "en": "The house is the third street on the left." },
+							"audio": "audio/tts/u3/u3-shmal.wav",
+							"audioEx": "audio/tts/u3/u3-shmal-ex.wav"
+						},
+						{
+							"id": "u3-quddam",
+							"ar": "قُدّام",
+							"arPlain": "قدام",
+							"en": "in front of, ahead",
+							"he": "לפני, מלפנים",
+							"root": "ق د م",
+							"pos": "particle",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "קָדִימָה",
+								"note": "q-d-m — forward. The seat قدام and the cry קדימה share a root; so do قديم (what came before) and קדום."
+							},
+							"example": { "ar": "السوق قدامك بالظبط.", "en": "The market is right in front of you." },
+							"audio": "audio/tts/u3/u3-quddam.wav",
+							"audioEx": "audio/tts/u3/u3-quddam-ex.wav"
+						},
+						{
+							"id": "u3-wara",
+							"ar": "وَرا",
+							"arPlain": "ورا",
+							"en": "behind",
+							"he": "מאחורי",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "الكراج ورا المحطة.", "en": "The garage is behind the station." },
+							"audio": "audio/tts/u3/u3-wara.wav",
+							"audioEx": "audio/tts/u3/u3-wara-ex.wav",
+							"note": "From وراء. Pairs with قدام the way ورا السرفيس pairs with قدام السرفيس — back seat, front seat."
+						},
+						{
+							"id": "u3-qbal",
+							"ar": "قْبال",
+							"arPlain": "قبال",
+							"en": "opposite, facing",
+							"he": "מול",
+							"root": "ق ب ل",
+							"pos": "particle",
+							"register": "street",
+							"example": { "ar": "الخان قبال سوق العطارين.", "en": "The khan is opposite the spice market." },
+							"audio": "audio/tts/u3/u3-qbal.wav",
+							"audioEx": "audio/tts/u3/u3-qbal-ex.wav",
+							"note": "You heard قبال الساحة in the pharmacy call. Same q-b-l family as קבלה — what faces you is what you receive."
+						},
+						{
+							"id": "u3-b3id",
+							"ar": "بْعيد",
+							"arPlain": "بعيد",
+							"en": "far",
+							"he": "רחוק",
+							"root": "ب ع د",
+							"pos": "adj",
+							"register": "street",
+							"example": { "ar": "مش بعيد — خمس دقايق مشي.", "en": "Not far — five minutes' walk." },
+							"audio": "audio/tts/u3/u3-b3id.wav",
+							"audioEx": "audio/tts/u3/u3-b3id-ex.wav",
+							"note": "Every Palestinian distance is خمس دقايق. It is never five minutes."
+						},
+						{
+							"id": "u3-qarib",
+							"ar": "قَريب",
+							"arPlain": "قريب",
+							"en": "near, close",
+							"he": "קרוב",
+							"root": "ق ر ب",
+							"pos": "adj",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "קָרוֹב",
+								"note": "Your Unit 2 قرايب were the near-ones; here's the adjective itself, doing geography instead of genealogy."
+							},
+							"example": { "ar": "المحطة قريبة، قبال البنك.", "en": "The station is close — opposite the bank." },
+							"audio": "audio/tts/u3/u3-qarib.wav",
+							"audioEx": "audio/tts/u3/u3-qarib-ex.wav"
+						},
+						{
+							"id": "u3-dayi3",
+							"ar": "ضايِع",
+							"arPlain": "ضايع",
+							"en": "lost",
+							"he": "אבוד",
+							"root": "ض ي ع",
+							"pos": "adj",
+							"register": "street",
+							"example": { "ar": "أنا ضايع — وين البلدة القديمة؟", "en": "I'm lost — where's the old town?" },
+							"audio": "audio/tts/u3/u3-dayi3.wav",
+							"audioEx": "audio/tts/u3/u3-dayi3-ex.wav",
+							"note": "Also figurative, exactly like English: ضايع بالحياة. Admitting it is the fastest way to make a Palestinian friend."
+						},
+						{
+							"id": "u3-wassel",
+							"ar": "وَصِّل",
+							"arPlain": "وصل",
+							"en": "take (someone) to, drive to",
+							"he": "תקח אותי ל־, הסע",
+							"root": "و ص ل",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "ممكن توصلني عالمحطة؟", "en": "Can you take me to the station?" },
+							"audio": "audio/tts/u3/u3-wassel.wav",
+							"audioEx": "audio/tts/u3/u3-wassel-ex.wav",
+							"note": "وصل (arrive) doubled into 'make arrive' — the same engine as نزّل and خبّر. وصّلني = get me there."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Lost in Nablus",
+					"titleAr": "ضايع في نابلس",
+					"situation": "A guy from Ramallah is lost in Nablus's old city and asks an elderly man — who delivers the classic, generous, landmark-by-landmark answer.",
+					"audio": "audio/tts/u3/d2.wav",
+					"ttsVoices": {
+						"شاب": { "label": "Shabb", "voice": "Iapetus" },
+						"ختيار": { "label": "Khityar", "voice": "Charon" }
+					},
+					"lines": [
+						{ "speaker": "شاب", "ar": "عمي، عفواً — أنا ضايع. وين خان التجار؟", "en": "Excuse me, uncle — I'm lost. Where's Khan al-Tujjar?", "audio": "audio/tts/u3/d2-l01.wav" },
+						{ "speaker": "ختيار", "ar": "أهلين يا ابني. إنت مش من نابلس، صح؟", "en": "Welcome, son. You're not from Nablus, right?", "audio": "audio/tts/u3/d2-l02.wav" },
+						{ "speaker": "شاب", "ar": "لأ، أنا من رام الله. جاي أشتري كنافة وضعت.", "en": "No, I'm from Ramallah. Came to buy knafeh and got lost.", "audio": "audio/tts/u3/d2-l03.wav" },
+						{ "speaker": "ختيار", "ar": "ههه، عالكنافة بتضيع البلد كلها. اسمع:", "en": "Haha — for knafeh the whole country gets lost. Listen:", "audio": "audio/tts/u3/d2-l04.wav" },
+						{ "speaker": "ختيار", "ar": "روح دغري لعند الجامع الكبير.", "en": "Go straight until the big mosque.", "audio": "audio/tts/u3/d2-l05.wav" },
+						{ "speaker": "شاب", "ar": "دغري لعند الجامع... طيب.", "en": "Straight to the mosque… OK.", "audio": "audio/tts/u3/d2-l06.wav" },
+						{ "speaker": "ختيار", "ar": "بعدين خود يمين، وامشي شوي بالسوق.", "en": "Then take a right, and walk a bit through the market.", "audio": "audio/tts/u3/d2-l07.wav" },
+						{ "speaker": "ختيار", "ar": "بتلاقي سوق العطارين قدامك — الخان قباله بالظبط.", "en": "You'll find the spice market in front of you — the khan is right opposite it.", "audio": "audio/tts/u3/d2-l08.wav" },
+						{ "speaker": "شاب", "ar": "يعني مش بعيد؟", "en": "So it's not far?", "audio": "audio/tts/u3/d2-l09.wav" },
+						{ "speaker": "ختيار", "ar": "قريب يا ابني — خمس دقايق. وكل الكنافة عالحساب تبعي إذا ضعت كمان مرة!", "en": "Close, son — five minutes. And all the knafeh's on me if you get lost again!", "audio": "audio/tts/u3/d2-l10.wav" }
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "What is the young man looking for?",
+							"options": ["خان التجار", "الجامع الكبير", "سوق العطارين", "محطة السرفيس"],
+							"answer": 0
+						},
+						{
+							"prompt": "Why did he come to Nablus?",
+							"options": ["عشان الكنافة", "عشان الشغل", "يزور قرايبه", "عنده عزومة"],
+							"answer": 0,
+							"why": "جاي أشتري كنافة — a fully legitimate reason to cross the West Bank."
+						},
+						{
+							"prompt": "First instruction:",
+							"options": ["دغري لعند الجامع", "يمين عند الصيدلية", "شمال بعد السوق", "ورا المحطة"],
+							"answer": 0
+						},
+						{
+							"prompt": "Where is the khan, exactly?",
+							"options": ["قبال سوق العطارين", "ورا الجامع", "جنب المحطة", "عالشمال"],
+							"answer": 0
+						},
+						{
+							"prompt": "How far is it, allegedly?",
+							"options": ["خمس دقايق", "نص ساعة", "ساعة مشي", "بعيد كتير"],
+							"answer": 0,
+							"why": "خمس دقايق — the national unit of optimism."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "The compass",
+					"pairs": [
+						{ "ar": "دُغْري", "en": "straight ahead", "audio": "audio/tts/u3/u3-dughri.wav" },
+						{ "ar": "يَمين", "en": "right", "audio": "audio/tts/u3/u3-yamin.wav" },
+						{ "ar": "شْمال", "en": "left; north", "audio": "audio/tts/u3/u3-shmal.wav" },
+						{ "ar": "قُدّام", "en": "in front, ahead", "audio": "audio/tts/u3/u3-quddam.wav" },
+						{ "ar": "وَرا", "en": "behind", "audio": "audio/tts/u3/u3-wara.wav" },
+						{ "ar": "قْبال", "en": "opposite, facing", "audio": "audio/tts/u3/u3-qbal.wav" },
+						{ "ar": "بْعيد", "en": "far", "audio": "audio/tts/u3/u3-b3id.wav" },
+						{ "ar": "ضايِع", "en": "lost", "audio": "audio/tts/u3/u3-dayi3.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "روح ____ لعند الجامع.", "en": "Go straight until the mosque.", "options": ["دغري", "ورا", "قبال"], "answer": 0, "audio": "audio/tts/u3/c2-1.wav" },
+						{ "ar": "خود ____ عند الصيدلية.", "en": "Take a right at the pharmacy.", "options": ["يمين", "شمال", "دغري"], "answer": 0, "audio": "audio/tts/u3/c2-2.wav" },
+						{ "ar": "الخان ____ سوق العطارين.", "en": "The khan is opposite the spice market.", "options": ["قبال", "تحت", "فوق"], "answer": 0, "audio": "audio/tts/u3/c2-3.wav" },
+						{ "ar": "أنا ____ — وين البلدة القديمة؟", "en": "I'm lost — where's the old town?", "options": ["ضايع", "فاضي", "مستعجل"], "answer": 0, "audio": "audio/tts/u3/c2-4.wav" },
+						{ "ar": "ممكن ____ عالمحطة؟", "en": "Can you take me to the station?", "options": ["توصلني", "تنزلني", "تخبرني"], "answer": 0, "audio": "audio/tts/u3/c2-5.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Where do you want to go?",
+					"points": [
+						{
+							"ar": "بِدّي — بِدَّك — بِدّها — بِدنا",
+							"explanation": "بدّي isn't a verb — it's a possessed noun ('my wish') that conjugates like one anyway: بدي، بدك، بدكي، بده، بدها، بدنا، بدكم، بدهم. After it comes a bare verb: وين بدك تنزل؟ Negative: ما بديش.",
+							"examples": [
+								{ "ar": "وين بدك تروح اليوم؟", "en": "Where do you want to go today?", "audio": "audio/tts/u3/g2-1-1.wav" },
+								{ "ar": "بدنا نوصل قبل المسا.", "en": "We want to arrive before evening.", "audio": "audio/tts/u3/g2-1-2.wav" },
+								{ "ar": "ما بديش أضيع كمان مرة.", "en": "I don't want to get lost again.", "audio": "audio/tts/u3/g2-1-3.wav" }
+							]
+						},
+						{
+							"ar": "على ← عَ",
+							"explanation": "The preposition على shrinks to عَ in speech and glues onto the article: عالجامعة، عالحاجز، عاليمين، عالقدس. You've been hearing it since شو صار — now you know why half the words seem to start with عال.",
+							"examples": [
+								{ "ar": "رايح عالسوق، بدك إشي؟", "en": "Heading to the market — need anything?", "audio": "audio/tts/u3/g2-2-1.wav" },
+								{ "ar": "خود شمال، البيت عاليمين.", "en": "Take a left; the house is on the right.", "audio": "audio/tts/u3/g2-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "يَمين",
+							"he": "יָמִין",
+							"kind": "true",
+							"story": "y-m-n, the right hand — identical in sound, sense, and politics. Even בנימין, son of the right hand, has his Arabic cousins (ابن اليمين). Directions don't get more bilingual than this."
+						},
+						{
+							"ar": "شْمال",
+							"he": "שְׂמֹאל",
+							"kind": "true",
+							"story": "Same left — with an Arabic bonus: face the sunrise like the ancients and your left hand points north, so شمال does double duty as 'north.' Hebrew split the jobs: שמאל left, צפון north. When a Palestinian says بلاد الشام's شمال, the compass is in the etymology."
+						},
+						{
+							"ar": "قُدّام",
+							"he": "קָדִימָה",
+							"kind": "true",
+							"story": "q-d-m is 'forward/before' in both time and space: قدام the front seat, קדימה the battle cry, قديم and קדום the long-ago. One root, simultaneously a direction and a history."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 3,
+			"title": "At the checkpoint",
+			"titleAr": "عالحاجز",
+			"canDo": "I can follow the checkpoint's procedural language — IDs out, open or closed, inspection or not, permit shown — as it actually unfolds in a serveece.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "The حاجز is where Palestinian daily life meets the occupation's paperwork, and it has its own compressed grammar: هويات يا شباب، مفتوح ولا مسكر، في تفتيش. This is procedural language — flat, fast, essential. Learning it is not banal: it's how millions narrate their commute."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u3-hajez",
+							"ar": "حاجِز",
+							"arPlain": "حاجز",
+							"en": "checkpoint",
+							"he": "מחסום",
+							"root": "ح ج ز",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "في حاجز قدام، طلعوا الهويات.", "en": "Checkpoint ahead — get the IDs out." },
+							"audio": "audio/tts/u3/u3-hajez.wav",
+							"audioEx": "audio/tts/u3/u3-hajez-ex.wav",
+							"note": "Root ح-ج-ز, to block/reserve. Hebrew מחסום is a different root (ח-ס-ם) building the same word for the same thing — twin barriers. A حاجز طيار is a 'flying' (surprise mobile) checkpoint."
+						},
+						{
+							"id": "u3-hawiyyeh",
+							"ar": "هَوِيّة",
+							"arPlain": "هوية",
+							"en": "ID card",
+							"he": "תעודת זהות",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "الهوية معك؟ بدونها ما بتمرق.", "en": "Got your ID? Without it you don't get through." },
+							"audio": "audio/tts/u3/u3-hawiyyeh.wav",
+							"audioEx": "audio/tts/u3/u3-hawiyyeh-ex.wav",
+							"note": "Literally 'identity' — the green (West Bank) or blue (Jerusalem) card that scripts a Palestinian's geography. The colors are a whole political vocabulary of their own."
+						},
+						{
+							"id": "u3-jundi",
+							"ar": "جُنْدي",
+							"arPlain": "جندي",
+							"en": "soldier",
+							"he": "חייל",
+							"root": "ج ن د",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "الجندي طلب الهوية والتصريح.", "en": "The soldier asked for the ID and the permit." },
+							"audio": "audio/tts/u3/u3-jundi.wav",
+							"audioEx": "audio/tts/u3/u3-jundi-ex.wav",
+							"note": "Plural جنود. The everyday word — جيش (army) you'll formalize in Arc 2."
+						},
+						{
+							"id": "u3-tabur",
+							"ar": "طابور",
+							"arPlain": "طابور",
+							"en": "queue, line",
+							"he": "תור",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "في طابور طويل عالحاجز.", "en": "There's a long queue at the checkpoint." },
+							"audio": "audio/tts/u3/u3-tabur.wav",
+							"audioEx": "audio/tts/u3/u3-tabur-ex.wav",
+							"note": "From Ottoman Turkish tabur (battalion) — the army word that became everyone's waiting line. Where Hebrew says תור, Palestinian remembers the Ottomans."
+						},
+						{
+							"id": "u3-taftish",
+							"ar": "تَفْتيش",
+							"arPlain": "تفتيش",
+							"en": "inspection, search",
+							"he": "בדיקה, חיפוש",
+							"root": "ف ت ش",
+							"pos": "noun",
+							"register": "shared",
+							"cognate": {
+								"kind": "shifted",
+								"he": "לְפַשְׁפֵּשׁ",
+								"note": "f-t-š travelled through Aramaic פשפש — to rummage. Hebrew kept the rummaging (לפשפש בחפצים); Arabic made it the official noun on the roadside sign."
+							},
+							"example": { "ar": "في تفتيش اليوم، الطابور ماشي عَ مهل.", "en": "There's an inspection today — the line is moving slowly." },
+							"audio": "audio/tts/u3/u3-taftish.wav",
+							"audioEx": "audio/tts/u3/u3-taftish-ex.wav"
+						},
+						{
+							"id": "u3-istanna",
+							"ar": "اسْتَنّى",
+							"arPlain": "استنى",
+							"en": "waited; wait!",
+							"he": "חיכה; חכה!",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "استنينا ساعة عالحاجز.", "en": "We waited an hour at the checkpoint." },
+							"audio": "audio/tts/u3/u3-istanna.wav",
+							"audioEx": "audio/tts/u3/u3-istanna-ex.wav",
+							"note": "You've heard استنّاني and استنى شوي since Unit 1 — here's the verb officially. Hebrew חיכה means this — while Arabic حكى means 'spoke.' The false-friend from Lesson 1, now with its real twin."
+						},
+						{
+							"id": "u3-mamnu3",
+							"ar": "مَمْنوع",
+							"arPlain": "ممنوع",
+							"en": "forbidden",
+							"he": "אסור",
+							"root": "م ن ع",
+							"pos": "adj",
+							"register": "shared",
+							"cognate": {
+								"kind": "true",
+								"he": "מָנַע",
+								"note": "m-n-ʕ, to withhold: Arabic ممنوع is the מ-נ-ע of מניעה wearing a 'no entry' sign. The road sign ممنوع المرور is pure shared Semitic bureaucracy."
+							},
+							"example": { "ar": "المرور من هون ممنوع اليوم.", "en": "Passage through here is forbidden today." },
+							"audio": "audio/tts/u3/u3-mamnu3.wav",
+							"audioEx": "audio/tts/u3/u3-mamnu3-ex.wav"
+						},
+						{
+							"id": "u3-masmuh",
+							"ar": "مَسْموح",
+							"arPlain": "مسموح",
+							"en": "allowed, permitted",
+							"he": "מותר",
+							"root": "س م ح",
+							"pos": "adj",
+							"register": "shared",
+							"cognate": {
+								"kind": "false-friend",
+								"he": "שָׂמֵחַ",
+								"note": "مسموح (permitted, s-m-ḥ) sounds like שמח (happy, ś-m-ḥ). Different roots. At a checkpoint, hearing 'happy' when the word was 'permitted' is a serious comprehension bug — though being permitted does make people happy."
+							},
+							"example": { "ar": "مسموح نمرق ولا لأ؟", "en": "Are we allowed through or not?" },
+							"audio": "audio/tts/u3/u3-masmuh.wav",
+							"audioEx": "audio/tts/u3/u3-masmuh-ex.wav",
+							"note": "لو سمحت — 'if you'd permit' — is this root being polite. سمح/ممنوع run the entire signage of daily life."
+						},
+						{
+							"id": "u3-tasrih",
+							"ar": "تَصْريح",
+							"arPlain": "تصريح",
+							"en": "permit",
+							"he": "אישור, היתר",
+							"root": "ص ر ح",
+							"pos": "noun",
+							"register": "shared",
+							"example": { "ar": "بدنا تصريح حتى نصلي في القدس.", "en": "We need a permit just to pray in Jerusalem." },
+							"audio": "audio/tts/u3/u3-tasrih.wav",
+							"audioEx": "audio/tts/u3/u3-tasrih-ex.wav",
+							"note": "تصريح شغل, تصريح زيارة, تصريح علاج — the permit regime has a noun for every movement. Also 'a statement' in news Arabic — Arc 2 will reuse it."
+						},
+						{
+							"id": "u3-maraq",
+							"ar": "مَرَق",
+							"arPlain": "مرق",
+							"en": "passed (through)",
+							"he": "עבר",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "مرقنا الحاجز، الحمدلله.", "en": "We got through the checkpoint, thank God." },
+							"audio": "audio/tts/u3/u3-maraq.wav",
+							"audioEx": "audio/tts/u3/u3-maraq-ex.wav",
+							"note": "The Levantine 'pass through' — مرق من هون (came through here), بنمرق (we'll get through). The checkpoint's most hoped-for verb."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Checkpoint ahead",
+					"titleAr": "حاجز قدام",
+					"situation": "A serveece slows down; the driver runs the routine. Procedural, calm, fast — exactly how the daily checkpoint sounds from the inside.",
+					"audio": "audio/tts/u3/d3.wav",
+					"ttsVoices": {
+						"سواق": { "label": "Sawwaq", "voice": "Charon" },
+						"راكب": { "label": "Rakeb", "voice": "Algieba" }
+					},
+					"lines": [
+						{ "speaker": "سواق", "ar": "يا شباب، حاجز قدام. طلعوا الهويات.", "en": "Guys — checkpoint ahead. Get your IDs out.", "audio": "audio/tts/u3/d3-l01.wav" },
+						{ "speaker": "راكب", "ar": "مسكر ولا مفتوح؟", "en": "Closed or open?", "audio": "audio/tts/u3/d3-l02.wav" },
+						{ "speaker": "سواق", "ar": "مفتوح، بس في تفتيش اليوم.", "en": "Open — but there's an inspection today.", "audio": "audio/tts/u3/d3-l03.wav" },
+						{ "speaker": "راكب", "ar": "في طابور طويل؟", "en": "Is the queue long?", "audio": "audio/tts/u3/d3-l04.wav" },
+						{ "speaker": "سواق", "ar": "شوي. استنى — خمس دقايق وبنمرق.", "en": "A bit. Wait — five minutes and we're through.", "audio": "audio/tts/u3/d3-l05.wav" },
+						{ "speaker": "راكب", "ar": "معي تصريح شغل، إن شاء الله ما في مشكلة.", "en": "I've got a work permit — hopefully no problem.", "audio": "audio/tts/u3/d3-l06.wav" },
+						{ "speaker": "سواق", "ar": "الهوية والتصريح بإيدك، وخليك هادي.", "en": "ID and permit in your hand, and stay calm.", "audio": "audio/tts/u3/d3-l07.wav" },
+						{ "speaker": "راكب", "ar": "شو بقول الجندي؟", "en": "What's the soldier saying?", "audio": "audio/tts/u3/d3-l08.wav" },
+						{ "speaker": "سواق", "ar": "بقول افتحوا الشبابيك. افتح يا زلمة.", "en": "He says open the windows. Open up, man.", "audio": "audio/tts/u3/d3-l09.wav" },
+						{ "speaker": "راكب", "ar": "خلصنا… مرقنا. الحمدلله.", "en": "Done… we're through. Thank God.", "audio": "audio/tts/u3/d3-l10.wav" }
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "What does the driver tell everyone first?",
+							"options": ["طلعوا الهويات", "سكروا الشبابيك", "انزلوا من السرفيس", "ادفعوا الأجرة"],
+							"answer": 0
+						},
+						{
+							"prompt": "The checkpoint today is…",
+							"options": ["مفتوح بس في تفتيش", "مسكر تماماً", "فاضي وسريع", "بدون جنود"],
+							"answer": 0
+						},
+						{
+							"prompt": "What document does the passenger have besides his ID?",
+							"options": ["تصريح شغل", "تصريح زيارة", "جواز سفر", "ولا إشي"],
+							"answer": 0
+						},
+						{
+							"prompt": "The driver's advice:",
+							"options": ["الهوية بإيدك وخليك هادي", "احكي مع الجندي", "انزل وامشي", "سكر الشباك"],
+							"answer": 0,
+							"why": "خليك هادي — stay calm. The checkpoint's survival grammar in three words."
+						},
+						{
+							"prompt": "What does the soldier want?",
+							"options": ["يفتحوا الشبابيك", "ينزلوا كلهم", "يدفعوا غرامة", "يرجعوا من وين إجوا"],
+							"answer": 0
+						},
+						{
+							"prompt": "«مرقنا» means…",
+							"options": ["We got through", "We waited", "We turned back", "We got searched"],
+							"answer": 0,
+							"why": "مرق — the Levantine pass-through verb, and the sentence's entire emotional payload."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Checkpoint procedural",
+					"pairs": [
+						{ "ar": "حاجِز", "en": "checkpoint", "audio": "audio/tts/u3/u3-hajez.wav" },
+						{ "ar": "هَوِيّة", "en": "ID card", "audio": "audio/tts/u3/u3-hawiyyeh.wav" },
+						{ "ar": "جُنْدي", "en": "soldier", "audio": "audio/tts/u3/u3-jundi.wav" },
+						{ "ar": "طابور", "en": "queue", "audio": "audio/tts/u3/u3-tabur.wav" },
+						{ "ar": "تَفْتيش", "en": "inspection", "audio": "audio/tts/u3/u3-taftish.wav" },
+						{ "ar": "تَصْريح", "en": "permit", "audio": "audio/tts/u3/u3-tasrih.wav" },
+						{ "ar": "مَمْنوع", "en": "forbidden", "audio": "audio/tts/u3/u3-mamnu3.wav" },
+						{ "ar": "مَرَق", "en": "passed through", "audio": "audio/tts/u3/u3-maraq.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "في ____ قدام — طلعوا الهويات.", "en": "Checkpoint ahead — IDs out.", "options": ["حاجز", "طابور", "كراج"], "answer": 0, "audio": "audio/tts/u3/c3-1.wav" },
+						{ "ar": "بدون ____ ما بتقدر تشتغل في القدس.", "en": "Without a permit you can't work in Jerusalem.", "options": ["تصريح", "تفتيش", "طابور"], "answer": 0, "audio": "audio/tts/u3/c3-2.wav" },
+						{ "ar": "____ ساعة كاملة عالحاجز.", "en": "We waited a full hour at the checkpoint.", "options": ["استنينا", "مرقنا", "فتحنا"], "answer": 0, "audio": "audio/tts/u3/c3-3.wav" },
+						{ "ar": "المرور من هون ____ اليوم.", "en": "Passing through here is forbidden today.", "options": ["ممنوع", "مسموح", "مفتوح"], "answer": 0, "audio": "audio/tts/u3/c3-4.wav" },
+						{ "ar": "الحمدلله، ____ بسرعة اليوم.", "en": "Thank God, we got through quickly today.", "options": ["مرقنا", "ضعنا", "استنينا"], "answer": 0, "audio": "audio/tts/u3/c3-5.wav" },
+						{ "ar": "في تفتيش — الطابور ماشي ____ مهل.", "en": "There's an inspection — the line is moving slowly.", "options": ["عَ", "في", "من"], "answer": 0, "audio": "audio/tts/u3/c3-6.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "States and existence: the checkpoint report",
+					"points": [
+						{
+							"ar": "مَفْتوح / مْسَكَّر / واقِف / ماشي",
+							"explanation": "Checkpoint news comes in participles — little adjectives made from verbs: مفتوح open(ed), مسكر closed, واقف standing/stopped, ماشي moving. No 'is' needed: الحاجز مفتوح، الطريق مسكرة، الطابور ماشي. This is how road conditions are reported, person to person, all day.",
+							"examples": [
+								{ "ar": "الحاجز مفتوح بس الطريق مسكرة.", "en": "The checkpoint is open but the road is closed.", "audio": "audio/tts/u3/g3-1-1.wav" },
+								{ "ar": "السرفيس واقف عالمحطة.", "en": "The serveece is standing at the station.", "audio": "audio/tts/u3/g3-1-2.wav" },
+								{ "ar": "الطابور ماشي، خليك هادي.", "en": "The line is moving — stay calm.", "audio": "audio/tts/u3/g3-1-3.wav" }
+							]
+						},
+						{
+							"ar": "في / ما في",
+							"explanation": "Existence is one syllable: في تفتيش (there's an inspection), ما في مشكلة (no problem), في محل؟ (any room?). You've used it since Unit 1 — now notice it carrying the whole checkpoint report: في طابور، في تفتيش، ما في مرور.",
+							"examples": [
+								{ "ar": "في حاجز طيار بعد المفرق.", "en": "There's a flying checkpoint past the junction.", "audio": "audio/tts/u3/g3-2-1.wav" },
+								{ "ar": "ما في تفتيش اليوم، امرق دغري.", "en": "No inspection today — go straight through.", "audio": "audio/tts/u3/g3-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "مَمْنوع",
+							"he": "מָנוּעַ",
+							"kind": "true",
+							"story": "m-n-ʕ, to withhold. Arabic stamped it on signs (ممنوع المرور); Hebrew kept it procedural (מניעה, אמצעי מניעה). Two bureaucracies, one root, the same closed gate."
+						},
+						{
+							"ar": "مَسْموح",
+							"he": "שָׂמֵחַ",
+							"kind": "false-friend",
+							"story": "Permitted (s-m-ḥ) vs happy (ś-m-ḥ) — different roots that collapsed into near-identical sounds. مسموح المرور does not mean the crossing is joyful. Though relative to ممنوع, it might as well."
+						},
+						{
+							"ar": "فَتَح",
+							"he": "פָּתַח",
+							"kind": "true",
+							"story": "p/f-t-ḥ — to open. الحاجز مفتوح and המחסום פתוח are the same sentence twice. The root even named a movement: فتح. Doors, checkpoints, politics — one verb opens them all."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 4,
+			"title": "The cities",
+			"titleAr": "مدن فلسطين",
+			"canDo": "I can catch Palestinian place names at speed — and the identity words built from them: مقدسي، خليلي، نابلسي، غزاوي.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Geography here is biography: where you're from explains your ID color, your accent, your كنافة loyalties. This lesson is the map as Palestinians say it — including الداخل, the Inside, and the distances that aren't about kilometers."
+				},
+				{
+					"type": "vocab",
+					"title": "The places",
+					"items": [
+						{
+							"id": "u3-quds",
+							"ar": "القُدس",
+							"arPlain": "القدس",
+							"en": "Jerusalem",
+							"he": "ירושלים",
+							"root": "ق د س",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "הַקֹּדֶשׁ",
+								"note": "q-d-š — holiness itself. The Arabic name IS the Hebrew root: القدس is 'the Holy,' עיר הקודש word for word."
+							},
+							"example": { "ar": "أختي ساكنة في القدس.", "en": "My sister lives in Jerusalem." },
+							"audio": "audio/tts/u3/u3-quds.wav",
+							"audioEx": "audio/tts/u3/u3-quds-ex.wav",
+							"note": "A Jerusalemite is مقدسي — a word carrying a specific ID card and a specific set of problems."
+						},
+						{
+							"id": "u3-khalil",
+							"ar": "الخَليل",
+							"arPlain": "الخليل",
+							"en": "Hebron",
+							"he": "חברון",
+							"root": "خ ل ل",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "חֶבְרוֹן",
+								"note": "Two languages, one naming logic: Arabic الخليل 'the Friend' (Abraham, خليل الرحمن) and Hebrew חברון from ח-ב-ר, friend/join. Different roots, same idea — the Friend's city."
+							},
+							"example": { "ar": "الخليل أكبر مدينة بالضفة.", "en": "Hebron is the biggest city in the West Bank." },
+							"audio": "audio/tts/u3/u3-khalil.wav",
+							"audioEx": "audio/tts/u3/u3-khalil-ex.wav",
+							"note": "خليلي = Hebronite — nationally famous as sharp traders, and the butt of jokes they tell better themselves."
+						},
+						{
+							"id": "u3-nablus",
+							"ar": "نابْلُس",
+							"arPlain": "نابلس",
+							"en": "Nablus",
+							"he": "שכם",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "نابلس مشهورة بالكنافة.", "en": "Nablus is famous for knafeh." },
+							"audio": "audio/tts/u3/u3-nablus.wav",
+							"audioEx": "audio/tts/u3/u3-nablus-ex.wav",
+							"note": "From Roman Neapolis — 'new city,' like Naples. Hebrew kept the biblical שכם. The adjective نابلسي certifies both people and cheese."
+						},
+						{
+							"id": "u3-ghazzeh",
+							"ar": "غَزّة",
+							"arPlain": "غزة",
+							"en": "Gaza",
+							"he": "עזה",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "עַזָּה",
+								"note": "ʕazza — the same ancient name in both mouths; Hebrew עזה even hears 'strong' (עז) in it. The ع/ע is the same letter doing the same work."
+							},
+							"example": { "ar": "خالي في غزة — صار لنا سنين ما شفناه.", "en": "My uncle is in Gaza — we haven't seen him in years." },
+							"audio": "audio/tts/u3/u3-ghazzeh.wav",
+							"audioEx": "audio/tts/u3/u3-ghazzeh-ex.wav",
+							"note": "غزاوي = Gazan. One sentence of geography, a whole arc of this curriculum (Arc 3) of consequence."
+						},
+						{
+							"id": "u3-betlahem",
+							"ar": "بيت لَحِم",
+							"arPlain": "بيت لحم",
+							"en": "Bethlehem",
+							"he": "בית לחם",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "false-friend",
+								"he": "בֵּית לֶחֶם",
+								"note": "The Holy Land's most famous false friend: Arabic لحم is meat, Hebrew לחם is bread — so it's House of Meat vs House of Bread (and possibly originally neither: the god Laḫmu). Same name, different dinner."
+							},
+							"example": { "ar": "بيت لحم جنب القدس، بس بينهم جدار.", "en": "Bethlehem is right by Jerusalem — but there's a wall between them." },
+							"audio": "audio/tts/u3/u3-betlahem.wav",
+							"audioEx": "audio/tts/u3/u3-betlahem-ex.wav",
+							"note": "Locals say تلحمي for a Bethlehemite — the بيت drops off."
+						},
+						{
+							"id": "u3-ariha",
+							"ar": "أريحا",
+							"arPlain": "اريحا",
+							"en": "Jericho",
+							"he": "יְרִיחוֹ",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "أريحا أقدم مدينة بالعالم.", "en": "Jericho is the oldest city in the world." },
+							"audio": "audio/tts/u3/u3-ariha.wav",
+							"audioEx": "audio/tts/u3/u3-ariha-ex.wav",
+							"note": "And the lowest. Winter destination — Palestinians go down to أريحا for warmth the way others go to the beach."
+						},
+						{
+							"id": "u3-yafa",
+							"ar": "يافا",
+							"arPlain": "يافا",
+							"en": "Jaffa",
+							"he": "יפו",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "أصل عيلتنا من يافا، من قبل الـ٤٨.", "en": "Our family is originally from Jaffa, from before '48." },
+							"audio": "audio/tts/u3/u3-yafa.wav",
+							"audioEx": "audio/tts/u3/u3-yafa-ex.wav",
+							"note": "عروس البحر — the Bride of the Sea. In the Ask Project clip you watched, half the grandparents answered with this word."
+						},
+						{
+							"id": "u3-haifa",
+							"ar": "حَيفا",
+							"arPlain": "حيفا",
+							"en": "Haifa",
+							"he": "חיפה",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "جارنا أبو إلياس من حيفا.", "en": "Our neighbor Abu Elias is from Haifa." },
+							"audio": "audio/tts/u3/u3-haifa.wav",
+							"audioEx": "audio/tts/u3/u3-haifa-ex.wav",
+							"note": "Abu Elias from Unit 2, finally placed on the map. With يافا وعكا واللد والرملة — the cities of the قبل الـ٤٨ sentences."
+						},
+						{
+							"id": "u3-daffeh",
+							"ar": "الضِّفّة",
+							"arPlain": "الضفة",
+							"en": "the West Bank",
+							"he": "הגדה (המערבית)",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "الخليل أكبر مدينة بالضفة.", "en": "Hebron is the biggest city in the Bank." },
+							"audio": "audio/tts/u3/u3-daffeh.wav",
+							"audioEx": "audio/tts/u3/u3-daffeh-ex.wav",
+							"note": "ضفة = riverbank; everyone drops 'western' and says just الضفة. The trio that maps Palestinian speech: الضفة، غزة، الداخل."
+						},
+						{
+							"id": "u3-dakhel",
+							"ar": "الدّاخِل",
+							"arPlain": "الداخل",
+							"en": "'the Inside' — '48 areas / Israel proper",
+							"he": "'הפנים' — שטחי 48'",
+							"root": "د خ ل",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "قرايبنا من الداخل بزورونا بالعيد.", "en": "Our relatives from the Inside visit us on the holiday." },
+							"audio": "audio/tts/u3/u3-dakhel.wav",
+							"audioEx": "audio/tts/u3/u3-dakhel-ex.wav",
+							"note": "How Palestinians say 'Israel-proper areas' without saying it: الداخل, the Inside — also أراضي الـ٤٨. فلسطينيي الداخل = Palestinian citizens of Israel. A one-word politics seminar."
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "A family across the map",
+					"titleAr": "عيلة على كل الخريطة",
+					"brief": "One man's autobiography told as geography: origin, displacement, study, work, the sister behind a permit, the uncle behind a fence. Listen once for the cities; listen again for what stands between them.",
+					"audio": "audio/tts/u3/listen4.wav",
+					"ttsVoice": "Algieba",
+					"preQuestions": [
+						"Which city is the family originally from — and since when?",
+						"Where does his sister live, and what does visiting her require?",
+						"Where's the best knafeh in the world, according to a clearly neutral source?"
+					],
+					"transcript": [
+						{ "speaker": "أبو يافا", "ar": "عيلتنا موزعة على كل الخريطة.", "en": "Our family is scattered across the whole map." },
+						{ "speaker": "أبو يافا", "ar": "أصلنا من يافا، من قبل الثمانية وأربعين.", "en": "We're originally from Jaffa — from before forty-eight." },
+						{ "speaker": "أبو يافا", "ar": "سيدي وتيتاي طلعوا عالخليل، وأنا انولدت فيها.", "en": "My grandparents left for Hebron, and I was born there." },
+						{ "speaker": "أبو يافا", "ar": "درست في نابلس — أحلى كنافة بالدنيا، بالمناسبة.", "en": "I studied in Nablus — best knafeh on earth, by the way." },
+						{ "speaker": "أبو يافا", "ar": "واشتغلت سنتين في رام الله.", "en": "And I worked two years in Ramallah." },
+						{ "speaker": "أبو يافا", "ar": "أختي ساكنة في القدس — بدنا تصريح حتى نزورها.", "en": "My sister lives in Jerusalem — we need a permit just to visit her." },
+						{ "speaker": "أبو يافا", "ar": "وخالي في غزة. صار لنا سنين ما شفناه.", "en": "And my uncle is in Gaza. It's been years since we've seen him." },
+						{ "speaker": "أبو يافا", "ar": "هاي فلسطين: ساعة بالسيارة — وعمر كامل من التصاريح.", "en": "That's Palestine: an hour by car — and a lifetime of permits." }
+					],
+					"questions": [
+						{
+							"prompt": "Where is the family originally from?",
+							"options": ["يافا", "حيفا", "الخليل", "نابلس"],
+							"answer": 0,
+							"why": "من قبل الثمانية وأربعين — the sentence pattern from the grandparents clip."
+						},
+						{
+							"prompt": "Where was the speaker born?",
+							"options": ["الخليل", "يافا", "رام الله", "أريحا"],
+							"answer": 0
+						},
+						{
+							"prompt": "Visiting his sister in Jerusalem requires…",
+							"options": ["تصريح", "هوية بس", "ولا إشي", "جواز سفر"],
+							"answer": 0
+						},
+						{
+							"prompt": "Who hasn't he seen in years?",
+							"options": ["خاله في غزة", "أخته في القدس", "عمه في نابلس", "سيدو في يافا"],
+							"answer": 0,
+							"why": "خالي في غزة — mother's brother, behind the fence. Unit 2's family tree meeting Unit 3's map."
+						},
+						{
+							"prompt": "«ساعة بالسيارة وعمر كامل من التصاريح» means…",
+							"options": [
+								"The distances are short; the permits make them long",
+								"He drives for a living",
+								"Permits take one hour",
+								"He's never owned a car"
+							],
+							"answer": 0
+						}
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Name that city — by ear",
+					"questions": [
+						{
+							"prompt": "Play it. Which city did you hear?",
+							"audio": "audio/tts/u3/u3-khalil.wav",
+							"options": ["Hebron", "Galilee", "Jericho", "Haifa"],
+							"answer": 0,
+							"why": "الخليل — the Friend's city. (الجليل, Galilee, is the sound-alike trap.)"
+						},
+						{
+							"prompt": "Play it. Which city did you hear?",
+							"audio": "audio/tts/u3/u3-ariha.wav",
+							"options": ["Jericho", "Haifa", "Ramallah", "Gaza"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play it. Which place did you hear?",
+							"audio": "audio/tts/u3/u3-dakhel.wav",
+							"options": ["the Inside ('48 areas)", "the Bank", "the old city", "the camp"],
+							"answer": 0
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "The map",
+					"pairs": [
+						{ "ar": "القُدس", "en": "Jerusalem", "audio": "audio/tts/u3/u3-quds.wav" },
+						{ "ar": "الخَليل", "en": "Hebron", "audio": "audio/tts/u3/u3-khalil.wav" },
+						{ "ar": "نابْلُس", "en": "Nablus", "audio": "audio/tts/u3/u3-nablus.wav" },
+						{ "ar": "غَزّة", "en": "Gaza", "audio": "audio/tts/u3/u3-ghazzeh.wav" },
+						{ "ar": "بيت لَحِم", "en": "Bethlehem", "audio": "audio/tts/u3/u3-betlahem.wav" },
+						{ "ar": "يافا", "en": "Jaffa", "audio": "audio/tts/u3/u3-yafa.wav" },
+						{ "ar": "الضِّفّة", "en": "the West Bank", "audio": "audio/tts/u3/u3-daffeh.wav" },
+						{ "ar": "الدّاخِل", "en": "the Inside ('48)", "audio": "audio/tts/u3/u3-dakhel.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "أصل عيلتنا من ____، من قبل الـ٤٨.", "en": "Our family is originally from Jaffa, from before '48.", "options": ["يافا", "أريحا", "الضفة"], "answer": 0, "audio": "audio/tts/u3/c4-1.wav" },
+						{ "ar": "____ أقدم مدينة بالعالم.", "en": "Jericho is the oldest city in the world.", "options": ["أريحا", "نابلس", "غزة"], "answer": 0, "audio": "audio/tts/u3/c4-2.wav" },
+						{ "ar": "الكنافة ال____ أحلى كنافة.", "en": "Nablus knafeh is the best knafeh.", "options": ["نابلسية", "خليلية", "غزاوية"], "answer": 0, "audio": "audio/tts/u3/c4-3.wav" },
+						{ "ar": "قرايبنا من ____ بزورونا بالعيد.", "en": "Our relatives from the Inside visit us on the holiday.", "options": ["الداخل", "الضفة", "الطابور"], "answer": 0, "audio": "audio/tts/u3/c4-4.wav" },
+						{ "ar": "بيت لحم جنب القدس، بس بينهم ____.", "en": "Bethlehem is next to Jerusalem, but there's a wall between them.", "options": ["جدار", "جامع", "سوق"], "answer": 0, "audio": "audio/tts/u3/c4-5.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "City into self: the nisba",
+					"points": [
+						{
+							"ar": "مَقْدِسي، خَليلي، نابُلسي، غَزّاوي",
+							"explanation": "Add ـي to a place and you get its person (and its cheese): مقدسي Jerusalemite, خليلي Hebronite, نابلسي Nabulsi, غزاوي Gazan. It's the same machine as Hebrew's ־י (ירושלמי, עזתי). Identity in this dialect is one suffix away from geography.",
+							"examples": [
+								{ "ar": "هو خليلي بس ساكن في رام الله.", "en": "He's a Hebronite but lives in Ramallah.", "audio": "audio/tts/u3/g4-1-1.wav" },
+								{ "ar": "الجبنة النابلسية للكنافة بس.", "en": "Nabulsi cheese is for knafeh only.", "audio": "audio/tts/u3/g4-1-2.wav" },
+								{ "ar": "مرتو مقدسية، عندها هوية زرقا.", "en": "His wife is a Jerusalemite — she has a blue ID.", "audio": "audio/tts/u3/g4-1-3.wav" }
+							]
+						},
+						{
+							"ar": "ساكِن في… بس أصلي من…",
+							"explanation": "The two-part Palestinian where-from: residence (ساكن في) versus origin (أصلي من). After 1948 they rarely match, so the question من وين إنت؟ often gets both answers — and أصلاً does heavy lifting: I live here, أصلاً from there.",
+							"examples": [
+								{ "ar": "ساكن في عمان بس أصلي من اللد.", "en": "I live in Amman but I'm originally from Lydda.", "audio": "audio/tts/u3/g4-2-1.wav" },
+								{ "ar": "من وين إنتو أصلاً؟ — من حيفا.", "en": "Where are you all from originally? — From Haifa.", "audio": "audio/tts/u3/g4-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "القُدس",
+							"he": "הַקֹּדֶשׁ",
+							"kind": "true",
+							"story": "q-d-š — the holy. The Arabic name of the city is simply the Hebrew root wearing a definite article: القدس / עיר הקודש. Whatever else the two languages dispute, they agree on what this city is made of."
+						},
+						{
+							"ar": "الخَليل",
+							"he": "חֶבְרוֹן",
+							"kind": "shifted",
+							"story": "Not a cognate — better: a translation. Arabic calls the city 'the Friend' after إبراهيم خليل الرحمن; Hebrew's חברון grows from ח-ב-ר, to befriend. Two roots, one nickname for one ancestor — and his tomb still anchors both names."
+						},
+						{
+							"ar": "بيت لَحِم",
+							"he": "בֵּית לֶחֶם",
+							"kind": "false-friend",
+							"story": "lḥm split ways millennia ago: bread to the Hebrews, meat to the Arabs. So Bethlehem feeds everyone differently — בית לחם serves bread, بيت لحم serves meat, and the original Laḫmu (if that's the source) was a god who needed neither."
+						},
+						{
+							"ar": "غَزّة",
+							"he": "עַזָּה",
+							"kind": "true",
+							"story": "ʕazza — one of the oldest continuously-spoken city names on earth, identical in both languages down to the pharyngeal. Hebrew folk-hears עז, strength, in it. Arc 3 of this course lives behind this word."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 5,
+			"title": "Road trouble",
+			"titleAr": "مشاكل الطريق",
+			"canDo": "I can follow someone narrating road trouble — the jam, the flying checkpoint, the empty tank, the strike — and the workarounds.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Every Palestinian commute is a contingency plan. This lesson is the vocabulary of things going wrong — عجقة، إضراب، حاجز طيار — and of coping: the bypass road, the walk, the immortal عَ مهلك. It's also where you learn to be late in fluent Arabic."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u3-3ajqa",
+							"ar": "عَجْقة",
+							"arPlain": "عجقة",
+							"en": "traffic jam, crush",
+							"he": "פקק, עומס",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "في عجقة فظيعة عند المفرق.", "en": "There's a terrible jam at the junction." },
+							"audio": "audio/tts/u3/u3-3ajqa.wav",
+							"audioEx": "audio/tts/u3/u3-3ajqa-ex.wav",
+							"note": "The Levantine word — أزمة works too (you met it at the roundabout), but عجقة is the one with the exasperated hand gesture built in."
+						},
+						{
+							"id": "u3-idrab",
+							"ar": "إضْراب",
+							"arPlain": "اضراب",
+							"en": "strike (general strike)",
+							"he": "שביתה",
+							"root": "ض ر ب",
+							"pos": "noun",
+							"register": "shared",
+							"example": { "ar": "بكرا إضراب عام — كل البلد مسكرة.", "en": "Tomorrow is a general strike — the whole town is closed." },
+							"audio": "audio/tts/u3/u3-idrab.wav",
+							"audioEx": "audio/tts/u3/u3-idrab-ex.wav",
+							"note": "From ضرب, to strike — same metaphor as English. The إضراب عام closes shops, schools, and roads — usually mourning or protest. Arc 2 vocabulary arriving early, because the road feels it first."
+						},
+						{
+							"id": "u3-banzin",
+							"ar": "بَنْزين",
+							"arPlain": "بنزين",
+							"en": "petrol, gas",
+							"he": "בנזין, דלק",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "البنزين عندي عالآخر.", "en": "I'm almost out of petrol." },
+							"audio": "audio/tts/u3/u3-banzin.wav",
+							"audioEx": "audio/tts/u3/u3-banzin-ex.wav",
+							"note": "Same European loan in both languages — بنزين/בנזין. عالآخر — 'at the end' — works for fuel, patience, and months."
+						},
+						{
+							"id": "u3-karaj",
+							"ar": "كَراج",
+							"arPlain": "كراج",
+							"en": "garage; depot",
+							"he": "מוסך; תחנת מוניות",
+							"pos": "noun",
+							"register": "street",
+							"example": { "ar": "كراج سرفيسات الخليل عند إشارة المنارة.", "en": "The Hebron serveece depot is by the Manara light." },
+							"audio": "audio/tts/u3/u3-karaj.wav",
+							"audioEx": "audio/tts/u3/u3-karaj-ex.wav",
+							"note": "French garage, twice borrowed: the repair shop and the serveece depot. الكراج is where journeys begin."
+						},
+						{
+							"id": "u3-khatt",
+							"ar": "خَط",
+							"arPlain": "خط",
+							"en": "line, route",
+							"he": "קו",
+							"root": "خ ط ط",
+							"pos": "noun",
+							"register": "street",
+							"cognate": {
+								"kind": "true",
+								"he": "קַו",
+								"note": "Bus route, phone line, written line — خط and קו carry the same triple load. خط رام الله–القدس is exactly קו ירושלים."
+							},
+							"example": { "ar": "خط القدس واقف اليوم بسبب الحاجز.", "en": "The Jerusalem route is suspended today because of the checkpoint." },
+							"audio": "audio/tts/u3/u3-khatt.wav",
+							"audioEx": "audio/tts/u3/u3-khatt-ex.wav",
+							"note": "And the Unit 2 callback: الخط مشغول — the line is busy."
+						},
+						{
+							"id": "u3-iltifafi",
+							"ar": "اِلْتِفافي",
+							"arPlain": "التفافي",
+							"en": "bypass (road)",
+							"he": "(כביש) עוקף",
+							"root": "ل ف ف",
+							"pos": "adj",
+							"register": "shared",
+							"example": { "ar": "جربنا الطريق الالتفافي — طلع مسكر كمان.", "en": "We tried the bypass road — turned out closed too." },
+							"audio": "audio/tts/u3/u3-iltifafi.wav",
+							"audioEx": "audio/tts/u3/u3-iltifafi-ex.wav",
+							"note": "From لف, to wind around. طرق التفافية are the settlement bypass roads — occupation infrastructure with its own adjective. The Hebrew twin is כביש עוקף, same logic."
+						},
+						{
+							"id": "u3-takhir",
+							"ar": "تَأْخير",
+							"arPlain": "تأخير",
+							"en": "delay",
+							"he": "איחור, עיכוב",
+							"root": "أ خ ر",
+							"pos": "noun",
+							"register": "shared",
+							"cognate": {
+								"kind": "true",
+								"he": "אִחוּר",
+								"note": "ʔ-ḫ-r — late is late: تأخير/איחור, and أخّر/איחר the verb. The apology texts write themselves in either language."
+							},
+							"example": { "ar": "في تأخير ساعة على كل الخطوط.", "en": "There's an hour's delay on all routes." },
+							"audio": "audio/tts/u3/u3-takhir.wav",
+							"audioEx": "audio/tts/u3/u3-takhir-ex.wav"
+						},
+						{
+							"id": "u3-musta3jel",
+							"ar": "مُسْتَعْجِل",
+							"arPlain": "مستعجل",
+							"en": "in a hurry",
+							"he": "ממהר",
+							"root": "ع ج ل",
+							"pos": "adj",
+							"register": "street",
+							"cognate": {
+								"kind": "shifted",
+								"he": "עֲגָלָה",
+								"note": "ʕ-g-l is the rolling root: Hebrew עגול round, עגלה the cart; Arabic عجلة the wheel and مستعجل the one rolling too fast. Hurry is circular motion in both languages."
+							},
+							"example": { "ar": "أنا مستعجل — في طريق أسرع؟", "en": "I'm in a hurry — is there a faster way?" },
+							"audio": "audio/tts/u3/u3-musta3jel.wav",
+							"audioEx": "audio/tts/u3/u3-musta3jel-ex.wav"
+						},
+						{
+							"id": "u3-3amahlak",
+							"ar": "عَ مَهْلَك",
+							"arPlain": "ع مهلك",
+							"en": "take it slow, easy does it",
+							"he": "לאט לך, בנחת",
+							"pos": "phrase",
+							"register": "street",
+							"example": { "ar": "عَ مهلك يا زلمة، الطريق وعرة.", "en": "Easy, man — the road is rough." },
+							"audio": "audio/tts/u3/u3-3amahlak.wav",
+							"audioEx": "audio/tts/u3/u3-3amahlak-ex.wav",
+							"note": "مهل is unhurriedness; عَ مهلك puts it on you, gently. The philosophical opposite of مستعجل, and the only sane response to عجقة."
+						},
+						{
+							"id": "u3-lahaq",
+							"ar": "لَحِق",
+							"arPlain": "لحق",
+							"en": "caught, made it in time",
+							"he": "הספיק לתפוס",
+							"root": "ل ح ق",
+							"pos": "verb",
+							"register": "street",
+							"example": { "ar": "لحقت آخر سرفيس عالخليل.", "en": "I caught the last serveece to Hebron." },
+							"audio": "audio/tts/u3/u3-lahaq.wav",
+							"audioEx": "audio/tts/u3/u3-lahaq-ex.wav",
+							"note": "Its dark twin is فات: فاتني السرفيس — the serveece left me (literally 'passed me'). Between لحقت and فاتني runs the whole drama of the depot."
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Stuck: a phone call",
+					"titleAr": "ألو، أنا عالطريق…",
+					"brief": "A man calls his boss from inside the jam: the flying checkpoint, the fuel gauge, the failed bypass, the people who gave up and walked. One sentence of philosophy at the end.",
+					"audio": "audio/tts/u3/listen5.wav",
+					"ttsVoice": "Iapetus",
+					"preQuestions": [
+						"What two problems hit at once (besides the jam itself)?",
+						"What did some serveece passengers decide to do?",
+						"His closing motto — what does he tell himself (and you)?"
+					],
+					"transcript": [
+						{ "speaker": "كريم", "ar": "ألو، أستاذ سمير؟ أنا عالطريق، بس في مشكلة.", "en": "Hello, Mr. Samir? I'm on my way — but there's a problem." },
+						{ "speaker": "كريم", "ar": "في عجقة فظيعة عند المفرق، إشي ما بتحرك.", "en": "A terrible jam at the junction — nothing's moving." },
+						{ "speaker": "كريم", "ar": "بحكوا في حاجز طيار بعد الكراج.", "en": "They're saying there's a flying checkpoint past the depot." },
+						{ "speaker": "كريم", "ar": "والبنزين عندي عالآخر — الله يستر.", "en": "And my petrol's nearly gone — God help us." },
+						{ "speaker": "كريم", "ar": "جربت الطريق الالتفافي، طلع مسكر كمان.", "en": "I tried the bypass road — turned out closed too." },
+						{ "speaker": "كريم", "ar": "في ناس نزلت من السرفيس وكملت مشي.", "en": "Some people got off the serveece and continued on foot." },
+						{ "speaker": "كريم", "ar": "أنا مستعجل، بعرف — بس شو بدي أعمل؟", "en": "I'm in a hurry, I know — but what can I do?" },
+						{ "speaker": "كريم", "ar": "بوصل لما أوصل. عَ مهلي وعَ مهلك.", "en": "I'll arrive when I arrive. Easy on me, easy on you." }
+					],
+					"questions": [
+						{
+							"prompt": "Where is the jam?",
+							"options": ["عند المفرق", "عند الكراج", "في البلد", "عالحاجز الرئيسي"],
+							"answer": 0
+						},
+						{
+							"prompt": "What's causing it, per the rumor mill?",
+							"options": ["حاجز طيار", "إضراب", "عزومة كبيرة", "شتا"],
+							"answer": 0,
+							"why": "بحكوا في حاجز طيار — note the Unit 1 sourcing verb doing its job."
+						},
+						{
+							"prompt": "His two extra problems:",
+							"options": ["البنزين عالآخر والالتفافي مسكر", "الهوية ضايعة والتصريح خلص", "السرفيس مليان والأجرة غالية", "الدوام بلش والمعاش نزل"],
+							"answer": 0
+						},
+						{
+							"prompt": "What did some passengers do?",
+							"options": ["كملوا مشي", "رجعوا عالبيت", "ناموا بالسرفيس", "دفعوا أجرة زيادة"],
+							"answer": 0
+						},
+						{
+							"prompt": "«بوصل لما أوصل» is…",
+							"options": [
+								"Acceptance: I'll get there when I get there",
+								"A promise to be on time",
+								"A complaint to the boss",
+								"A threat to quit"
+							],
+							"answer": 0,
+							"why": "The road's philosophy in four words — followed by عَ مهلي وعَ مهلك."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Trouble kit",
+					"pairs": [
+						{ "ar": "عَجْقة", "en": "traffic jam", "audio": "audio/tts/u3/u3-3ajqa.wav" },
+						{ "ar": "إضْراب", "en": "strike", "audio": "audio/tts/u3/u3-idrab.wav" },
+						{ "ar": "بَنْزين", "en": "petrol", "audio": "audio/tts/u3/u3-banzin.wav" },
+						{ "ar": "كَراج", "en": "garage, depot", "audio": "audio/tts/u3/u3-karaj.wav" },
+						{ "ar": "خَط", "en": "line, route", "audio": "audio/tts/u3/u3-khatt.wav" },
+						{ "ar": "تَأْخير", "en": "delay", "audio": "audio/tts/u3/u3-takhir.wav" },
+						{ "ar": "مُسْتَعْجِل", "en": "in a hurry", "audio": "audio/tts/u3/u3-musta3jel.wav" },
+						{ "ar": "لَحِق", "en": "caught (in time)", "audio": "audio/tts/u3/u3-lahaq.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{ "ar": "في ____ فظيعة عند المفرق.", "en": "There's a terrible jam at the junction.", "options": ["عجقة", "عزومة", "أجرة"], "answer": 0, "audio": "audio/tts/u3/c5-1.wav" },
+						{ "ar": "بكرا ____ عام، كل إشي مسكر.", "en": "Tomorrow's a general strike — everything's closed.", "options": ["إضراب", "تفتيش", "تأخير"], "answer": 0, "audio": "audio/tts/u3/c5-2.wav" },
+						{ "ar": "ال____ عندي عالآخر.", "en": "I'm almost out of petrol.", "options": ["بنزين", "كراج", "خط"], "answer": 0, "audio": "audio/tts/u3/c5-3.wav" },
+						{ "ar": "جربنا الطريق ال____، مسكر كمان.", "en": "We tried the bypass road — closed too.", "options": ["التفافي", "قديم", "فاضي"], "answer": 0, "audio": "audio/tts/u3/c5-4.wav" },
+						{ "ar": "____ آخر سرفيس، الحمدلله.", "en": "I caught the last serveece, thank God.", "options": ["لحقت", "فاتني", "وقفت"], "answer": 0, "audio": "audio/tts/u3/c5-5.wav" },
+						{ "ar": "____ يا زلمة، الطريق وعرة.", "en": "Easy does it, man — the road is rough.", "options": ["عَ مهلك", "يا حرام", "ولا إشي"], "answer": 0, "audio": "audio/tts/u3/c5-6.wav" }
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Caught it, or it left you",
+					"points": [
+						{
+							"ar": "لَحِقْت ↔ فاتني",
+							"explanation": "Two verbs split punctuality. لحقت السرفيس — I caught it (I did something). فاتني السرفيس — it passed me by (it did something, to me). That dative ني on فات flips the blame: Arabic lets the bus abandon you. Use both daily; mean them.",
+							"examples": [
+								{ "ar": "لحقت آخر واحد، يا ساتر شو عجقة.", "en": "Caught the last one — Lord, what a jam.", "audio": "audio/tts/u3/g5-1-1.wav" },
+								{ "ar": "فاتني سرفيس الستة — استنيت ساعة.", "en": "I missed the six o'clock serveece — waited an hour.", "audio": "audio/tts/u3/g5-1-2.wav" },
+								{ "ar": "بدنا نطلع هلّق حتى ما يفوتنا.", "en": "We need to leave now so it doesn't leave us behind.", "audio": "audio/tts/u3/g5-1-3.wav" }
+							]
+						},
+						{
+							"ar": "عَ مَهْل + ضمير",
+							"explanation": "مهل (unhurry) takes the same possessives as everything else: عَ مهلك (your pace), عَ مهلي (my pace), عَ مهلها. The road's politest imperative — and a complete philosophy when paired: عَ مهلي وعَ مهلك.",
+							"examples": [
+								{ "ar": "عَ مهلك بالنزلة، الطريق مبلولة.", "en": "Take the downhill slowly — the road is wet.", "audio": "audio/tts/u3/g5-2-1.wav" },
+								{ "ar": "بشتغل عَ مهلي بس بخلص صح.", "en": "I work at my own pace but I finish it right.", "audio": "audio/tts/u3/g5-2-2.wav" }
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "تَأْخير",
+							"he": "אִחוּר",
+							"kind": "true",
+							"story": "ʔ-ḫ-r: the late root. تأخّرت and איחרתי are the same confession; آخر and אחרון the same 'last.' Two languages, one shared relationship with the clock — complicated."
+						},
+						{
+							"ar": "مُسْتَعْجِل",
+							"he": "עֲגָלָה",
+							"kind": "shifted",
+							"story": "ʕ-g-l rolls: Hebrew got the circle (עגול), the cart (עגלה), even the calf (עגל — the round one). Arabic got the wheel (عجلة) and the person spinning too fast (مستعجل). Hurry, etymologically, is just going in circles."
+						},
+						{
+							"ar": "خَط",
+							"he": "קַו",
+							"kind": "true",
+							"story": "Different ancient letters, same convergence: خط and קו both mean the drawn line, the bus line, the phone line. When خط القدس واقف and קו ירושלים מושבת, the two sentences are commuting together."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 6,
+			"title": "Review & free listening",
+			"titleAr": "مراجعة واستماع حر",
+			"canDo": "I can follow real Palestinians describing checkpoint experiences — unscripted, at speed, with this unit's exact vocabulary.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "The serveece, the directions, the حاجز, the map, the trouble. Now the proof: real people answering Corey's bluntest question — why are checkpoints humiliating? You'll hear هوية، طابور، تفتيش، استنى، تصريح used by the people who carry them daily. This is the unit's vocabulary with the politeness removed."
+				},
+				{
+					"type": "quiz",
+					"title": "Hear it, know it",
+					"questions": [
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u3/u3-hajez.wav",
+							"options": ["checkpoint", "queue", "permit", "garage"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u3/u3-hawiyyeh.wav",
+							"options": ["ID card", "permit", "fare", "ticket"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u3/u3-dughri.wav",
+							"options": ["straight ahead", "to the right", "behind", "slowly"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u3/u3-ujra.wav",
+							"options": ["fare", "station", "queue", "delay"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u3/u3-3ajqa.wav",
+							"options": ["traffic jam", "dinner party", "strike", "inspection"],
+							"answer": 0,
+							"why": "عجقة — and if you heard عزومة, the dinner/gridlock minimal pair got you again."
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u3/u3-masmuh.wav",
+							"options": ["allowed", "happy", "forbidden", "closed"],
+							"answer": 0,
+							"why": "مسموح — permitted. Not שמח. The checkpoint false-friend, defused."
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"audio": "audio/tts/u3/u3-maraq.wav",
+							"options": ["passed through", "waited", "stopped", "turned back"],
+							"answer": 0
+						},
+						{
+							"prompt": "Play the phrase. What is the speaker doing?",
+							"audio": "audio/tts/u3/u3-3amahlak.wav",
+							"options": ["telling you to slow down, gently", "hurrying you", "saying goodbye", "warning of danger"],
+							"answer": 0
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "The unit in eight pairs",
+					"pairs": [
+						{ "ar": "سِرفيس", "en": "shared taxi", "audio": "audio/tts/u3/u3-servees.wav" },
+						{ "ar": "نَزِّلني", "en": "drop me off", "audio": "audio/tts/u3/u3-nazzel.wav" },
+						{ "ar": "شْمال", "en": "left; north", "audio": "audio/tts/u3/u3-shmal.wav" },
+						{ "ar": "ضايِع", "en": "lost", "audio": "audio/tts/u3/u3-dayi3.wav" },
+						{ "ar": "تَصْريح", "en": "permit", "audio": "audio/tts/u3/u3-tasrih.wav" },
+						{ "ar": "طابور", "en": "queue", "audio": "audio/tts/u3/u3-tabur.wav" },
+						{ "ar": "الدّاخِل", "en": "the Inside ('48)", "audio": "audio/tts/u3/u3-dakhel.wav" },
+						{ "ar": "لَحِق", "en": "caught in time", "audio": "audio/tts/u3/u3-lahaq.wav" }
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "The unit in six gaps",
+					"items": [
+						{ "ar": "____ عند المفرق، الله يعطيك العافية.", "en": "Drop me at the junction — God give you strength.", "options": ["نزّلني", "وصّلني", "خبّرني"], "answer": 0, "audio": "audio/tts/u3/c6-1.wav" },
+						{ "ar": "روح دغري وخود ____ عند الجامع.", "en": "Go straight and take a right at the mosque.", "options": ["يمين", "شمال", "ورا"], "answer": 0, "audio": "audio/tts/u3/c6-2.wav" },
+						{ "ar": "الهوية وال____ بإيدك عالحاجز.", "en": "ID and permit in your hand at the checkpoint.", "options": ["تصريح", "أجرة", "بنزين"], "answer": 0, "audio": "audio/tts/u3/c6-3.wav" },
+						{ "ar": "أصلي من يافا بس ____ في رام الله.", "en": "I'm originally from Jaffa but live in Ramallah.", "options": ["ساكن", "ضايع", "مستعجل"], "answer": 0, "audio": "audio/tts/u3/c6-4.wav" },
+						{ "ar": "____ السرفيس — استنيت ساعة عالكراج.", "en": "The serveece left without me — I waited an hour at the depot.", "options": ["فاتني", "لحقت", "وقّفت"], "answer": 0, "audio": "audio/tts/u3/c6-5.wav" },
+						{ "ar": "الحاجز مفتوح بس الطريق ____.", "en": "The checkpoint is open but the road is closed.", "options": ["مسكرة", "فاضية", "قريبة"], "answer": 0, "audio": "audio/tts/u3/c6-6.wav" }
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Real street: why are checkpoints humiliating?",
+					"titleAr": "استماع حر — ليش الحواجز مهينة؟",
+					"brief": "The Ask Project asks Palestinians the unit's hardest question. The answers are unscripted and fast, and they run on exactly the words you just learned: هوية، طابور، تفتيش، استنى، تصريح، جنود. You won't catch everything — catch the procedure words and the feeling words around them. This is what the lesson-3 dialogue sounds like when it's a life instead of a lesson.",
+					"youtubeId": "zHvUcA1aHiU",
+					"preQuestions": [
+						"Count the unit words you catch: هوية، طابور، تفتيش، استنى، تصريح — which comes up most?",
+						"Many speakers describe waiting. What units of time do you hear — دقايق؟ ساعات؟ من الفجر؟",
+						"Listen for one full sentence you understand completely, and write it down — that's your exit ticket from Arc 1's road."
+					],
+					"transcript": [],
+					"questions": []
+				}
+			]
+		}
+	]
+}
