@@ -1,0 +1,430 @@
+{
+	"n": 4,
+	"arc": 1,
+	"title": "Market & coffee",
+	"titleAr": "السوق والقهوة",
+	"mission": "Buying, haggling, and being fed: the souq with its kilo-arithmetic and neighbor-gambit, the coffee that cannot be refused (correctly), and the food words old enough to be Hebrew's cousins. Arc 1 ends where Palestinian life convenes — around the scale and the tray.",
+	"registerMix": { "street": 90, "news": 0, "shared": 10 },
+	"lessons": [
+		{
+			"title": "At the market",
+			"titleAr": "في السوق",
+			"canDo": "I can buy produce at the souq — price it, doubt it, haggle it down a shekel, and walk off with the right change.",
+			"intro": "The souq is a listening gym disguised as shopping: prices fly, quantities double, and the haggle has fixed moves you can learn like chess openings. First move: never accept the first price. Second move: invoke the neighbor.",
+			"vocab": [
+				{ "id": "suq", "ar": "سوق", "en": "market, souq", "he": "שוק", "pos": "noun", "reg": "street", "root": "س و ق", "ex": ["رايحة عالسوق، بدك إشي؟", "I'm going to the market — need anything?"], "note": "Also the economy itself: السوق واقف — business is dead. Unit 2's herd-driving root, arrived at its destination.", "cog": ["shifted", "שׁוּק", "s-w-q, to drive herds — to where? To market. Your שוק and the Palestinian سوق are the same destination of the same cattle drive."] },
+				{ "id": "khudra", "ar": "خُضْرة", "en": "vegetables, greens", "he": "ירקות", "pos": "noun", "reg": "street", "root": "خ ض ر", "ex": ["بياع الخضرة بفتح بكير.", "The vegetable seller opens early."], "note": "Collective: the green stuff. The vegetable man is the خضرجي — that ـجي is the Ottoman job-suffix, like كهربجي the electrician." },
+				{ "id": "fawakeh", "ar": "فَواكِه", "en": "fruit", "he": "פירות", "pos": "noun", "reg": "street", "ex": ["الفواكه غالية هالموسم.", "Fruit is expensive this season."], "note": "The singular فاكهة is rarely heard — the fruit stand thinks in plurals." },
+				{ "id": "kilo", "ar": "كيلو", "en": "kilo", "he": "קילו", "pos": "noun", "reg": "street", "ex": ["بكم كيلو البندورة؟", "How much is a kilo of tomatoes?"], "note": "كيلو ونص، كيلو وربع — Unit 2's fraction system now sells produce. بندورة, by the way, is pomodoro — Italian tomatoes that learned Arabic." },
+				{ "id": "habbeh", "ar": "حَبّة", "en": "a piece, one (of produce)", "he": "יחידה אחת", "pos": "noun", "reg": "street", "ex": ["أعطيني حبتين خيار وحبة بندورة.", "Give me two cucumbers and one tomato."], "note": "The counting word for things you can hold: حبة، حبتين، تلات حبات. At the pharmacy it's a pill." },
+				{ "id": "taza", "ar": "طازة", "en": "fresh", "he": "טרי", "pos": "adj", "reg": "street", "ex": ["خبز طازة، طالع هلّق من الفرن.", "Fresh bread, just out of the oven."], "cog": ["loan", "טָאזָה", "Turkish taze went two directions: the Palestinian طازة and the Israeli slang טאזה. Same freshness, same Ottoman delivery truck."] },
+				{ "id": "ghali", "ar": "غالي", "en": "expensive", "he": "יקר", "pos": "adj", "reg": "street", "root": "غ ل و", "ex": ["كل إشي صار غالي.", "Everything's gotten expensive."], "note": "Unit 1's protest chant, now at the stall. Also affection: يا غالي — 'you precious one.' The market and the heart share a vocabulary." },
+				{ "id": "rkhis", "ar": "رْخيص", "en": "cheap", "he": "זול", "pos": "adj", "reg": "street", "ex": ["البصل رخيص هاليومين.", "Onions are cheap these days."], "note": "Cheap in price; said of a person, an insult. Mind the register." },
+				{ "id": "bayya3", "ar": "بَيّاع", "en": "vendor, seller", "he": "מוכר", "pos": "noun", "reg": "street", "root": "ب ي ع", "ex": ["البياع حلف إنها طازة.", "The vendor swore it was fresh."], "note": "The فعّال profession pattern: باع sells → بياع seller, ساق drives → سواق driver. Hear the doubled middle and you've found someone's job." },
+				{ "id": "zbun", "ar": "زْبون", "en": "customer", "he": "לקוח", "pos": "noun", "reg": "street", "ex": ["الزبون الدايم بوخد سعر أحسن.", "The regular customer gets a better price."], "note": "Plural زباين. Being a زبون دايم earns credit, gossip, and the good tomatoes from under the table." }
+			],
+			"dialogue": {
+				"t": "Six shekels?!",
+				"tAr": "ستة شيكل؟!",
+				"sit": "Morning souq. Tomatoes, an outraged counter-offer, and the oldest move in the game: the neighbor's price.",
+				"voices": { "زبون": ["Zabun", "Algieba"], "بياع": ["Bayya3", "Charon"] },
+				"lines": [
+					["زبون", "صباح الخير. البندورة كيف اليوم؟", "Morning. How are the tomatoes today?"],
+					["بياع", "صباح النور. طازة من الصبح يا عمي.", "Morning. Fresh from dawn, sir."],
+					["زبون", "بكم الكيلو؟", "How much per kilo?"],
+					["بياع", "ستة شيكل.", "Six shekels."],
+					["زبون", "ستة؟! غالي يا زلمة. عند جارك بأربعة.", "Six?! That's steep, man. Your neighbor has them at four."],
+					["بياع", "جاري بضاعته من مبارح. هاي قطفة اليوم.", "My neighbor's stock is from yesterday. This is today's picking."],
+					["زبون", "خلص، حط كيلوين. وشوية خيار كمان.", "Fine — two kilos. And some cucumbers too."],
+					["بياع", "تكرم. شو كمان؟ عنا عنب طازة.", "You got it. What else? We've got fresh grapes."],
+					["زبون", "لأ، بكفي هيك اليوم.", "No — that's enough for today."],
+					["بياع", "صحتين وعافية. خمسطعش شيكل كله.", "Enjoy in health. Fifteen shekels for everything."]
+				]
+			},
+			"quiz": [
+				["What is the customer pricing?", ["البندورة", "الخيار", "العنب", "الزيتون"], 0],
+				["The vendor's opening price per kilo:", ["ستة شيكل", "أربعة شيكل", "عشرة شيكل", "خمسطعش شيكل"], 0],
+				["The customer's haggling move:", ["عند جارك بأربعة", "بدفع بالدين", "مش طازة", "بدي ببلاش"], 0, "Invoking the neighbor's price — the souq's oldest opening."],
+				["The vendor's defense:", ["بضاعة الجار من مبارح", "جاري سكّر", "البندورة بلدي", "الجار غشاش"], 0, "Freshness beats price — هاي قطفة اليوم."],
+				["Final bill:", ["خمسطعش شيكل", "خمسين شيكل", "خمسة شيكل", "ستة شيكل"], 0, "خمسطعش — the ـطعش teens from the number gym, now costing you money."]
+			],
+			"match": ["suq", "khudra", "fawakeh", "taza", "ghali", "rkhis", "bayya3", "zbun"],
+			"cloze": [
+				["بكم ____ البندورة؟", "How much is a kilo of tomatoes?", ["كيلو", "حبة", "كيس"], 0],
+				["هاي بضاعة ____، من الصبح.", "These are fresh goods — from this morning.", ["طازة", "غالية", "مالحة"], 0],
+				["ستة شيكل؟ ____ يا زلمة!", "Six shekels? Expensive, man!", ["غالي", "رخيص", "زاكي"], 0],
+				["عند جارك ب____.", "At your neighbor's it's four.", ["أربعة", "أربعين", "ربع"], 0],
+				["حط ____ بندورة، لو سمحت.", "Two kilos of tomatoes, please.", ["كيلوين", "كيلو", "كيس"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "كيلوين، حبتين، ساعتين",
+					"exp": "Arabic counts 'two' with a suffix, not a word: كيلوين two kilos, حبتين two pieces, يومين two days. Hear ـين on a noun and delete the word 'two' from your search — it's already in there. (You've been hearing it since سنتين in Unit 2.)",
+					"ex": [
+						["حط كيلوين بندورة وحبتين خيار.", "Two kilos of tomatoes and two cucumbers."],
+						["استنينا ساعتين عالحاجز مبارح.", "We waited two hours at the checkpoint yesterday."]
+					]
+				},
+				{
+					"ar": "بكم الكيلو؟ — قديش حقه؟",
+					"exp": "Two interchangeable price questions: بكم (by-how-much) and قديش حق + suffix (how much is its due). Answers come verbless and bare: ستة شيكل. Pricing is arithmetic spoken aloud — no sentence required.",
+					"ex": [
+						["بكم كيلو العنب اليوم؟", "How much is a kilo of grapes today?"],
+						["قديش حق هالجبنة البلدية؟", "How much is this local cheese?"]
+					]
+				}
+			],
+			"cognates": [
+				["سوق", "שׁוּק", "shifted", "s-w-q: drive the herd (ساق، سواق) and you arrive at the market. The Israeli שוק and the Nablus سوق are the same word at the end of the same cattle path — and both still shout."],
+				["طازة", "טָאזָה", "loan", "Ottoman Turkish taze, 'fresh,' was left behind in both languages when the empire packed up: طازة on the Palestinian stall, טאזה in Israeli slang. One empire, two souvenirs, same tomatoes."]
+			]
+		},
+		{
+			"title": "How much is it really?",
+			"titleAr": "قَدّيش حَقُّه؟",
+			"canDo": "I can handle the money layer: prices, change, the tab, the scale — and know when بكفي.",
+			"intro": "Under the haggling sits the machinery: مصاري and فراطة, the دفتر where debts live, the scale whose honesty is the vendor's whole name. This is also a lesson in roots: حق is price, truth, and right at once — worth contemplating on the walk home.",
+			"vocab": [
+				{ "id": "haqq", "ar": "حَق", "en": "price; right, due", "he": "מחיר; זכות", "pos": "noun", "reg": "street", "root": "ح ق ق", "ex": ["قديش حق الزيتون؟", "What's the price of the olives?"], "note": "One word, three lives: the price (حقه عشرة), the right (حقي!), the being-right (حقك عليّ — you're right / my fault, the argument-ender).", "cog": ["shifted", "חוֹק", "ḥ-q-q: Arabic kept truth, right, and price; Hebrew carved the statute — חוק. What's owed, what's true, and what's law — one root adjudicates all three."] },
+				{ "id": "masari", "ar": "مَصاري", "en": "money", "he": "כסף", "pos": "noun", "reg": "street", "ex": ["ما معي مصاري اليوم.", "I've got no money on me today."], "note": "THE Levantine money word — from the old مصري (Egyptian) coinage. فلوس also circulates." },
+				{ "id": "frata", "ar": "فْراطة", "en": "small change", "he": "עודף, כסף קטן", "pos": "noun", "reg": "street", "root": "ف ر ط", "ex": ["عندك فراطة؟ ما معي إلا مية.", "Got change? I've only got a hundred."], "note": "From فرط — money broken into bits. عندك فراطة؟ is half of all market dialogue and all of all serveece dialogue." },
+				{ "id": "den", "ar": "دين", "en": "debt; credit", "he": "חוב", "pos": "noun", "reg": "street", "root": "د ي ن", "ex": ["نص الحارة بتشتري بالدين.", "Half the neighborhood buys on credit."], "note": "دَين debt vs دِين religion — same letters, one vowel apart, and the dictionary keeps them as neighbors on purpose. Hebrew דין (judgment) is the family's third brother." },
+				{ "id": "hsab", "ar": "حْساب", "en": "bill; account, tab", "he": "חשבון", "pos": "noun", "reg": "street", "root": "ح س ب", "ex": ["اكتبها عالحساب، بسدد الخميس.", "Put it on the tab — I'll settle up Thursday."], "note": "Unit 1's حسب (according to) grown into a noun. الحساب لو سمحت — the check, please.", "cog": ["true", "חֶשְׁבּוֹן", "ḥ-š-b: حساب and חשבון are the same reckoning — the bill, the account, the settling. עושה חשבון and بعمل حساب even share the idiom."] },
+				{ "id": "mizan", "ar": "ميزان", "en": "scale", "he": "מאזניים", "pos": "noun", "reg": "street", "root": "و ز ن", "ex": ["حط البندورة عالميزان.", "Put the tomatoes on the scale."], "note": "Root w-z-n, weight — Hebrew מאזניים swapped the و for an א, same instrument. An honest ميزان is the vendor's entire reputation; the Quran uses it for cosmic justice." },
+				{ "id": "kis", "ar": "كيس", "en": "bag", "he": "שקית", "pos": "noun", "reg": "street", "ex": ["حطلي ياهم بكيس قوي.", "Put them in a strong bag for me."], "cog": ["true", "כִּיס", "One root, two sizes: the Arabic كيس carries the shopping; the Hebrew כיס is the pocket. Both exist to hold المصاري — and both are where it disappears."] },
+				{ "id": "bda3a", "ar": "بْضاعة", "en": "goods, stock", "he": "סחורה", "pos": "noun", "reg": "street", "ex": ["البضاعة وصلت اليوم الصبح.", "The stock arrived this morning."], "note": "The haggling lever: بضاعة اليوم vs بضاعة مبارح. You heard the vendor wield it against his neighbor." },
+				{ "id": "bikaffi", "ar": "بِكَفّي", "en": "(it's) enough", "he": "מספיק", "pos": "verb", "reg": "street", "root": "ك ف ي", "ex": ["بكفي هيك، يسلمو.", "That's enough, thanks."], "note": "Impersonal verb — 'it suffices.' Alone it's the brake pedal: بكفي! With a suffix it budgets: كيلو بكفيني لأسبوع." },
+				{ "id": "naqqi", "ar": "نَقّي", "en": "pick, choose (for yourself)", "he": "תבחר בעצמך", "pos": "verb", "reg": "street", "root": "ن ق ي", "ex": ["نقّي يا عمي، كله قدامك.", "Pick for yourself, sir — it's all in front of you."], "note": "The vendor's trust move: choose your own. From نقي, pure — picking is purifying. The doubled middle again: make-pure → hand-select." }
+			],
+			"listen": {
+				"t": "Abu al-Abed's notebook",
+				"tAr": "دفتر أبو العبد",
+				"brief": "Thirty years behind a vegetable stall: where the goods come from, who pays cash, who pays at month's end, and why the scale is never wrong. The market's social economics in eight sentences.",
+				"speaker": "أبو العبد",
+				"voice": "Charon",
+				"pre": [
+					"Where do his goods come from?",
+					"How does he track the customers who buy on credit?",
+					"What does he say the market really is?"
+				],
+				"lines": [
+					["أنا أبو العبد، بياع خضرة من تلاتين سنة.", "I'm Abu al-Abed — a vegetable seller for thirty years."],
+					["بفتح بسطتي الساعة خمسة الصبح، قبل كل السوق.", "I open my stall at five in the morning, before the whole market."],
+					["البضاعة بتيجي من الأغوار: بندورة، خيار، كوسا.", "The goods come from the Jordan Valley: tomatoes, cucumbers, zucchini."],
+					["الأسعار طالعة، والناس معها مصاري أقل.", "Prices keep climbing, and people have less money."],
+					["في زباين بشتروا بالدين — بكتب الحساب بدفتر صغير.", "Some customers buy on credit — I write the account in a little notebook."],
+					["واللي ما معه، بستنى عليه. آخر الشهر بسدد.", "And whoever can't pay — I wait. End of the month, he settles."],
+					["الميزان عندي صادق. هاي تجارة وهاي سمعة.", "My scale is honest. That's business, and that's reputation."],
+					["السوق مش بس بيع وشرا — السوق ناس.", "The market isn't just buying and selling — the market is people."]
+				],
+				"qs": [
+					["How long has Abu al-Abed been selling vegetables?", ["تلاتين سنة", "تلاتة وعشرين سنة", "خمسطعش سنة", "سنتين"], 0, "تلاتين — the ـين tens ending. The number gym never closes."],
+					["Where do his goods come from?", ["من الأغوار", "من الداخل", "من السوق", "من عند جاره"], 0, "الأغوار — the Jordan Valley, the West Bank's farm belt."],
+					["How do some customers pay?", ["بالدين", "بالفراطة بس", "بالدولار", "ما بدفعوا أبداً"], 0],
+					["Where does the credit live?", ["بدفتر صغير", "بالتلفون", "براسه", "عند البنك"], 0, "The دفتر — the notebook that holds half the neighborhood's months."],
+					["His scale is…", ["صادق", "خربان", "جديد", "مستعمل"], 0, "صادق — honest. The ص-د-ق truth-root from Unit 1, weighing vegetables now."]
+				]
+			},
+			"match": ["haqq", "masari", "frata", "den", "hsab", "mizan", "kis", "bikaffi"],
+			"cloze": [
+				["قديش ____ هالجبنة؟", "What's the price of this cheese?", ["حق", "وزن", "كيس"], 0],
+				["ما معي ____، بدفع بكرا.", "I've got no money on me — I'll pay tomorrow.", ["مصاري", "فراطة", "بضاعة"], 0],
+				["عندك ____؟ ما معي إلا مية.", "Got change? I've only got a hundred.", ["فراطة", "حساب", "ميزان"], 0],
+				["بشتري بال____ وبسدد آخر الشهر.", "I buy on credit and settle at the end of the month.", ["دين", "كيس", "حق"], 0],
+				["حط الخضرة بال____.", "Put the vegetables in the bag.", ["كيس", "ميزان", "دفتر"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "بِكَفّي — بِكَفّيني — بِكَفّيك",
+					"exp": "بكفي is impersonal: it-suffices. Bare, it ends things: بكفي! With object endings it does budgeting: بكفيني (enough for me), بكفينا (enough for us). The politest way to stop a vendor, a host, or an argument.",
+					"ex": [
+						["بكفي هيك، الله يخليك.", "That's enough, bless you."],
+						["كيلو زيت بكفينا شهر.", "A kilo of oil lasts us a month."]
+					]
+				},
+				{
+					"ar": "كاش — عالحساب — بالدين",
+					"exp": "Three payment states: cash now, عالحساب on the tab, بالدين on credit proper. The دفتر that holds it all is a social institution — Abu al-Abed's notebook carries more trust than most banks.",
+					"ex": [
+						["اكتبها عالحساب يا أبو العبد.", "Put it on the tab, Abu al-Abed."],
+						["نص السوق ماشي بالدين هالأيام.", "Half the market runs on credit these days."]
+					]
+				}
+			],
+			"cognates": [
+				["حَق", "חוֹק", "shifted", "ḥ-q-q. Arabic kept the bundle whole: truth, right, price — قديش حقه، هاد حقي. Hebrew carved off the statute: חוק. When a vendor says حقه عشرة and a court says זה החוק, one ancient root is adjudicating both."],
+				["حْساب", "חֶשְׁבּוֹן", "true", "ḥ-š-b: the reckoning root from Unit 1's حسب, now a noun on every table: الحساب لو سمحت = החשבון בבקשה. Same bill, same flinch."],
+				["كيس", "כִּיס", "true", "The bag and the pocket are one root in two sizes — and the proverbial money vanishes from both: من كيسك means 'out of your own pocket,' exactly where מהכיס שלך hurts."]
+			]
+		},
+		{
+			"title": "Coffee, by the rules",
+			"titleAr": "قهوة عالأصول",
+			"canDo": "I can survive Palestinian hospitality with honor: refuse twice, accept the third time, order my coffee سادة, and bless the right hands.",
+			"intro": "Hospitality here is a formal system with moves and counter-moves: the offer, the refusal (mandatory), the re-offer (inevitable), the surrender (delicious). This lesson teaches the script — and the coffee-sweetness scale that doubles as a personality test.",
+			"vocab": [
+				{ "id": "qahweh", "ar": "قَهْوة", "en": "coffee", "he": "קפה", "pos": "noun", "reg": "street", "ex": ["اعملي لنا قهوة، خلينا نقعد.", "Make us some coffee — let's sit a while."], "cog": ["loan", "קָפֶה", "قهوة → Turkish kahve → Venetian caffè → Europe's coffee → Hebrew קפה. The word made a four-century world tour and came home to the Levant wearing a ק."] },
+				{ "id": "def", "ar": "ضيف", "en": "guest", "he": "אורח", "pos": "noun", "reg": "street", "root": "ض ي ف", "ex": ["عنا ضيوف عالعشا.", "We have guests for dinner."], "note": "الضيف ضيف الله — the guest is God's guest, three days by tradition. The whole ض-ي-ف system: ضيف، ضيافة، استضاف." },
+				{ "id": "tfaddal", "ar": "تْفَضَّل", "en": "here you go; come in; please", "he": "בבקשה; היכנס", "pos": "particle", "reg": "street", "root": "ف ض ل", "ex": ["تفضل، اقعد. البيت بيتك.", "Come in, sit — the house is yours."], "note": "The Swiss-army politeness word: come in / sit / take / after you / here you go. Feminine تفضلي, plural تفضلوا. When in doubt, تفضل.", "matchEn": "here you go; come in" },
+				{ "id": "ahla-wsahla", "ar": "أهلا وسَهْلا", "en": "welcome", "he": "ברוך הבא", "pos": "phrase", "reg": "street", "ex": ["أهلا وسهلا، نورتوا البيت.", "Welcome — you've lit up the house."], "note": "The full formula: أهلاً (you've come to family) وسهلاً (onto easy ground). The reply to the reply: نورتوا — 'you brought the light.'", "cog": ["loan", "אַהֲלָן", "The אהלן Israelis text each other is the first half of this formula, clipped and borrowed. Here it comes with its other half — and with the obligation to actually feed you."], "matchEn": "welcome" },
+				{ "id": "sahten", "ar": "صَحْتين", "en": "bon appétit", "he": "בתיאבון", "pos": "phrase", "reg": "street", "root": "ص ح ح", "ex": ["صحتين وعافية!", "Health and wellness on you!"], "note": "Literally 'two healths' — the dual from Lesson 1, blessing your plate. The reply: على قلبك — 'and on your heart.'", "matchEn": "bon appétit" },
+				{ "id": "shay", "ar": "شاي", "en": "tea", "he": "תה", "pos": "noun", "reg": "street", "ex": ["شاي بالنعنع ولا بالمرمية؟", "Tea with mint or with sage?"], "note": "Winter runs on شاي ومرمية (sage tea). The host's opening gambit is always the binary: قهوة ولا شاي؟" },
+				{ "id": "sukkar", "ar": "سُكَّر", "en": "sugar", "he": "סוכר", "pos": "noun", "reg": "street", "ex": ["بدون سكر، الله يخليك.", "No sugar, please."], "cog": ["loan", "סוּכָּר", "Sanskrit śarkarā rode through Persian and Arabic سكر into every European tongue and Hebrew's סוכר. Sweetness is humanity's oldest supply chain — and your tea is its terminus."] },
+				{ "id": "sada", "ar": "سادة", "en": "unsweetened (coffee), plain", "he": "בלי סוכר, מר", "pos": "adj", "reg": "street", "ex": ["قهوة سادة، زي ما بحبها سيدو.", "Bitter coffee, the way grandpa likes it."], "note": "The coffee scale: سادة bitter → وسط/مظبوطة middle → حلوة sweet. Ordering سادة earns silent respect from every Abu anything.", "matchEn": "unsweetened, bitter (coffee)" },
+				{ "id": "3azam", "ar": "عَزَم", "en": "invited", "he": "הזמין (אורח)", "pos": "verb", "reg": "street", "root": "ع ز م", "ex": ["عزمونا على الغدا الجمعة.", "They invited us for Friday lunch."], "note": "Unit 2's عزومة is this verb's child. عزمني على قهوة — minimal invitation, maximal obligation." },
+				{ "id": "yislamu", "ar": "يِسْلَمو إيديكي", "en": "bless your hands (thanks to the cook)", "he": "תבורכנה ידייך", "pos": "phrase", "reg": "street", "root": "س ل م", "ex": ["يسلمو إيديكي، شو هالأكل!", "Bless your hands — what food!"], "note": "THE compliment to whoever cooked: may your hands stay safe. To a man: يسلمو إيديك. The reply: وإيديك — and yours.", "matchEn": "bless your hands" }
+			],
+			"dialogue": {
+				"t": "Coffee, three rounds",
+				"tAr": "قهوة عالأصول",
+				"sit": "A guest drops by Umm Samir's. Watch the choreography: offer, refusal, counter-offer, capitulation — performed by both sides in full knowledge of the ending.",
+				"voices": { "أم سمير": ["UmSamir", "Sulafat"], "ضيف": ["Def", "Algieba"] },
+				"lines": [
+					["أم سمير", "تفضل، اقعد. شو بتشرب؟", "Come in, sit. What will you drink?"],
+					["ضيف", "ولا إشي والله، مش لازم.", "Nothing at all, really — no need."],
+					["أم سمير", "مش معقول! بيتنا بيتك. قهوة ولا شاي؟", "Out of the question! Our house is yours. Coffee or tea?"],
+					["ضيف", "خلص، قهوة. بس سادة لو سمحتي.", "Fine — coffee. But unsweetened, please."],
+					["أم سمير", "سادة؟ زي أبوي الله يرحمه. والكنافة وين رايحة؟", "Bitter? Like my father, God rest him. And where's the knafeh going?"],
+					["ضيف", "لا لا، كنافة لأ. والله القهوة بكفي.", "No no — not knafeh. Really, coffee is plenty."],
+					["أم سمير", "يا زلمة حطيتها قدامك. صحتين!", "Man, I've already put it in front of you. Sahtein!"],
+					["ضيف", "طيب… حبة صغيرة. يسلمو إيديكي.", "Fine… a small piece. Bless your hands."],
+					["أم سمير", "صحة وعافية. وخد معك لمرتك كمان.", "To your health. And take some home for your wife too."],
+					["ضيف", "خلص، استسلمت. أهلك كرماء يا أم سمير.", "That's it — I surrender. Your family wins, Umm Samir."]
+				]
+			},
+			"quiz": [
+				["First offer — the guest's (mandatory) reply:", ["ولا إشي والله، مش لازم", "قهوة سادة", "كنافة وشاي", "أيوا، جوعان"], 0, "Round one is always a warm refusal. Accepting immediately is a rookie tell."],
+				["How does he take his coffee?", ["سادة", "حلوة", "مظبوطة", "بحليب"], 0],
+				["Who else drank it that way?", ["أبوها، الله يرحمه", "جوزها", "سيدو الضيف", "الجيران"], 0],
+				["The knafeh's fate:", ["أكل حبة صغيرة", "رفضها تماماً", "أكلها كلها", "أخذها وما أكل"], 0, "Round three: accept 'a small piece.' The dance, completed with honor."],
+				["Umm Samir's closing move:", ["خد لمرتك كمان", "الحساب عشرة شيكل", "بكفي هيك", "روح بكير"], 0, "Hospitality's encore: you leave with provisions whether you like it or not."]
+			],
+			"match": ["qahweh", "def", "tfaddal", "ahla-wsahla", "sahten", "shay", "sada", "yislamu"],
+			"cloze": [
+				["____، اقعد. البيت بيتك.", "Come in, sit — the house is yours.", ["تفضل", "صحتين", "يلا"], 0],
+				["بشرب قهوتي ____، بدون سكر.", "I take my coffee bitter — no sugar.", ["سادة", "حلوة", "مالحة"], 0],
+				["____ وعافية!", "Health on you — bon appétit!", ["صحتين", "أهلين", "معلش"], 0],
+				["مين ____كم عالعشا؟", "Who invited you all to dinner?", ["عزم", "سأل", "خبّر"], 0],
+				["أكلت كتير. ____ إيديكي يا تيتا.", "I ate so much. Bless your hands, grandma.", ["يسلمو", "دير بالك", "عَ مهلك"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "تْفَضَّل — اقعُد — كول — اشرَب",
+					"exp": "Hospitality speaks in imperatives that aren't orders: تفضل, اقعد, اشرب — and كول 'eat!' (the imperative of أكل drops the hamza). Feminine: تفضلي، كولي. They sound like commands; they function as gifts. Refusing them politely is the next pattern.",
+					"ex": [
+						["تفضلوا، نورتوا البيت.", "Come in, all of you — you've lit up the house."],
+						["كول يا زلمة، ما أكلت إشي!", "Eat, man — you've eaten nothing!"]
+					]
+				},
+				{
+					"ar": "لأ والله… → مش لازم… → طيب، حبة صغيرة",
+					"exp": "The refusal dance is three-round grammar-of-culture: (1) refuse warmly — ولا إشي والله; (2) refuse weakly — والله بكفي; (3) accept minimally — طيب، حبة صغيرة. Skipping to yes reads as greed; holding past three reads as rejection. The host's job is to make round three irresistible; both sides know the score.",
+					"ex": [
+						["ولا إشي، مش لازم والله.", "Nothing, really — no need. (round one, mandatory)"],
+						["طيب، حبة صغيرة. يسلمو إيديكي.", "Fine — a small piece. Bless your hands. (round three, inevitable)"]
+					]
+				}
+			],
+			"cognates": [
+				["قَهْوة", "קָפֶה", "loan", "The rare loan that boomeranged: قهوة left Yemen, conquered Istanbul (kahve), Venice (caffè), and the world (coffee) — then arrived in modern Hebrew as קפה, a tourist returning to its home region with a foreign accent."],
+				["سُكَّر", "סוּכָּר", "loan", "śarkarā (Sanskrit) → شكر/سكر (Arabic) → sugar, Zucker, סוכר. Arabic was the middleman of medieval sweetness — every European sugar word paid customs in Arabic first."]
+			]
+		},
+		{
+			"title": "The food itself",
+			"titleAr": "الأكل البلدي",
+			"canDo": "I can name the staples — oil, za'atar, the cheese that belongs in knafeh — and follow تيتا's musakhan masterclass.",
+			"intro": "Food words are the oldest words: the olive, the cheese, and the egg have been cognates since before Hebrew and Arabic were separate languages. This lesson eats its way through the pantry — and ends with تيتا teaching the national dish.",
+			"vocab": [
+				{ "id": "khubez", "ar": "خُبِز", "en": "bread", "he": "לחם", "pos": "noun", "reg": "street", "ex": ["جيب خبز طازة من الفرن.", "Get fresh bread from the bakery."], "note": "خبز طابون — from the clay oven — is the musakhan foundation and the smell of every village morning." },
+				{ "id": "zet", "ar": "زيت", "en": "oil (olive, by default)", "he": "שמן (זית)", "pos": "noun", "reg": "street", "root": "ز ي ت", "ex": ["زيت السنة الجديدة نزل.", "The new year's oil has arrived."], "note": "Unmarked زيت in Palestine means olive oil, full stop — everything else needs an adjective. Families measure the year in tanak (tins) of it." },
+				{ "id": "za3tar", "ar": "زَعْتَر", "en": "za'atar", "he": "זעתר", "pos": "noun", "reg": "street", "ex": ["خبز وزيت وزعتر — فطور ملوك.", "Bread, oil, and za'atar — a breakfast of kings."], "note": "Hyssop + sumac + sesame: the national herb. Exam season folklore says it sharpens the brain; the Hebrew זעתר is the same word, borrowed leaf and all." },
+				{ "id": "zatun", "ar": "زَيْتون", "en": "olives", "he": "זיתים", "pos": "noun", "reg": "street", "root": "ز ي ت", "ex": ["قطف الزيتون بشهر تشرين.", "The olive harvest is in October."], "note": "The tree is family property across generations; قطف الزيتون (the harvest) is the calendar's anchor — and a season of checkpoint friction, Arc 2 will note.", "cog": ["true", "זַיִת", "z-y-t: زيتون/זית, and the oil زيت inside Hebrew's שמן זית. The tree predates both languages, most empires, and every border drawn around it."] },
+				{ "id": "jibneh", "ar": "جِبْنة", "en": "cheese", "he": "גבינה", "pos": "noun", "reg": "street", "root": "ج ب ن", "ex": ["الجبنة النابلسية للكنافة بس.", "Nabulsi cheese is for knafeh only."], "cog": ["true", "גְּבִינָה", "g-b-n: جبنة/גבינה — cheese is cheese, sound for sound. The brined Nabulsi kind is the only one knafeh recognizes as kosher (so to speak)."] },
+				{ "id": "bed", "ar": "بيض", "en": "eggs", "he": "ביצים", "pos": "noun", "reg": "street", "root": "ب ي ض", "ex": ["بيض بلدي من عند جارتنا.", "Free-range eggs from our neighbor's."], "cog": ["true", "בֵּיצָה", "b-y-ḍ: بيض/ביצה. Bonus: the same root paints white — أبيض. The egg named the color, or the color named the egg; either way both languages agreed."] },
+				{ "id": "hummus", "ar": "حُمُّص", "en": "hummus; chickpeas", "he": "חומוס", "pos": "noun", "reg": "street", "ex": ["صحن حمص وفول عالصبح.", "A plate of hummus and ful in the morning."], "cog": ["loan", "חוּמוּס", "Hebrew borrowed the chickpea, the dish, and the eternal whose-is-better argument, all in one word. The argument remains unresolved and load-bearing."] },
+				{ "id": "maqlubeh", "ar": "مَقْلوبة", "en": "maqluba (the 'flipped' dish)", "he": "מקלובה", "pos": "noun", "reg": "street", "root": "ق ل ب", "ex": ["يوم الجمعة يوم المقلوبة.", "Friday is maqluba day."], "note": "'The upside-down one': rice, chicken, fried vegetables — inverted theatrically before the guests. The flip is the ceremony; applause is customary; the قلب root also does hearts and coups." },
+				{ "id": "musakhkhan", "ar": "مُسَخَّن", "en": "musakhan", "he": "מוסחן", "pos": "noun", "reg": "street", "root": "س خ ن", "ex": ["المسخن بده بصل كتير وصبر أكتر.", "Musakhan takes a lot of onion and more patience."], "note": "'The heated one': taboon bread, mountains of sumac-stained onions, chicken, new oil. THE Palestinian dish — تيتا explains below." },
+				{ "id": "knafeh", "ar": "كْنافة", "en": "knafeh", "he": "כנאפה", "pos": "noun", "reg": "street", "ex": ["كنافة نابلسية عالأصول.", "Nabulsi knafeh, done properly."], "note": "You've chased it since getting lost in Nablus — here's the card. Hot Nabulsi cheese, kataifi, syrup. Settles arguments; starts others." }
+			],
+			"listen": {
+				"t": "Teta's musakhan masterclass",
+				"tAr": "تيتا بتعلّمكم المسخن",
+				"brief": "Grandma teaches the national dish, layer by layer — and by the last line it isn't a recipe anymore. Listen once for the ingredients, once for the إضافة chains (خبز طابون، زيت زيتون), and once because it's تيتا.",
+				"speaker": "تيتا",
+				"voice": "Sulafat",
+				"pre": [
+					"What bread does musakhan demand?",
+					"How much onion — and what's her instruction about shyness?",
+					"When did they traditionally make it?"
+				],
+				"lines": [
+					["تعالوا أعلمكم أشهر أكلة فلسطينية — المسخن.", "Come, let me teach you the most famous Palestinian dish — musakhan."],
+					["أول إشي: خبز طابون. مش أي خبز.", "First thing: taboon bread. Not just any bread."],
+					["بعدين بصل كتير. كيلوين بصل — لا تستحوا.", "Then lots of onion. Two kilos of onion — don't be shy."],
+					["وسماق أحمر، وزيت زيتون من معصرتنا.", "And red sumac, and olive oil from our own press."],
+					["الجاج فوق الخبز، والبصل فوق الجاج.", "The chicken on the bread, the onions on the chicken."],
+					["ساعة بالفرن — والريحة بتوصل لآخر الحارة.", "An hour in the oven — and the smell reaches the end of the neighborhood."],
+					["زمان كنا نعملها بعد قطف الزيتون، بزيت السنة الجديدة.", "In the old days we made it after the olive harvest, with the new year's oil."],
+					["المسخن مش أكلة، يا حبيبي. المسخن موسم، وعيلة، وبلد.", "Musakhan isn't a dish, my dear. Musakhan is a season, a family, and a homeland."]
+				],
+				"qs": [
+					["The bread for musakhan:", ["خبز طابون", "أي خبز", "خبز فرنسي", "بدون خبز"], 0, "مش أي خبز — Teta is categorical."],
+					["How much onion?", ["كيلوين", "حبة وحدة", "نص كيلو", "بدون بصل"], 0, "كيلوين — the dual from Lesson 1, و'لا تستحوا' — don't be shy."],
+					["The two signature flavors on top:", ["سماق وزيت زيتون", "سكر وقرفة", "جبنة وزعتر", "ليمون وملح"], 0],
+					["When was it traditionally made?", ["بعد قطف الزيتون", "بالعيد بس", "كل جمعة", "بالصيف"], 0, "After the olive harvest — with زيت السنة الجديدة, the new oil."],
+					["Teta's final definition:", ["موسم وعيلة وبلد", "أكلة سريعة", "وصفة من التلفزيون", "أكلة للضيوف بس"], 0, "A season, a family, and a homeland. End of recipe."]
+				]
+			},
+			"match": ["khubez", "zet", "za3tar", "zatun", "jibneh", "bed", "maqlubeh", "musakhkhan"],
+			"cloze": [
+				["زيت ____ من معصرة البلد.", "Olive oil from the town press.", ["زيتون", "زعتر", "سمسم"], 0],
+				["خبز و____ وزيت — فطور ملوك.", "Bread, za'atar and oil — a breakfast of kings.", ["زعتر", "سكر", "كنافة"], 0],
+				["ال____ النابلسية للكنافة بس.", "Nabulsi cheese is for knafeh only.", ["جبنة", "بيضة", "خضرة"], 0],
+				["قلبنا ال____ قدام الضيوف.", "We flipped the maqluba in front of the guests.", ["مقلوبة", "مسخن", "شوربة"], 0],
+				["ال____ بده خبز طابون وبصل كتير.", "Musakhan needs taboon bread and lots of onion.", ["مسخن", "كنافة", "فلافل"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "زيت زيتون، خبز طابون، جبنة نابلسية",
+					"exp": "Food names are noun chains — the إضافة: oil-of-olive, bread-of-taboon, no 'of' spoken, the nouns just touch. Stack Unit 3's nisba on top and the menu writes itself: جبنة نابلسية, كنافة نابلسية. Hear two nouns touching and read the hyphen yourself.",
+					"ex": [
+						["زيت زيتون بلدي من معصرتنا.", "Local olive oil from our own press."],
+						["جبنة نابلسية وخبز طابون — خلص، عزومة.", "Nabulsi cheese and taboon bread — that's it, it's a feast."]
+					]
+				},
+				{
+					"ar": "بَلَدي",
+					"exp": "بلدي — 'of the homeland' — is the food world's highest honor: heirloom, local, real. بندورة بلدي، بيض بلدي، زيت بلدي. One word carrying terroir, nostalgia, and quiet politics: the opposite of imported, industrial, and occupied shelf space.",
+					"ex": [
+						["البيض البلدي صفاره أصفر عنجد.", "Free-range eggs — yolks that are actually yellow."],
+						["هاي بندورة بلدي، ريحتها من بعيد.", "These are baladi tomatoes — you can smell them from afar."]
+					]
+				}
+			],
+			"cognates": [
+				["زَيْتون", "זַיִת", "true", "z-y-t. The olive predates the split between the languages that argue over it: زيتون/זית, the oil زيت inside שמן זית, even Jabal al-Zaytun/הר הזיתים naming the same hill. The tree was here first and will outlast the argument."],
+				["جِبْنة", "גְּבִינָה", "true", "g-b-n: cheese is cheese, sound for sound, from the same dairy root. Knafeh's Nabulsi white and the גבינה צהובה on Israeli toast are estranged cousins at the same wedding."],
+				["بيض", "בֵּיצָה", "true", "b-y-ḍ: the egg, and the color white (أبيض) thrown in. Some roots survive everything; breakfast is one of them."],
+				["حُمُّص", "חוּמוּס", "loan", "The chickpea crossed over with its name, its tahini, and its whose-is-better war. חומוס is Arabic حمص on an Israeli menu — the most peacefully contested word in the region."]
+			]
+		},
+		{
+			"title": "Taste and smell",
+			"titleAr": "الطعم والريحة",
+			"canDo": "I can describe food — and survive an عزومة — with the senses: delicious, salty, sour, and the fullness that lasts a week.",
+			"intro": "The palate is pre-Babel: taste, smell, salty, sour, and sated are all words Hebrew and Arabic still share from the deep past. This lesson is the senses — deployed at a dinner where saying 'enough' is only an opening bid.",
+			"vocab": [
+				{ "id": "riha", "ar": "ريحة", "en": "smell, scent", "he": "ריח", "pos": "noun", "reg": "street", "root": "ر و ح", "ex": ["شو هالريحة الزاكية!", "What is that delicious smell!"], "cog": ["true", "רֵיחַ", "r-y-ḥ — and both grow from روح/רוח, the wind, the spirit. A smell is a small ghost in either language; تيتا's musakhan sends one to the end of the street."] },
+				{ "id": "ta3m", "ar": "طَعْم", "en": "taste, flavor", "he": "טעם", "pos": "noun", "reg": "street", "root": "ط ع م", "ex": ["طعمها زي أكل زمان.", "It tastes like the old days' food."], "cog": ["true", "טַעַם", "ṭ-ʕ-m: طعم/טעם. Hebrew stretched it to 'reason, point' — מה הטעם? asks what's the flavor of bothering. A mealtime root doing philosophy."] },
+				{ "id": "zaki", "ar": "زاكي", "en": "delicious", "he": "טעים", "pos": "adj", "reg": "street", "ex": ["الأكل زاكي كتير، يسلمو إيديكي.", "The food is delicious — bless your hands."], "note": "The warm everyday word; طيب also serves. Feminine زاكية. Saying it to the cook is not optional." },
+				{ "id": "hilu", "ar": "حِلو", "en": "sweet; nice, pretty", "he": "מתוק; נחמד", "pos": "adj", "reg": "street", "root": "ح ل و", "ex": ["القهوة حلوة زيادة عن اللزوم.", "The coffee is sweeter than necessary."], "note": "The dialect's all-purpose approval: بنت حلوة، فكرة حلوة، حكي حلو. Antonym at the coffee tray: سادة." },
+				{ "id": "maleh", "ar": "مالِح", "en": "salty", "he": "מלוח", "pos": "adj", "reg": "street", "root": "م ل ح", "ex": ["الشوربة مالحة شوي.", "The soup is a bit salty."], "cog": ["true", "מָלוּחַ", "m-l-ḥ: مالح/מלוח, salt ملح/מלח. The mezze table is a cognate display case — and ים המלח keeps the family salt in its name."] },
+				{ "id": "hamed", "ar": "حامِض", "en": "sour", "he": "חמוץ", "pos": "adj", "reg": "street", "root": "ح م ض", "ex": ["الليمون حامض والعسل حلو.", "Lemon is sour and honey is sweet."], "cog": ["true", "חָמוּץ", "ḥ-m-ḍ/ץ: حامض/חמוץ — and the pickles prove it: مخلل حامض on one side of the table, חמוצים on the other, the same pucker on every face."] },
+				{ "id": "shab3an", "ar": "شَبْعان", "en": "full, sated", "he": "שבע", "pos": "adj", "reg": "street", "root": "ش ب ع", "ex": ["والله شبعان، ما بقدر كمان لقمة.", "I swear I'm full — I can't manage one more bite."], "cog": ["true", "שָׂבֵעַ", "ś-b-ʕ: شبعان/שבע — sated. At the عزومة this word is heard constantly and believed never. Declaring it is round one of leaving, which also takes three rounds."] },
+				{ "id": "ju3an", "ar": "جوعان", "en": "hungry", "he": "רעב", "pos": "adj", "reg": "street", "root": "ج و ع", "ex": ["الولاد جوعانين، إيمتى الغدا؟", "The kids are hungry — when's lunch?"], "note": "جوع is hunger. A word that will return, far heavier, in Arc 3 — here it just means: more maqluba, please." },
+				{ "id": "luqmeh", "ar": "لُقْمة", "en": "a bite, a morsel", "he": "ביס, נגיסה", "pos": "noun", "reg": "street", "root": "ل ق م", "ex": ["خد لقمة، جرب بس.", "Take a bite — just try it."], "note": "The hospitality unit of measure ('one bite' — famously non-binding). Also لقمة عيش — the bite of bread one works for; a whole economy in two words." },
+				{ "id": "diyafeh", "ar": "ضِيافة", "en": "hospitality", "he": "הכנסת אורחים", "pos": "noun", "reg": "street", "root": "ض ي ف", "ex": ["الضيافة عنا مش خيار، فرض.", "Hospitality here isn't optional — it's a duty."], "note": "The system itself: قهوة الضيافة is the cup that cannot be (finally) refused. From the same ض-ي-ف as ضيف — the guest and the feeding of the guest are one root." }
+			],
+			"listen": {
+				"t": "I survived the dinner",
+				"tAr": "نجوت من العزومة",
+				"brief": "A son-in-law reports from the front line of his in-laws' hospitality: the salad barrage, the maqluba ceremony, the mother-in-law's mathematics of 'you've eaten nothing.' Comedy — and every taste word from this lesson, live.",
+				"speaker": "الصهر",
+				"voice": "Iapetus",
+				"pre": [
+					"What was his plan going in — and how long did it last?",
+					"What happened when he said بكفي?",
+					"What state did he go home in?"
+				],
+				"lines": [
+					["مبارح كان عنا عزومة عند أهل مرتي.", "Yesterday we had a dinner at my in-laws'."],
+					["قلت لحالي: لقمة وحدة وبمشي. ههه.", "I told myself: one bite and I'm out. Haha."],
+					["بلشنا بالشوربة والسلطات — عشر صحون سلطة عالأقل.", "We started with soup and salads — ten plates of salad, minimum."],
+					["بعدين وصلت المقلوبة. قلبوها قدامنا زي الاحتفال.", "Then the maqluba arrived. They flipped it before us like a ceremony."],
+					["قلت بكفي — حماتي قالت: شو هالحكي، لسا ما أكلت إشي!", "I said enough — my mother-in-law said: nonsense, you've eaten nothing!"],
+					["حطتلي نص الصينية. والله نص الصينية.", "She loaded half the tray onto my plate. I swear — half the tray."],
+					["وبعد كل هاد، كنافة وقهوة سادة.", "And after all of that: knafeh, and bitter coffee."],
+					["رجعت عالبيت شبعان لأسبوع. الله يعطيهم العافية.", "I went home sated for a week. God give them strength."]
+				],
+				"qs": [
+					["His plan going in:", ["لقمة وحدة وبمشي", "ياكل كل إشي", "ما ياكل إشي أبداً", "يطلب كنافة بس"], 0, "One bite and out. The ههه that follows tells you how that went."],
+					["The salad count, allegedly:", ["عشر صحون", "صحنين", "تلاتة", "ولا صحن"], 0],
+					["The maqluba moment:", ["قلبوها قدامهم", "وقعت عالأرض", "انحرقت", "ما وصلت"], 0, "The flip IS the dish — that's why it's named 'the upside-down one.'"],
+					["His mother-in-law's response to 'enough':", ["لسا ما أكلت إشي", "طيب، خلص", "صحتين وعافية", "خد قهوة بس"], 0, "The official exchange rate: half a tray equals 'nothing.'"],
+					["Final state:", ["شبعان لأسبوع", "جوعان", "زعلان", "مستعجل"], 0, "شبعان لأسبوع — sated on a geological timescale. The عزومة won, as it always does."]
+				]
+			},
+			"match": ["riha", "ta3m", "zaki", "maleh", "hamed", "shab3an", "ju3an", "luqmeh"],
+			"cloze": [
+				["شو هال____ الزاكية! شو طابخين؟", "What's that delicious smell! What are you cooking?", ["ريحة", "طعمة", "لقمة"], 0],
+				["الأكل ____ كتير، يسلمو إيديكي.", "The food is delicious — bless your hands.", ["زاكي", "مالح", "حامض"], 0],
+				["الشوربة ____ شوي، زيدي مي.", "The soup is a bit salty — add some water.", ["مالحة", "حلوة", "باردة"], 0],
+				["خد ____ صغيرة، جرب بس.", "Take a small bite — just try.", ["لقمة", "حبة", "كاسة"], 0],
+				["أكلت كتير، أنا ____.", "I've eaten a lot — I'm full.", ["شبعان", "جوعان", "تعبان"], 0],
+				["الليمون ____ والعسل حلو.", "Lemon is sour and honey is sweet.", ["حامض", "مالح", "زاكي"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "أزكى من، أحلى من، أطيب من",
+					"exp": "Comparison is the أفعل template + من: زاكي → أزكى من, حلو → أحلى من. Drop the من for the superlative: أزكى كنافة بالدنيا. The national sport — food arguments — runs entirely on this pattern, and Nablus always wins.",
+					"ex": [
+						["كنافة نابلس أزكى من كل إشي.", "Nablus knafeh is tastier than everything."],
+						["أكل البيت أطيب من أكل برة.", "Home cooking beats eating out."]
+					]
+				},
+				{
+					"ar": "شو هالريحة! شو هالطعمة!",
+					"exp": "Wonder is شو + هالـ: what-is-this-smell! Unit 1's شو, promoted from question to applause. Fully sarcasm-capable, like every good exclamation — tone decides whether the عزومة is being praised or surveyed in horror.",
+					"ex": [
+						["شو هالريحة يا تيتا، فتحتي مطعم؟", "What is this smell, grandma — did you open a restaurant?"],
+						["شو هالعزومة! مية صحن عالطاولة!", "What a feast — a hundred dishes on the table!"]
+					]
+				}
+			],
+			"cognates": [
+				["طَعْم", "טַעַם", "true", "ṭ-ʕ-m: the taste root, and Hebrew's bonus meaning — מה הטעם, 'what's the point.' Arabic keeps طعم on the tongue; Hebrew lets it wander into reasons. Both started at the same table."],
+				["ريحة", "רֵיחַ", "true", "r-w-ḥ: smell, wind, spirit — ريحة، ريح، روح and ריח، רוח. The same root breathes through noses, weather, and souls in both languages. The musakhan's ريحة is, etymologically, its soul traveling."],
+				["شَبْعان", "שָׂבֵעַ", "true", "ś-b-ʕ: sated. From שובע ימים to شبعان لأسبوع — fullness, of food or of years, is one shared root. At a Palestinian table you'll discover its outer limits empirically."],
+				["مالِح", "מָלוּחַ", "true", "m-l-ḥ: salt and its adjective, identical twice over. Bread-and-salt (عيش وملح / ברית מלח) seals loyalty in both traditions — sharing this root's referent has meant peace for a very long time."]
+			]
+		},
+		{
+			"title": "Review & free listening",
+			"titleAr": "مراجعة واستماع حر",
+			"canDo": "I can follow real Palestinians arguing about food — the dishes, the comparatives, the pride — at full street speed.",
+			"intro": "The souq, the money, the coffee ritual, the pantry, the senses. Now the exam Palestinians give each other daily: what is THE national food? Real people, three minutes, every dish from Lesson 4 — and the comparatives from Lesson 5 deployed as weapons.",
+			"quiz": [
+				["@taza", "Play the word. What does it mean?", ["fresh", "expensive", "cheap", "salty"], 0],
+				["@haqq", "Play the word. What does it mean?", ["price; right", "change", "weight", "debt"], 0],
+				["@frata", "Play the word. What does it mean?", ["small change", "banknotes", "a bag", "the bill"], 0],
+				["@tfaddal", "Play the word. What is the speaker doing?", ["welcoming / offering", "refusing", "apologizing", "saying goodbye"], 0],
+				["@sada", "Play the word. What does it mean?", ["unsweetened (coffee)", "very sweet", "with milk", "iced"], 0],
+				["@zatun", "Play the word. What does it mean?", ["olives", "oil", "za'atar", "grapes"], 0],
+				["@shab3an", "Play the word. What does it mean?", ["full, sated", "hungry", "tired", "thirsty"], 0],
+				["@zaki", "Play the word. What does it mean?", ["delicious", "sour", "bitter", "spicy"], 0]
+			],
+			"match": ["suq", "masari", "qahweh", "jibneh", "maleh", "ju3an", "bayya3", "knafeh"],
+			"cloze": [
+				["البندورة ال____ أزكى من بندورة المشاتل.", "Baladi tomatoes are tastier than greenhouse ones.", ["بلدي", "غالية", "كبيرة"], 0],
+				["ما معي فراطة — اكتبها عال____.", "No change on me — put it on the tab.", ["حساب", "ميزان", "كيس"], 0],
+				["الضيف ما بياكل إلا لما نقول ____.", "The guest won't eat until we say tafaddal.", ["تفضل", "يلا", "بكفي"], 0],
+				["زيت السنة الجديدة بنزل بعد ____ الزيتون.", "The new oil comes after the olive harvest.", ["قطف", "بيع", "وزن"], 0],
+				["قهوة ____ لسيدو، وحلوة للولاد.", "Bitter coffee for grandpa, sweet for the kids.", ["سادة", "مالحة", "باردة"], 0],
+				["صحتين! — على ____.", "Bon appétit! — (the reply:) on your heart.", ["قلبك", "إيدك", "راسك"], 0]
+			],
+			"listen": {
+				"t": "Real street: the national food",
+				"tAr": "استماع حر — شو الأكلة الوطنية؟",
+				"brief": "The Ask Project asks Palestinians to name the national dish — three minutes of مقلوبة versus مسخن partisanship, with حمص lobbying from the side. Short answers, full speed, and the lesson-5 comparatives (أزكى، أطيب) drawn like swords. You know every dish named; prove it.",
+				"youtubeId": "Rw7PQxBKKWA",
+				"pre": [
+					"Count the dishes you recognize: مقلوبة؟ مسخن؟ حمص؟ ملوخية؟ Which one wins the straw poll?",
+					"Listen for the comparatives — أزكى من، أطيب — Lesson 5's grammar, weaponized in the wild.",
+					"At least one speaker explains WHY a dish is national — catch one full reason and you've passed the unit."
+				],
+				"qs": []
+			}
+		}
+	]
+}

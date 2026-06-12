@@ -70,7 +70,8 @@ Listening-first learning app for one learner (A2 → B1). Read PLAN.md before no
 ## Stack & commands
 - SvelteKit 2 + Svelte 5 (runes) + Tailwind 4, adapter-static, GitHub Pages (BASE_PATH env in workflow).
 - `npm run dev` / `npm run build`. No test suite yet (Phase 0 slice).
-- Audio: `node scripts/tts.mjs --jobs <manifest> --delay 7000` (GEMINI_API_KEY from env; recipe + voices in RESOURCES.md). Images: imagen skill, art direction in RESOURCES.md.
+- **New units: read AUTHORING.md and follow it exactly** — author `content-src/unit-NN.src.json` (compact schema), compile with `node scripts/build-unit.mjs` (validates + emits unit JSON + split TTS manifests). Model split per AUTHORING.md: frontier model for authoring, cheaper model fine for the pipeline.
+- Audio: `node scripts/tts.mjs --jobs <manifest> --delay 6500` (GEMINI_API_KEY from env; recipe + voices in RESOURCES.md; quota = 100/model/day). Images: imagen skill, art direction template in AUTHORING.md.
 
 ## Content rules (non-negotiable)
 1. **Arabic script only** — never add transliteration to learner-facing content. Headwords vowelized (Arc 1 fully; fade per CURRICULUM.md).
