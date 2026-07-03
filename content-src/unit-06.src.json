@@ -1,0 +1,435 @@
+{
+	"n": 6,
+	"arc": 2,
+	"title": "The West Bank",
+	"titleAr": "الضفة",
+	"mission": "From how news is told to what the news is about. The Bank's daily lexicon — احتلال، مستوطنة، إغلاق، اقتحام — and the map as people actually speak it: مناطق أ وب وج، القرية والمخيم، الأرض والدونم. Heavy words, carried the way people carry them: daily, precisely, and with the olive trees still getting watered.",
+	"registerMix": { "street": 40, "news": 30, "shared": 30 },
+	"sources": [
+		"Occupation/administration terminology cross-checked against Al Jazeera Arabic and Wafa usage; Areas A/B/C framing per common Oslo II parlance",
+		"Forms cross-checked against Madrasa dictionary and Living Arabic Project (Levantine)",
+		"Native-speaker review pending — low-confidence items avoided; uncertain cognates omitted",
+		"L6 clip: Al Mayadeen news package, embedded from YouTube (never copied)"
+	],
+	"lessons": [
+		{
+			"title": "On the opposite hill",
+			"titleAr": "عالتلة المقابلة",
+			"canDo": "I can follow a conversation about the settlement on the hill — who is building, on whose land, with which ten words.",
+			"intro": "Arc 1 taught the checkpoint as a fact of motion; this unit teaches the vocabulary that explains why it's there. First, the frame: the word for the whole condition, the word for the hilltop town and its resident, the wall, the land, and the machine that redraws it. Ten words that anchor every West Bank newscast — and most West Bank rooftop conversations, like the one tonight between Yusef and his father.",
+			"vocab": [
+				{ "id": "ihtilal", "ar": "اِحْتِلال", "en": "occupation", "he": "כיבוש", "pos": "noun", "reg": "shared", "root": "ح ل ل", "ex": ["عايشين تحت الاحتلال من قبل ما أنولد.", "We've lived under occupation since before I was born."], "note": "Unit 5 gave you محل — where business settles. Same root, darkest derivation: احتلال is settling-upon. With the article — الاحتلال — it's the whole system, and often just means the army: الاحتلال فات عالبلد." },
+				{ "id": "mustawtane", "ar": "مُسْتَوْطَنة", "en": "settlement", "he": "התנחלות", "pos": "noun", "reg": "shared", "root": "و ط ن", "ex": ["المستوطنة عم تكبر كل سنة.", "The settlement grows every year."], "note": "From وطن, homeland, in the made-into pattern: a made-homeland. The word carries its politics inside its own morphology — as does its Hebrew counterpart התנחלות, from נחלה, inheritance. Two grammars, two claims." },
+				{ "id": "mustawtin", "ar": "مُسْتَوْطِن", "en": "settler", "he": "מתנחל", "pos": "noun", "reg": "shared", "root": "و ط ن", "ex": ["مستوطنين سكروا الطريق اليوم الصبح.", "Settlers blocked the road this morning."], "note": "Same word, active ending: the one doing the مستوطنة. Plural مستوطنين. In news and street alike, usually arrives with a verb you'd rather not need." },
+				{ "id": "jidar", "ar": "جِدار", "en": "the Wall; wall", "he": "גדר ההפרדה; חומה", "pos": "noun", "reg": "shared", "root": "ج د ر", "ex": ["الجدار قسم أرض القرية نصين.", "The wall cut the village's land in two."], "note": "With the article, always THE wall — جدار الفصل. Eight meters of Lesson 3's map made concrete.", "cog": ["true", "גָּדֵר", "g-d-r: Arabic جدار is a wall; Hebrew גדר is a fence — one root, arguing about its own height. Israel's official name is גדר ההפרדה, 'the separation fence'; Palestinians say الجدار, the wall. Same root on both sides of itself."], "matchEn": "the Wall" },
+				{ "id": "ard", "ar": "أَرْض", "en": "land; ground", "he": "אדמה, ארץ", "pos": "noun", "reg": "street", "root": "أ ر ض", "ex": ["هاي أرض جدي وسيد جدي.", "This is my grandfather's land, and his grandfather's."], "note": "The unit's center of gravity. أرضنا — our land — is a sentence by itself. Everything else in this unit is about who gets to say it.", "cog": ["true", "אֶרֶץ", "ʔ-r-ḍ: أرض and אֶרֶץ are the same word by the same sound-law that pairs بيض with ביצה. The most contested cognate in this entire ledger — one root, one land, two peoples spelling a claim with it."] },
+				{ "id": "talle", "ar": "تَلّة", "en": "hill", "he": "גבעה; תל", "pos": "noun", "reg": "street", "root": "ت ل ل", "ex": ["بنوا بيوت جديدة عالتلة المقابلة.", "They built new houses on the opposite hill."], "note": "Where this unit's story happens: settlements take hilltops first. The strategy is visible from every village roof.", "cog": ["true", "תֵּל", "tell: Arabic تلّ, Hebrew תל — the mound that old cities sleep under; archaeology adopted the word in English too. תל אביב is 'Spring Mound': a تلة with a stock exchange. On the West Bank's actual تلات, newer construction."] },
+				{ "id": "jarrafe", "ar": "جَرّافة", "en": "bulldozer", "he": "דחפור", "pos": "noun", "reg": "street", "root": "ج ر ف", "ex": ["الجرافات اشتغلت من الفجر.", "The bulldozers were working from dawn."], "note": "From جرف, to scrape away. In West Bank news the جرافة is a recurring main character; when the street says الجرافات إجت, everyone knows the sentence's ending." },
+				{ "id": "musadara", "ar": "مُصادَرة", "en": "confiscation", "he": "הפקעה", "pos": "noun", "reg": "news", "root": "ص د ر", "ex": ["أجا أمر مصادرة للأرض اللي جنب الشارع.", "A confiscation order came for the land by the road."], "note": "Unit 1 taught مصدر, the source; same root: what goes out. An أمر مصادرة goes out from an office, and land goes out of a family. The masdar machine at its most literal." },
+				{ "id": "3askari", "ar": "عَسْكَري", "en": "military (adj)", "he": "צבאי", "pos": "adj", "reg": "shared", "root": "ع س ك ر", "ex": ["في برج عسكري عند مدخل البلد.", "There's a military tower at the town's entrance."], "note": "The nisba that closes things: أمر عسكري (military order), منطقة عسكرية مغلقة (closed military zone), حاجز عسكري. When this adjective lands on a noun, the noun stops negotiating.", "matchEn": "military (adj)" },
+				{ "id": "bana", "ar": "بَنى", "en": "built", "he": "בנה", "pos": "verb", "reg": "street", "root": "ب ن ي", "ex": ["بنوا حارة كاملة بسنة وحدة.", "They built a whole neighborhood in a single year."], "note": "The unit's most contested verb: who may build, where, with whose رخصة — Lesson 3's whole subject. The masdar is بناء, construction.", "cog": ["true", "בָּנָה", "b-n-y: بنى and בנה — to build, identical; بنيان and בניין, the building; even ابن and בן, the son, are traditionally counted among this root's children (the built ones). A construction root so shared it makes the construction dispute bilingual."] }
+			],
+			"dialogue": {
+				"t": "On the roof",
+				"tAr": "عالسطح",
+				"sit": "Evening. Yusef notices new lights on the opposite hilltop. His father has been watching them multiply for thirty years and narrates the sequence like a man reading weather.",
+				"voices": { "أبو يوسف": ["AbuYusef", "Charon"], "يوسف": ["Yusef", "Algieba"] },
+				"lines": [
+					["يوسف", "يابا، شو هالأضوية الجديدة عالتلة؟", "Dad, what are those new lights on the hill?"],
+					["أبو يوسف", "هاي المستوطنة. مدوا شارع جديد وبلشوا يبنوا من ورا.", "That's the settlement. They laid a new road and started building on the far side."],
+					["يوسف", "من إمتى؟ مش كانت بس كرفانات؟", "Since when? Wasn't it just caravans?"],
+					["أبو يوسف", "كل إشي ببلش كرفانات يا ابني. بعدين بيوت، بعدين سياج، بعدين برج عسكري.", "Everything starts as caravans, son. Then houses, then a fence, then a military tower."],
+					["يوسف", "والأرض اللي تحتها لمين؟", "And whose land is under it?"],
+					["أبو يوسف", "أرض دار أبو صالح. أجاهم أمر مصادرة من سنتين — ومن ساعتها الجرافات ما وقفت.", "The Abu Saleh family's land. A confiscation order came two years ago — and the bulldozers haven't stopped since."],
+					["يوسف", "وما حدا قدر يعمل إشي؟", "And nobody could do anything?"],
+					["أبو يوسف", "راحوا عالمحكمة. والمحكمة تبعت مين؟ فكر لحالك.", "They went to court. And whose court is it? Work that out yourself."],
+					["يوسف", "يعني بكرا الجدار بصير من هون؟", "So tomorrow the wall runs through here?"],
+					["أبو يوسف", "الله أعلم يا يوسف. إحنا منزرع ومنبني — وهم بجرفوا. وهيك من قبل ما تنولد.", "God knows, Yusef. We plant and we build — and they bulldoze. It's been that way since before you were born."]
+				]
+			},
+			"quiz": [
+				["What does Yusef spot on the hill?", ["أضوية جديدة — المستوطنة عم تكبر", "حريق", "عرس", "برج كهربا"], 0],
+				["How did the settlement start?", ["كرفانات", "جدار", "برج عسكري", "سوق"], 0, "كل إشي ببلش كرفانات — the outpost-to-town pipeline, in one line. Lesson 5 gives that first stage its official name: بؤرة."],
+				["Whose land is under it?", ["دار أبو صالح", "دار أبو يوسف", "البلدية", "الجيش"], 0],
+				["What arrived two years ago?", ["أمر مصادرة", "أمر عسكري", "رخصة", "تصريح"], 0],
+				["The father's summary of thirty years:", ["إحنا منزرع وهم بجرفوا", "صار في سلام", "المحكمة رح تحلها", "الأضوية حلوة"], 0, "Two verbs against one: plant, build — bulldoze. The unit's whole argument, conjugated."]
+			],
+			"match": ["ihtilal", "mustawtane", "mustawtin", "jidar", "ard", "talle", "jarrafe", "3askari"],
+			"cloze": [
+				["عايشين تحت ال____ من زمان.", "We've lived under occupation a long time.", ["احتلال", "بناء", "تلفزيون"], 0],
+				["ال____ عم تكبر كل سنة.", "The settlement grows every year.", ["مستوطنة", "تلة", "جرافة"], 0],
+				["ال____ قسم الأرض نصين.", "The wall cut the land in two.", ["جدار", "سوق", "خط"], 0],
+				["أجا أمر ____ للأرض.", "A confiscation order came for the land.", ["مصادرة", "مقابلة", "نشرة"], 0],
+				["في برج ____ عند المدخل.", "There's a military tower at the entrance.", ["عسكري", "مدني", "رسمي"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "المصدر: احتلّ ← احتلال، صادَر ← مصادرة",
+					"exp": "Unit 5's headline trick is this unit's entire lexicon. The مصدر (verbal noun) turns a verb into an event you can put in a bulletin: احتل → احتلال, صادر → مصادرة, بنى → بناء, اعتقل → اعتقال (Lesson 4). Learn to unfold them back into sentences — مصادرة أراضي means (somebody) صادر أراضي — and the evening news becomes grammar you already own.",
+					"ex": [
+						["بلشوا ببناء حارة جديدة بالمستوطنة.", "They've started building a new neighborhood in the settlement."],
+						["سمعنا عن مصادرة أراضي جنب القرية.", "We heard about land confiscation near the village."]
+					]
+				},
+				{
+					"ar": "إضافة الأخبار: أمر مصادرة، جدار الفصل",
+					"exp": "Unit 4 chained nouns for food — زيت زيتون; the news chains them for events: أمر مصادرة (order-of-confiscation), جدار الفصل (wall-of-separation), مدخل البلد (entrance-of-the-town). First noun the thing, second its owner or object, no 'of' spoken. Hear two nouns touching in a bulletin and read the hyphen yourself: something official is being done to something that has a name.",
+					"ex": [
+						["أجا أمر مصادرة جديد لأراضي القرية.", "A new confiscation order came for the village's lands."],
+						["بناء الجدار قطع القرية عن أرضها.", "The building of the wall cut the village off from its land."]
+					]
+				}
+			],
+			"cognates": [
+				["أَرْض", "אֶרֶץ", "true", "ʔ-r-ḍ / ʔ-r-ṣ: the same sound-law that pairs بصل with בצל pairs أرض with ארץ. One word underneath the entire conflict — 'the land' — inherited identically by both claimants. The ledger's heaviest entry, and its simplest."],
+				["جِدار", "גָּדֵר", "true", "g-d-r: wall in Arabic, fence in Hebrew — the vocabulary disagreement IS the political one, root included. Every argument about whether the barrier is a גדר or a جدار is being conducted inside a single Semitic root."],
+				["بَنى", "בָּנָה", "true", "b-n-y: build. بنى/בנה, بنيان/בניין — and tradition counts ابن/בן, the son, as the root's child too: what a house and a family have in common. In this unit the root is a battleground; it's worth remembering it's also just: to build."]
+			]
+		},
+		{
+			"title": "The permit and the gate",
+			"titleAr": "التصريح والبوابة",
+			"canDo": "I can follow permit talk — who applied, who got refused, what's closed tomorrow — and survive the 4:30 a.m. line linguistically intact.",
+			"intro": "Unit 3 taught the حاجز as geography; here is its paperwork. The تصريح you already know — now meet its life cycle: the طلب, the تجديد that doesn't come, the رفض without a reason, and the إغلاق that erases a week's wages overnight. Procedural vocabulary, learned in the only classroom that teaches it honestly: the line at the gate before dawn.",
+			"vocab": [
+				{ "id": "ighlaq", "ar": "إغْلاق", "en": "closure", "he": "סגר", "pos": "noun", "reg": "news", "root": "غ ل ق", "ex": ["بكرا إغلاق كامل عالضفة.", "Tomorrow: full closure on the West Bank."], "note": "The masdar machine again: أغلق → إغلاق. The bulletin says فرض إغلاقاً شاملاً; the 4 a.m. line says three words: بكرا في إغلاق. Hebrew has an exact institutional twin: סגר." },
+				{ "id": "man3", "ar": "مَنْع تَجَوُّل", "en": "curfew", "he": "עוצר", "pos": "noun", "reg": "news", "ex": ["أيام الانتفاضة كان في منع تجول أسابيع.", "In the intifada days there were curfews lasting weeks."], "note": "Literally 'ban on moving about': منع (ban) + تجول (roaming) — two masdars holding a whole era. Older speakers date their lives by these. The منع/מנע bridge is already in your ledger from Unit 3's ممنوع — here it is institutionalized.", "matchEn": "curfew" },
+				{ "id": "bawwabe", "ar": "بَوّابة", "en": "gate", "he": "שער", "pos": "noun", "reg": "street", "root": "ب و ب", "ex": ["بوابة القرية مسكرة من مبارح.", "The village gate has been shut since yesterday."], "note": "باب's big sister: the yellow metal بوابات on village roads, opened and closed by an order nobody hears. Also the terminal gates at the crossing — البوابة رقم خمسة." },
+				{ "id": "msakkar", "ar": "مْسَكَّر", "en": "closed, shut", "he": "סגור", "pos": "adj", "reg": "street", "root": "س ك ر", "ex": ["الطريق مسكر — رجعنا من نص الطريق.", "The road's closed — we turned back halfway."], "note": "سكّر is the street's closing verb (Unit 4's جاري سكّر — my neighbor shut up shop). Careful with its sweet twin: سَكَّر closed, سُكَّر sugar. Vowels are load-bearing.", "cog": ["true", "סֶכֶר", "s-k-r: to shut off. Arabic سكّر closes the shop, the road, the gate; Hebrew סכר dams the river — and Genesis shuts the springs of the deep with the same verb: וַיִּסָּכְרוּ. What the street closes daily, scripture closed once, at scale."], "matchEn": "closed, shut" },
+				{ "id": "3amel", "ar": "عامِل", "en": "worker, laborer", "he": "פועל", "pos": "noun", "reg": "street", "root": "ع م ل", "ex": ["آلاف العمال بمرقوا من هالبوابة كل فجر.", "Thousands of workers pass through this gate every dawn."], "note": "Plural عمال. The تصريح exists mostly for him; the إغلاق lands mostly on him. His unit of account: يوم شغل, a workday — lost or won at this gate.", "cog": ["true", "עָמָל", "ʕ-m-l: Arabic built the worker, عامل, from the toil-root; Hebrew kept the toil itself — עמל. And Hebrew's own worker, פועל, is built from Arabic's other doing-root, فعل. Two languages passing labor vocabulary back and forth like neighbors passing tools over a fence."] },
+				{ "id": "fajr", "ar": "فَجْر", "en": "dawn", "he": "שחר, עלות השחר", "pos": "noun", "reg": "street", "root": "ف ج ر", "ex": ["بطلع من الدار الفجر، قبل ما حدا يصحى.", "I leave the house at dawn, before anyone wakes."], "note": "صلاة الفجر names the hour; the workers' line and the army's raids both use it — this unit's two darkest lessons share one word for when. The root means to burst: dawn is the day breaking, literally." },
+				{ "id": "jaddad", "ar": "جَدَّد", "en": "renewed", "he": "חידש", "pos": "verb", "reg": "street", "root": "ج د د", "ex": ["لازم أجدد التصريح كل تلات شهور.", "I have to renew the permit every three months."], "note": "From جديد, new. It looks and behaves exactly like Hebrew חידש — but the historical pair of חדש is actually Unit 5's حدث root. A false twin that acts like a true one: trust it in conversation, not in etymology.", "matchEn": "renewed" },
+				{ "id": "rafad", "ar": "رَفَض", "en": "refused, rejected", "he": "סירב; דחה", "pos": "verb", "reg": "shared", "root": "ر ف ض", "ex": ["رفضوا طلبه بدون ما يعطوا سبب.", "They rejected his application without giving a reason."], "note": "The system's default verb. مرفوض — rejected — is a stamp; بدون سبب — without cause — is its usual companion. Unit 5's سبب, already earning overtime.", "matchEn": "refused" },
+				{ "id": "qaddam", "ar": "قَدَّم", "en": "submitted, applied", "he": "הגיש", "pos": "verb", "reg": "shared", "root": "ق د م", "ex": ["قدمت على تصريح شغل من شهرين.", "I applied for a work permit two months ago."], "note": "قدّم على = apply for. To submit is to push-forward — Unit 3's قدام (in front) and its קדימה bridge, now filing paperwork: pushing the طلب toward the front of a very long queue.", "matchEn": "applied, submitted" },
+				{ "id": "talab", "ar": "طَلَب", "en": "application; request", "he": "בקשה", "pos": "noun", "reg": "shared", "root": "ط ل ب", "ex": ["الطلب نايم عندهم من شهرين.", "The application has been sitting with them for two months."], "note": "What you قدّم. The verb طلب is to request — and the same root will hand you a much darker participle in Lesson 4: مطلوب, the requested-one. File that now.", "matchEn": "application" }
+			],
+			"dialogue": {
+				"t": "At the gate, 4:30 a.m.",
+				"tAr": "عالبوابة الفجر",
+				"sit": "The metal gate before the checkpoint, half past four. Two workers, one thermos, and the region's most practiced small talk: permits, closures, and whether today moves at all.",
+				"voices": { "أبو كرم": ["AbuKaram", "Charon"], "شادي": ["Shadi", "Iapetus"] },
+				"lines": [
+					["شادي", "صباح الخير عمي. من إمتى واقف هون؟", "Morning, uncle. How long have you been standing here?"],
+					["أبو كرم", "من أربعة. البوابة لسا مسكرة.", "Since four. The gate's still shut."],
+					["شادي", "الله يعين. سمعت بكرا في إغلاق — عيد عندهم.", "God help us. I heard tomorrow there's a closure — a holiday on their side."],
+					["أبو كرم", "يعني يومين بلا شغل. والتصريح تبعي بخلص آخر الشهر.", "So two days without work. And my permit runs out at the end of the month."],
+					["شادي", "قدمت عالتجديد؟", "Did you apply for the renewal?"],
+					["أبو كرم", "من تلات أسابيع. الطلب نايم عندهم — ولا خبر.", "Three weeks ago. The application's asleep at their office — not a word."],
+					["شادي", "جاري قدم تلات مرات — انرفض بدون سبب.", "My neighbor applied three times — rejected, no reason given."],
+					["أبو كرم", "هيك هي الشغلة. التصريح مش ورقة يا شادي — التصريح رزقة عيلة كاملة.", "That's how it works. A permit isn't a piece of paper, Shadi — it's a whole family's livelihood."],
+					["شادي", "فتحوا! يلا عمي، قوم — الطابور بمشي.", "They've opened it! Come on, uncle, up — the line's moving."],
+					["أبو كرم", "قوم قوم. يالله — يوم جديد، نفس الطابور.", "Up, up. Well then — a new day, the same line."]
+				]
+			},
+			"quiz": [
+				["Since when has Abu Karam been at the gate?", ["من أربعة الفجر", "من نص ساعة", "من مبارح", "من الضهر"], 0],
+				["What's tomorrow?", ["إغلاق — عيد عندهم", "منع تجول", "إضراب", "جمعة عادية"], 0, "عيد عندهم — 'their holiday': closures track the other side's calendar. Note who says عندهم about whom."],
+				["His permit…", ["بخلص آخر الشهر", "انرفض", "جديد", "ضايع"], 0],
+				["The renewal application is…", ["نايم عندهم — ولا خبر", "انرفض رسمياً", "خلص وصار جاهز", "ما قدم أصلاً"], 0, "نايم عندهم — asleep at their office. Bureaucratic limbo, in one homely verb."],
+				["التصريح مش ورقة — التصريح…", ["رزقة عيلة كاملة", "هدية", "حق", "إشاعة"], 0, "One permit = one family's income. The sentence that explains the 4 a.m. line better than any report."]
+			],
+			"match": ["ighlaq", "man3", "bawwabe", "msakkar", "3amel", "fajr", "jaddad", "talab"],
+			"cloze": [
+				["بكرا ____ كامل — ما في شغل.", "Tomorrow full closure — no work.", ["إغلاق", "تجديد", "فجر"], 0],
+				["البوابة ____ من الصبح.", "The gate's been shut since morning.", ["مسكرة", "مفتوحة", "جديدة"], 0],
+				["بطلع عالشغل من ال____.", "I head out to work at dawn.", ["فجر", "ضهر", "ليل"], 0],
+				["لازم ____ التصريح كل تلات شهور.", "I have to renew the permit every three months.", ["أجدد", "أرفض", "أطفي"], 0],
+				["قدمنا ____ من شهرين وولا خبر.", "We filed an application two months ago — not a word.", ["طلب", "بيان", "خبر"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "ممنوع التجوّل — ممنوع الوقوف",
+					"exp": "Officialese bans actions by their masdar: ممنوع + verbal noun. Unit 3 gave you ممنوع/مسموح for things; the sign-and-order version bans doings: ممنوع التجول (curfew), ممنوع الوقوف (no stopping), ممنوع الدخول (no entry) — and منطقة عسكرية مغلقة usually follows. Lesson 1's masdar machine, now with a ban bolted to the front.",
+					"ex": [
+						["ممنوع التجول من الساعة ست المسا.", "Curfew from six p.m."],
+						["هاي منطقة عسكرية — ممنوع الدخول.", "This is a military zone — no entry."]
+					]
+				},
+				{
+					"ar": "صارلي — صارلنا: the still-counting tense",
+					"exp": "صار + ل + person = have-been-for: صارلي ساعتين واقف (I've been standing two hours), صارلنا سنة نستنى (we've been waiting a year), صارله تلات أسابيع نايم عندهم (it's been asleep at their office three weeks). Duration that started in the past and is still running — the checkpoint's own tense, built from صار, the very first verb this app taught you. The line at the بوابة conjugates it every morning.",
+					"ex": [
+						["صارلي من الأربعة واقف عالبوابة.", "I've been at the gate since four."],
+						["صارلهم تلات أسابيع بستنوا التجديد.", "They've been waiting three weeks for the renewal."]
+					]
+				}
+			],
+			"cognates": [
+				["عامِل", "עָמָל", "true", "ʕ-m-l: toil. Arabic promoted the root to the person — عامل, the worker; Hebrew kept it as the burden — עמל, toil itself (and עמלה, the fee). Meanwhile Hebrew's worker פועל is Arabic's فعل wearing a kippah. The labor market of roots has always been cross-border."],
+				["سَكَّر", "סֶכֶר", "true", "s-k-r: to shut. The street's daily closing verb — سكروا البوابة، الطريق مسكر — is Hebrew's dam, סכר, and the Flood's off-switch: וַיִּסָּכְרוּ מַעְיְנֹת תְּהוֹם, 'the springs of the deep were shut.' From Genesis to the village gate: one root, still closing things."]
+			]
+		},
+		{
+			"title": "A, B, and C",
+			"titleAr": "مناطق أ، ب، ج",
+			"canDo": "I can place any West Bank sentence on its map: which Area, whose سلطة, what needs a رخصة — and why the answer is usually 'it's in C.'",
+			"intro": "Three letters organize everything: أ, ب, ج — Oslo's alphabet, thirty years old and running the present tense. People don't cite the agreement; they say بيتنا ب وأرضنا ج and every Palestinian listener knows exactly what follows. This lesson is that shorthand: the authority, the control, the administration that says no — and one man's village, split across three legal planets.",
+			"vocab": [
+				{ "id": "mantiqa", "ar": "مَنْطِقة", "en": "area, zone", "he": "אזור", "pos": "noun", "reg": "shared", "root": "ن ط ق", "ex": ["بيتنا منطقة ب والأرض منطقة ج.", "Our house is Area B and the land is Area C."], "note": "Unit 5's ناطق (spokesman) shares the letters: نطق is to utter, and a منطقة is what's belted-in (from نِطاق, a belt). The spokesman speaks; the zone is spoken for." },
+				{ "id": "sulta", "ar": "سُلْطة", "en": "authority; the PA", "he": "רשות; שלטון", "pos": "noun", "reg": "shared", "root": "س ل ط", "ex": ["هون بتحكم السلطة، وهناك الجيش.", "Here the Authority governs; there, the army."], "note": "With the article — السلطة — it's the Palestinian Authority, full stop. The plural سلطات means 'the authorities' (usually the other ones). One word doing very precise political work.", "cog": ["true", "שִׁלְטוֹן", "s-l-ṭ / š-l-ṭ: سلطة and שלטון — rule; السلطان and השולט — the ruler and the one in control. The PA is السلطة, Israeli rule is השלטון, and the same root sits in both chairs, taking the minutes of its own argument."], "matchEn": "authority; the PA" },
+				{ "id": "saytara", "ar": "سَيْطَرة", "en": "control", "he": "שליטה", "pos": "noun", "reg": "shared", "ex": ["منطقة ج تحت السيطرة الإسرائيلية الكاملة.", "Area C is under full Israeli control."], "note": "A linguistic trap worth savoring: Hebrew שליטה looks like سيطرة's twin but is actually سلطة's (root שלט/سلط). سيطرة is a different root entirely (س ي ط ر). The lookalike is a coincidence; the meaning-overlap is not.", "matchEn": "control" },
+				{ "id": "ittifaq", "ar": "اِتِّفاق", "en": "agreement, accord", "he": "הסכם", "pos": "noun", "reg": "shared", "root": "و ف ق", "ex": ["كل قصة الحروف من اتفاق أوسلو.", "The whole letters story comes from the Oslo accord."], "note": "اتفاق أوسلو bequeathed the alphabet: أ، ب، ج. The longer form اتفاقية does the same job. From وفق — to accord, to fit; whether it fit is a separate lesson.", "matchEn": "agreement" },
+				{ "id": "amni", "ar": "أَمْني", "en": "security- (adj)", "he": "ביטחוני", "pos": "adj", "reg": "news", "root": "أ م ن", "ex": ["لأسباب أمنية — الجواب الجاهز على كل سؤال.", "'For security reasons' — the ready answer to every question."], "note": "The nisba that unlocks (or locks) everything: أسباب أمنية, تنسيق أمني (security coordination — Arc 4 territory), منع أمني (a security ban on your permit — no appeal, no explanation).", "cog": ["true", "אָמֵן", "ʔ-m-n: the trust-root. Arabic أمن is security and أمان safety; آمين and אמן are the same amen — 'so be it, reliably'; Hebrew אמונה is faith and אמון is trust. Security, in both languages, is grammatically a form of believing — which is either beautiful or bitterly funny, depending on the checkpoint."], "matchEn": "security (adj)" },
+				{ "id": "madani", "ar": "مَدَني", "en": "civil, civilian", "he": "אזרחי", "pos": "adj", "reg": "shared", "root": "م د ن", "ex": ["الإدارة المدنية بتعطي الرخص — أو ما بتعطيها.", "The Civil Administration gives out the permits — or doesn't."], "note": "أمني's official opposite — أمني/مدني splits the whole bureaucracy in two. The bitter joke of the Civil Administration's name is Lesson 3's quiet thesis.", "cog": ["shifted", "מְדִינָה", "m-d-n: مدينة the city, مدني the civilian; Hebrew מדינה the state. All from din — judgment (Unit 4 met دين the debt; the religion دين is the same family): a madīna was originally a jurisdiction, one judge's reach. City, state, civilian — all children of the courtroom."], "matchEn": "civil, civilian" },
+				{ "id": "idara", "ar": "إدارة", "en": "administration", "he": "מנהל; הנהלה", "pos": "noun", "reg": "shared", "root": "د و ر", "ex": ["ورقة الرخصة نايمة بالإدارة من سنة.", "The permit paperwork has slept at the administration for a year."], "note": "From دار, to turn/circulate — administration is what goes around (and around). الإدارة المدنية = המנהל האזרחי: the military body with the civil name, the West Bank's paperwork sovereign.", "matchEn": "administration" },
+				{ "id": "qarye", "ar": "قَرْية", "en": "village", "he": "כפר", "pos": "noun", "reg": "street", "root": "ق ر ي", "ex": ["قريتنا صغيرة بس أرضها واسعة.", "Our village is small but its land is wide."], "note": "The West Bank's basic unit: القرية and her fields — which is exactly what Areas B and C were drawn to separate.", "cog": ["true", "קִרְיָה", "q-r-y: Arabic قرية, Hebrew קריה (קרית שמונה, קרית גת — town-quarters). And read the West Bank map aloud for the bonus pair: كفر قدوم, كفر نعمة — that كفر is Hebrew's כפר, the other village-word the two languages share. One map, doubly cognate."] },
+				{ "id": "mukhayyam", "ar": "مُخَيَّم", "en": "refugee camp", "he": "מחנה פליטים", "pos": "noun", "reg": "shared", "root": "خ ي م", "ex": ["ساكن بالمخيم وشغله بالمدينة.", "He lives in the camp and works in the city."], "note": "From خيمة, tent — a camp named for tents it stopped being in the 1950s. مخيم جنين، مخيم بلاطة: dense city blocks that keep the tent's name because the name is the claim — 'we are still from somewhere else.' Arc 4's Nakba unit will sit with this word properly." },
+				{ "id": "rukhsa", "ar": "رُخْصة", "en": "license; (building) permit", "he": "רישיון; היתר בנייה", "pos": "noun", "reg": "shared", "root": "ر خ ص", "ex": ["بدك تبني بمنطقة ج؟ انسى الرخصة.", "Want to build in Area C? Forget the permit."], "note": "Unit 4's رخيص (cheap) is the same root: رخص is to be cheap AND to be permitted — both are 'made easy.' The West Bank's standing joke writes itself: the رخصة is anything but رخيصة.", "matchEn": "license, permit" }
+			],
+			"listen": {
+				"t": "Abu Nidal's map",
+				"tAr": "خريطة أبو نضال",
+				"brief": "Abu Nidal, sixty-something, explains his village the way no atlas will: house in B, olives in C, cousin in A — one family across three legal planets. Follow the letters; they do more work than the nouns.",
+				"speaker": "أبو نضال",
+				"voice": "Charon",
+				"pre": [
+					"Which Area is his house in — and which his land?",
+					"What did his brother wait four years for, and how did it end?",
+					"His final definition: what does the map actually measure?"
+				],
+				"lines": [
+					["قريتنا صغيرة — بس فيها تلات دنيات: أ وب وج.", "Our village is small — but it holds three worlds: A, B, and C."],
+					["بيتي منطقة ب: السلطة بتكنس الشارع، والجيش بفوت وقت ما بده.", "My house is Area B: the Authority sweeps the street, and the army comes in whenever it wants."],
+					["أرض الزيتون تبعتنا منطقة ج — تحت السيطرة الكاملة.", "Our olive land is Area C — under full control."],
+					["بدنا نبني غرفة للولاد؟ لازم رخصة من الإدارة المدنية.", "We want to build a room for the kids? We need a permit from the Civil Administration."],
+					["أخوي قدم على رخصة — استنى أربع سنين، وبالآخر انرفض الطلب.", "My brother applied for a permit — waited four years, and in the end the application was refused."],
+					["ابن عمي ساكن بالمدينة، منطقة أ. بقولوا 'حكم فلسطيني كامل' — بس الاقتحامات ما بتقرأ الاتفاق.", "My cousin lives in the city, Area A. They say 'full Palestinian rule' — but the raids don't read the agreement."],
+					["نفس العيلة: واحد أ، وواحد ب، وأرضنا ج.", "One family: one in A, one in B, and our land in C."],
+					["الخريطة عنا مش جغرافيا يا ابني. الخريطة: مين بعطيك رخصة، ومين بمرقك، ومين بستنى.", "Our map isn't geography, son. The map is: who grants you a permit, who lets you pass, and who waits."]
+				],
+				"qs": [
+					["Abu Nidal's house / his olive land:", ["ب / ج", "أ / ب", "ج / أ", "أ / ج"], 0, "One family filed across three letters — the lesson in a single line."],
+					["Area B, in his description:", ["السلطة بتكنس والجيش بفوت", "حكم فلسطيني كامل", "سيطرة كاملة", "بلا سلطة بالمرة"], 0, "The Authority sweeps the street; the army enters at will. Area B's whole constitution in one sentence."],
+					["The brother's permit application:", ["استنى أربع سنين وانرفض", "انقبل بسرعة", "لسا نايم", "ما قدم"], 0, "انرفض — got-refused: the ان-passive, one lesson early. The doer of the refusing goes unnamed; everyone knows."],
+					["What doesn't read the agreement?", ["الاقتحامات", "الزيتون", "البلدية", "الشتا"], 0, "Area A on paper; the raids don't read the paper. Lesson 4 is that sentence, expanded."],
+					["The map, he says, really measures:", ["مين بعطيك رخصة ومين بستنى", "المسافات بين القرى", "وين الجبال", "قديش في ناس"], 0]
+				]
+			},
+			"match": ["mantiqa", "sulta", "saytara", "ittifaq", "amni", "madani", "qarye", "rukhsa"],
+			"cloze": [
+				["بيتنا ____ ب وأرضنا ج.", "Our house is Area B and our land is C.", ["منطقة", "قرية", "بوابة"], 0],
+				["هون بتحكم ال____.", "Here the Authority governs.", ["سلطة", "إدارة", "جرافة"], 0],
+				["منطقة ج تحت ال____ الكاملة.", "Area C is under full control.", ["سيطرة", "رخصة", "خريطة"], 0],
+				["منعوه لأسباب ____.", "They banned him for 'security reasons.'", ["أمنية", "مدنية", "رسمية"], 0],
+				["بدنا ____ بناء من الإدارة المدنية.", "We need a building permit from the Civil Administration.", ["رخصة", "نشرة", "فراطة"], 0],
+				["ساكن بال____ وشغله بالمدينة.", "He lives in the camp and works in the city.", ["مخيم", "منطقة", "سوق"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "أمني، مدني، عسكري، إداري، رسمي",
+					"exp": "The nisba ـي (Unit 3 built cities with it, Unit 5 made رسمي) runs the entire bureaucracy: أمر عسكري, منع أمني, إدارة مدنية, قرار إداري. Hear an abstract noun wearing ـي and an institution has entered the sentence — usually holding a stamp. Collect the full palette now; Arc 2 uses it in every bulletin.",
+					"ex": [
+						["أجا أمر عسكري بإغلاق الطريق.", "A military order came to close the road."],
+						["هاد إشي إداري، مش أمني — هيك قالوا.", "It's an administrative matter, not a security one — so they said."]
+					]
+				},
+				{
+					"ar": "الأرض اللي ورا الجدار",
+					"exp": "Unit 5 gave you إللي for news; the map runs on it too. Geography here is relative clauses — a place is defined by where it stands relative to the machine: الأرض اللي ورا الجدار (the land behind the wall), البيت اللي بمنطقة ج (the house in Area C), الطريق اللي بتطلع عالمستوطنة (the road that goes up to the settlement). Learn to parse these fast; directions, deeds, and grievances all come packaged this way.",
+					"ex": [
+						["الأرض اللي ورا الجدار صارت أبعد من أمريكا.", "The land behind the wall is now farther away than America."],
+						["البيت اللي بمنطقة ج ما إله رخصة — وما رح يكون إله.", "The house in Area C has no permit — and never will."]
+					]
+				}
+			],
+			"cognates": [
+				["سُلْطة", "שִׁלְטוֹן", "true", "s-l-ṭ: rule. السلطة governs Area A; השלטון governs the rest; السلطان governed everybody's great-grandparents. One root, holding every gavel in this story — including the TV remote: שלט."],
+				["أَمْن", "אָמֵן", "true", "ʔ-m-n: trust, made load-bearing. أمن security, أمانة trustworthiness, آمين/אמן 'so be it,' אמונה faith, אמון trust. When a permit dies لأسباب أمنية, the root being invoked — on both sides of the desk — is the one that means to believe."],
+				["قَرْية", "קִרְיָה", "true", "q-r-y: village/town-quarter — قرية and קריה, plus the bonus twins كفر and כפר sharing the same map (كفر قدوم, כפר סבא). The Semitic settlement vocabulary was shared long before the settlement vocabulary was contested."],
+				["مَدَني", "מְדִינָה", "shifted", "m-d-n, from din, judgment: مدينة the city, מדינה the state, مدني the civilian — all originally 'jurisdiction.' The Civil Administration — الإدارة المدنية — thus carries a triple etymology of judging, which, given its job, is almost too on-the-nose."]
+			]
+		},
+		{
+			"title": "The night of the raid",
+			"titleAr": "ليلة الاقتحام",
+			"canDo": "I can understand a report of a night raid and an arrest — in the bulletin's words, and in the words of the family next door.",
+			"weight": "heavy",
+			"intro": "This lesson is heavier than the others, and unskippable: اقتحام and اعتقال are among the most frequent words in West Bank news, and behind each is a night like the one Umm Murad describes. Two grammars carry it — the street's انفعل (it-happened-to-us) and the news' تم (it-was-carried-out) — and hearing the same night in both is Unit 5's register lesson, grown up. Take it slowly; the SRS will wait.",
+			"vocab": [
+				{ "id": "iqtiham", "ar": "اِقْتِحام", "en": "raid, incursion, storming", "he": "פשיטה; כניסה בכוח", "pos": "noun", "reg": "shared", "root": "ق ح م", "ex": ["صار اقتحام بالبلد الليلة.", "There was a raid in town last night."], "note": "اقتحم = to force a way in. The bulletin's nightly opener: اقتحمت قوات الاحتلال... The street shortens it: الجيش فات — the army came in.", "matchEn": "raid, storming" },
+				{ "id": "i3tiqal", "ar": "اِعْتِقال", "en": "arrest, detention", "he": "מעצר", "pos": "noun", "reg": "shared", "root": "ع ق ل", "ex": ["حملة اعتقالات بالضفة الليلة.", "A wave of arrests across the West Bank tonight."], "note": "The masdar of اعتقل. The count in the morning bulletin — عشرين معتقل — is the night before, summed.", "cog": ["shifted", "עִיקּוּל", "ʕ-q-l: the tying-root. Arabic hobbles the camel with a عقال (still worn on heads), names the mind عقل — what ties thoughts together (Unit 1's مش معقول!) — and names the arrest اعتقال. Hebrew's עיקול is the bailiff tying up your assets. Camels, thoughts, people, property: one rope, many knots."], "matchEn": "arrest, detention" },
+				{ "id": "mudahame", "ar": "مُداهَمة", "en": "(house) raid", "he": "פשיטת בית", "pos": "noun", "reg": "news", "root": "د ه م", "ex": ["مداهمات كل ليلة بالمخيم هالأسبوع.", "House raids every night in the camp this week."], "note": "داهم = to burst in on, unannounced. The 3 a.m. verb. اقتحام takes a town; مداهمة takes a house.", "matchEn": "house raid" },
+				{ "id": "dawriyye", "ar": "دَوْرِيّة", "en": "patrol", "he": "סיור; ג'יפ צבאי", "pos": "noun", "reg": "shared", "root": "د و ر", "ex": ["دورية وقفت عالمفرق ساعة.", "A patrol sat at the junction for an hour."], "note": "From دار, to go around — Lesson 3's إدارة is the same root pushing paper; the دورية pushes a jeep. The street meaning is metonymic: الدورية is the vehicle itself." },
+				{ "id": "jesh", "ar": "جيش", "en": "army", "he": "צבא", "pos": "noun", "reg": "street", "root": "ج ي ش", "ex": ["الجيش فات عالبلد الساعة تلاتة.", "The army entered town at three."], "note": "Unmarked — الجيش — it means one army; Unit 3's جندي finally gets his employer. جيش الاحتلال in news register.", "cog": ["shifted", "גִּיּוּס", "j-y-š: Arabic جيش, the army. Talmudic Hebrew borrowed the same Semitic word via Aramaic as גייס, a troop — and modern Hebrew built גיוס, the draft, on it. The word for an army and the word for being summoned into one: a single ancient root, conjugated from both ends."] },
+				{ "id": "matlub", "ar": "مَطْلوب", "en": "wanted (by the army)", "he": "מבוקש", "pos": "adj", "reg": "shared", "root": "ط ل ب", "ex": ["بقولوا إنه مطلوب من سنتين.", "They say he's been wanted for two years."], "note": "Lesson 2's طلب, passive participle: the requested-one. In a shop window مطلوب عامل is 'help wanted'; at 3 a.m. مطلوب is a life sentence-in-waiting. Context is everything; register is context.", "matchEn": "wanted" },
+				{ "id": "mu3taqal", "ar": "مُعْتَقَل", "en": "detainee; detention camp", "he": "עציר; מתקן מעצר", "pos": "noun", "reg": "shared", "root": "ع ق ل", "ex": ["ابنهم معتقل من الشتا.", "Their son has been in detention since winter."], "note": "The اعتقال root's participle: the tied-one — and also the place that ties (معتقل النقب). One word for the person and the building; the ambiguity is not accidental.", "matchEn": "detainee" },
+				{ "id": "sijen", "ar": "سِجن", "en": "prison", "he": "כלא, בית סוהר", "pos": "noun", "reg": "street", "root": "س ج ن", "ex": ["نص شباب الحارة شافوا السجن.", "Half the neighborhood's young men have seen prison."], "note": "The سجّان is the jailer; Yusuf's سجن in the Quran is the same word. Arc 4 has an entire unit — الأسرى — waiting behind this noun." },
+				{ "id": "ifraj", "ar": "إفْراج", "en": "release (from detention)", "he": "שחרור", "pos": "noun", "reg": "news", "root": "ف ر ج", "ex": ["في إفراج عن معتقلين اليوم.", "Detainees are being released today."], "note": "From فرج — relief, the opening after hardship. The mothers' everyday sigh الله يفرجها (may God open a way) and the lawyers' إفراج are one root: the door, and the prayer that it opens.", "matchEn": "release" },
+				{ "id": "hamle", "ar": "حَمْلة", "en": "campaign, wave (of arrests)", "he": "גל מעצרים; מבצע", "pos": "noun", "reg": "news", "root": "ح م ل", "ex": ["حملة اعتقالات واسعة فجر اليوم.", "A wide arrest campaign at dawn today."], "note": "From حمل, to carry: a حملة is what one carrying-out looks like multiplied. حملة تطعيم vaccinates, حملة انتخابية campaigns (Arc 4), حملة اعتقالات empties a neighborhood.", "matchEn": "arrest campaign" }
+			],
+			"listen": {
+				"t": "Three a.m.",
+				"tAr": "الساعة تلاتة الفجر",
+				"brief": "Umm Murad tells last Thursday: the sound at 3 a.m., the neighbors' son, the morning bulletin that summarized it. Told quietly, over coffee — which is how you will actually hear stories like this. A heavy listen, deliberately unhurried; the last two lines hold the unit's whole grammar.",
+				"speaker": "أم مراد",
+				"voice": "Sulafat",
+				"pre": [
+					"What time did it start, and with what sounds?",
+					"Who was taken — and what does she keep repeating about him?",
+					"The bulletin's version vs. the street's: catch تم اعتقال and انعتقل — same night, two grammars."
+				],
+				"lines": [
+					["يوم الخميس، الساعة تلاتة الفجر، صحينا على صوت أبواب وكلاب.", "Thursday, three in the morning, we woke to the sound of doors and dogs."],
+					["قلت لجوزي: قوم، في اقتحام. الصوت من حارة دار عودة.", "I told my husband: get up, there's a raid. The sound is from the Odeh family's quarter."],
+					["الجيش كان فايت عالبلد — دوريات بكل شارع، ومداهمة بيت ورا بيت.", "The army had entered the town — patrols in every street, and a house raid, house after house."],
+					["كسروا باب دار الجيران وفاتوا. صوت الأم وصل لعنا.", "They broke the neighbors' door and went in. The mother's voice reached us here."],
+					["أخذوا نضال، ابنهم الكبير. سبعطعش سنة — طالب توجيهي.", "They took Nidal, their eldest. Seventeen years old — a final-year student."],
+					["بقولوا مطلوب. مطلوب شو؟ ولد بدرس لامتحان.", "They say he's 'wanted.' Wanted for what? A boy studying for an exam."],
+					["الصبح بالنشرة قالوا: تم اعتقال عشرين مطلوباً في حملة أمنية.", "In the morning bulletin they said: twenty wanted men were arrested in a security operation."],
+					["عنا بالحارة منقولها غير هيك: انعتقل نضال. وأمه بتستنى الإفراج — والله يفرجها على كل أم.", "In our quarter we say it differently: Nidal got taken. And his mother waits for the release — may God open the way, for every mother."]
+				],
+				"qs": [
+					["It began at three with…", ["صوت أبواب وكلاب", "خبر عالتلفزيون", "صوت جرافات", "إشاعة"], 0],
+					["Who was taken?", ["نضال — طالب توجيهي عمره سبعطعش", "أبو مراد", "جارهم الكبير", "واحد غريب"], 0],
+					["The bulletin's version of the night:", ["تم اعتقال عشرين مطلوباً بحملة أمنية", "انعتقل ولد واحد", "ما حكوا إشي", "إفراج عن عشرين"], 0, "تم + masdar: the news passive — no soldiers in the sentence, and no boy either. Twenty 'wanteds,' summed."],
+					["The street's version of the same fact:", ["انعتقل نضال", "تم اعتقال نضال", "اعتقلنا نضال", "نضال سافر"], 0, "انفعل — it-happened-to-him. The doer is missing from the grammar because everyone knows exactly who it is."],
+					["الله يفرجها shares its root with:", ["إفراج", "اقتحام", "حملة", "دورية"], 0, "ف-ر-ج, the opening. The mother's prayer and the lawyer's paperwork are one root — the door, and the hope that it opens."]
+				]
+			},
+			"match": ["iqtiham", "i3tiqal", "mudahame", "dawriyye", "jesh", "matlub", "sijen", "ifraj"],
+			"cloze": [
+				["صار ____ بالبلد الليلة.", "There was a raid in town last night.", ["اقتحام", "إفراج", "اتفاق"], 0],
+				["____ اعتقالات واسعة الفجر.", "A wide arrest campaign at dawn.", ["حملة", "دورية", "رخصة"], 0],
+				["ال____ فات عالبلد الساعة تلاتة.", "The army entered town at three.", ["جيش", "سوق", "فجر"], 0],
+				["بقولوا إنه ____ من سنتين.", "They say he's been wanted for two years.", ["مطلوب", "معتقل", "مسؤول"], 0],
+				["ابنهم ____ من الشتا.", "Their son's been in detention since winter.", ["معتقل", "مطلوب", "عامل"], 0],
+				["العيلة بتستنى ال____.", "The family waits for the release.", ["إفراج", "اقتحام", "إغلاق"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "انفعل: انعتقل، انكسر، انرفض",
+					"exp": "The street passive: ان + verb = it-got-done: انعتقل (got arrested), انكسر الباب (the door got broken), انرفض الطلب (the application got refused — you met it at the gate). No actor in the sentence. Sometimes the doer is unknown; in this unit's sentences the doer is unnamed because naming is unnecessary — الكل عارف مين. It is the grammar of things that happen TO people, and Arc 2 and 3 run on it.",
+					"ex": [
+						["انعتقل ابن الجيران الخميس الفجر.", "The neighbors' son was arrested Thursday at dawn."],
+						["انرفض الطلب تاني مرة، بلا سبب.", "The application was refused a second time, no reason given."]
+					]
+				},
+				{
+					"ar": "تم اعتقال... — the bulletin's passive",
+					"exp": "News Arabic disappears the actor differently: تم + masdar: تم اعتقال عشرين (the arrest of twenty was-carried-out), تم إغلاق المدخل, تم هدم... (Unit 7, sadly). Lesson 1's masdar machine with تم bolted on: polished, official, actor-free. Street انفعل and bulletin تم are the same vanishing act in two registers — Unit 5's split, now inside the grammar itself. When you hear either, ask the question the sentence was built to avoid: مين عمل هيك؟",
+					"ex": [
+						["تم اعتقال عشرين شخصاً في حملة واحدة.", "Twenty people were arrested in a single sweep."],
+						["تم إغلاق مدخل البلد بأمر عسكري.", "The town's entrance was closed by military order."]
+					]
+				}
+			],
+			"cognates": [
+				["اِعْتِقال", "עִיקּוּל", "shifted", "ʕ-q-l: one root, tying everything — the camel (عقال), the mind (عقل — what makes things معقول, thinkable), the prisoner (اعتقال), and in Hebrew the property: עיקול, the court's lien. Four thousand years of the same rope, looped around whatever each era needed held."],
+				["جيش", "גִּיּוּס", "shifted", "j-y-š: the Semitic troop-word. Arabic kept جيش whole; Hebrew received it through Aramaic as גייס and built גיוס — the draft — from it. The noun that raids the town at 3 a.m. and the noun that summons eighteen-year-olds to do it: one etymology, no comment."]
+			]
+		},
+		{
+			"title": "The land, in dunams",
+			"titleAr": "الأرض بتنعد بالدونم",
+			"canDo": "I can follow a land story — how many dunams, planted with what, claimed by whom — and understand Friday's news package announcing more units on the hill.",
+			"intro": "The unit ends where it began — on the land — but now with numbers. The فلاح counts in دونمات; the ministry counts in وحدات; the news counts both and calls it توسيع. This lesson is the arithmetic of the hillside: who plants, who uproots, who announces — and the interview where a reporter's fusha meets seventy dunams of someone's grandfather. Learn it well: Lesson 6 is the real bulletin, and it speaks exactly this language.",
+			"vocab": [
+				{ "id": "fallah", "ar": "فَلّاح", "en": "farmer, fellah", "he": "חקלאי; פלאח", "pos": "noun", "reg": "street", "root": "ف ل ح", "ex": ["الفلاح بعرف أرضه شجرة شجرة.", "The farmer knows his land tree by tree."], "note": "Unit 4's فعّال profession pattern (بياع، سواق) on the root of tilling: the فلاح is the West Bank's oldest job description and this unit's quiet hero.", "cog": ["loan", "פַלַאח", "Hebrew borrowed the farmer whole — פלאח — and early kibbutz Hebrew took his craft too: פלחה, from فلاحة, is still what Israeli agronomy calls field crops. The man crossed the language line with his plow and his job title intact."] },
+				{ "id": "dunum", "ar": "دونُم", "en": "dunam (≈ 1000 m²)", "he": "דונם", "pos": "noun", "reg": "street", "ex": ["عنا سبعين دونم زيتون.", "We have seventy dunams of olives."], "note": "The Ottoman day's-plowing, now the region's land unit. Every deed, every confiscation order, every settlement plan: counted in it. Learn to catch it with numbers at speed — that's Lesson 6's exam.", "cog": ["loan", "דּוּנָם", "Ottoman dönüm — 'one day's plowing' — survived the empire in both successor vocabularies: دونم and דונם, identical. Quite possibly the only unit of measurement, and the only land-related word, on which the two sides fully agree."], "matchEn": "dunam (land unit)" },
+				{ "id": "zara3", "ar": "زَرَع", "en": "planted, sowed", "he": "זרע", "pos": "verb", "reg": "street", "root": "ز ر ع", "ex": ["زرعنا التلة كلها زيتون.", "We planted the whole hill with olives."], "note": "The فلاح's verb of verbs; مزروع, planted, is a land title argument in participle form. Its dark opposite is one entry down.", "cog": ["true", "זֶרַע", "z-r-ʕ: زرع and זרע — sow, seed — identical to the last sound-law. The seeds and the verb never needed translating between these hills; only the deeds did."] },
+				{ "id": "iqtala3", "ar": "اِقْتَلَع", "en": "uprooted", "he": "עקר", "pos": "verb", "reg": "street", "root": "ق ل ع", "ex": ["اقتلعوا زيتون عمره مية سنة.", "They uprooted hundred-year-old olive trees."], "note": "زرع's undoing — the olive-news verb, grimly perennial, especially around harvest. (Unit 4's مقلوبة is ق-ل-ب, flipped — a different root that merely sounds like this one. The dinner table is innocent.)", "matchEn": "uprooted" },
+				{ "id": "tawsi3", "ar": "تَوْسيع", "en": "expansion", "he": "הרחבה", "pos": "noun", "reg": "news", "root": "و س ع", "ex": ["أعلنوا عن توسيع جديد للمستوطنة.", "They announced a new expansion of the settlement."], "note": "From وسّع, to widen — واسع, wide, is its adjective cousin. The masdar that headlines Lesson 6's actual news package. توسيع الاستيطان: the story that never needs a new headline, only new numbers.", "matchEn": "expansion" },
+				{ "id": "bu2ra", "ar": "بُؤْرة", "en": "outpost", "he": "מאחז", "pos": "noun", "reg": "news", "root": "ب أ ر", "ex": ["بلشت بؤرة صغيرة وصارت حي كامل.", "It started as a small outpost and became a whole neighborhood."], "note": "Literally a focal point: بؤرة استيطانية — the caravans Lesson 1's أبو يوسف watched arrive. The news also says بؤرة توتر, a flashpoint. Either way: where it starts.", "matchEn": "outpost" },
+				{ "id": "wihde", "ar": "وِحْدة", "en": "(housing) unit", "he": "יחידת דיור", "pos": "noun", "reg": "news", "root": "و ح د", "ex": ["أعلنوا عن ألف وحدة سكنية جديدة.", "They announced a thousand new housing units."], "note": "The ministry's counting noun: وحدة سكنية / استيطانية. Homes become units when policy counts them; the فلاح's counter-unit is the دونم underneath.", "cog": ["true", "אֶחָד", "w-ḥ-d / ʔ-ḥ-d: واحد and אחד — 'one,' the family's most basic shared number (the w↔ʔ swap is regular). Both bureaucracies count settlement homes in its daughter: وحدات = יחידות דיור. On the news, 'ones' are what get built; dunams are what they're built on."], "matchEn": "housing unit" },
+				{ "id": "a3lan", "ar": "أَعْلَن", "en": "announced", "he": "הודיע, הכריז", "pos": "verb", "reg": "news", "root": "ع ل ن", "ex": ["أعلنوا عن خطة بناء جديدة.", "They announced a new construction plan."], "note": "أعلن عن = announce (about). علني is public/overt; الإعلان is both the announcement and the TV commercial — the root does publicity in every sense. What gets أعلن in this unit is never good news for the فلاح.", "matchEn": "announced" },
+				{ "id": "khitta", "ar": "خِطّة", "en": "plan", "he": "תוכנית", "pos": "noun", "reg": "shared", "root": "خ ط ط", "ex": ["في خطة لتوسيع الطريق الالتفافي.", "There's a plan to widen the bypass road."], "note": "From خط, the line (Unit 3's serveece خط!): a plan is lines drawn. On this map, usually drawn elsewhere, about here. خطة الضم — the annexation plan — headlined Unit 5's street clip; now you own the noun.", "matchEn": "plan" },
+				{ "id": "ikhtar", "ar": "إخْطار", "en": "(military/demolition) notice", "he": "צו (הריסה/פינוי)", "pos": "noun", "reg": "news", "root": "خ ط ر", "ex": ["وصل إخطار لدار أبو صالح الأسبوع الماضي.", "A notice reached the Abu Saleh family last week."], "note": "The paper on the tree or the door: إخطار هدم (demolition), إخطار إخلاء (evacuation), إخطار وقف بناء (stop-work). Same letters as خطر, danger — the language files the notification and the danger under one root, which is honest of it.", "matchEn": "(military) notice" }
+			],
+			"dialogue": {
+				"t": "Interview with a farmer",
+				"tAr": "مقابلة مع فلاح",
+				"sit": "A TV crew reaches the village for the settlement-expansion story. The reporter asks in polished news Arabic; Abu Saleh answers in the Arabic of seventy dunams. Unit 5's register split — conducted live, across one olive grove.",
+				"voices": { "المراسلة": ["Murasleh", "Sulafat", "news"], "أبو صالح": ["AbuSaleh", "Charon"] },
+				"lines": [
+					["المراسلة", "نحن الآن عند أراضي القرية، ومعنا الحاج أبو صالح. أهلاً بك.", "We are now at the village's lands, joined by Hajj Abu Saleh. Welcome."],
+					["أبو صالح", "أهلين. تفضلوا — هاي أرضنا: سبعين دونم، كلها زيتون.", "Welcome to you. Come — this is our land: seventy dunams, all olives."],
+					["المراسلة", "منذ متى تملك عائلتكم هذه الأرض؟", "How long has your family owned this land?"],
+					["أبو صالح", "من أيام جدي وسيد جدي. زرعناها زيتونة زيتونة، بإيدينا هاي.", "Since my grandfather's day, and his grandfather's. We planted it olive by olive, with these hands."],
+					["المراسلة", "وماذا وصلكم الأسبوع الماضي؟", "And what reached you last week?"],
+					["أبو صالح", "إخطار. علقوه عالشجرة متل الإعلان. بقولوا 'أراضي دولة'.", "A notice. They hung it on the tree like an advertisement. It says 'state lands.'"],
+					["المراسلة", "الخطة المعلنة تشمل مئات الوحدات الجديدة في المستوطنة المجاورة. ما ردكم؟", "The announced plan includes hundreds of new units in the neighboring settlement. Your response?"],
+					["أبو صالح", "ردنا؟ رزقتنا من هالأرض. توسيعهم مش من السما — من قلب دونماتنا.", "Our response? Our livelihood is from this land. Their expansion doesn't come from the sky — it comes out of the heart of our dunams."],
+					["المراسلة", "وماذا ستفعلون الآن؟", "And what will you do now?"],
+					["أبو صالح", "اللي منعمله كل سنة: منزرع. الزيتون ما بسأل مين حاكم — الزيتون بسأل مين بسقي.", "What we do every year: we plant. The olive doesn't ask who rules — the olive asks who waters."]
+				]
+			},
+			"quiz": [
+				["How much land, planted with what?", ["سبعين دونم زيتون", "سبع دونمات عنب", "مية دونم قمح", "تلاتين دونم بندورة"], 0, "سبعين دونم — note the singular: past ten, Arabic counts in ones. The grammar point, with a deed attached."],
+				["What arrived last week — and where was it posted?", ["إخطار — عالشجرة", "بيان — عالباب", "تصريح — بالبريد", "خبر — بالنشرة"], 0],
+				["The stated legal claim on the land:", ["أراضي دولة", "منطقة عسكرية", "أرض البلدية", "أرض بلا صاحب"], 0, "'State lands' — the phrase that moves more dunams than any bulldozer. Lesson 6's package uses it too; listen for it."],
+				["The announced plan includes:", ["مئات الوحدات الجديدة", "جدار جديد", "مدرسة", "شارع للقرية"], 0],
+				["His answer to 'what will you do now?'", ["منزرع", "منهاجر", "منبيع", "منستنى"], 0, "الزيتون بسأل مين بسقي — the unit gives the olive tree the last word, on purpose."]
+			],
+			"match": ["fallah", "dunum", "zara3", "iqtala3", "tawsi3", "bu2ra", "wihde", "ikhtar"],
+			"cloze": [
+				["عنا سبعين ____ زيتون.", "We have seventy dunams of olives.", ["دونم", "دونمات", "كيلو"], 0],
+				["____وا زيتون عمره مية سنة.", "They uprooted hundred-year-old olives.", ["اقتلع", "زرع", "غط"], 0],
+				["أعلنوا عن ____ جديد للمستوطنة.", "They announced a new expansion of the settlement.", ["توسيع", "تصحيح", "تجديد"], 0],
+				["بلشت ____ وصارت حي كامل.", "It started as an outpost and became a whole neighborhood.", ["بؤرة", "وحدة", "خطة"], 0],
+				["وصل ____ لدار أبو صالح.", "A notice reached the Abu Saleh family.", ["إخطار", "ملخص", "طلب"], 0],
+				["صادقوا على ألف ____ سكنية.", "They approved a thousand housing units.", ["وحدة", "بؤرة", "تلة"], 0]
+			],
+			"grammar": [
+				{
+					"ar": "تلات دونمات — سبعين دونم",
+					"exp": "The counting law your ear needs at bulletin speed: 3–10 take the plural (تلات دونمات، خمس وحدات، عشر قرى); from 11 up, the singular returns (سبعين دونم، ألف وحدة، عشرين مطلوب). It's why the biggest numbers sound grammatically smallest. Unit 2's number gym, now measuring land — and Unit 9 will drill it at full news speed.",
+					"ex": [
+						["خمس دونمات ورا الجدار، وستين دونم قدامه.", "Five dunams behind the wall, and sixty in front of it."],
+						["صادقوا على ألف وحدة استيطانية جديدة.", "They approved a thousand new settlement units."]
+					]
+				},
+				{
+					"ar": "عم يبنوا من سنتين — البناء مستمر",
+					"exp": "Ongoing-at-scale: عم + verb plus من + time stretches now backwards: عم يبنوا من سنتين (they've been building for two years), عم نزرعها من مية سنة. The bulletin nominalizes the same thing: البناء مستمر, التوسيع مستمر — 'continues,' the anchor's way of saying لسا عم. One process, two registers; you've heard this song since Unit 5, and it plays over every hilltop in this one.",
+					"ex": [
+						["عم يبنوا بالبؤرة من الصيف الماضي.", "They've been building at the outpost since last summer."],
+						["النشرة بتقول: البناء مستمر. سيدو بقول: لسا عم يبنوا.", "The bulletin says: construction continues. Grandpa says: they're still building."]
+					]
+				}
+			],
+			"cognates": [
+				["زَرَع", "זֶרַע", "true", "z-r-ʕ: seed and sowing, identical in both — زرع/זרע on the same terraced hills for the same three thousand years. The most peaceful verb in this unit, and the one with the most riot police around its object."],
+				["وِحْدة", "אֶחָד", "true", "w-ḥ-d / ʔ-ḥ-d: 'one.' واحد/אחד is the textbook Semitic cognate — and both governments count contested housing in its derivative: وحدات، יחידות. When the news says a thousand of them, remember you're hearing the number one, pluralized, doing politics."],
+				["دونُم", "דּוּנָם", "loan", "The Ottoman dönüm outlived the Ottomans in everyone's land registry: دونم = דונם, no translation needed, no dispute available. The empire's parting gift: a unit both sides use to disagree precisely."],
+				["فَلّاح", "פַלַאח", "loan", "Hebrew took the فلاح in as פלאח and put his فلاحة to work as פלחה — field-crop farming, a living kibbutz term. The vocabulary of working this land kept crossing the line even when the land itself couldn't."]
+			]
+		},
+		{
+			"title": "Review & free listening",
+			"titleAr": "مراجعة واستماع حر",
+			"canDo": "I can follow a real news package about settlement expansion — anchor, correspondent, and the ground — and state who did what to whom, where.",
+			"intro": "Five lessons: the frame, the gate, the letters, the night, the land. Now the real thing — Al Mayadeen reports the decision to build 1,300 new settlement units in the southern West Bank. Anchor فصحى, a correspondent's package, and the masdar machine at full speed: توسيع، بناء، مصادرة. You have every key word; nobody simplified anything. The Arc 2 exam question, first attempt: who did what to whom, where?",
+			"quiz": [
+				["@ihtilal", "Play the word. What does it mean?", ["occupation", "agreement", "administration", "expansion"], 0],
+				["@mustawtane", "Play the word. What is it?", ["settlement", "outpost", "village", "camp"], 0],
+				["@ighlaq", "Play the word. What does it mean?", ["closure", "curfew", "release", "raid"], 0],
+				["@rukhsa", "Play the word. What is it?", ["license, permit", "application", "notice", "plan"], 0],
+				["@iqtiham", "Play the word. What does it mean?", ["raid, storming", "arrest", "patrol", "campaign"], 0],
+				["@i3tiqal", "Play the word. What does it mean?", ["arrest, detention", "release", "raid", "closure"], 0],
+				["@tawsi3", "Play the word. What does it mean?", ["expansion", "renewal", "construction", "confiscation"], 0],
+				["@fallah", "Play the word. Who is he?", ["farmer", "worker", "settler", "spokesman"], 0]
+			],
+			"match": ["jidar", "msakkar", "sulta", "mukhayyam", "matlub", "ifraj", "zara3", "bu2ra"],
+			"cloze": [
+				["عايشين تحت ال____ من زمان.", "We've lived under occupation a long time.", ["احتلال", "اتفاق", "إفراج"], 0],
+				["بكرا ____ شامل عالضفة.", "Tomorrow: full closure on the West Bank.", ["إغلاق", "توسيع", "تجديد"], 0],
+				["بيتنا منطقة ب وأرضنا منطقة ____.", "Our house is Area B and our land is Area C.", ["ج", "أ", "د"], 0],
+				["____ الجيش عالبلد الفجر.", "The army raided the town at dawn.", ["اقتحم", "زرع", "جدد"], 0],
+				["تم ____ عشرين شخص بحملة وحدة.", "Twenty people were arrested in one sweep.", ["اعتقال", "إعلان", "تصريح"], 0],
+				["أعلنوا عن بناء ألف ____ جديدة.", "They announced a thousand new units.", ["وحدة", "بؤرة", "تلة"], 0]
+			],
+			"listen": {
+				"t": "Real news: 1,300 units",
+				"tAr": "استماع حر — توسيع الاستيطان",
+				"brief": "Al Mayadeen: the occupation authorities approve 1,300 new settlement units in the southern West Bank. A real bulletin lead and package at native speed — the exact genre this unit trained you for. Two and a half minutes. Every load-bearing word in it is yours now.",
+				"youtubeId": "NbO5ich822o",
+				"pre": [
+					"First twenty seconds — the anchor's lead: catch the masdars (توسيع؟ بناء؟ مصادرة؟), the number of وحدات, and the where.",
+					"Inside the package: count the actor-free constructions — every تم, every masdar headline. Who is grammatically missing from those sentences?",
+					"Exit ticket, Arc 2's whole point: one English sentence — who did what to whom, where. Then try it بالعربي with منقولها غير هيك in mind."
+				],
+				"qs": []
+			}
+		}
+	]
+}

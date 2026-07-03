@@ -22,7 +22,9 @@ const STYLE = {
 	dialogue:
 		"TTS the following everyday conversation. Both speakers use authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) exactly as natives from Ramallah talk — NOT Modern Standard Arabic. Speak noticeably SLOWER than natural conversation: calm, learner-friendly pacing, clear articulation, brief pauses between turns — while keeping the casual dialect pronunciation. Pronounce شو صار as 'shu sar', إشي as 'ishi', هلّق as 'hallaq'.",
 	monologue:
-		"Read aloud the following monologue in authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) — NOT Modern Standard Arabic. A warm speaker from Ramallah telling a story to a neighbor. Speak noticeably slower than natural: calm, learner-friendly pace with small pauses between sentences, clear articulation, but keep the casual dialect pronunciation (إشي as 'ishi')."
+		"Read aloud the following monologue in authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) — NOT Modern Standard Arabic. A warm speaker from Ramallah telling a story to a neighbor. Speak noticeably slower than natural: calm, learner-friendly pace with small pauses between sentences, clear articulation, but keep the casual dialect pronunciation (إشي as 'ishi').",
+	newsline:
+		"Read aloud this single line of an Arabic television news broadcast exactly once, slowly and clearly for a learner: formal Modern Standard Arabic (الفصحى), measured news-anchor delivery, official broadcast tone — NOT colloquial dialect."
 };
 
 const VOICE = { vocab: "Sulafat", grammar: "Iapetus", cloze: "Sulafat" };
@@ -127,7 +129,11 @@ for (const [li, L] of (src.lessons ?? []).entries()) {
 	if (L.dialogue) {
 		const D = L.dialogue;
 		const voices = {};
-		for (const [speaker, [label, voice]] of Object.entries(D.voices ?? {})) voices[speaker] = { label, voice };
+		for (const [speaker, [label, voice, mode]] of Object.entries(D.voices ?? {})) {
+			voices[speaker] = { label, voice };
+			if (mode === "news") voices[speaker].news = true;
+			else if (mode !== undefined) err(`${where}: dialogue voice mode '${mode}' (only 'news' supported)`);
+		}
 		const lines = (D.lines ?? []).map(([speaker, ar, en], i) => {
 			if (!voices[speaker]) err(`${where}: dialogue speaker '${speaker}' missing from voices`);
 			return { speaker, ar, en, audio: `audio/tts/${u}/d${ln}-l${String(i + 1).padStart(2, "0")}.wav` };
@@ -160,6 +166,7 @@ for (const [li, L] of (src.lessons ?? []).entries()) {
 			if (!S.lines?.length) err(`${where}: listen needs lines or youtubeId`);
 			block.audio = `audio/tts/${u}/listen${ln}.wav`;
 			block.ttsVoice = S.voice ?? VOICE.vocab;
+			if (S.sty) block.ttsStyle = S.sty;
 		}
 		blocks.push(block);
 	}
@@ -283,11 +290,21 @@ for (const lesson of unit.lessons) {
 		} else if (block.type === "dialogue") {
 			const text = block.lines.map((l) => `${block.ttsVoices[l.speaker]?.label}: ${l.ar}`).join("\n");
 			const speakers = Object.values(block.ttsVoices).map((v) => `${v.label}=${v.voice}`).join(",");
-			add({ text, out: toStatic(block.audio), speakers, style: STYLE.dialogue });
+			const newsLabels = Object.values(block.ttsVoices).filter((v) => v.news).map((v) => v.label);
+			const dialogueStyle = newsLabels.length
+				? STYLE.dialogue +
+					` EXCEPTION: ${newsLabels.join(" and ")} speaks in formal Modern Standard Arabic (الفصحى) with measured TV-news broadcast delivery — clear, official, NOT dialectal. Any other speaker stays fully colloquial Palestinian.`
+				: STYLE.dialogue;
+			add({ text, out: toStatic(block.audio), speakers, style: dialogueStyle });
 			for (const line of block.lines)
-				add({ text: line.ar, out: toStatic(line.audio), voice: block.ttsVoices[line.speaker]?.voice ?? VOICE.vocab, style: STYLE.line });
+				add({
+					text: line.ar,
+					out: toStatic(line.audio),
+					voice: block.ttsVoices[line.speaker]?.voice ?? VOICE.vocab,
+					style: block.ttsVoices[line.speaker]?.news ? STYLE.newsline : STYLE.line
+				});
 		} else if (block.type === "listen" && block.audio) {
-			add({ text: block.transcript.map((l) => l.ar).join(" "), out: toStatic(block.audio), voice: block.ttsVoice, style: STYLE.monologue });
+			add({ text: block.transcript.map((l) => l.ar).join(" "), out: toStatic(block.audio), voice: block.ttsVoice, style: block.ttsStyle ?? STYLE.monologue });
 		} else if (block.type === "grammar") {
 			for (const p of block.points) for (const ex of p.examples) add({ text: ex.ar, out: toStatic(ex.audio), voice: VOICE.grammar, style: STYLE.sentence });
 		} else if (block.type === "cloze") {

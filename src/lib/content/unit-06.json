@@ -1,0 +1,2797 @@
+{
+	"id": "unit-06",
+	"n": 6,
+	"arc": 2,
+	"title": "The West Bank",
+	"titleAr": "الضفة",
+	"mission": "From how news is told to what the news is about. The Bank's daily lexicon — احتلال، مستوطنة، إغلاق، اقتحام — and the map as people actually speak it: مناطق أ وب وج، القرية والمخيم، الأرض والدونم. Heavy words, carried the way people carry them: daily, precisely, and with the olive trees still getting watered.",
+	"cover": "img/covers/unit-06.png",
+	"registerMix": {
+		"street": 40,
+		"news": 30,
+		"shared": 30
+	},
+	"sources": [
+		"Occupation/administration terminology cross-checked against Al Jazeera Arabic and Wafa usage; Areas A/B/C framing per common Oslo II parlance",
+		"Forms cross-checked against Madrasa dictionary and Living Arabic Project (Levantine)",
+		"Native-speaker review pending — low-confidence items avoided; uncertain cognates omitted",
+		"L6 clip: Al Mayadeen news package, embedded from YouTube (never copied)"
+	],
+	"lessons": [
+		{
+			"n": 1,
+			"title": "On the opposite hill",
+			"titleAr": "عالتلة المقابلة",
+			"canDo": "I can follow a conversation about the settlement on the hill — who is building, on whose land, with which ten words.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Arc 1 taught the checkpoint as a fact of motion; this unit teaches the vocabulary that explains why it's there. First, the frame: the word for the whole condition, the word for the hilltop town and its resident, the wall, the land, and the machine that redraws it. Ten words that anchor every West Bank newscast — and most West Bank rooftop conversations, like the one tonight between Yusef and his father."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u6-ihtilal",
+							"ar": "اِحْتِلال",
+							"arPlain": "احتلال",
+							"en": "occupation",
+							"he": "כיבוש",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "عايشين تحت الاحتلال من قبل ما أنولد.",
+								"en": "We've lived under occupation since before I was born."
+							},
+							"audio": "audio/tts/u6/u6-ihtilal.wav",
+							"audioEx": "audio/tts/u6/u6-ihtilal-ex.wav",
+							"root": "ح ل ل",
+							"note": "Unit 5 gave you محل — where business settles. Same root, darkest derivation: احتلال is settling-upon. With the article — الاحتلال — it's the whole system, and often just means the army: الاحتلال فات عالبلد."
+						},
+						{
+							"id": "u6-mustawtane",
+							"ar": "مُسْتَوْطَنة",
+							"arPlain": "مستوطنة",
+							"en": "settlement",
+							"he": "התנחלות",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "المستوطنة عم تكبر كل سنة.",
+								"en": "The settlement grows every year."
+							},
+							"audio": "audio/tts/u6/u6-mustawtane.wav",
+							"audioEx": "audio/tts/u6/u6-mustawtane-ex.wav",
+							"root": "و ط ن",
+							"note": "From وطن, homeland, in the made-into pattern: a made-homeland. The word carries its politics inside its own morphology — as does its Hebrew counterpart התנחלות, from נחלה, inheritance. Two grammars, two claims."
+						},
+						{
+							"id": "u6-mustawtin",
+							"ar": "مُسْتَوْطِن",
+							"arPlain": "مستوطن",
+							"en": "settler",
+							"he": "מתנחל",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "مستوطنين سكروا الطريق اليوم الصبح.",
+								"en": "Settlers blocked the road this morning."
+							},
+							"audio": "audio/tts/u6/u6-mustawtin.wav",
+							"audioEx": "audio/tts/u6/u6-mustawtin-ex.wav",
+							"root": "و ط ن",
+							"note": "Same word, active ending: the one doing the مستوطنة. Plural مستوطنين. In news and street alike, usually arrives with a verb you'd rather not need."
+						},
+						{
+							"id": "u6-jidar",
+							"ar": "جِدار",
+							"arPlain": "جدار",
+							"en": "the Wall; wall",
+							"he": "גדר ההפרדה; חומה",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "الجدار قسم أرض القرية نصين.",
+								"en": "The wall cut the village's land in two."
+							},
+							"audio": "audio/tts/u6/u6-jidar.wav",
+							"audioEx": "audio/tts/u6/u6-jidar-ex.wav",
+							"root": "ج د ر",
+							"note": "With the article, always THE wall — جدار الفصل. Eight meters of Lesson 3's map made concrete.",
+							"cognate": {
+								"kind": "true",
+								"he": "גָּדֵר",
+								"note": "g-d-r: Arabic جدار is a wall; Hebrew גדר is a fence — one root, arguing about its own height. Israel's official name is גדר ההפרדה, 'the separation fence'; Palestinians say الجدار, the wall. Same root on both sides of itself."
+							}
+						},
+						{
+							"id": "u6-ard",
+							"ar": "أَرْض",
+							"arPlain": "أرض",
+							"en": "land; ground",
+							"he": "אדמה, ארץ",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "هاي أرض جدي وسيد جدي.",
+								"en": "This is my grandfather's land, and his grandfather's."
+							},
+							"audio": "audio/tts/u6/u6-ard.wav",
+							"audioEx": "audio/tts/u6/u6-ard-ex.wav",
+							"root": "أ ر ض",
+							"note": "The unit's center of gravity. أرضنا — our land — is a sentence by itself. Everything else in this unit is about who gets to say it.",
+							"cognate": {
+								"kind": "true",
+								"he": "אֶרֶץ",
+								"note": "ʔ-r-ḍ: أرض and אֶרֶץ are the same word by the same sound-law that pairs بيض with ביצה. The most contested cognate in this entire ledger — one root, one land, two peoples spelling a claim with it."
+							}
+						},
+						{
+							"id": "u6-talle",
+							"ar": "تَلّة",
+							"arPlain": "تلة",
+							"en": "hill",
+							"he": "גבעה; תל",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "بنوا بيوت جديدة عالتلة المقابلة.",
+								"en": "They built new houses on the opposite hill."
+							},
+							"audio": "audio/tts/u6/u6-talle.wav",
+							"audioEx": "audio/tts/u6/u6-talle-ex.wav",
+							"root": "ت ل ل",
+							"note": "Where this unit's story happens: settlements take hilltops first. The strategy is visible from every village roof.",
+							"cognate": {
+								"kind": "true",
+								"he": "תֵּל",
+								"note": "tell: Arabic تلّ, Hebrew תל — the mound that old cities sleep under; archaeology adopted the word in English too. תל אביב is 'Spring Mound': a تلة with a stock exchange. On the West Bank's actual تلات, newer construction."
+							}
+						},
+						{
+							"id": "u6-jarrafe",
+							"ar": "جَرّافة",
+							"arPlain": "جرافة",
+							"en": "bulldozer",
+							"he": "דחפור",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "الجرافات اشتغلت من الفجر.",
+								"en": "The bulldozers were working from dawn."
+							},
+							"audio": "audio/tts/u6/u6-jarrafe.wav",
+							"audioEx": "audio/tts/u6/u6-jarrafe-ex.wav",
+							"root": "ج ر ف",
+							"note": "From جرف, to scrape away. In West Bank news the جرافة is a recurring main character; when the street says الجرافات إجت, everyone knows the sentence's ending."
+						},
+						{
+							"id": "u6-musadara",
+							"ar": "مُصادَرة",
+							"arPlain": "مصادرة",
+							"en": "confiscation",
+							"he": "הפקעה",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "أجا أمر مصادرة للأرض اللي جنب الشارع.",
+								"en": "A confiscation order came for the land by the road."
+							},
+							"audio": "audio/tts/u6/u6-musadara.wav",
+							"audioEx": "audio/tts/u6/u6-musadara-ex.wav",
+							"root": "ص د ر",
+							"note": "Unit 1 taught مصدر, the source; same root: what goes out. An أمر مصادرة goes out from an office, and land goes out of a family. The masdar machine at its most literal."
+						},
+						{
+							"id": "u6-3askari",
+							"ar": "عَسْكَري",
+							"arPlain": "عسكري",
+							"en": "military (adj)",
+							"he": "צבאי",
+							"pos": "adj",
+							"register": "shared",
+							"example": {
+								"ar": "في برج عسكري عند مدخل البلد.",
+								"en": "There's a military tower at the town's entrance."
+							},
+							"audio": "audio/tts/u6/u6-3askari.wav",
+							"audioEx": "audio/tts/u6/u6-3askari-ex.wav",
+							"root": "ع س ك ر",
+							"note": "The nisba that closes things: أمر عسكري (military order), منطقة عسكرية مغلقة (closed military zone), حاجز عسكري. When this adjective lands on a noun, the noun stops negotiating."
+						},
+						{
+							"id": "u6-bana",
+							"ar": "بَنى",
+							"arPlain": "بنى",
+							"en": "built",
+							"he": "בנה",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "بنوا حارة كاملة بسنة وحدة.",
+								"en": "They built a whole neighborhood in a single year."
+							},
+							"audio": "audio/tts/u6/u6-bana.wav",
+							"audioEx": "audio/tts/u6/u6-bana-ex.wav",
+							"root": "ب ن ي",
+							"note": "The unit's most contested verb: who may build, where, with whose رخصة — Lesson 3's whole subject. The masdar is بناء, construction.",
+							"cognate": {
+								"kind": "true",
+								"he": "בָּנָה",
+								"note": "b-n-y: بنى and בנה — to build, identical; بنيان and בניין, the building; even ابن and בן, the son, are traditionally counted among this root's children (the built ones). A construction root so shared it makes the construction dispute bilingual."
+							}
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "On the roof",
+					"titleAr": "عالسطح",
+					"situation": "Evening. Yusef notices new lights on the opposite hilltop. His father has been watching them multiply for thirty years and narrates the sequence like a man reading weather.",
+					"audio": "audio/tts/u6/d1.wav",
+					"ttsVoices": {
+						"أبو يوسف": {
+							"label": "AbuYusef",
+							"voice": "Charon"
+						},
+						"يوسف": {
+							"label": "Yusef",
+							"voice": "Algieba"
+						}
+					},
+					"lines": [
+						{
+							"speaker": "يوسف",
+							"ar": "يابا، شو هالأضوية الجديدة عالتلة؟",
+							"en": "Dad, what are those new lights on the hill?",
+							"audio": "audio/tts/u6/d1-l01.wav"
+						},
+						{
+							"speaker": "أبو يوسف",
+							"ar": "هاي المستوطنة. مدوا شارع جديد وبلشوا يبنوا من ورا.",
+							"en": "That's the settlement. They laid a new road and started building on the far side.",
+							"audio": "audio/tts/u6/d1-l02.wav"
+						},
+						{
+							"speaker": "يوسف",
+							"ar": "من إمتى؟ مش كانت بس كرفانات؟",
+							"en": "Since when? Wasn't it just caravans?",
+							"audio": "audio/tts/u6/d1-l03.wav"
+						},
+						{
+							"speaker": "أبو يوسف",
+							"ar": "كل إشي ببلش كرفانات يا ابني. بعدين بيوت، بعدين سياج، بعدين برج عسكري.",
+							"en": "Everything starts as caravans, son. Then houses, then a fence, then a military tower.",
+							"audio": "audio/tts/u6/d1-l04.wav"
+						},
+						{
+							"speaker": "يوسف",
+							"ar": "والأرض اللي تحتها لمين؟",
+							"en": "And whose land is under it?",
+							"audio": "audio/tts/u6/d1-l05.wav"
+						},
+						{
+							"speaker": "أبو يوسف",
+							"ar": "أرض دار أبو صالح. أجاهم أمر مصادرة من سنتين — ومن ساعتها الجرافات ما وقفت.",
+							"en": "The Abu Saleh family's land. A confiscation order came two years ago — and the bulldozers haven't stopped since.",
+							"audio": "audio/tts/u6/d1-l06.wav"
+						},
+						{
+							"speaker": "يوسف",
+							"ar": "وما حدا قدر يعمل إشي؟",
+							"en": "And nobody could do anything?",
+							"audio": "audio/tts/u6/d1-l07.wav"
+						},
+						{
+							"speaker": "أبو يوسف",
+							"ar": "راحوا عالمحكمة. والمحكمة تبعت مين؟ فكر لحالك.",
+							"en": "They went to court. And whose court is it? Work that out yourself.",
+							"audio": "audio/tts/u6/d1-l08.wav"
+						},
+						{
+							"speaker": "يوسف",
+							"ar": "يعني بكرا الجدار بصير من هون؟",
+							"en": "So tomorrow the wall runs through here?",
+							"audio": "audio/tts/u6/d1-l09.wav"
+						},
+						{
+							"speaker": "أبو يوسف",
+							"ar": "الله أعلم يا يوسف. إحنا منزرع ومنبني — وهم بجرفوا. وهيك من قبل ما تنولد.",
+							"en": "God knows, Yusef. We plant and we build — and they bulldoze. It's been that way since before you were born.",
+							"audio": "audio/tts/u6/d1-l10.wav"
+						}
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "What does Yusef spot on the hill?",
+							"options": [
+								"أضوية جديدة — المستوطنة عم تكبر",
+								"حريق",
+								"عرس",
+								"برج كهربا"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "How did the settlement start?",
+							"options": [
+								"كرفانات",
+								"جدار",
+								"برج عسكري",
+								"سوق"
+							],
+							"answer": 0,
+							"why": "كل إشي ببلش كرفانات — the outpost-to-town pipeline, in one line. Lesson 5 gives that first stage its official name: بؤرة."
+						},
+						{
+							"prompt": "Whose land is under it?",
+							"options": [
+								"دار أبو صالح",
+								"دار أبو يوسف",
+								"البلدية",
+								"الجيش"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "What arrived two years ago?",
+							"options": [
+								"أمر مصادرة",
+								"أمر عسكري",
+								"رخصة",
+								"تصريح"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "The father's summary of thirty years:",
+							"options": [
+								"إحنا منزرع وهم بجرفوا",
+								"صار في سلام",
+								"المحكمة رح تحلها",
+								"الأضوية حلوة"
+							],
+							"answer": 0,
+							"why": "Two verbs against one: plant, build — bulldoze. The unit's whole argument, conjugated."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "اِحْتِلال",
+							"en": "occupation",
+							"audio": "audio/tts/u6/u6-ihtilal.wav"
+						},
+						{
+							"ar": "مُسْتَوْطَنة",
+							"en": "settlement",
+							"audio": "audio/tts/u6/u6-mustawtane.wav"
+						},
+						{
+							"ar": "مُسْتَوْطِن",
+							"en": "settler",
+							"audio": "audio/tts/u6/u6-mustawtin.wav"
+						},
+						{
+							"ar": "جِدار",
+							"en": "the Wall",
+							"audio": "audio/tts/u6/u6-jidar.wav"
+						},
+						{
+							"ar": "أَرْض",
+							"en": "land; ground",
+							"audio": "audio/tts/u6/u6-ard.wav"
+						},
+						{
+							"ar": "تَلّة",
+							"en": "hill",
+							"audio": "audio/tts/u6/u6-talle.wav"
+						},
+						{
+							"ar": "جَرّافة",
+							"en": "bulldozer",
+							"audio": "audio/tts/u6/u6-jarrafe.wav"
+						},
+						{
+							"ar": "عَسْكَري",
+							"en": "military (adj)",
+							"audio": "audio/tts/u6/u6-3askari.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "عايشين تحت ال____ من زمان.",
+							"en": "We've lived under occupation a long time.",
+							"options": [
+								"احتلال",
+								"بناء",
+								"تلفزيون"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c1-1.wav"
+						},
+						{
+							"ar": "ال____ عم تكبر كل سنة.",
+							"en": "The settlement grows every year.",
+							"options": [
+								"مستوطنة",
+								"تلة",
+								"جرافة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c1-2.wav"
+						},
+						{
+							"ar": "ال____ قسم الأرض نصين.",
+							"en": "The wall cut the land in two.",
+							"options": [
+								"جدار",
+								"سوق",
+								"خط"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c1-3.wav"
+						},
+						{
+							"ar": "أجا أمر ____ للأرض.",
+							"en": "A confiscation order came for the land.",
+							"options": [
+								"مصادرة",
+								"مقابلة",
+								"نشرة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c1-4.wav"
+						},
+						{
+							"ar": "في برج ____ عند المدخل.",
+							"en": "There's a military tower at the entrance.",
+							"options": [
+								"عسكري",
+								"مدني",
+								"رسمي"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c1-5.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "المصدر: احتلّ ← احتلال، صادَر ← مصادرة",
+							"explanation": "Unit 5's headline trick is this unit's entire lexicon. The مصدر (verbal noun) turns a verb into an event you can put in a bulletin: احتل → احتلال, صادر → مصادرة, بنى → بناء, اعتقل → اعتقال (Lesson 4). Learn to unfold them back into sentences — مصادرة أراضي means (somebody) صادر أراضي — and the evening news becomes grammar you already own.",
+							"examples": [
+								{
+									"ar": "بلشوا ببناء حارة جديدة بالمستوطنة.",
+									"en": "They've started building a new neighborhood in the settlement.",
+									"audio": "audio/tts/u6/g1-1-1.wav"
+								},
+								{
+									"ar": "سمعنا عن مصادرة أراضي جنب القرية.",
+									"en": "We heard about land confiscation near the village.",
+									"audio": "audio/tts/u6/g1-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "إضافة الأخبار: أمر مصادرة، جدار الفصل",
+							"explanation": "Unit 4 chained nouns for food — زيت زيتون; the news chains them for events: أمر مصادرة (order-of-confiscation), جدار الفصل (wall-of-separation), مدخل البلد (entrance-of-the-town). First noun the thing, second its owner or object, no 'of' spoken. Hear two nouns touching in a bulletin and read the hyphen yourself: something official is being done to something that has a name.",
+							"examples": [
+								{
+									"ar": "أجا أمر مصادرة جديد لأراضي القرية.",
+									"en": "A new confiscation order came for the village's lands.",
+									"audio": "audio/tts/u6/g1-2-1.wav"
+								},
+								{
+									"ar": "بناء الجدار قطع القرية عن أرضها.",
+									"en": "The building of the wall cut the village off from its land.",
+									"audio": "audio/tts/u6/g1-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "أَرْض",
+							"he": "אֶרֶץ",
+							"kind": "true",
+							"story": "ʔ-r-ḍ / ʔ-r-ṣ: the same sound-law that pairs بصل with בצל pairs أرض with ארץ. One word underneath the entire conflict — 'the land' — inherited identically by both claimants. The ledger's heaviest entry, and its simplest."
+						},
+						{
+							"ar": "جِدار",
+							"he": "גָּדֵר",
+							"kind": "true",
+							"story": "g-d-r: wall in Arabic, fence in Hebrew — the vocabulary disagreement IS the political one, root included. Every argument about whether the barrier is a גדר or a جدار is being conducted inside a single Semitic root."
+						},
+						{
+							"ar": "بَنى",
+							"he": "בָּנָה",
+							"kind": "true",
+							"story": "b-n-y: build. بنى/בנה, بنيان/בניין — and tradition counts ابن/בן, the son, as the root's child too: what a house and a family have in common. In this unit the root is a battleground; it's worth remembering it's also just: to build."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 2,
+			"title": "The permit and the gate",
+			"titleAr": "التصريح والبوابة",
+			"canDo": "I can follow permit talk — who applied, who got refused, what's closed tomorrow — and survive the 4:30 a.m. line linguistically intact.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Unit 3 taught the حاجز as geography; here is its paperwork. The تصريح you already know — now meet its life cycle: the طلب, the تجديد that doesn't come, the رفض without a reason, and the إغلاق that erases a week's wages overnight. Procedural vocabulary, learned in the only classroom that teaches it honestly: the line at the gate before dawn."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u6-ighlaq",
+							"ar": "إغْلاق",
+							"arPlain": "إغلاق",
+							"en": "closure",
+							"he": "סגר",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "بكرا إغلاق كامل عالضفة.",
+								"en": "Tomorrow: full closure on the West Bank."
+							},
+							"audio": "audio/tts/u6/u6-ighlaq.wav",
+							"audioEx": "audio/tts/u6/u6-ighlaq-ex.wav",
+							"root": "غ ل ق",
+							"note": "The masdar machine again: أغلق → إغلاق. The bulletin says فرض إغلاقاً شاملاً; the 4 a.m. line says three words: بكرا في إغلاق. Hebrew has an exact institutional twin: סגר."
+						},
+						{
+							"id": "u6-man3",
+							"ar": "مَنْع تَجَوُّل",
+							"arPlain": "منع تجول",
+							"en": "curfew",
+							"he": "עוצר",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "أيام الانتفاضة كان في منع تجول أسابيع.",
+								"en": "In the intifada days there were curfews lasting weeks."
+							},
+							"audio": "audio/tts/u6/u6-man3.wav",
+							"audioEx": "audio/tts/u6/u6-man3-ex.wav",
+							"note": "Literally 'ban on moving about': منع (ban) + تجول (roaming) — two masdars holding a whole era. Older speakers date their lives by these. The منع/מנע bridge is already in your ledger from Unit 3's ممنوع — here it is institutionalized."
+						},
+						{
+							"id": "u6-bawwabe",
+							"ar": "بَوّابة",
+							"arPlain": "بوابة",
+							"en": "gate",
+							"he": "שער",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "بوابة القرية مسكرة من مبارح.",
+								"en": "The village gate has been shut since yesterday."
+							},
+							"audio": "audio/tts/u6/u6-bawwabe.wav",
+							"audioEx": "audio/tts/u6/u6-bawwabe-ex.wav",
+							"root": "ب و ب",
+							"note": "باب's big sister: the yellow metal بوابات on village roads, opened and closed by an order nobody hears. Also the terminal gates at the crossing — البوابة رقم خمسة."
+						},
+						{
+							"id": "u6-msakkar",
+							"ar": "مْسَكَّر",
+							"arPlain": "مسكر",
+							"en": "closed, shut",
+							"he": "סגור",
+							"pos": "adj",
+							"register": "street",
+							"example": {
+								"ar": "الطريق مسكر — رجعنا من نص الطريق.",
+								"en": "The road's closed — we turned back halfway."
+							},
+							"audio": "audio/tts/u6/u6-msakkar.wav",
+							"audioEx": "audio/tts/u6/u6-msakkar-ex.wav",
+							"root": "س ك ر",
+							"note": "سكّر is the street's closing verb (Unit 4's جاري سكّر — my neighbor shut up shop). Careful with its sweet twin: سَكَّر closed, سُكَّر sugar. Vowels are load-bearing.",
+							"cognate": {
+								"kind": "true",
+								"he": "סֶכֶר",
+								"note": "s-k-r: to shut off. Arabic سكّر closes the shop, the road, the gate; Hebrew סכר dams the river — and Genesis shuts the springs of the deep with the same verb: וַיִּסָּכְרוּ. What the street closes daily, scripture closed once, at scale."
+							}
+						},
+						{
+							"id": "u6-3amel",
+							"ar": "عامِل",
+							"arPlain": "عامل",
+							"en": "worker, laborer",
+							"he": "פועל",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "آلاف العمال بمرقوا من هالبوابة كل فجر.",
+								"en": "Thousands of workers pass through this gate every dawn."
+							},
+							"audio": "audio/tts/u6/u6-3amel.wav",
+							"audioEx": "audio/tts/u6/u6-3amel-ex.wav",
+							"root": "ع م ل",
+							"note": "Plural عمال. The تصريح exists mostly for him; the إغلاق lands mostly on him. His unit of account: يوم شغل, a workday — lost or won at this gate.",
+							"cognate": {
+								"kind": "true",
+								"he": "עָמָל",
+								"note": "ʕ-m-l: Arabic built the worker, عامل, from the toil-root; Hebrew kept the toil itself — עמל. And Hebrew's own worker, פועל, is built from Arabic's other doing-root, فعل. Two languages passing labor vocabulary back and forth like neighbors passing tools over a fence."
+							}
+						},
+						{
+							"id": "u6-fajr",
+							"ar": "فَجْر",
+							"arPlain": "فجر",
+							"en": "dawn",
+							"he": "שחר, עלות השחר",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "بطلع من الدار الفجر، قبل ما حدا يصحى.",
+								"en": "I leave the house at dawn, before anyone wakes."
+							},
+							"audio": "audio/tts/u6/u6-fajr.wav",
+							"audioEx": "audio/tts/u6/u6-fajr-ex.wav",
+							"root": "ف ج ر",
+							"note": "صلاة الفجر names the hour; the workers' line and the army's raids both use it — this unit's two darkest lessons share one word for when. The root means to burst: dawn is the day breaking, literally."
+						},
+						{
+							"id": "u6-jaddad",
+							"ar": "جَدَّد",
+							"arPlain": "جدد",
+							"en": "renewed",
+							"he": "חידש",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "لازم أجدد التصريح كل تلات شهور.",
+								"en": "I have to renew the permit every three months."
+							},
+							"audio": "audio/tts/u6/u6-jaddad.wav",
+							"audioEx": "audio/tts/u6/u6-jaddad-ex.wav",
+							"root": "ج د د",
+							"note": "From جديد, new. It looks and behaves exactly like Hebrew חידש — but the historical pair of חדש is actually Unit 5's حدث root. A false twin that acts like a true one: trust it in conversation, not in etymology."
+						},
+						{
+							"id": "u6-rafad",
+							"ar": "رَفَض",
+							"arPlain": "رفض",
+							"en": "refused, rejected",
+							"he": "סירב; דחה",
+							"pos": "verb",
+							"register": "shared",
+							"example": {
+								"ar": "رفضوا طلبه بدون ما يعطوا سبب.",
+								"en": "They rejected his application without giving a reason."
+							},
+							"audio": "audio/tts/u6/u6-rafad.wav",
+							"audioEx": "audio/tts/u6/u6-rafad-ex.wav",
+							"root": "ر ف ض",
+							"note": "The system's default verb. مرفوض — rejected — is a stamp; بدون سبب — without cause — is its usual companion. Unit 5's سبب, already earning overtime."
+						},
+						{
+							"id": "u6-qaddam",
+							"ar": "قَدَّم",
+							"arPlain": "قدم",
+							"en": "submitted, applied",
+							"he": "הגיש",
+							"pos": "verb",
+							"register": "shared",
+							"example": {
+								"ar": "قدمت على تصريح شغل من شهرين.",
+								"en": "I applied for a work permit two months ago."
+							},
+							"audio": "audio/tts/u6/u6-qaddam.wav",
+							"audioEx": "audio/tts/u6/u6-qaddam-ex.wav",
+							"root": "ق د م",
+							"note": "قدّم على = apply for. To submit is to push-forward — Unit 3's قدام (in front) and its קדימה bridge, now filing paperwork: pushing the طلب toward the front of a very long queue."
+						},
+						{
+							"id": "u6-talab",
+							"ar": "طَلَب",
+							"arPlain": "طلب",
+							"en": "application; request",
+							"he": "בקשה",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "الطلب نايم عندهم من شهرين.",
+								"en": "The application has been sitting with them for two months."
+							},
+							"audio": "audio/tts/u6/u6-talab.wav",
+							"audioEx": "audio/tts/u6/u6-talab-ex.wav",
+							"root": "ط ل ب",
+							"note": "What you قدّم. The verb طلب is to request — and the same root will hand you a much darker participle in Lesson 4: مطلوب, the requested-one. File that now."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "At the gate, 4:30 a.m.",
+					"titleAr": "عالبوابة الفجر",
+					"situation": "The metal gate before the checkpoint, half past four. Two workers, one thermos, and the region's most practiced small talk: permits, closures, and whether today moves at all.",
+					"audio": "audio/tts/u6/d2.wav",
+					"ttsVoices": {
+						"أبو كرم": {
+							"label": "AbuKaram",
+							"voice": "Charon"
+						},
+						"شادي": {
+							"label": "Shadi",
+							"voice": "Iapetus"
+						}
+					},
+					"lines": [
+						{
+							"speaker": "شادي",
+							"ar": "صباح الخير عمي. من إمتى واقف هون؟",
+							"en": "Morning, uncle. How long have you been standing here?",
+							"audio": "audio/tts/u6/d2-l01.wav"
+						},
+						{
+							"speaker": "أبو كرم",
+							"ar": "من أربعة. البوابة لسا مسكرة.",
+							"en": "Since four. The gate's still shut.",
+							"audio": "audio/tts/u6/d2-l02.wav"
+						},
+						{
+							"speaker": "شادي",
+							"ar": "الله يعين. سمعت بكرا في إغلاق — عيد عندهم.",
+							"en": "God help us. I heard tomorrow there's a closure — a holiday on their side.",
+							"audio": "audio/tts/u6/d2-l03.wav"
+						},
+						{
+							"speaker": "أبو كرم",
+							"ar": "يعني يومين بلا شغل. والتصريح تبعي بخلص آخر الشهر.",
+							"en": "So two days without work. And my permit runs out at the end of the month.",
+							"audio": "audio/tts/u6/d2-l04.wav"
+						},
+						{
+							"speaker": "شادي",
+							"ar": "قدمت عالتجديد؟",
+							"en": "Did you apply for the renewal?",
+							"audio": "audio/tts/u6/d2-l05.wav"
+						},
+						{
+							"speaker": "أبو كرم",
+							"ar": "من تلات أسابيع. الطلب نايم عندهم — ولا خبر.",
+							"en": "Three weeks ago. The application's asleep at their office — not a word.",
+							"audio": "audio/tts/u6/d2-l06.wav"
+						},
+						{
+							"speaker": "شادي",
+							"ar": "جاري قدم تلات مرات — انرفض بدون سبب.",
+							"en": "My neighbor applied three times — rejected, no reason given.",
+							"audio": "audio/tts/u6/d2-l07.wav"
+						},
+						{
+							"speaker": "أبو كرم",
+							"ar": "هيك هي الشغلة. التصريح مش ورقة يا شادي — التصريح رزقة عيلة كاملة.",
+							"en": "That's how it works. A permit isn't a piece of paper, Shadi — it's a whole family's livelihood.",
+							"audio": "audio/tts/u6/d2-l08.wav"
+						},
+						{
+							"speaker": "شادي",
+							"ar": "فتحوا! يلا عمي، قوم — الطابور بمشي.",
+							"en": "They've opened it! Come on, uncle, up — the line's moving.",
+							"audio": "audio/tts/u6/d2-l09.wav"
+						},
+						{
+							"speaker": "أبو كرم",
+							"ar": "قوم قوم. يالله — يوم جديد، نفس الطابور.",
+							"en": "Up, up. Well then — a new day, the same line.",
+							"audio": "audio/tts/u6/d2-l10.wav"
+						}
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "Since when has Abu Karam been at the gate?",
+							"options": [
+								"من أربعة الفجر",
+								"من نص ساعة",
+								"من مبارح",
+								"من الضهر"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "What's tomorrow?",
+							"options": [
+								"إغلاق — عيد عندهم",
+								"منع تجول",
+								"إضراب",
+								"جمعة عادية"
+							],
+							"answer": 0,
+							"why": "عيد عندهم — 'their holiday': closures track the other side's calendar. Note who says عندهم about whom."
+						},
+						{
+							"prompt": "His permit…",
+							"options": [
+								"بخلص آخر الشهر",
+								"انرفض",
+								"جديد",
+								"ضايع"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "The renewal application is…",
+							"options": [
+								"نايم عندهم — ولا خبر",
+								"انرفض رسمياً",
+								"خلص وصار جاهز",
+								"ما قدم أصلاً"
+							],
+							"answer": 0,
+							"why": "نايم عندهم — asleep at their office. Bureaucratic limbo, in one homely verb."
+						},
+						{
+							"prompt": "التصريح مش ورقة — التصريح…",
+							"options": [
+								"رزقة عيلة كاملة",
+								"هدية",
+								"حق",
+								"إشاعة"
+							],
+							"answer": 0,
+							"why": "One permit = one family's income. The sentence that explains the 4 a.m. line better than any report."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "إغْلاق",
+							"en": "closure",
+							"audio": "audio/tts/u6/u6-ighlaq.wav"
+						},
+						{
+							"ar": "مَنْع تَجَوُّل",
+							"en": "curfew",
+							"audio": "audio/tts/u6/u6-man3.wav"
+						},
+						{
+							"ar": "بَوّابة",
+							"en": "gate",
+							"audio": "audio/tts/u6/u6-bawwabe.wav"
+						},
+						{
+							"ar": "مْسَكَّر",
+							"en": "closed, shut",
+							"audio": "audio/tts/u6/u6-msakkar.wav"
+						},
+						{
+							"ar": "عامِل",
+							"en": "worker, laborer",
+							"audio": "audio/tts/u6/u6-3amel.wav"
+						},
+						{
+							"ar": "فَجْر",
+							"en": "dawn",
+							"audio": "audio/tts/u6/u6-fajr.wav"
+						},
+						{
+							"ar": "جَدَّد",
+							"en": "renewed",
+							"audio": "audio/tts/u6/u6-jaddad.wav"
+						},
+						{
+							"ar": "طَلَب",
+							"en": "application",
+							"audio": "audio/tts/u6/u6-talab.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "بكرا ____ كامل — ما في شغل.",
+							"en": "Tomorrow full closure — no work.",
+							"options": [
+								"إغلاق",
+								"تجديد",
+								"فجر"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c2-1.wav"
+						},
+						{
+							"ar": "البوابة ____ من الصبح.",
+							"en": "The gate's been shut since morning.",
+							"options": [
+								"مسكرة",
+								"مفتوحة",
+								"جديدة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c2-2.wav"
+						},
+						{
+							"ar": "بطلع عالشغل من ال____.",
+							"en": "I head out to work at dawn.",
+							"options": [
+								"فجر",
+								"ضهر",
+								"ليل"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c2-3.wav"
+						},
+						{
+							"ar": "لازم ____ التصريح كل تلات شهور.",
+							"en": "I have to renew the permit every three months.",
+							"options": [
+								"أجدد",
+								"أرفض",
+								"أطفي"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c2-4.wav"
+						},
+						{
+							"ar": "قدمنا ____ من شهرين وولا خبر.",
+							"en": "We filed an application two months ago — not a word.",
+							"options": [
+								"طلب",
+								"بيان",
+								"خبر"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c2-5.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "ممنوع التجوّل — ممنوع الوقوف",
+							"explanation": "Officialese bans actions by their masdar: ممنوع + verbal noun. Unit 3 gave you ممنوع/مسموح for things; the sign-and-order version bans doings: ممنوع التجول (curfew), ممنوع الوقوف (no stopping), ممنوع الدخول (no entry) — and منطقة عسكرية مغلقة usually follows. Lesson 1's masdar machine, now with a ban bolted to the front.",
+							"examples": [
+								{
+									"ar": "ممنوع التجول من الساعة ست المسا.",
+									"en": "Curfew from six p.m.",
+									"audio": "audio/tts/u6/g2-1-1.wav"
+								},
+								{
+									"ar": "هاي منطقة عسكرية — ممنوع الدخول.",
+									"en": "This is a military zone — no entry.",
+									"audio": "audio/tts/u6/g2-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "صارلي — صارلنا: the still-counting tense",
+							"explanation": "صار + ل + person = have-been-for: صارلي ساعتين واقف (I've been standing two hours), صارلنا سنة نستنى (we've been waiting a year), صارله تلات أسابيع نايم عندهم (it's been asleep at their office three weeks). Duration that started in the past and is still running — the checkpoint's own tense, built from صار, the very first verb this app taught you. The line at the بوابة conjugates it every morning.",
+							"examples": [
+								{
+									"ar": "صارلي من الأربعة واقف عالبوابة.",
+									"en": "I've been at the gate since four.",
+									"audio": "audio/tts/u6/g2-2-1.wav"
+								},
+								{
+									"ar": "صارلهم تلات أسابيع بستنوا التجديد.",
+									"en": "They've been waiting three weeks for the renewal.",
+									"audio": "audio/tts/u6/g2-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "عامِل",
+							"he": "עָמָל",
+							"kind": "true",
+							"story": "ʕ-m-l: toil. Arabic promoted the root to the person — عامل, the worker; Hebrew kept it as the burden — עמל, toil itself (and עמלה, the fee). Meanwhile Hebrew's worker פועל is Arabic's فعل wearing a kippah. The labor market of roots has always been cross-border."
+						},
+						{
+							"ar": "سَكَّر",
+							"he": "סֶכֶר",
+							"kind": "true",
+							"story": "s-k-r: to shut. The street's daily closing verb — سكروا البوابة، الطريق مسكر — is Hebrew's dam, סכר, and the Flood's off-switch: וַיִּסָּכְרוּ מַעְיְנֹת תְּהוֹם, 'the springs of the deep were shut.' From Genesis to the village gate: one root, still closing things."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 3,
+			"title": "A, B, and C",
+			"titleAr": "مناطق أ، ب، ج",
+			"canDo": "I can place any West Bank sentence on its map: which Area, whose سلطة, what needs a رخصة — and why the answer is usually 'it's in C.'",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Three letters organize everything: أ, ب, ج — Oslo's alphabet, thirty years old and running the present tense. People don't cite the agreement; they say بيتنا ب وأرضنا ج and every Palestinian listener knows exactly what follows. This lesson is that shorthand: the authority, the control, the administration that says no — and one man's village, split across three legal planets."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u6-mantiqa",
+							"ar": "مَنْطِقة",
+							"arPlain": "منطقة",
+							"en": "area, zone",
+							"he": "אזור",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "بيتنا منطقة ب والأرض منطقة ج.",
+								"en": "Our house is Area B and the land is Area C."
+							},
+							"audio": "audio/tts/u6/u6-mantiqa.wav",
+							"audioEx": "audio/tts/u6/u6-mantiqa-ex.wav",
+							"root": "ن ط ق",
+							"note": "Unit 5's ناطق (spokesman) shares the letters: نطق is to utter, and a منطقة is what's belted-in (from نِطاق, a belt). The spokesman speaks; the zone is spoken for."
+						},
+						{
+							"id": "u6-sulta",
+							"ar": "سُلْطة",
+							"arPlain": "سلطة",
+							"en": "authority; the PA",
+							"he": "רשות; שלטון",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "هون بتحكم السلطة، وهناك الجيش.",
+								"en": "Here the Authority governs; there, the army."
+							},
+							"audio": "audio/tts/u6/u6-sulta.wav",
+							"audioEx": "audio/tts/u6/u6-sulta-ex.wav",
+							"root": "س ل ط",
+							"note": "With the article — السلطة — it's the Palestinian Authority, full stop. The plural سلطات means 'the authorities' (usually the other ones). One word doing very precise political work.",
+							"cognate": {
+								"kind": "true",
+								"he": "שִׁלְטוֹן",
+								"note": "s-l-ṭ / š-l-ṭ: سلطة and שלטון — rule; السلطان and השולט — the ruler and the one in control. The PA is السلطة, Israeli rule is השלטון, and the same root sits in both chairs, taking the minutes of its own argument."
+							}
+						},
+						{
+							"id": "u6-saytara",
+							"ar": "سَيْطَرة",
+							"arPlain": "سيطرة",
+							"en": "control",
+							"he": "שליטה",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "منطقة ج تحت السيطرة الإسرائيلية الكاملة.",
+								"en": "Area C is under full Israeli control."
+							},
+							"audio": "audio/tts/u6/u6-saytara.wav",
+							"audioEx": "audio/tts/u6/u6-saytara-ex.wav",
+							"note": "A linguistic trap worth savoring: Hebrew שליטה looks like سيطرة's twin but is actually سلطة's (root שלט/سلط). سيطرة is a different root entirely (س ي ط ر). The lookalike is a coincidence; the meaning-overlap is not."
+						},
+						{
+							"id": "u6-ittifaq",
+							"ar": "اِتِّفاق",
+							"arPlain": "اتفاق",
+							"en": "agreement, accord",
+							"he": "הסכם",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "كل قصة الحروف من اتفاق أوسلو.",
+								"en": "The whole letters story comes from the Oslo accord."
+							},
+							"audio": "audio/tts/u6/u6-ittifaq.wav",
+							"audioEx": "audio/tts/u6/u6-ittifaq-ex.wav",
+							"root": "و ف ق",
+							"note": "اتفاق أوسلو bequeathed the alphabet: أ، ب، ج. The longer form اتفاقية does the same job. From وفق — to accord, to fit; whether it fit is a separate lesson."
+						},
+						{
+							"id": "u6-amni",
+							"ar": "أَمْني",
+							"arPlain": "أمني",
+							"en": "security- (adj)",
+							"he": "ביטחוני",
+							"pos": "adj",
+							"register": "news",
+							"example": {
+								"ar": "لأسباب أمنية — الجواب الجاهز على كل سؤال.",
+								"en": "'For security reasons' — the ready answer to every question."
+							},
+							"audio": "audio/tts/u6/u6-amni.wav",
+							"audioEx": "audio/tts/u6/u6-amni-ex.wav",
+							"root": "أ م ن",
+							"note": "The nisba that unlocks (or locks) everything: أسباب أمنية, تنسيق أمني (security coordination — Arc 4 territory), منع أمني (a security ban on your permit — no appeal, no explanation).",
+							"cognate": {
+								"kind": "true",
+								"he": "אָמֵן",
+								"note": "ʔ-m-n: the trust-root. Arabic أمن is security and أمان safety; آمين and אמן are the same amen — 'so be it, reliably'; Hebrew אמונה is faith and אמון is trust. Security, in both languages, is grammatically a form of believing — which is either beautiful or bitterly funny, depending on the checkpoint."
+							}
+						},
+						{
+							"id": "u6-madani",
+							"ar": "مَدَني",
+							"arPlain": "مدني",
+							"en": "civil, civilian",
+							"he": "אזרחי",
+							"pos": "adj",
+							"register": "shared",
+							"example": {
+								"ar": "الإدارة المدنية بتعطي الرخص — أو ما بتعطيها.",
+								"en": "The Civil Administration gives out the permits — or doesn't."
+							},
+							"audio": "audio/tts/u6/u6-madani.wav",
+							"audioEx": "audio/tts/u6/u6-madani-ex.wav",
+							"root": "م د ن",
+							"note": "أمني's official opposite — أمني/مدني splits the whole bureaucracy in two. The bitter joke of the Civil Administration's name is Lesson 3's quiet thesis.",
+							"cognate": {
+								"kind": "shifted",
+								"he": "מְדִינָה",
+								"note": "m-d-n: مدينة the city, مدني the civilian; Hebrew מדינה the state. All from din — judgment (Unit 4 met دين the debt; the religion دين is the same family): a madīna was originally a jurisdiction, one judge's reach. City, state, civilian — all children of the courtroom."
+							}
+						},
+						{
+							"id": "u6-idara",
+							"ar": "إدارة",
+							"arPlain": "إدارة",
+							"en": "administration",
+							"he": "מנהל; הנהלה",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "ورقة الرخصة نايمة بالإدارة من سنة.",
+								"en": "The permit paperwork has slept at the administration for a year."
+							},
+							"audio": "audio/tts/u6/u6-idara.wav",
+							"audioEx": "audio/tts/u6/u6-idara-ex.wav",
+							"root": "د و ر",
+							"note": "From دار, to turn/circulate — administration is what goes around (and around). الإدارة المدنية = המנהל האזרחי: the military body with the civil name, the West Bank's paperwork sovereign."
+						},
+						{
+							"id": "u6-qarye",
+							"ar": "قَرْية",
+							"arPlain": "قرية",
+							"en": "village",
+							"he": "כפר",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "قريتنا صغيرة بس أرضها واسعة.",
+								"en": "Our village is small but its land is wide."
+							},
+							"audio": "audio/tts/u6/u6-qarye.wav",
+							"audioEx": "audio/tts/u6/u6-qarye-ex.wav",
+							"root": "ق ر ي",
+							"note": "The West Bank's basic unit: القرية and her fields — which is exactly what Areas B and C were drawn to separate.",
+							"cognate": {
+								"kind": "true",
+								"he": "קִרְיָה",
+								"note": "q-r-y: Arabic قرية, Hebrew קריה (קרית שמונה, קרית גת — town-quarters). And read the West Bank map aloud for the bonus pair: كفر قدوم, كفر نعمة — that كفر is Hebrew's כפר, the other village-word the two languages share. One map, doubly cognate."
+							}
+						},
+						{
+							"id": "u6-mukhayyam",
+							"ar": "مُخَيَّم",
+							"arPlain": "مخيم",
+							"en": "refugee camp",
+							"he": "מחנה פליטים",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "ساكن بالمخيم وشغله بالمدينة.",
+								"en": "He lives in the camp and works in the city."
+							},
+							"audio": "audio/tts/u6/u6-mukhayyam.wav",
+							"audioEx": "audio/tts/u6/u6-mukhayyam-ex.wav",
+							"root": "خ ي م",
+							"note": "From خيمة, tent — a camp named for tents it stopped being in the 1950s. مخيم جنين، مخيم بلاطة: dense city blocks that keep the tent's name because the name is the claim — 'we are still from somewhere else.' Arc 4's Nakba unit will sit with this word properly."
+						},
+						{
+							"id": "u6-rukhsa",
+							"ar": "رُخْصة",
+							"arPlain": "رخصة",
+							"en": "license; (building) permit",
+							"he": "רישיון; היתר בנייה",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "بدك تبني بمنطقة ج؟ انسى الرخصة.",
+								"en": "Want to build in Area C? Forget the permit."
+							},
+							"audio": "audio/tts/u6/u6-rukhsa.wav",
+							"audioEx": "audio/tts/u6/u6-rukhsa-ex.wav",
+							"root": "ر خ ص",
+							"note": "Unit 4's رخيص (cheap) is the same root: رخص is to be cheap AND to be permitted — both are 'made easy.' The West Bank's standing joke writes itself: the رخصة is anything but رخيصة."
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Abu Nidal's map",
+					"titleAr": "خريطة أبو نضال",
+					"brief": "Abu Nidal, sixty-something, explains his village the way no atlas will: house in B, olives in C, cousin in A — one family across three legal planets. Follow the letters; they do more work than the nouns.",
+					"preQuestions": [
+						"Which Area is his house in — and which his land?",
+						"What did his brother wait four years for, and how did it end?",
+						"His final definition: what does the map actually measure?"
+					],
+					"transcript": [
+						{
+							"speaker": "أبو نضال",
+							"ar": "قريتنا صغيرة — بس فيها تلات دنيات: أ وب وج.",
+							"en": "Our village is small — but it holds three worlds: A, B, and C."
+						},
+						{
+							"speaker": "أبو نضال",
+							"ar": "بيتي منطقة ب: السلطة بتكنس الشارع، والجيش بفوت وقت ما بده.",
+							"en": "My house is Area B: the Authority sweeps the street, and the army comes in whenever it wants."
+						},
+						{
+							"speaker": "أبو نضال",
+							"ar": "أرض الزيتون تبعتنا منطقة ج — تحت السيطرة الكاملة.",
+							"en": "Our olive land is Area C — under full control."
+						},
+						{
+							"speaker": "أبو نضال",
+							"ar": "بدنا نبني غرفة للولاد؟ لازم رخصة من الإدارة المدنية.",
+							"en": "We want to build a room for the kids? We need a permit from the Civil Administration."
+						},
+						{
+							"speaker": "أبو نضال",
+							"ar": "أخوي قدم على رخصة — استنى أربع سنين، وبالآخر انرفض الطلب.",
+							"en": "My brother applied for a permit — waited four years, and in the end the application was refused."
+						},
+						{
+							"speaker": "أبو نضال",
+							"ar": "ابن عمي ساكن بالمدينة، منطقة أ. بقولوا 'حكم فلسطيني كامل' — بس الاقتحامات ما بتقرأ الاتفاق.",
+							"en": "My cousin lives in the city, Area A. They say 'full Palestinian rule' — but the raids don't read the agreement."
+						},
+						{
+							"speaker": "أبو نضال",
+							"ar": "نفس العيلة: واحد أ، وواحد ب، وأرضنا ج.",
+							"en": "One family: one in A, one in B, and our land in C."
+						},
+						{
+							"speaker": "أبو نضال",
+							"ar": "الخريطة عنا مش جغرافيا يا ابني. الخريطة: مين بعطيك رخصة، ومين بمرقك، ومين بستنى.",
+							"en": "Our map isn't geography, son. The map is: who grants you a permit, who lets you pass, and who waits."
+						}
+					],
+					"questions": [
+						{
+							"prompt": "Abu Nidal's house / his olive land:",
+							"options": [
+								"ب / ج",
+								"أ / ب",
+								"ج / أ",
+								"أ / ج"
+							],
+							"answer": 0,
+							"why": "One family filed across three letters — the lesson in a single line."
+						},
+						{
+							"prompt": "Area B, in his description:",
+							"options": [
+								"السلطة بتكنس والجيش بفوت",
+								"حكم فلسطيني كامل",
+								"سيطرة كاملة",
+								"بلا سلطة بالمرة"
+							],
+							"answer": 0,
+							"why": "The Authority sweeps the street; the army enters at will. Area B's whole constitution in one sentence."
+						},
+						{
+							"prompt": "The brother's permit application:",
+							"options": [
+								"استنى أربع سنين وانرفض",
+								"انقبل بسرعة",
+								"لسا نايم",
+								"ما قدم"
+							],
+							"answer": 0,
+							"why": "انرفض — got-refused: the ان-passive, one lesson early. The doer of the refusing goes unnamed; everyone knows."
+						},
+						{
+							"prompt": "What doesn't read the agreement?",
+							"options": [
+								"الاقتحامات",
+								"الزيتون",
+								"البلدية",
+								"الشتا"
+							],
+							"answer": 0,
+							"why": "Area A on paper; the raids don't read the paper. Lesson 4 is that sentence, expanded."
+						},
+						{
+							"prompt": "The map, he says, really measures:",
+							"options": [
+								"مين بعطيك رخصة ومين بستنى",
+								"المسافات بين القرى",
+								"وين الجبال",
+								"قديش في ناس"
+							],
+							"answer": 0
+						}
+					],
+					"audio": "audio/tts/u6/listen3.wav",
+					"ttsVoice": "Charon"
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "مَنْطِقة",
+							"en": "area, zone",
+							"audio": "audio/tts/u6/u6-mantiqa.wav"
+						},
+						{
+							"ar": "سُلْطة",
+							"en": "authority; the PA",
+							"audio": "audio/tts/u6/u6-sulta.wav"
+						},
+						{
+							"ar": "سَيْطَرة",
+							"en": "control",
+							"audio": "audio/tts/u6/u6-saytara.wav"
+						},
+						{
+							"ar": "اِتِّفاق",
+							"en": "agreement",
+							"audio": "audio/tts/u6/u6-ittifaq.wav"
+						},
+						{
+							"ar": "أَمْني",
+							"en": "security (adj)",
+							"audio": "audio/tts/u6/u6-amni.wav"
+						},
+						{
+							"ar": "مَدَني",
+							"en": "civil, civilian",
+							"audio": "audio/tts/u6/u6-madani.wav"
+						},
+						{
+							"ar": "قَرْية",
+							"en": "village",
+							"audio": "audio/tts/u6/u6-qarye.wav"
+						},
+						{
+							"ar": "رُخْصة",
+							"en": "license, permit",
+							"audio": "audio/tts/u6/u6-rukhsa.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "بيتنا ____ ب وأرضنا ج.",
+							"en": "Our house is Area B and our land is C.",
+							"options": [
+								"منطقة",
+								"قرية",
+								"بوابة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c3-1.wav"
+						},
+						{
+							"ar": "هون بتحكم ال____.",
+							"en": "Here the Authority governs.",
+							"options": [
+								"سلطة",
+								"إدارة",
+								"جرافة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c3-2.wav"
+						},
+						{
+							"ar": "منطقة ج تحت ال____ الكاملة.",
+							"en": "Area C is under full control.",
+							"options": [
+								"سيطرة",
+								"رخصة",
+								"خريطة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c3-3.wav"
+						},
+						{
+							"ar": "منعوه لأسباب ____.",
+							"en": "They banned him for 'security reasons.'",
+							"options": [
+								"أمنية",
+								"مدنية",
+								"رسمية"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c3-4.wav"
+						},
+						{
+							"ar": "بدنا ____ بناء من الإدارة المدنية.",
+							"en": "We need a building permit from the Civil Administration.",
+							"options": [
+								"رخصة",
+								"نشرة",
+								"فراطة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c3-5.wav"
+						},
+						{
+							"ar": "ساكن بال____ وشغله بالمدينة.",
+							"en": "He lives in the camp and works in the city.",
+							"options": [
+								"مخيم",
+								"منطقة",
+								"سوق"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c3-6.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "أمني، مدني، عسكري، إداري، رسمي",
+							"explanation": "The nisba ـي (Unit 3 built cities with it, Unit 5 made رسمي) runs the entire bureaucracy: أمر عسكري, منع أمني, إدارة مدنية, قرار إداري. Hear an abstract noun wearing ـي and an institution has entered the sentence — usually holding a stamp. Collect the full palette now; Arc 2 uses it in every bulletin.",
+							"examples": [
+								{
+									"ar": "أجا أمر عسكري بإغلاق الطريق.",
+									"en": "A military order came to close the road.",
+									"audio": "audio/tts/u6/g3-1-1.wav"
+								},
+								{
+									"ar": "هاد إشي إداري، مش أمني — هيك قالوا.",
+									"en": "It's an administrative matter, not a security one — so they said.",
+									"audio": "audio/tts/u6/g3-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "الأرض اللي ورا الجدار",
+							"explanation": "Unit 5 gave you إللي for news; the map runs on it too. Geography here is relative clauses — a place is defined by where it stands relative to the machine: الأرض اللي ورا الجدار (the land behind the wall), البيت اللي بمنطقة ج (the house in Area C), الطريق اللي بتطلع عالمستوطنة (the road that goes up to the settlement). Learn to parse these fast; directions, deeds, and grievances all come packaged this way.",
+							"examples": [
+								{
+									"ar": "الأرض اللي ورا الجدار صارت أبعد من أمريكا.",
+									"en": "The land behind the wall is now farther away than America.",
+									"audio": "audio/tts/u6/g3-2-1.wav"
+								},
+								{
+									"ar": "البيت اللي بمنطقة ج ما إله رخصة — وما رح يكون إله.",
+									"en": "The house in Area C has no permit — and never will.",
+									"audio": "audio/tts/u6/g3-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "سُلْطة",
+							"he": "שִׁלְטוֹן",
+							"kind": "true",
+							"story": "s-l-ṭ: rule. السلطة governs Area A; השלטון governs the rest; السلطان governed everybody's great-grandparents. One root, holding every gavel in this story — including the TV remote: שלט."
+						},
+						{
+							"ar": "أَمْن",
+							"he": "אָמֵן",
+							"kind": "true",
+							"story": "ʔ-m-n: trust, made load-bearing. أمن security, أمانة trustworthiness, آمين/אמן 'so be it,' אמונה faith, אמון trust. When a permit dies لأسباب أمنية, the root being invoked — on both sides of the desk — is the one that means to believe."
+						},
+						{
+							"ar": "قَرْية",
+							"he": "קִרְיָה",
+							"kind": "true",
+							"story": "q-r-y: village/town-quarter — قرية and קריה, plus the bonus twins كفر and כפר sharing the same map (كفر قدوم, כפר סבא). The Semitic settlement vocabulary was shared long before the settlement vocabulary was contested."
+						},
+						{
+							"ar": "مَدَني",
+							"he": "מְדִינָה",
+							"kind": "shifted",
+							"story": "m-d-n, from din, judgment: مدينة the city, מדינה the state, مدني the civilian — all originally 'jurisdiction.' The Civil Administration — الإدارة المدنية — thus carries a triple etymology of judging, which, given its job, is almost too on-the-nose."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 4,
+			"title": "The night of the raid",
+			"titleAr": "ليلة الاقتحام",
+			"canDo": "I can understand a report of a night raid and an arrest — in the bulletin's words, and in the words of the family next door.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "This lesson is heavier than the others, and unskippable: اقتحام and اعتقال are among the most frequent words in West Bank news, and behind each is a night like the one Umm Murad describes. Two grammars carry it — the street's انفعل (it-happened-to-us) and the news' تم (it-was-carried-out) — and hearing the same night in both is Unit 5's register lesson, grown up. Take it slowly; the SRS will wait."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u6-iqtiham",
+							"ar": "اِقْتِحام",
+							"arPlain": "اقتحام",
+							"en": "raid, incursion, storming",
+							"he": "פשיטה; כניסה בכוח",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "صار اقتحام بالبلد الليلة.",
+								"en": "There was a raid in town last night."
+							},
+							"audio": "audio/tts/u6/u6-iqtiham.wav",
+							"audioEx": "audio/tts/u6/u6-iqtiham-ex.wav",
+							"root": "ق ح م",
+							"note": "اقتحم = to force a way in. The bulletin's nightly opener: اقتحمت قوات الاحتلال... The street shortens it: الجيش فات — the army came in."
+						},
+						{
+							"id": "u6-i3tiqal",
+							"ar": "اِعْتِقال",
+							"arPlain": "اعتقال",
+							"en": "arrest, detention",
+							"he": "מעצר",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "حملة اعتقالات بالضفة الليلة.",
+								"en": "A wave of arrests across the West Bank tonight."
+							},
+							"audio": "audio/tts/u6/u6-i3tiqal.wav",
+							"audioEx": "audio/tts/u6/u6-i3tiqal-ex.wav",
+							"root": "ع ق ل",
+							"note": "The masdar of اعتقل. The count in the morning bulletin — عشرين معتقل — is the night before, summed.",
+							"cognate": {
+								"kind": "shifted",
+								"he": "עִיקּוּל",
+								"note": "ʕ-q-l: the tying-root. Arabic hobbles the camel with a عقال (still worn on heads), names the mind عقل — what ties thoughts together (Unit 1's مش معقول!) — and names the arrest اعتقال. Hebrew's עיקול is the bailiff tying up your assets. Camels, thoughts, people, property: one rope, many knots."
+							}
+						},
+						{
+							"id": "u6-mudahame",
+							"ar": "مُداهَمة",
+							"arPlain": "مداهمة",
+							"en": "(house) raid",
+							"he": "פשיטת בית",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "مداهمات كل ليلة بالمخيم هالأسبوع.",
+								"en": "House raids every night in the camp this week."
+							},
+							"audio": "audio/tts/u6/u6-mudahame.wav",
+							"audioEx": "audio/tts/u6/u6-mudahame-ex.wav",
+							"root": "د ه م",
+							"note": "داهم = to burst in on, unannounced. The 3 a.m. verb. اقتحام takes a town; مداهمة takes a house."
+						},
+						{
+							"id": "u6-dawriyye",
+							"ar": "دَوْرِيّة",
+							"arPlain": "دورية",
+							"en": "patrol",
+							"he": "סיור; ג'יפ צבאי",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "دورية وقفت عالمفرق ساعة.",
+								"en": "A patrol sat at the junction for an hour."
+							},
+							"audio": "audio/tts/u6/u6-dawriyye.wav",
+							"audioEx": "audio/tts/u6/u6-dawriyye-ex.wav",
+							"root": "د و ر",
+							"note": "From دار, to go around — Lesson 3's إدارة is the same root pushing paper; the دورية pushes a jeep. The street meaning is metonymic: الدورية is the vehicle itself."
+						},
+						{
+							"id": "u6-jesh",
+							"ar": "جيش",
+							"arPlain": "جيش",
+							"en": "army",
+							"he": "צבא",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "الجيش فات عالبلد الساعة تلاتة.",
+								"en": "The army entered town at three."
+							},
+							"audio": "audio/tts/u6/u6-jesh.wav",
+							"audioEx": "audio/tts/u6/u6-jesh-ex.wav",
+							"root": "ج ي ش",
+							"note": "Unmarked — الجيش — it means one army; Unit 3's جندي finally gets his employer. جيش الاحتلال in news register.",
+							"cognate": {
+								"kind": "shifted",
+								"he": "גִּיּוּס",
+								"note": "j-y-š: Arabic جيش, the army. Talmudic Hebrew borrowed the same Semitic word via Aramaic as גייס, a troop — and modern Hebrew built גיוס, the draft, on it. The word for an army and the word for being summoned into one: a single ancient root, conjugated from both ends."
+							}
+						},
+						{
+							"id": "u6-matlub",
+							"ar": "مَطْلوب",
+							"arPlain": "مطلوب",
+							"en": "wanted (by the army)",
+							"he": "מבוקש",
+							"pos": "adj",
+							"register": "shared",
+							"example": {
+								"ar": "بقولوا إنه مطلوب من سنتين.",
+								"en": "They say he's been wanted for two years."
+							},
+							"audio": "audio/tts/u6/u6-matlub.wav",
+							"audioEx": "audio/tts/u6/u6-matlub-ex.wav",
+							"root": "ط ل ب",
+							"note": "Lesson 2's طلب, passive participle: the requested-one. In a shop window مطلوب عامل is 'help wanted'; at 3 a.m. مطلوب is a life sentence-in-waiting. Context is everything; register is context."
+						},
+						{
+							"id": "u6-mu3taqal",
+							"ar": "مُعْتَقَل",
+							"arPlain": "معتقل",
+							"en": "detainee; detention camp",
+							"he": "עציר; מתקן מעצר",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "ابنهم معتقل من الشتا.",
+								"en": "Their son has been in detention since winter."
+							},
+							"audio": "audio/tts/u6/u6-mu3taqal.wav",
+							"audioEx": "audio/tts/u6/u6-mu3taqal-ex.wav",
+							"root": "ع ق ل",
+							"note": "The اعتقال root's participle: the tied-one — and also the place that ties (معتقل النقب). One word for the person and the building; the ambiguity is not accidental."
+						},
+						{
+							"id": "u6-sijen",
+							"ar": "سِجن",
+							"arPlain": "سجن",
+							"en": "prison",
+							"he": "כלא, בית סוהר",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "نص شباب الحارة شافوا السجن.",
+								"en": "Half the neighborhood's young men have seen prison."
+							},
+							"audio": "audio/tts/u6/u6-sijen.wav",
+							"audioEx": "audio/tts/u6/u6-sijen-ex.wav",
+							"root": "س ج ن",
+							"note": "The سجّان is the jailer; Yusuf's سجن in the Quran is the same word. Arc 4 has an entire unit — الأسرى — waiting behind this noun."
+						},
+						{
+							"id": "u6-ifraj",
+							"ar": "إفْراج",
+							"arPlain": "إفراج",
+							"en": "release (from detention)",
+							"he": "שחרור",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "في إفراج عن معتقلين اليوم.",
+								"en": "Detainees are being released today."
+							},
+							"audio": "audio/tts/u6/u6-ifraj.wav",
+							"audioEx": "audio/tts/u6/u6-ifraj-ex.wav",
+							"root": "ف ر ج",
+							"note": "From فرج — relief, the opening after hardship. The mothers' everyday sigh الله يفرجها (may God open a way) and the lawyers' إفراج are one root: the door, and the prayer that it opens."
+						},
+						{
+							"id": "u6-hamle",
+							"ar": "حَمْلة",
+							"arPlain": "حملة",
+							"en": "campaign, wave (of arrests)",
+							"he": "גל מעצרים; מבצע",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "حملة اعتقالات واسعة فجر اليوم.",
+								"en": "A wide arrest campaign at dawn today."
+							},
+							"audio": "audio/tts/u6/u6-hamle.wav",
+							"audioEx": "audio/tts/u6/u6-hamle-ex.wav",
+							"root": "ح م ل",
+							"note": "From حمل, to carry: a حملة is what one carrying-out looks like multiplied. حملة تطعيم vaccinates, حملة انتخابية campaigns (Arc 4), حملة اعتقالات empties a neighborhood."
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Three a.m.",
+					"titleAr": "الساعة تلاتة الفجر",
+					"brief": "Umm Murad tells last Thursday: the sound at 3 a.m., the neighbors' son, the morning bulletin that summarized it. Told quietly, over coffee — which is how you will actually hear stories like this. A heavy listen, deliberately unhurried; the last two lines hold the unit's whole grammar.",
+					"preQuestions": [
+						"What time did it start, and with what sounds?",
+						"Who was taken — and what does she keep repeating about him?",
+						"The bulletin's version vs. the street's: catch تم اعتقال and انعتقل — same night, two grammars."
+					],
+					"transcript": [
+						{
+							"speaker": "أم مراد",
+							"ar": "يوم الخميس، الساعة تلاتة الفجر، صحينا على صوت أبواب وكلاب.",
+							"en": "Thursday, three in the morning, we woke to the sound of doors and dogs."
+						},
+						{
+							"speaker": "أم مراد",
+							"ar": "قلت لجوزي: قوم، في اقتحام. الصوت من حارة دار عودة.",
+							"en": "I told my husband: get up, there's a raid. The sound is from the Odeh family's quarter."
+						},
+						{
+							"speaker": "أم مراد",
+							"ar": "الجيش كان فايت عالبلد — دوريات بكل شارع، ومداهمة بيت ورا بيت.",
+							"en": "The army had entered the town — patrols in every street, and a house raid, house after house."
+						},
+						{
+							"speaker": "أم مراد",
+							"ar": "كسروا باب دار الجيران وفاتوا. صوت الأم وصل لعنا.",
+							"en": "They broke the neighbors' door and went in. The mother's voice reached us here."
+						},
+						{
+							"speaker": "أم مراد",
+							"ar": "أخذوا نضال، ابنهم الكبير. سبعطعش سنة — طالب توجيهي.",
+							"en": "They took Nidal, their eldest. Seventeen years old — a final-year student."
+						},
+						{
+							"speaker": "أم مراد",
+							"ar": "بقولوا مطلوب. مطلوب شو؟ ولد بدرس لامتحان.",
+							"en": "They say he's 'wanted.' Wanted for what? A boy studying for an exam."
+						},
+						{
+							"speaker": "أم مراد",
+							"ar": "الصبح بالنشرة قالوا: تم اعتقال عشرين مطلوباً في حملة أمنية.",
+							"en": "In the morning bulletin they said: twenty wanted men were arrested in a security operation."
+						},
+						{
+							"speaker": "أم مراد",
+							"ar": "عنا بالحارة منقولها غير هيك: انعتقل نضال. وأمه بتستنى الإفراج — والله يفرجها على كل أم.",
+							"en": "In our quarter we say it differently: Nidal got taken. And his mother waits for the release — may God open the way, for every mother."
+						}
+					],
+					"questions": [
+						{
+							"prompt": "It began at three with…",
+							"options": [
+								"صوت أبواب وكلاب",
+								"خبر عالتلفزيون",
+								"صوت جرافات",
+								"إشاعة"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "Who was taken?",
+							"options": [
+								"نضال — طالب توجيهي عمره سبعطعش",
+								"أبو مراد",
+								"جارهم الكبير",
+								"واحد غريب"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "The bulletin's version of the night:",
+							"options": [
+								"تم اعتقال عشرين مطلوباً بحملة أمنية",
+								"انعتقل ولد واحد",
+								"ما حكوا إشي",
+								"إفراج عن عشرين"
+							],
+							"answer": 0,
+							"why": "تم + masdar: the news passive — no soldiers in the sentence, and no boy either. Twenty 'wanteds,' summed."
+						},
+						{
+							"prompt": "The street's version of the same fact:",
+							"options": [
+								"انعتقل نضال",
+								"تم اعتقال نضال",
+								"اعتقلنا نضال",
+								"نضال سافر"
+							],
+							"answer": 0,
+							"why": "انفعل — it-happened-to-him. The doer is missing from the grammar because everyone knows exactly who it is."
+						},
+						{
+							"prompt": "الله يفرجها shares its root with:",
+							"options": [
+								"إفراج",
+								"اقتحام",
+								"حملة",
+								"دورية"
+							],
+							"answer": 0,
+							"why": "ف-ر-ج, the opening. The mother's prayer and the lawyer's paperwork are one root — the door, and the hope that it opens."
+						}
+					],
+					"audio": "audio/tts/u6/listen4.wav",
+					"ttsVoice": "Sulafat"
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "اِقْتِحام",
+							"en": "raid, storming",
+							"audio": "audio/tts/u6/u6-iqtiham.wav"
+						},
+						{
+							"ar": "اِعْتِقال",
+							"en": "arrest, detention",
+							"audio": "audio/tts/u6/u6-i3tiqal.wav"
+						},
+						{
+							"ar": "مُداهَمة",
+							"en": "house raid",
+							"audio": "audio/tts/u6/u6-mudahame.wav"
+						},
+						{
+							"ar": "دَوْرِيّة",
+							"en": "patrol",
+							"audio": "audio/tts/u6/u6-dawriyye.wav"
+						},
+						{
+							"ar": "جيش",
+							"en": "army",
+							"audio": "audio/tts/u6/u6-jesh.wav"
+						},
+						{
+							"ar": "مَطْلوب",
+							"en": "wanted",
+							"audio": "audio/tts/u6/u6-matlub.wav"
+						},
+						{
+							"ar": "سِجن",
+							"en": "prison",
+							"audio": "audio/tts/u6/u6-sijen.wav"
+						},
+						{
+							"ar": "إفْراج",
+							"en": "release",
+							"audio": "audio/tts/u6/u6-ifraj.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "صار ____ بالبلد الليلة.",
+							"en": "There was a raid in town last night.",
+							"options": [
+								"اقتحام",
+								"إفراج",
+								"اتفاق"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c4-1.wav"
+						},
+						{
+							"ar": "____ اعتقالات واسعة الفجر.",
+							"en": "A wide arrest campaign at dawn.",
+							"options": [
+								"حملة",
+								"دورية",
+								"رخصة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c4-2.wav"
+						},
+						{
+							"ar": "ال____ فات عالبلد الساعة تلاتة.",
+							"en": "The army entered town at three.",
+							"options": [
+								"جيش",
+								"سوق",
+								"فجر"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c4-3.wav"
+						},
+						{
+							"ar": "بقولوا إنه ____ من سنتين.",
+							"en": "They say he's been wanted for two years.",
+							"options": [
+								"مطلوب",
+								"معتقل",
+								"مسؤول"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c4-4.wav"
+						},
+						{
+							"ar": "ابنهم ____ من الشتا.",
+							"en": "Their son's been in detention since winter.",
+							"options": [
+								"معتقل",
+								"مطلوب",
+								"عامل"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c4-5.wav"
+						},
+						{
+							"ar": "العيلة بتستنى ال____.",
+							"en": "The family waits for the release.",
+							"options": [
+								"إفراج",
+								"اقتحام",
+								"إغلاق"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c4-6.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "انفعل: انعتقل، انكسر، انرفض",
+							"explanation": "The street passive: ان + verb = it-got-done: انعتقل (got arrested), انكسر الباب (the door got broken), انرفض الطلب (the application got refused — you met it at the gate). No actor in the sentence. Sometimes the doer is unknown; in this unit's sentences the doer is unnamed because naming is unnecessary — الكل عارف مين. It is the grammar of things that happen TO people, and Arc 2 and 3 run on it.",
+							"examples": [
+								{
+									"ar": "انعتقل ابن الجيران الخميس الفجر.",
+									"en": "The neighbors' son was arrested Thursday at dawn.",
+									"audio": "audio/tts/u6/g4-1-1.wav"
+								},
+								{
+									"ar": "انرفض الطلب تاني مرة، بلا سبب.",
+									"en": "The application was refused a second time, no reason given.",
+									"audio": "audio/tts/u6/g4-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "تم اعتقال... — the bulletin's passive",
+							"explanation": "News Arabic disappears the actor differently: تم + masdar: تم اعتقال عشرين (the arrest of twenty was-carried-out), تم إغلاق المدخل, تم هدم... (Unit 7, sadly). Lesson 1's masdar machine with تم bolted on: polished, official, actor-free. Street انفعل and bulletin تم are the same vanishing act in two registers — Unit 5's split, now inside the grammar itself. When you hear either, ask the question the sentence was built to avoid: مين عمل هيك؟",
+							"examples": [
+								{
+									"ar": "تم اعتقال عشرين شخصاً في حملة واحدة.",
+									"en": "Twenty people were arrested in a single sweep.",
+									"audio": "audio/tts/u6/g4-2-1.wav"
+								},
+								{
+									"ar": "تم إغلاق مدخل البلد بأمر عسكري.",
+									"en": "The town's entrance was closed by military order.",
+									"audio": "audio/tts/u6/g4-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "اِعْتِقال",
+							"he": "עִיקּוּל",
+							"kind": "shifted",
+							"story": "ʕ-q-l: one root, tying everything — the camel (عقال), the mind (عقل — what makes things معقول, thinkable), the prisoner (اعتقال), and in Hebrew the property: עיקול, the court's lien. Four thousand years of the same rope, looped around whatever each era needed held."
+						},
+						{
+							"ar": "جيش",
+							"he": "גִּיּוּס",
+							"kind": "shifted",
+							"story": "j-y-š: the Semitic troop-word. Arabic kept جيش whole; Hebrew received it through Aramaic as גייס and built גיוס — the draft — from it. The noun that raids the town at 3 a.m. and the noun that summons eighteen-year-olds to do it: one etymology, no comment."
+						}
+					]
+				}
+			],
+			"weight": "heavy"
+		},
+		{
+			"n": 5,
+			"title": "The land, in dunams",
+			"titleAr": "الأرض بتنعد بالدونم",
+			"canDo": "I can follow a land story — how many dunams, planted with what, claimed by whom — and understand Friday's news package announcing more units on the hill.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "The unit ends where it began — on the land — but now with numbers. The فلاح counts in دونمات; the ministry counts in وحدات; the news counts both and calls it توسيع. This lesson is the arithmetic of the hillside: who plants, who uproots, who announces — and the interview where a reporter's fusha meets seventy dunams of someone's grandfather. Learn it well: Lesson 6 is the real bulletin, and it speaks exactly this language."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u6-fallah",
+							"ar": "فَلّاح",
+							"arPlain": "فلاح",
+							"en": "farmer, fellah",
+							"he": "חקלאי; פלאח",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "الفلاح بعرف أرضه شجرة شجرة.",
+								"en": "The farmer knows his land tree by tree."
+							},
+							"audio": "audio/tts/u6/u6-fallah.wav",
+							"audioEx": "audio/tts/u6/u6-fallah-ex.wav",
+							"root": "ف ل ح",
+							"note": "Unit 4's فعّال profession pattern (بياع، سواق) on the root of tilling: the فلاح is the West Bank's oldest job description and this unit's quiet hero.",
+							"cognate": {
+								"kind": "loan",
+								"he": "פַלַאח",
+								"note": "Hebrew borrowed the farmer whole — פלאח — and early kibbutz Hebrew took his craft too: פלחה, from فلاحة, is still what Israeli agronomy calls field crops. The man crossed the language line with his plow and his job title intact."
+							}
+						},
+						{
+							"id": "u6-dunum",
+							"ar": "دونُم",
+							"arPlain": "دونم",
+							"en": "dunam (≈ 1000 m²)",
+							"he": "דונם",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "عنا سبعين دونم زيتون.",
+								"en": "We have seventy dunams of olives."
+							},
+							"audio": "audio/tts/u6/u6-dunum.wav",
+							"audioEx": "audio/tts/u6/u6-dunum-ex.wav",
+							"note": "The Ottoman day's-plowing, now the region's land unit. Every deed, every confiscation order, every settlement plan: counted in it. Learn to catch it with numbers at speed — that's Lesson 6's exam.",
+							"cognate": {
+								"kind": "loan",
+								"he": "דּוּנָם",
+								"note": "Ottoman dönüm — 'one day's plowing' — survived the empire in both successor vocabularies: دونم and דונם, identical. Quite possibly the only unit of measurement, and the only land-related word, on which the two sides fully agree."
+							}
+						},
+						{
+							"id": "u6-zara3",
+							"ar": "زَرَع",
+							"arPlain": "زرع",
+							"en": "planted, sowed",
+							"he": "זרע",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "زرعنا التلة كلها زيتون.",
+								"en": "We planted the whole hill with olives."
+							},
+							"audio": "audio/tts/u6/u6-zara3.wav",
+							"audioEx": "audio/tts/u6/u6-zara3-ex.wav",
+							"root": "ز ر ع",
+							"note": "The فلاح's verb of verbs; مزروع, planted, is a land title argument in participle form. Its dark opposite is one entry down.",
+							"cognate": {
+								"kind": "true",
+								"he": "זֶרַע",
+								"note": "z-r-ʕ: زرع and זרע — sow, seed — identical to the last sound-law. The seeds and the verb never needed translating between these hills; only the deeds did."
+							}
+						},
+						{
+							"id": "u6-iqtala3",
+							"ar": "اِقْتَلَع",
+							"arPlain": "اقتلع",
+							"en": "uprooted",
+							"he": "עקר",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "اقتلعوا زيتون عمره مية سنة.",
+								"en": "They uprooted hundred-year-old olive trees."
+							},
+							"audio": "audio/tts/u6/u6-iqtala3.wav",
+							"audioEx": "audio/tts/u6/u6-iqtala3-ex.wav",
+							"root": "ق ل ع",
+							"note": "زرع's undoing — the olive-news verb, grimly perennial, especially around harvest. (Unit 4's مقلوبة is ق-ل-ب, flipped — a different root that merely sounds like this one. The dinner table is innocent.)"
+						},
+						{
+							"id": "u6-tawsi3",
+							"ar": "تَوْسيع",
+							"arPlain": "توسيع",
+							"en": "expansion",
+							"he": "הרחבה",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "أعلنوا عن توسيع جديد للمستوطنة.",
+								"en": "They announced a new expansion of the settlement."
+							},
+							"audio": "audio/tts/u6/u6-tawsi3.wav",
+							"audioEx": "audio/tts/u6/u6-tawsi3-ex.wav",
+							"root": "و س ع",
+							"note": "From وسّع, to widen — واسع, wide, is its adjective cousin. The masdar that headlines Lesson 6's actual news package. توسيع الاستيطان: the story that never needs a new headline, only new numbers."
+						},
+						{
+							"id": "u6-bu2ra",
+							"ar": "بُؤْرة",
+							"arPlain": "بؤرة",
+							"en": "outpost",
+							"he": "מאחז",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "بلشت بؤرة صغيرة وصارت حي كامل.",
+								"en": "It started as a small outpost and became a whole neighborhood."
+							},
+							"audio": "audio/tts/u6/u6-bu2ra.wav",
+							"audioEx": "audio/tts/u6/u6-bu2ra-ex.wav",
+							"root": "ب أ ر",
+							"note": "Literally a focal point: بؤرة استيطانية — the caravans Lesson 1's أبو يوسف watched arrive. The news also says بؤرة توتر, a flashpoint. Either way: where it starts."
+						},
+						{
+							"id": "u6-wihde",
+							"ar": "وِحْدة",
+							"arPlain": "وحدة",
+							"en": "(housing) unit",
+							"he": "יחידת דיור",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "أعلنوا عن ألف وحدة سكنية جديدة.",
+								"en": "They announced a thousand new housing units."
+							},
+							"audio": "audio/tts/u6/u6-wihde.wav",
+							"audioEx": "audio/tts/u6/u6-wihde-ex.wav",
+							"root": "و ح د",
+							"note": "The ministry's counting noun: وحدة سكنية / استيطانية. Homes become units when policy counts them; the فلاح's counter-unit is the دونم underneath.",
+							"cognate": {
+								"kind": "true",
+								"he": "אֶחָד",
+								"note": "w-ḥ-d / ʔ-ḥ-d: واحد and אחד — 'one,' the family's most basic shared number (the w↔ʔ swap is regular). Both bureaucracies count settlement homes in its daughter: وحدات = יחידות דיור. On the news, 'ones' are what get built; dunams are what they're built on."
+							}
+						},
+						{
+							"id": "u6-a3lan",
+							"ar": "أَعْلَن",
+							"arPlain": "أعلن",
+							"en": "announced",
+							"he": "הודיע, הכריז",
+							"pos": "verb",
+							"register": "news",
+							"example": {
+								"ar": "أعلنوا عن خطة بناء جديدة.",
+								"en": "They announced a new construction plan."
+							},
+							"audio": "audio/tts/u6/u6-a3lan.wav",
+							"audioEx": "audio/tts/u6/u6-a3lan-ex.wav",
+							"root": "ع ل ن",
+							"note": "أعلن عن = announce (about). علني is public/overt; الإعلان is both the announcement and the TV commercial — the root does publicity in every sense. What gets أعلن in this unit is never good news for the فلاح."
+						},
+						{
+							"id": "u6-khitta",
+							"ar": "خِطّة",
+							"arPlain": "خطة",
+							"en": "plan",
+							"he": "תוכנית",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "في خطة لتوسيع الطريق الالتفافي.",
+								"en": "There's a plan to widen the bypass road."
+							},
+							"audio": "audio/tts/u6/u6-khitta.wav",
+							"audioEx": "audio/tts/u6/u6-khitta-ex.wav",
+							"root": "خ ط ط",
+							"note": "From خط, the line (Unit 3's serveece خط!): a plan is lines drawn. On this map, usually drawn elsewhere, about here. خطة الضم — the annexation plan — headlined Unit 5's street clip; now you own the noun."
+						},
+						{
+							"id": "u6-ikhtar",
+							"ar": "إخْطار",
+							"arPlain": "إخطار",
+							"en": "(military/demolition) notice",
+							"he": "צו (הריסה/פינוי)",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "وصل إخطار لدار أبو صالح الأسبوع الماضي.",
+								"en": "A notice reached the Abu Saleh family last week."
+							},
+							"audio": "audio/tts/u6/u6-ikhtar.wav",
+							"audioEx": "audio/tts/u6/u6-ikhtar-ex.wav",
+							"root": "خ ط ر",
+							"note": "The paper on the tree or the door: إخطار هدم (demolition), إخطار إخلاء (evacuation), إخطار وقف بناء (stop-work). Same letters as خطر, danger — the language files the notification and the danger under one root, which is honest of it."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Interview with a farmer",
+					"titleAr": "مقابلة مع فلاح",
+					"situation": "A TV crew reaches the village for the settlement-expansion story. The reporter asks in polished news Arabic; Abu Saleh answers in the Arabic of seventy dunams. Unit 5's register split — conducted live, across one olive grove.",
+					"audio": "audio/tts/u6/d5.wav",
+					"ttsVoices": {
+						"المراسلة": {
+							"label": "Murasleh",
+							"voice": "Sulafat",
+							"news": true
+						},
+						"أبو صالح": {
+							"label": "AbuSaleh",
+							"voice": "Charon"
+						}
+					},
+					"lines": [
+						{
+							"speaker": "المراسلة",
+							"ar": "نحن الآن عند أراضي القرية، ومعنا الحاج أبو صالح. أهلاً بك.",
+							"en": "We are now at the village's lands, joined by Hajj Abu Saleh. Welcome.",
+							"audio": "audio/tts/u6/d5-l01.wav"
+						},
+						{
+							"speaker": "أبو صالح",
+							"ar": "أهلين. تفضلوا — هاي أرضنا: سبعين دونم، كلها زيتون.",
+							"en": "Welcome to you. Come — this is our land: seventy dunams, all olives.",
+							"audio": "audio/tts/u6/d5-l02.wav"
+						},
+						{
+							"speaker": "المراسلة",
+							"ar": "منذ متى تملك عائلتكم هذه الأرض؟",
+							"en": "How long has your family owned this land?",
+							"audio": "audio/tts/u6/d5-l03.wav"
+						},
+						{
+							"speaker": "أبو صالح",
+							"ar": "من أيام جدي وسيد جدي. زرعناها زيتونة زيتونة، بإيدينا هاي.",
+							"en": "Since my grandfather's day, and his grandfather's. We planted it olive by olive, with these hands.",
+							"audio": "audio/tts/u6/d5-l04.wav"
+						},
+						{
+							"speaker": "المراسلة",
+							"ar": "وماذا وصلكم الأسبوع الماضي؟",
+							"en": "And what reached you last week?",
+							"audio": "audio/tts/u6/d5-l05.wav"
+						},
+						{
+							"speaker": "أبو صالح",
+							"ar": "إخطار. علقوه عالشجرة متل الإعلان. بقولوا 'أراضي دولة'.",
+							"en": "A notice. They hung it on the tree like an advertisement. It says 'state lands.'",
+							"audio": "audio/tts/u6/d5-l06.wav"
+						},
+						{
+							"speaker": "المراسلة",
+							"ar": "الخطة المعلنة تشمل مئات الوحدات الجديدة في المستوطنة المجاورة. ما ردكم؟",
+							"en": "The announced plan includes hundreds of new units in the neighboring settlement. Your response?",
+							"audio": "audio/tts/u6/d5-l07.wav"
+						},
+						{
+							"speaker": "أبو صالح",
+							"ar": "ردنا؟ رزقتنا من هالأرض. توسيعهم مش من السما — من قلب دونماتنا.",
+							"en": "Our response? Our livelihood is from this land. Their expansion doesn't come from the sky — it comes out of the heart of our dunams.",
+							"audio": "audio/tts/u6/d5-l08.wav"
+						},
+						{
+							"speaker": "المراسلة",
+							"ar": "وماذا ستفعلون الآن؟",
+							"en": "And what will you do now?",
+							"audio": "audio/tts/u6/d5-l09.wav"
+						},
+						{
+							"speaker": "أبو صالح",
+							"ar": "اللي منعمله كل سنة: منزرع. الزيتون ما بسأل مين حاكم — الزيتون بسأل مين بسقي.",
+							"en": "What we do every year: we plant. The olive doesn't ask who rules — the olive asks who waters.",
+							"audio": "audio/tts/u6/d5-l10.wav"
+						}
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "How much land, planted with what?",
+							"options": [
+								"سبعين دونم زيتون",
+								"سبع دونمات عنب",
+								"مية دونم قمح",
+								"تلاتين دونم بندورة"
+							],
+							"answer": 0,
+							"why": "سبعين دونم — note the singular: past ten, Arabic counts in ones. The grammar point, with a deed attached."
+						},
+						{
+							"prompt": "What arrived last week — and where was it posted?",
+							"options": [
+								"إخطار — عالشجرة",
+								"بيان — عالباب",
+								"تصريح — بالبريد",
+								"خبر — بالنشرة"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "The stated legal claim on the land:",
+							"options": [
+								"أراضي دولة",
+								"منطقة عسكرية",
+								"أرض البلدية",
+								"أرض بلا صاحب"
+							],
+							"answer": 0,
+							"why": "'State lands' — the phrase that moves more dunams than any bulldozer. Lesson 6's package uses it too; listen for it."
+						},
+						{
+							"prompt": "The announced plan includes:",
+							"options": [
+								"مئات الوحدات الجديدة",
+								"جدار جديد",
+								"مدرسة",
+								"شارع للقرية"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "His answer to 'what will you do now?'",
+							"options": [
+								"منزرع",
+								"منهاجر",
+								"منبيع",
+								"منستنى"
+							],
+							"answer": 0,
+							"why": "الزيتون بسأل مين بسقي — the unit gives the olive tree the last word, on purpose."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "فَلّاح",
+							"en": "farmer, fellah",
+							"audio": "audio/tts/u6/u6-fallah.wav"
+						},
+						{
+							"ar": "دونُم",
+							"en": "dunam (land unit)",
+							"audio": "audio/tts/u6/u6-dunum.wav"
+						},
+						{
+							"ar": "زَرَع",
+							"en": "planted, sowed",
+							"audio": "audio/tts/u6/u6-zara3.wav"
+						},
+						{
+							"ar": "اِقْتَلَع",
+							"en": "uprooted",
+							"audio": "audio/tts/u6/u6-iqtala3.wav"
+						},
+						{
+							"ar": "تَوْسيع",
+							"en": "expansion",
+							"audio": "audio/tts/u6/u6-tawsi3.wav"
+						},
+						{
+							"ar": "بُؤْرة",
+							"en": "outpost",
+							"audio": "audio/tts/u6/u6-bu2ra.wav"
+						},
+						{
+							"ar": "وِحْدة",
+							"en": "housing unit",
+							"audio": "audio/tts/u6/u6-wihde.wav"
+						},
+						{
+							"ar": "إخْطار",
+							"en": "(military) notice",
+							"audio": "audio/tts/u6/u6-ikhtar.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "عنا سبعين ____ زيتون.",
+							"en": "We have seventy dunams of olives.",
+							"options": [
+								"دونم",
+								"دونمات",
+								"كيلو"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c5-1.wav"
+						},
+						{
+							"ar": "____وا زيتون عمره مية سنة.",
+							"en": "They uprooted hundred-year-old olives.",
+							"options": [
+								"اقتلع",
+								"زرع",
+								"غط"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c5-2.wav"
+						},
+						{
+							"ar": "أعلنوا عن ____ جديد للمستوطنة.",
+							"en": "They announced a new expansion of the settlement.",
+							"options": [
+								"توسيع",
+								"تصحيح",
+								"تجديد"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c5-3.wav"
+						},
+						{
+							"ar": "بلشت ____ وصارت حي كامل.",
+							"en": "It started as an outpost and became a whole neighborhood.",
+							"options": [
+								"بؤرة",
+								"وحدة",
+								"خطة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c5-4.wav"
+						},
+						{
+							"ar": "وصل ____ لدار أبو صالح.",
+							"en": "A notice reached the Abu Saleh family.",
+							"options": [
+								"إخطار",
+								"ملخص",
+								"طلب"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c5-5.wav"
+						},
+						{
+							"ar": "صادقوا على ألف ____ سكنية.",
+							"en": "They approved a thousand housing units.",
+							"options": [
+								"وحدة",
+								"بؤرة",
+								"تلة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c5-6.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "تلات دونمات — سبعين دونم",
+							"explanation": "The counting law your ear needs at bulletin speed: 3–10 take the plural (تلات دونمات، خمس وحدات، عشر قرى); from 11 up, the singular returns (سبعين دونم، ألف وحدة، عشرين مطلوب). It's why the biggest numbers sound grammatically smallest. Unit 2's number gym, now measuring land — and Unit 9 will drill it at full news speed.",
+							"examples": [
+								{
+									"ar": "خمس دونمات ورا الجدار، وستين دونم قدامه.",
+									"en": "Five dunams behind the wall, and sixty in front of it.",
+									"audio": "audio/tts/u6/g5-1-1.wav"
+								},
+								{
+									"ar": "صادقوا على ألف وحدة استيطانية جديدة.",
+									"en": "They approved a thousand new settlement units.",
+									"audio": "audio/tts/u6/g5-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "عم يبنوا من سنتين — البناء مستمر",
+							"explanation": "Ongoing-at-scale: عم + verb plus من + time stretches now backwards: عم يبنوا من سنتين (they've been building for two years), عم نزرعها من مية سنة. The bulletin nominalizes the same thing: البناء مستمر, التوسيع مستمر — 'continues,' the anchor's way of saying لسا عم. One process, two registers; you've heard this song since Unit 5, and it plays over every hilltop in this one.",
+							"examples": [
+								{
+									"ar": "عم يبنوا بالبؤرة من الصيف الماضي.",
+									"en": "They've been building at the outpost since last summer.",
+									"audio": "audio/tts/u6/g5-2-1.wav"
+								},
+								{
+									"ar": "النشرة بتقول: البناء مستمر. سيدو بقول: لسا عم يبنوا.",
+									"en": "The bulletin says: construction continues. Grandpa says: they're still building.",
+									"audio": "audio/tts/u6/g5-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "زَرَع",
+							"he": "זֶרַע",
+							"kind": "true",
+							"story": "z-r-ʕ: seed and sowing, identical in both — زرع/זרע on the same terraced hills for the same three thousand years. The most peaceful verb in this unit, and the one with the most riot police around its object."
+						},
+						{
+							"ar": "وِحْدة",
+							"he": "אֶחָד",
+							"kind": "true",
+							"story": "w-ḥ-d / ʔ-ḥ-d: 'one.' واحد/אחד is the textbook Semitic cognate — and both governments count contested housing in its derivative: وحدات، יחידות. When the news says a thousand of them, remember you're hearing the number one, pluralized, doing politics."
+						},
+						{
+							"ar": "دونُم",
+							"he": "דּוּנָם",
+							"kind": "loan",
+							"story": "The Ottoman dönüm outlived the Ottomans in everyone's land registry: دونم = דונם, no translation needed, no dispute available. The empire's parting gift: a unit both sides use to disagree precisely."
+						},
+						{
+							"ar": "فَلّاح",
+							"he": "פַלַאח",
+							"kind": "loan",
+							"story": "Hebrew took the فلاح in as פלאח and put his فلاحة to work as פלחה — field-crop farming, a living kibbutz term. The vocabulary of working this land kept crossing the line even when the land itself couldn't."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 6,
+			"title": "Review & free listening",
+			"titleAr": "مراجعة واستماع حر",
+			"canDo": "I can follow a real news package about settlement expansion — anchor, correspondent, and the ground — and state who did what to whom, where.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Five lessons: the frame, the gate, the letters, the night, the land. Now the real thing — Al Mayadeen reports the decision to build 1,300 new settlement units in the southern West Bank. Anchor فصحى, a correspondent's package, and the masdar machine at full speed: توسيع، بناء، مصادرة. You have every key word; nobody simplified anything. The Arc 2 exam question, first attempt: who did what to whom, where?"
+				},
+				{
+					"type": "listen",
+					"title": "Real news: 1,300 units",
+					"titleAr": "استماع حر — توسيع الاستيطان",
+					"brief": "Al Mayadeen: the occupation authorities approve 1,300 new settlement units in the southern West Bank. A real bulletin lead and package at native speed — the exact genre this unit trained you for. Two and a half minutes. Every load-bearing word in it is yours now.",
+					"preQuestions": [
+						"First twenty seconds — the anchor's lead: catch the masdars (توسيع؟ بناء؟ مصادرة؟), the number of وحدات, and the where.",
+						"Inside the package: count the actor-free constructions — every تم, every masdar headline. Who is grammatically missing from those sentences?",
+						"Exit ticket, Arc 2's whole point: one English sentence — who did what to whom, where. Then try it بالعربي with منقولها غير هيك in mind."
+					],
+					"transcript": [],
+					"questions": [],
+					"youtubeId": "NbO5ich822o"
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"occupation",
+								"agreement",
+								"administration",
+								"expansion"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/u6-ihtilal.wav"
+						},
+						{
+							"prompt": "Play the word. What is it?",
+							"options": [
+								"settlement",
+								"outpost",
+								"village",
+								"camp"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/u6-mustawtane.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"closure",
+								"curfew",
+								"release",
+								"raid"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/u6-ighlaq.wav"
+						},
+						{
+							"prompt": "Play the word. What is it?",
+							"options": [
+								"license, permit",
+								"application",
+								"notice",
+								"plan"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/u6-rukhsa.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"raid, storming",
+								"arrest",
+								"patrol",
+								"campaign"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/u6-iqtiham.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"arrest, detention",
+								"release",
+								"raid",
+								"closure"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/u6-i3tiqal.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"expansion",
+								"renewal",
+								"construction",
+								"confiscation"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/u6-tawsi3.wav"
+						},
+						{
+							"prompt": "Play the word. Who is he?",
+							"options": [
+								"farmer",
+								"worker",
+								"settler",
+								"spokesman"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/u6-fallah.wav"
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "جِدار",
+							"en": "the Wall",
+							"audio": "audio/tts/u6/u6-jidar.wav"
+						},
+						{
+							"ar": "مْسَكَّر",
+							"en": "closed, shut",
+							"audio": "audio/tts/u6/u6-msakkar.wav"
+						},
+						{
+							"ar": "سُلْطة",
+							"en": "authority; the PA",
+							"audio": "audio/tts/u6/u6-sulta.wav"
+						},
+						{
+							"ar": "مُخَيَّم",
+							"en": "refugee camp",
+							"audio": "audio/tts/u6/u6-mukhayyam.wav"
+						},
+						{
+							"ar": "مَطْلوب",
+							"en": "wanted",
+							"audio": "audio/tts/u6/u6-matlub.wav"
+						},
+						{
+							"ar": "إفْراج",
+							"en": "release",
+							"audio": "audio/tts/u6/u6-ifraj.wav"
+						},
+						{
+							"ar": "زَرَع",
+							"en": "planted, sowed",
+							"audio": "audio/tts/u6/u6-zara3.wav"
+						},
+						{
+							"ar": "بُؤْرة",
+							"en": "outpost",
+							"audio": "audio/tts/u6/u6-bu2ra.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "عايشين تحت ال____ من زمان.",
+							"en": "We've lived under occupation a long time.",
+							"options": [
+								"احتلال",
+								"اتفاق",
+								"إفراج"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c6-1.wav"
+						},
+						{
+							"ar": "بكرا ____ شامل عالضفة.",
+							"en": "Tomorrow: full closure on the West Bank.",
+							"options": [
+								"إغلاق",
+								"توسيع",
+								"تجديد"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c6-2.wav"
+						},
+						{
+							"ar": "بيتنا منطقة ب وأرضنا منطقة ____.",
+							"en": "Our house is Area B and our land is Area C.",
+							"options": [
+								"ج",
+								"أ",
+								"د"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c6-3.wav"
+						},
+						{
+							"ar": "____ الجيش عالبلد الفجر.",
+							"en": "The army raided the town at dawn.",
+							"options": [
+								"اقتحم",
+								"زرع",
+								"جدد"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c6-4.wav"
+						},
+						{
+							"ar": "تم ____ عشرين شخص بحملة وحدة.",
+							"en": "Twenty people were arrested in one sweep.",
+							"options": [
+								"اعتقال",
+								"إعلان",
+								"تصريح"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c6-5.wav"
+						},
+						{
+							"ar": "أعلنوا عن بناء ألف ____ جديدة.",
+							"en": "They announced a thousand new units.",
+							"options": [
+								"وحدة",
+								"بؤرة",
+								"تلة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u6/c6-6.wav"
+						}
+					]
+				}
+			]
+		}
+	]
+}

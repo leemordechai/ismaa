@@ -1,0 +1,2761 @@
+{
+	"id": "unit-05",
+	"n": 5,
+	"arc": 2,
+	"title": "Breaking news",
+	"titleAr": "خبر عاجل",
+	"mission": "Arc 2 opens with the machinery of news itself: how a fire in the souq becomes a rumor, a bulletin, a statement, a headline, and a correction — and how the anchor's فصحى and the street's عامية tell the same story twice. One story, five retellings. Learn the split once; hear with it forever.",
+	"cover": "img/covers/unit-05.png",
+	"registerMix": {
+		"street": 45,
+		"news": 35,
+		"shared": 20
+	},
+	"sources": [
+		"News-register phrasing cross-checked against Al Jazeera Arabic / Wafa bulletin conventions; street forms urban Palestinian koine",
+		"Forms cross-checked against Madrasa dictionary and Living Arabic Project (Levantine)",
+		"Native-speaker review pending — low-confidence items avoided; uncertain cognates omitted",
+		"L6 clip: Raya FM street interviews, embedded from YouTube (never copied)"
+	],
+	"lessons": [
+		{
+			"n": 1,
+			"title": "Did you hear?",
+			"titleAr": "سمعتي الخبر؟",
+			"canDo": "I can catch a breaking story the way it actually breaks — over the fence, half-confirmed, spreading faster than the smoke.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Unit 4 left you in the souq with change in your pocket. Tonight the souq is on the news. But before any story reaches a screen, it runs through the street's own wire service: a neighbor, a nephew who was passing by, a plume of smoke you can see from the roof. This lesson is that wire service — the words a story wears in its first hour, before anyone official touches it."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u5-3ajil",
+							"ar": "عاجِل",
+							"arPlain": "عاجل",
+							"en": "urgent; breaking (news)",
+							"he": "דחוף; מבזק",
+							"pos": "adj",
+							"register": "news",
+							"example": {
+								"ar": "في خبر عاجل عالتلفزيون — تعالي شوفي.",
+								"en": "There's breaking news on TV — come look."
+							},
+							"audio": "audio/tts/u5/u5-3ajil.wav",
+							"audioEx": "audio/tts/u5/u5-3ajil-ex.wav",
+							"root": "ع ج ل",
+							"note": "خبر عاجل is the red banner that interrupts everything. Same root as Unit 3's مستعجل (in a hurry) — haste, institutionalized."
+						},
+						{
+							"id": "u5-hariq",
+							"ar": "حَريق",
+							"arPlain": "حريق",
+							"en": "fire (a blaze, the event)",
+							"he": "שרפה",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "ولع حريق كبير بسوق الخضرة.",
+								"en": "A big fire broke out in the vegetable market."
+							},
+							"audio": "audio/tts/u5/u5-hariq.wav",
+							"audioEx": "audio/tts/u5/u5-hariq-ex.wav",
+							"root": "ح ر ق",
+							"note": "النار is the flame; الحريق is the event — the thing with a cause, a damage estimate, and a news item."
+						},
+						{
+							"id": "u5-nar",
+							"ar": "نار",
+							"arPlain": "نار",
+							"en": "fire, flame",
+							"he": "אש",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "الدخان كتير بس النار صغيرة.",
+								"en": "Lots of smoke but the fire is small."
+							},
+							"audio": "audio/tts/u5/u5-nar.wav",
+							"audioEx": "audio/tts/u5/u5-nar-ex.wav",
+							"root": "ن و ر",
+							"cognate": {
+								"kind": "true",
+								"he": "נֵר",
+								"note": "n-w-r: Arabic split the root into نار the fire and نور the light; Hebrew kept נר the candle, נורה the bulb, מנורה the lamp — and منارة/מנורה are the same lighthouse. One root, lit at both ends."
+							}
+						},
+						{
+							"id": "u5-walla3",
+							"ar": "وَلَّع",
+							"arPlain": "ولع",
+							"en": "caught fire; lit (up)",
+							"he": "נדלק; הדליק",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "المحل ولع بلحظة.",
+								"en": "The shop caught fire in an instant."
+							},
+							"audio": "audio/tts/u5/u5-walla3.wav",
+							"audioEx": "audio/tts/u5/u5-walla3-ex.wav",
+							"note": "The street's fire verb, in both directions: المحل ولع (it caught) and ولع السيجارة (he lit it). The bulletin will say اندلع — hold that thought for Lesson 2."
+						},
+						{
+							"id": "u5-mahall",
+							"ar": "مَحَل",
+							"arPlain": "محل",
+							"en": "shop, store",
+							"he": "חנות",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "سكروا المحلات بكير اليوم.",
+								"en": "The shops closed early today."
+							},
+							"audio": "audio/tts/u5/u5-mahall.wav",
+							"audioEx": "audio/tts/u5/u5-mahall-ex.wav",
+							"root": "ح ل ل",
+							"note": "From حلّ — to alight, to settle: a محل is where business settled. File the root; it comes back with a much heavier word in the next unit."
+						},
+						{
+							"id": "u5-itfa2iyye",
+							"ar": "إطْفائِيّة",
+							"arPlain": "إطفائية",
+							"en": "fire brigade; fire truck",
+							"he": "מכבי אש",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "الإطفائية وصلت بعد ربع ساعة.",
+								"en": "The fire brigade arrived after a quarter hour."
+							},
+							"audio": "audio/tts/u5/u5-itfa2iyye.wav",
+							"audioEx": "audio/tts/u5/u5-itfa2iyye-ex.wav",
+							"root": "ط ف ي",
+							"note": "From طفى — to put out (Lesson 3 teaches you the verb itself). The ـية makes it the putting-out service."
+						},
+						{
+							"id": "u5-is3af",
+							"ar": "إسْعاف",
+							"arPlain": "إسعاف",
+							"en": "ambulance",
+							"he": "אמבולנס",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "إجت سيارة الإسعاف بسرعة.",
+								"en": "The ambulance came fast."
+							},
+							"audio": "audio/tts/u5/u5-is3af.wav",
+							"audioEx": "audio/tts/u5/u5-is3af-ex.wav",
+							"root": "س ع ف",
+							"note": "Literally 'aid-giving' — سيارة إسعاف is the full phrase, الإسعاف does the daily work. الهلال الأحمر, the Red Crescent, is who usually sends it."
+						},
+						{
+							"id": "u5-intashar",
+							"ar": "اِنْتَشَر",
+							"arPlain": "انتشر",
+							"en": "spread (news, fire, rumor)",
+							"he": "התפשט",
+							"pos": "verb",
+							"register": "shared",
+							"example": {
+								"ar": "الخبر انتشر بالحارة قبل التلفزيون.",
+								"en": "The news spread through the neighborhood before the TV had it."
+							},
+							"audio": "audio/tts/u5/u5-intashar.wav",
+							"audioEx": "audio/tts/u5/u5-intashar-ex.wav",
+							"root": "ن ش ر",
+							"note": "Fires and rumors share a verb — انتشر الحريق، انتشرت الإشاعة — and the street's version of both usually wins the race."
+						},
+						{
+							"id": "u5-khasayer",
+							"ar": "خَسائِر",
+							"arPlain": "خسائر",
+							"en": "losses, damage",
+							"he": "נזקים, אבדות",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "خسائر كبيرة بالمحلات، بس ولا إصابة.",
+								"en": "Heavy damage to the shops — but not one injury."
+							},
+							"audio": "audio/tts/u5/u5-khasayer.wav",
+							"audioEx": "audio/tts/u5/u5-khasayer-ex.wav",
+							"root": "خ س ر",
+							"note": "Singular خسارة — which alone is the street's sigh: يا خسارة, what a waste. The news counts خسائر; the street feels the خسارة.",
+							"cognate": {
+								"kind": "shifted",
+								"he": "חָסֵר",
+								"note": "kh-s-r / ḥ-s-r: Arabic خسر loses; Hebrew חסר lacks. After the fire they count الخسائر — literally, what is now missing. Loss and lack: one root, before and after."
+							}
+						},
+						{
+							"id": "u5-isabe",
+							"ar": "إصابة",
+							"arPlain": "إصابة",
+							"en": "injury, casualty",
+							"he": "פציעה; נפגע",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "الحمد لله، ما في إصابات.",
+								"en": "Thank God, no injuries."
+							},
+							"audio": "audio/tts/u5/u5-isabe.wav",
+							"audioEx": "audio/tts/u5/u5-isabe-ex.wav",
+							"root": "ص و ب",
+							"note": "The first question of every breaking story: في إصابات؟ The person is a مصاب. The root also means hitting the mark — أصاب — which is exactly what an injury is, grimly."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Over the wall",
+					"titleAr": "سمعتي شو صار؟",
+					"situation": "Early evening. Abu Jamil has news; Umm Fadi has questions. Between them, a story assembles itself the way stories actually do — source by source, none of them official.",
+					"audio": "audio/tts/u5/d1.wav",
+					"ttsVoices": {
+						"أبو جميل": {
+							"label": "AbuJamil",
+							"voice": "Algieba"
+						},
+						"أم فادي": {
+							"label": "UmFadi",
+							"voice": "Sulafat"
+						}
+					},
+					"lines": [
+						{
+							"speaker": "أبو جميل",
+							"ar": "أم فادي! سمعتي شو صار؟",
+							"en": "Umm Fadi! Did you hear what happened?",
+							"audio": "audio/tts/u5/d1-l01.wav"
+						},
+						{
+							"speaker": "أم فادي",
+							"ar": "لا، شو؟ خير إن شاء الله؟",
+							"en": "No — what? Nothing bad, hopefully?",
+							"audio": "audio/tts/u5/d1-l02.wav"
+						},
+						{
+							"speaker": "أبو جميل",
+							"ar": "في حريق بسوق الخضرة! الدنيا دخان.",
+							"en": "There's a fire in the vegetable market! Smoke everywhere.",
+							"audio": "audio/tts/u5/d1-l03.wav"
+						},
+						{
+							"speaker": "أم فادي",
+							"ar": "يا لطيف! مين حكالك؟",
+							"en": "Good heavens! Who told you?",
+							"audio": "audio/tts/u5/d1-l04.wav"
+						},
+						{
+							"speaker": "أبو جميل",
+							"ar": "ابن أختي مرق من هناك هلّق. وشفت الإطفائية بحالي.",
+							"en": "My nephew just passed by there. And I saw the fire truck myself.",
+							"audio": "audio/tts/u5/d1-l05.wav"
+						},
+						{
+							"speaker": "أم فادي",
+							"ar": "ومحل أبو العبد؟ الله يستر!",
+							"en": "And Abu al-Abed's shop? God protect us!",
+							"audio": "audio/tts/u5/d1-l06.wav"
+						},
+						{
+							"speaker": "أبو جميل",
+							"ar": "بقولوا المحلات اللي جنب الفرن ولعوا. بس مش أكيد.",
+							"en": "They say the shops next to the bakery caught fire. But it's not confirmed.",
+							"audio": "audio/tts/u5/d1-l07.wav"
+						},
+						{
+							"speaker": "أم فادي",
+							"ar": "في إصابات؟",
+							"en": "Any injuries?",
+							"audio": "audio/tts/u5/d1-l08.wav"
+						},
+						{
+							"speaker": "أبو جميل",
+							"ar": "حسب اللي سمعته، لا. بس الخسائر كبيرة.",
+							"en": "From what I heard, no. But the damage is big.",
+							"audio": "audio/tts/u5/d1-l09.wav"
+						},
+						{
+							"speaker": "أم فادي",
+							"ar": "طيب افتح التلفزيون — أكيد في خبر عاجل.",
+							"en": "OK, turn on the TV — there's bound to be breaking news.",
+							"audio": "audio/tts/u5/d1-l10.wav"
+						}
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "What happened at the market?",
+							"options": [
+								"ولع حريق",
+								"صار إضراب",
+								"في عرس",
+								"سكروا الكهربا"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "Abu Jamil's two sources:",
+							"options": [
+								"ابن أخته، وعينه — شاف الإطفائية بحاله",
+								"التلفزيون والجريدة",
+								"أبو العبد بحاله",
+								"الشرطة"
+							],
+							"answer": 0,
+							"why": "The street's chain of custody: a relative who passed by, plus his own eyes. Note which one he leads with."
+						},
+						{
+							"prompt": "Which shops (allegedly) burned?",
+							"options": [
+								"اللي جنب الفرن",
+								"اللي جنب المحطة",
+								"كل السوق",
+								"ولا محل"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "Injuries?",
+							"options": [
+								"ما في — حسب اللي سمع",
+								"في كتير",
+								"إصابتين",
+								"ما حدا بحكي عن الموضوع"
+							],
+							"answer": 0,
+							"why": "حسب — Unit 1's sourcing word. A careful speaker staples the source to the claim."
+						},
+						{
+							"prompt": "What is still مش أكيد?",
+							"options": [
+								"أي محلات ولعوا",
+								"إنه في حريق أصلاً",
+								"وين السوق",
+								"مين أبو العبد"
+							],
+							"answer": 0,
+							"why": "بقولوا... بس مش أكيد — the rumor stage: parts of the story arrive before the facts do."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "حَريق",
+							"en": "fire (the event)",
+							"audio": "audio/tts/u5/u5-hariq.wav"
+						},
+						{
+							"ar": "نار",
+							"en": "fire, flame",
+							"audio": "audio/tts/u5/u5-nar.wav"
+						},
+						{
+							"ar": "وَلَّع",
+							"en": "caught fire",
+							"audio": "audio/tts/u5/u5-walla3.wav"
+						},
+						{
+							"ar": "مَحَل",
+							"en": "shop, store",
+							"audio": "audio/tts/u5/u5-mahall.wav"
+						},
+						{
+							"ar": "إطْفائِيّة",
+							"en": "fire brigade; fire truck",
+							"audio": "audio/tts/u5/u5-itfa2iyye.wav"
+						},
+						{
+							"ar": "إسْعاف",
+							"en": "ambulance",
+							"audio": "audio/tts/u5/u5-is3af.wav"
+						},
+						{
+							"ar": "خَسائِر",
+							"en": "losses, damage",
+							"audio": "audio/tts/u5/u5-khasayer.wav"
+						},
+						{
+							"ar": "إصابة",
+							"en": "injury, casualty",
+							"audio": "audio/tts/u5/u5-isabe.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "ولع ____ كبير بسوق الخضرة.",
+							"en": "A big fire broke out in the vegetable market.",
+							"options": [
+								"حريق",
+								"خبر",
+								"ميزان"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c1-1.wav"
+						},
+						{
+							"ar": "الخبر ____ بالحارة بسرعة.",
+							"en": "The news spread through the neighborhood fast.",
+							"options": [
+								"انتشر",
+								"ولع",
+								"نزل"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c1-2.wav"
+						},
+						{
+							"ar": "وصلت ال____ بعد ربع ساعة.",
+							"en": "The fire brigade arrived after a quarter hour.",
+							"options": [
+								"إطفائية",
+								"جريدة",
+								"فراطة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c1-3.wav"
+						},
+						{
+							"ar": "الحمد لله، ما في ____.",
+							"en": "Thank God, no injuries.",
+							"options": [
+								"إصابات",
+								"دخان",
+								"محلات"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c1-4.wav"
+						},
+						{
+							"ar": "في خبر ____ عالتلفزيون!",
+							"en": "There's breaking news on TV!",
+							"options": [
+								"عاجل",
+								"طازة",
+								"غالي"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c1-5.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "في حريق — ما في إصابات — صار في",
+							"explanation": "The street reports events with في (there is): في حريق (there's a fire), في إصابات؟ (any injuries?), ما في (there aren't). Push it into the past with كان في (there was) or صار في (there came to be — it broke out). Most breaking news you'll ever hear starts with one of these three, so let your ear lock onto them first.",
+							"examples": [
+								{
+									"ar": "في دخان كتير عند السوق.",
+									"en": "There's a lot of smoke by the market.",
+									"audio": "audio/tts/u5/g1-1-1.wav"
+								},
+								{
+									"ar": "صار في حريق مبارح بالليل.",
+									"en": "A fire broke out last night.",
+									"audio": "audio/tts/u5/g1-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "مين حكالك؟ — بقولوا — سمعت إنه",
+							"explanation": "The street runs its own attribution system: مين حكالك؟ demands the source; بقولوا (they say) is the anonymous source; سمعت إنه (I heard that) files the claim as hearsay. Unit 1 gave you حسب for quoting properly — these are its street cousins, and speakers grade their own certainty with them. Listen for which one a speaker picks: it tells you how much to believe before they finish the sentence.",
+							"examples": [
+								{
+									"ar": "بقولوا المحل ولع كله — الله أعلم.",
+									"en": "They say the shop burned completely — God knows.",
+									"audio": "audio/tts/u5/g1-2-1.wav"
+								},
+								{
+									"ar": "سمعت إنه ما في إصابات.",
+									"en": "I heard there are no injuries.",
+									"audio": "audio/tts/u5/g1-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "نار",
+							"he": "נֵר",
+							"kind": "true",
+							"story": "n-w-r: the fire-and-light root. Arabic نار burns and نور shines; Hebrew's נר candle, נורה bulb, and מנורה lamp are the same glow domesticated. When the منارة calls and the מנורה burns, it's one ancient filament."
+						},
+						{
+							"ar": "خَسائِر",
+							"he": "חָסֵר",
+							"kind": "shifted",
+							"story": "kh-s-r / ḥ-s-r: to lose and to lack. The news tallies خسائر, losses; Hebrew חסר says something is missing. They're the same audit from opposite ends — what you lost is what you now lack. And the street's يا خسارة! is the sound the root makes when it hurts."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 2,
+			"title": "The anchor speaks fusha",
+			"titleAr": "المذيع بحكي فصحى",
+			"canDo": "I can tell the anchor's Arabic from the street's Arabic — and translate between them in my head, live.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Here is the secret nobody tells you until it's too late: Arabic is two languages wearing one alphabet. The نشرة is read in الفصحى — the formal standard nobody's mother speaks — while the street answers in العامية you've been learning for four units. Palestinians switch between them without noticing; you're going to learn to hear the switch. Your teacher tonight is a grandfather who has been translating the eight o'clock news back into human speech for fifty years."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u5-muthi3",
+							"ar": "مُذيع",
+							"arPlain": "مذيع",
+							"en": "(news) anchor, presenter",
+							"he": "קריין, מגיש",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "المذيع قرأ الخبر العاجل مرتين.",
+								"en": "The anchor read the breaking story twice."
+							},
+							"audio": "audio/tts/u5/u5-muthi3.wav",
+							"audioEx": "audio/tts/u5/u5-muthi3-ex.wav",
+							"root": "ذ ي ع",
+							"note": "From ذاع — to spread abroad; the مذيع is the spreader-in-chief. Feminine مذيعة. The register he reads in is this lesson's whole subject."
+						},
+						{
+							"id": "u5-nashra",
+							"ar": "نَشْرة",
+							"arPlain": "نشرة",
+							"en": "news bulletin",
+							"he": "מהדורת חדשות",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "نشرة أخبار الستة أهم نشرة.",
+								"en": "The six o'clock bulletin is the main one."
+							},
+							"audio": "audio/tts/u5/u5-nashra.wav",
+							"audioEx": "audio/tts/u5/u5-nashra-ex.wav",
+							"root": "ن ش ر",
+							"note": "From نشر, to spread — Lesson 1's انتشر is its reflexive sibling. The bulletin is, literally, 'a spreading.'"
+						},
+						{
+							"id": "u5-fusha",
+							"ar": "الفُصْحى",
+							"arPlain": "الفصحى",
+							"en": "Modern Standard Arabic",
+							"he": "ערבית ספרותית",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "المذيع بحكي بالفصحى، مش زي الناس.",
+								"en": "The anchor speaks fusha — not like people do."
+							},
+							"audio": "audio/tts/u5/u5-fusha.wav",
+							"audioEx": "audio/tts/u5/u5-fusha-ex.wav",
+							"root": "ف ص ح",
+							"note": "'The most eloquent' — the Arabic of bulletins, speeches, and print. Nobody's mother tongue; everybody's news language. You need to hear it, not speak it."
+						},
+						{
+							"id": "u5-3ammiyye",
+							"ar": "العامِّيّة",
+							"arPlain": "العامية",
+							"en": "colloquial Arabic, the dialect",
+							"he": "ערבית מדוברת",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "بالبيت منحكي بالعامية طبعاً.",
+								"en": "At home we speak dialect, of course."
+							},
+							"audio": "audio/tts/u5/u5-3ammiyye.wav",
+							"audioEx": "audio/tts/u5/u5-3ammiyye-ex.wav",
+							"root": "ع م م",
+							"note": "From عام — common, general: the people's Arabic. Also called المحكية, 'the spoken.' It's what this whole app is teaching you — the news is the exception, and that's the point."
+						},
+						{
+							"id": "u5-lahje",
+							"ar": "لَهْجة",
+							"arPlain": "لهجة",
+							"en": "dialect; accent",
+							"he": "להג, ניב",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "لهجة أهل الخليل غير عن لهجة نابلس.",
+								"en": "Hebron's dialect is different from Nablus's."
+							},
+							"audio": "audio/tts/u5/u5-lahje.wav",
+							"audioEx": "audio/tts/u5/u5-lahje-ex.wav",
+							"root": "ل ه ج",
+							"cognate": {
+								"kind": "true",
+								"he": "לַהַג",
+								"note": "l-h-j / l-h-g: Kohelet sighs that ולהג הרבה יגיעת בשר — much lahag wearies the flesh. That old word for busy talk is Arabic's لهجة, the way a place speaks. What Ecclesiastes waved off, you're now learning on purpose."
+							}
+						},
+						{
+							"id": "u5-mubashar",
+							"ar": "بَثّ مُباشِر",
+							"arPlain": "بث مباشر",
+							"en": "live broadcast",
+							"he": "שידור חי",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "القناة عاملة بث مباشر من السوق.",
+								"en": "The channel is broadcasting live from the market."
+							},
+							"audio": "audio/tts/u5/u5-mubashar.wav",
+							"audioEx": "audio/tts/u5/u5-mubashar-ex.wav",
+							"note": "بث = transmission, مباشر = direct. The street clips it: عالمباشر — on the live. When you hear it, the story is still moving."
+						},
+						{
+							"id": "u5-mushahed",
+							"ar": "مُشاهِد",
+							"arPlain": "مشاهد",
+							"en": "viewer",
+							"he": "צופה",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "مساء الخير مشاهدينا الكرام.",
+								"en": "Good evening, dear viewers."
+							},
+							"audio": "audio/tts/u5/u5-mushahed.wav",
+							"audioEx": "audio/tts/u5/u5-mushahed-ex.wav",
+							"root": "ش ه د",
+							"note": "The anchor's first word to you, every night: مشاهدينا الكرام. From شاهد, to watch/witness — a root with a long memory; its heaviest words are still ahead of you."
+						},
+						{
+							"id": "u5-taqrir",
+							"ar": "تَقْرير",
+							"arPlain": "تقرير",
+							"en": "(news) report",
+							"he": "כתבה, דו\"ח",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "شفت التقرير عن الحريق؟",
+								"en": "Did you see the report about the fire?"
+							},
+							"audio": "audio/tts/u5/u5-taqrir.wav",
+							"audioEx": "audio/tts/u5/u5-taqrir-ex.wav",
+							"root": "ق ر ر",
+							"note": "What Unit 1's مراسل (correspondent) files. The bulletin's building block: خبر then تقرير then مقابلة."
+						},
+						{
+							"id": "u5-muqabale",
+							"ar": "مُقابَلة",
+							"arPlain": "مقابلة",
+							"en": "interview",
+							"he": "ראיון",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "عملوا مقابلة مع صاحب المحل.",
+								"en": "They interviewed the shop owner."
+							},
+							"audio": "audio/tts/u5/u5-muqabale.wav",
+							"audioEx": "audio/tts/u5/u5-muqabale-ex.wav",
+							"root": "ق ب ل",
+							"cognate": {
+								"kind": "true",
+								"he": "קַבָּלָה",
+								"note": "q-b-l: Arabic قابل is to face — a مقابلة is a face-to-face. Hebrew קיבל is to receive, קבלה the receipt (and the mysticism), מקביל the parallel — what runs face-to-face forever. One root for everything that comes toward you: a guest, a question, a package, the infinite."
+							}
+						},
+						{
+							"id": "u5-ya3ni",
+							"ar": "يَعْني",
+							"arPlain": "يعني",
+							"en": "(it) means; I mean, that is",
+							"he": "זאת אומרת; כאילו",
+							"pos": "particle",
+							"register": "street",
+							"example": {
+								"ar": "اندلع يعني ولّع، فهمت؟",
+								"en": "'Indalaʿa' means 'it caught fire' — got it?"
+							},
+							"audio": "audio/tts/u5/u5-ya3ni.wav",
+							"audioEx": "audio/tts/u5/u5-ya3ni-ex.wav",
+							"root": "ع ن ي",
+							"note": "The hinge of all translation — X يعني Y — and, said alone, the language's #1 filler: يعني... (I mean... well...). You will hear it every eleven seconds for the rest of your life.",
+							"cognate": {
+								"kind": "loan",
+								"he": "יַעְנִי",
+								"note": "Israeli slang borrowed يعني whole — יעני, deployed with the same shrug and the same pause. The little word that translates Arabic to Arabic now moonlights in Hebrew, untranslated."
+							}
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "Grandpa vs. the eight o'clock news",
+					"titleAr": "سيدو والنشرة",
+					"situation": "The bulletin covers yesterday's souq fire. Sido talks back at the television, converting every sentence of فصحى into street Arabic — a free simultaneous-interpretation service he has provided, unrequested, since 1975.",
+					"audio": "audio/tts/u5/d2.wav",
+					"ttsVoices": {
+						"المذيع": {
+							"label": "Muthi3",
+							"voice": "Charon",
+							"news": true
+						},
+						"سيدو": {
+							"label": "Sido",
+							"voice": "Algieba"
+						}
+					},
+					"lines": [
+						{
+							"speaker": "المذيع",
+							"ar": "مساء الخير مشاهدينا الكرام. نبدأ نشرتنا بالحريق الذي اندلع مساء أمس في سوق الخضار.",
+							"en": "Good evening, dear viewers. We begin our bulletin with the fire that broke out yesterday evening in the vegetable market.",
+							"audio": "audio/tts/u5/d2-l01.wav"
+						},
+						{
+							"speaker": "سيدو",
+							"ar": "اندلع! ليش يا زلمة ما بتقول ولّع زي خلق الله؟",
+							"en": "'Indalaʿa'! Why, man, can't you say 'wallaʿ' like God's own people?",
+							"audio": "audio/tts/u5/d2-l02.wav"
+						},
+						{
+							"speaker": "المذيع",
+							"ar": "وقد سيطرت فرق الإطفاء على النيران بعد ساعتين من اندلاعها.",
+							"en": "Fire crews brought the flames under control two hours after they broke out.",
+							"audio": "audio/tts/u5/d2-l03.wav"
+						},
+						{
+							"speaker": "سيدو",
+							"ar": "يعني طفوا النار بعد ساعتين. هيك منقولها إحنا.",
+							"en": "Meaning: they put the fire out after two hours. That's how WE say it.",
+							"audio": "audio/tts/u5/d2-l04.wav"
+						},
+						{
+							"speaker": "المذيع",
+							"ar": "ولم تسجل أي إصابات، فيما تقدر الخسائر بعشرات آلاف الشواقل.",
+							"en": "No injuries were recorded, while losses are estimated at tens of thousands of shekels.",
+							"audio": "audio/tts/u5/d2-l05.wav"
+						},
+						{
+							"speaker": "سيدو",
+							"ar": "الحمد لله ما في إصابات. بس المصاري راحت — يا خسارة يا أبو العبد.",
+							"en": "Thank God no injuries. But the money's gone — what a loss, Abu al-Abed.",
+							"audio": "audio/tts/u5/d2-l06.wav"
+						},
+						{
+							"speaker": "المذيع",
+							"ar": "وقال مصدر في البلدية إن سبب الحريق ما زال مجهولاً حتى الآن.",
+							"en": "A municipality source said the cause of the fire remains unknown.",
+							"audio": "audio/tts/u5/d2-l07.wav"
+						},
+						{
+							"speaker": "سيدو",
+							"ar": "يعني بعرفوش ليش ولع. قول هيك من الأول!",
+							"en": "Meaning: they don't know why it burned. Say so from the start!",
+							"audio": "audio/tts/u5/d2-l08.wav"
+						},
+						{
+							"speaker": "المذيع",
+							"ar": "وفي الختام، تعود الحياة إلى طبيعتها في السوق صباح اليوم.",
+							"en": "In closing: life returns to normal in the market this morning.",
+							"audio": "audio/tts/u5/d2-l09.wav"
+						},
+						{
+							"speaker": "سيدو",
+							"ar": "طبيعتها، الله يعينهم. خلص، خلصت النشرة — طفي التلفزيون يا ستي.",
+							"en": "'Normal' — God give them strength. That's it, bulletin's over — turn off the TV, sweetheart.",
+							"audio": "audio/tts/u5/d2-l10.wav"
+						}
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "The anchor's word for 'caught fire':",
+							"options": [
+								"اندلع",
+								"ولّع",
+								"طفى",
+								"انتشر"
+							],
+							"answer": 0,
+							"why": "الفصحى بتقول اندلع؛ الشارع بقول ولّع. Same fire, two dictionaries — this pair IS the lesson."
+						},
+						{
+							"prompt": "How long until the fire was out?",
+							"options": [
+								"ساعتين",
+								"ربع ساعة",
+								"يومين",
+								"نص ساعة"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "The losses were estimated in…",
+							"options": [
+								"عشرات آلاف الشواقل",
+								"مئات الشواقل",
+								"ملايين الدولارات",
+								"ما حكوا أرقام"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "What does سيدو do with every anchor sentence?",
+							"options": [
+								"بترجمها للعامية",
+								"بصدقها كلها",
+								"بكتبها",
+								"بغير القناة"
+							],
+							"answer": 0,
+							"why": "يعني... — the grandpa decoder service, free with every bulletin. Your job is to internalize him."
+						},
+						{
+							"prompt": "The cause of the fire, per the bulletin:",
+							"options": [
+								"لسا مجهول",
+								"ماس كهربائي",
+								"سيجارة",
+								"الشوب"
+							],
+							"answer": 0,
+							"why": "ما زال مجهولاً — news-speak for 'we don't know yet.' Lesson 4 will get an answer out of them."
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "مُذيع",
+							"en": "(news) anchor, presenter",
+							"audio": "audio/tts/u5/u5-muthi3.wav"
+						},
+						{
+							"ar": "نَشْرة",
+							"en": "news bulletin",
+							"audio": "audio/tts/u5/u5-nashra.wav"
+						},
+						{
+							"ar": "الفُصْحى",
+							"en": "formal Arabic (MSA)",
+							"audio": "audio/tts/u5/u5-fusha.wav"
+						},
+						{
+							"ar": "العامِّيّة",
+							"en": "colloquial Arabic",
+							"audio": "audio/tts/u5/u5-3ammiyye.wav"
+						},
+						{
+							"ar": "لَهْجة",
+							"en": "dialect; accent",
+							"audio": "audio/tts/u5/u5-lahje.wav"
+						},
+						{
+							"ar": "بَثّ مُباشِر",
+							"en": "live broadcast",
+							"audio": "audio/tts/u5/u5-mubashar.wav"
+						},
+						{
+							"ar": "تَقْرير",
+							"en": "(news) report",
+							"audio": "audio/tts/u5/u5-taqrir.wav"
+						},
+						{
+							"ar": "يَعْني",
+							"en": "it means; I mean",
+							"audio": "audio/tts/u5/u5-ya3ni.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "المذيع بقرأ النشرة بال____.",
+							"en": "The anchor reads the bulletin in fusha.",
+							"options": [
+								"فصحى",
+								"عامية",
+								"عبراني"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c2-1.wav"
+						},
+						{
+							"ar": "بالبيت والشارع منحكي بال____.",
+							"en": "At home and on the street we speak dialect.",
+							"options": [
+								"عامية",
+								"فصحى",
+								"إنجليزي"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c2-2.wav"
+						},
+						{
+							"ar": "في ____ مباشر من قدام السوق.",
+							"en": "There's a live broadcast from in front of the market.",
+							"options": [
+								"بث",
+								"تقرير",
+								"خبر"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c2-3.wav"
+						},
+						{
+							"ar": "عملوا ____ مع صاحب المحل اللي ولع.",
+							"en": "They interviewed the owner of the shop that burned.",
+							"options": [
+								"مقابلة",
+								"نشرة",
+								"حساب"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c2-4.wav"
+						},
+						{
+							"ar": "اندلع ____ ولّع — نفس الإشي.",
+							"en": "'Indalaʿa' means 'wallaʿ' — same thing.",
+							"options": [
+								"يعني",
+								"لأنه",
+								"بس"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c2-5.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "اندلع = ولّع · لا يوجد = ما في · سوف = رح",
+							"explanation": "The decoder ring. Anchor and street run parallel systems, and every news sentence has a street twin: ماذا حدث؟ = شو صار؟ · لا توجد إصابات = ما في إصابات · سوف نعود = رح نرجع · هذا = هاد · الذي = اللي. You don't need to speak فصحى — you need to hear it land and instantly know its twin. That crossing, both directions, is Arc 2's core muscle; this unit onward, every bulletin you meet is practice.",
+							"examples": [
+								{
+									"ar": "لا توجد إصابات — يعني: ما في إصابات.",
+									"en": "'There are no injuries' — meaning: ma fii isabat.",
+									"audio": "audio/tts/u5/g2-1-1.wav"
+								},
+								{
+									"ar": "ماذا حدث في السوق؟ — يعني: شو صار بالسوق؟",
+									"en": "'What happened in the market?' — meaning: shu sar bis-suq?",
+									"audio": "audio/tts/u5/g2-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "قال إنّه — حكى إنّه",
+							"explanation": "Reported speech hangs on إنّه (that): المذيع قال إنه..., جارتي حكتلي إنها... . The فصحى version is قال إنَّ; the street says قال إنه or حكى إنه and suffixes it freely (إنها، إنهم، إنكم). Everything after إنه is a claim, not a fact — the fluent listener hears WHO said before believing WHAT was said. This little word is the hinge of the entire news register; Lesson 4 hangs official statements on it.",
+							"examples": [
+								{
+									"ar": "المذيع قال إنه ما في إصابات.",
+									"en": "The anchor said there are no injuries.",
+									"audio": "audio/tts/u5/g2-2-1.wav"
+								},
+								{
+									"ar": "جارتي حكتلي إنه المحل ولع كله.",
+									"en": "My neighbor told me the shop burned completely.",
+									"audio": "audio/tts/u5/g2-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "لَهْجة",
+							"he": "לַהַג",
+							"kind": "true",
+							"story": "l-h-j: the busy-talk root. Ecclesiastes filed להג under 'weariness of the flesh'; Arabic promoted لهجة to mean the speech of a place — the very thing you're training your ear on. Two verdicts on human chatter, one root underneath."
+						},
+						{
+							"ar": "يَعْني",
+							"he": "יַעְנִי",
+							"kind": "loan",
+							"story": "The most useful word in this unit crossed the line intact: Israeli Hebrew says יעני — same sound, same shrug, same job of meaning-roughly. When a word for 'meaning' gets borrowed without translation, the joke writes itself."
+						},
+						{
+							"ar": "مُقابَلة",
+							"he": "קַבָּלָה",
+							"kind": "true",
+							"story": "q-b-l: to face, to receive. An interview is a مقابلة — a facing; a receipt is a קבלה — a receiving; מקביל is parallel — faced forever. From the souq's مقبول (deal accepted) to Friday-night קבלת שבת, one root keeps meeting what arrives."
+						},
+						{
+							"ar": "تَرْجَم (بترجم)",
+							"he": "תִּרְגֵּם",
+							"kind": "loan",
+							"story": "What سيدو does all bulletin long — بترجم, he translates — is the same four-letter word as Hebrew תרגם, and neither language made it: both inherited Aramaic targum, itself from Akkadian targumannu, the professional interpreter. The Targum translated scripture into Aramaic; the dragoman translated empires to each other; سيدو translates the news to his living room. Oldest job in the region, still hiring."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 3,
+			"title": "Eyewitness",
+			"titleAr": "شاهد عيان",
+			"canDo": "I can follow an eyewitness telling what happened — in order, in the was-doing tense — and retell the skeleton of it.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "The bulletin tells you what happened; the eyewitness tells you what it was LIKE — and does it in a different tense. Where news Arabic stacks masdars, the street narrates: كنت قاعد، سمعت صوت، فجأة... This lesson is the grammar and vocabulary of I-was-there, delivered by the falafel man whose fryer sits twenty meters from where the fire started."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u5-shahed",
+							"ar": "شاهِد عِيان",
+							"arPlain": "شاهد عيان",
+							"en": "eyewitness",
+							"he": "עֵד רְאִיָּה",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "حكوا مع شاهد عيان من السوق.",
+								"en": "They talked to an eyewitness from the market."
+							},
+							"audio": "audio/tts/u5/u5-shahed.wav",
+							"audioEx": "audio/tts/u5/u5-shahed-ex.wav",
+							"root": "ش ه د",
+							"note": "Lesson 2's مشاهد watches from the couch; the شاهد عيان watched it happen. Same root, very different evening."
+						},
+						{
+							"id": "u5-3en",
+							"ar": "عين",
+							"arPlain": "عين",
+							"en": "eye; (water) spring",
+							"he": "עַיִן",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "شفت الدخان بعيني.",
+								"en": "I saw the smoke with my own eyes."
+							},
+							"audio": "audio/tts/u5/u5-3en.wav",
+							"audioEx": "audio/tts/u5/u5-3en-ex.wav",
+							"cognate": {
+								"kind": "true",
+								"he": "עַיִן",
+								"note": "ʕayn: eye AND spring, the same two meanings on both sides — عين الماء and עין גדי, يا عيني and עין הרע. A root so old it predates the difference between watching and welling up. Every عين on the map is a spring; every one in a sentence is somebody's eye."
+							}
+						},
+						{
+							"id": "u5-lahza",
+							"ar": "لَحْظة",
+							"arPlain": "لحظة",
+							"en": "moment, instant",
+							"he": "רֶגַע",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "بلحظة صار كل إشي دخان.",
+								"en": "In an instant everything was smoke."
+							},
+							"audio": "audio/tts/u5/u5-lahza.wav",
+							"audioEx": "audio/tts/u5/u5-lahza-ex.wav",
+							"root": "ل ح ظ",
+							"note": "From لحظ, to glance — a moment is exactly one glance long. Shouted alone — لحظة! — it means hold on!"
+						},
+						{
+							"id": "u5-faj2a",
+							"ar": "فَجْأة",
+							"arPlain": "فجأة",
+							"en": "suddenly",
+							"he": "פִּתְאוֹם",
+							"pos": "adv",
+							"register": "street",
+							"example": {
+								"ar": "فجأة سمعنا صوت عالي.",
+								"en": "Suddenly we heard a loud sound."
+							},
+							"audio": "audio/tts/u5/u5-faj2a.wav",
+							"audioEx": "audio/tts/u5/u5-faj2a-ex.wav",
+							"root": "ف ج أ",
+							"note": "The eyewitness's favorite adverb — it marks the exact seam where the ordinary day tore."
+						},
+						{
+							"id": "u5-sot",
+							"ar": "صوت",
+							"arPlain": "صوت",
+							"en": "sound; voice",
+							"he": "קוֹל",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "صوت الإطفائية وصل قبلها.",
+								"en": "The sound of the fire truck arrived before it did."
+							},
+							"audio": "audio/tts/u5/u5-sot.wav",
+							"audioEx": "audio/tts/u5/u5-sot-ex.wav",
+							"root": "ص و ت",
+							"note": "Sound, voice — and, come Arc 4, the vote: بعطي صوتي، I give my voice. Politics is people sounding off, officially."
+						},
+						{
+							"id": "u5-sarakh",
+							"ar": "صَرَخ",
+							"arPlain": "صرخ",
+							"en": "screamed, shouted",
+							"he": "צָרַח",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "وحدة صرخت: حريق! حريق!",
+								"en": "A woman screamed: fire! fire!"
+							},
+							"audio": "audio/tts/u5/u5-sarakh.wav",
+							"audioEx": "audio/tts/u5/u5-sarakh-ex.wav",
+							"root": "ص ر خ",
+							"cognate": {
+								"kind": "true",
+								"he": "צָרַח",
+								"note": "ṣ-r-kh: the scream never needed translating — صرخ and צרח, same root, same pitch, same reason to use it. Some words the two languages never bothered to differentiate; panic is one."
+							}
+						},
+						{
+							"id": "u5-rakad",
+							"ar": "رَكَض",
+							"arPlain": "ركض",
+							"en": "ran",
+							"he": "רץ",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "الكل ركض عالسوق.",
+								"en": "Everyone ran toward the market."
+							},
+							"audio": "audio/tts/u5/u5-rakad.wav",
+							"audioEx": "audio/tts/u5/u5-rakad-ex.wav",
+							"root": "ر ك ض",
+							"note": "Note the direction: toward. Where people run when something burns tells you what a حارة is."
+						},
+						{
+							"id": "u5-faza3",
+							"ar": "فَزَع",
+							"arPlain": "فزع",
+							"en": "rushed to help; panicked",
+							"he": "נחלץ לעזרה; נבהל",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "فزعت الحارة كلها عالحريق.",
+								"en": "The whole neighborhood scrambled to the fire."
+							},
+							"audio": "audio/tts/u5/u5-faza3.wav",
+							"audioEx": "audio/tts/u5/u5-faza3-ex.wav",
+							"root": "ف ز ع",
+							"note": "A beautiful double: فزع is to panic — and to answer the panic. الفزعة is the neighborhood scramble-to-help, an institution with no one-word English translation. You're about to hear one in action."
+						},
+						{
+							"id": "u5-taffa",
+							"ar": "طَفّى",
+							"arPlain": "طفى",
+							"en": "put out (fire); turned off",
+							"he": "כִּיבָּה",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "طفوا النار قبل ما توصل الإطفائية.",
+								"en": "They put the fire out before the brigade arrived."
+							},
+							"audio": "audio/tts/u5/u5-taffa.wav",
+							"audioEx": "audio/tts/u5/u5-taffa-ex.wav",
+							"root": "ط ف ي",
+							"note": "Lesson 1's إطفائية finally conjugated. Also the TV and the light: طفي الضو. With ولّع you now own both switches — הדליק/כיבה."
+						},
+						{
+							"id": "u5-lissa",
+							"ar": "لِسّا",
+							"arPlain": "لسا",
+							"en": "still; (not) yet; only just",
+							"he": "עֲדַיִן",
+							"pos": "particle",
+							"register": "street",
+							"example": {
+								"ar": "الدخان لسا طالع من المحل.",
+								"en": "Smoke is still rising from the shop."
+							},
+							"audio": "audio/tts/u5/u5-lissa.wav",
+							"audioEx": "audio/tts/u5/u5-lissa-ex.wav",
+							"note": "The timestamp particle: لسا بشتغل (still working), لسا ما إجا (hasn't come yet), لسا واصل (only just arrived). Grandmother-in-law-certified since Unit 4: لسا ما أكلت إشي!"
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "I was there",
+					"titleAr": "كنت هناك",
+					"brief": "Abu Samir has fried falafel beside the vegetable market for ten years and has never had a story like this one. Every sentence runs on the was-doing tense — كنت عم، كانوا عم — with فجأة marking the tear. Listen once for the plot, once for the tenses, once for the فزعة.",
+					"preQuestions": [
+						"What was he doing when it started?",
+						"Who screamed — and what did the neighborhood do next?",
+						"What had already happened by the time the fire brigade arrived?"
+					],
+					"transcript": [
+						{
+							"speaker": "أبو سمير",
+							"ar": "أنا محلي جنب سوق الخضرة من عشر سنين.",
+							"en": "My shop's been next to the vegetable market for ten years."
+						},
+						{
+							"speaker": "أبو سمير",
+							"ar": "مبارح العصر كنت واقف عم بقلي فلافل زي كل يوم.",
+							"en": "Yesterday afternoon I was standing frying falafel like every day."
+						},
+						{
+							"speaker": "أبو سمير",
+							"ar": "فجأة سمعت وحدة عم بتصرخ: حريق! حريق!",
+							"en": "Suddenly I heard a woman screaming: fire! fire!"
+						},
+						{
+							"speaker": "أبو سمير",
+							"ar": "طلعت بركض — شفت الدخان طالع من محل البهارات.",
+							"en": "I ran out — I saw smoke rising from the spice shop."
+						},
+						{
+							"speaker": "أبو سمير",
+							"ar": "الناس كانت عم بتركض من كل صوب، واحد جايب طفاية وواحد جايب مي.",
+							"en": "People were running from every direction — one bringing an extinguisher, one bringing water."
+						},
+						{
+							"speaker": "أبو سمير",
+							"ar": "الشباب فزعوا وطفوا نص النار قبل ما توصل الإطفائية.",
+							"en": "The guys scrambled and had half the fire out before the brigade arrived."
+						},
+						{
+							"speaker": "أبو سمير",
+							"ar": "لما وصلت الإطفائية، كانت النار لسا بمحلين بس.",
+							"en": "By the time the fire truck arrived, the fire was down to just two shops."
+						},
+						{
+							"speaker": "أبو سمير",
+							"ar": "الحمد لله — خسائر بالمصاري، بس ولا إصابة. والفزعة سبقت الدولة، زي دايماً.",
+							"en": "Thank God — money was lost, but not one injury. And the neighborhood scramble beat the state, as always."
+						}
+					],
+					"questions": [
+						{
+							"prompt": "What was Abu Samir doing when it started?",
+							"options": [
+								"كان عم بقلي فلافل",
+								"كان نايم",
+								"كان عم بشرب قهوة",
+								"كان بالسوق"
+							],
+							"answer": 0,
+							"why": "كنت عم بقلي — the was-doing tense. Hear كان عم and you're inside a flashback."
+						},
+						{
+							"prompt": "How did he learn there was a fire?",
+							"options": [
+								"سمع وحدة عم بتصرخ",
+								"شم الدخان",
+								"شافه بالتلفزيون",
+								"حكوله بالتلفون"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "Where was the smoke coming from?",
+							"options": [
+								"محل البهارات",
+								"محل الفلافل",
+								"الفرن",
+								"محل أبو العبد"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "Who put out half the fire?",
+							"options": [
+								"الشباب اللي فزعوا",
+								"الإطفائية",
+								"الشرطة",
+								"المطر"
+							],
+							"answer": 0,
+							"why": "الفزعة — the neighborhood's mutual-aid scramble. No dictionary translates it in one word; now you don't need one."
+						},
+						{
+							"prompt": "When the brigade arrived, the fire was…",
+							"options": [
+								"لسا بمحلين بس",
+								"بكل السوق",
+								"مطفية خالص",
+								"بالفرن"
+							],
+							"answer": 0,
+							"why": "لسا — still/only-just: the little particle that timestamps every scene."
+						}
+					],
+					"audio": "audio/tts/u5/listen3.wav",
+					"ttsVoice": "Iapetus"
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "شاهِد عِيان",
+							"en": "eyewitness",
+							"audio": "audio/tts/u5/u5-shahed.wav"
+						},
+						{
+							"ar": "عين",
+							"en": "eye; (water) spring",
+							"audio": "audio/tts/u5/u5-3en.wav"
+						},
+						{
+							"ar": "لَحْظة",
+							"en": "moment, instant",
+							"audio": "audio/tts/u5/u5-lahza.wav"
+						},
+						{
+							"ar": "فَجْأة",
+							"en": "suddenly",
+							"audio": "audio/tts/u5/u5-faj2a.wav"
+						},
+						{
+							"ar": "صوت",
+							"en": "sound; voice",
+							"audio": "audio/tts/u5/u5-sot.wav"
+						},
+						{
+							"ar": "صَرَخ",
+							"en": "screamed, shouted",
+							"audio": "audio/tts/u5/u5-sarakh.wav"
+						},
+						{
+							"ar": "فَزَع",
+							"en": "rushed to help",
+							"audio": "audio/tts/u5/u5-faza3.wav"
+						},
+						{
+							"ar": "لِسّا",
+							"en": "still; (not) yet; only just",
+							"audio": "audio/tts/u5/u5-lissa.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "____ سمعنا صوت عالي.",
+							"en": "Suddenly we heard a loud noise.",
+							"options": [
+								"فجأة",
+								"لسا",
+								"يعني"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c3-1.wav"
+						},
+						{
+							"ar": "شفت الدخان ب____ي.",
+							"en": "I saw the smoke with my own eyes.",
+							"options": [
+								"عين",
+								"صوت",
+								"لحظة"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c3-2.wav"
+						},
+						{
+							"ar": "وحدة ____ت: حريق!",
+							"en": "A woman screamed: fire!",
+							"options": [
+								"صرخ",
+								"ركض",
+								"طفى"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c3-3.wav"
+						},
+						{
+							"ar": "الحارة كلها ____ت عالحريق.",
+							"en": "The whole neighborhood scrambled to the fire.",
+							"options": [
+								"فزع",
+								"نام",
+								"حكى"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c3-4.wav"
+						},
+						{
+							"ar": "____وا النار قبل الإطفائية.",
+							"en": "They put the fire out before the brigade.",
+							"options": [
+								"طف",
+								"ولع",
+								"صرخ"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c3-5.wav"
+						},
+						{
+							"ar": "الدخان ____ طالع من المحل.",
+							"en": "The smoke is still rising from the shop.",
+							"options": [
+								"لسا",
+								"هلق",
+								"بكير"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c3-6.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "كان عم بِـ... — the was-doing tense",
+							"explanation": "كان + عم + b-verb = was doing: كنت عم بقلي (I was frying), كانوا عم بركضوا (they were running), كانت عم بتصرخ (she was screaming). Arc 1 gave you عم for right-now; add كان and the scene rewinds. This is the tense every testimony, every eyewitness, every 'so there I was' runs on — from here to Arc 3 it will carry the heaviest stories you hear, so let this cheerful fire be your training wheels.",
+							"examples": [
+								{
+									"ar": "كنت عم بشرب شاي لما سمعت الصوت.",
+									"en": "I was drinking tea when I heard the sound.",
+									"audio": "audio/tts/u5/g3-1-1.wav"
+								},
+								{
+									"ar": "الناس كانت عم بتركض من كل صوب.",
+									"en": "People were running from every direction.",
+									"audio": "audio/tts/u5/g3-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "لَمّا... بَعْدين... قَبِل ما...",
+							"explanation": "The storyteller's glue: لما opens the scene (when...), بعدين chains events (then...), قبل ما + verb means before-doing (قبل ما توصل — before it arrived; note: a verb follows, never a noun). Get these three and any narrative snaps into order even when you miss half the words in between — sequence survives vocabulary.",
+							"examples": [
+								{
+									"ar": "لما شفت الدخان، سكرت المحل بلحظة.",
+									"en": "When I saw the smoke, I shut the shop in a second.",
+									"audio": "audio/tts/u5/g3-2-1.wav"
+								},
+								{
+									"ar": "طفوا النار قبل ما توصل الإطفائية.",
+									"en": "They put out the fire before the brigade arrived.",
+									"audio": "audio/tts/u5/g3-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "عين",
+							"he": "עַיִן",
+							"kind": "true",
+							"story": "ʕayn: the eye and the spring — both meanings, both languages, unchanged for four thousand years. עין גדי is a spring; عين كارم is a spring; يا عيني and שים עין are eyes. When a root does double duty identically on both sides of the line, you're looking at the family silver."
+						},
+						{
+							"ar": "صَرَخ",
+							"he": "צָרַח",
+							"kind": "true",
+							"story": "ṣ-r-kh: scream. Identical root, identical meaning, identical decibels. The proto-Semites clearly needed this word often enough to hand it down intact to everybody."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 4,
+			"title": "Confirmed or denied?",
+			"titleAr": "أكّد ولّا نفى؟",
+			"canDo": "I can hear an official statement for what it says — and for what it very carefully does not: who confirmed, who denied, according to whom.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Day two: officialdom arrives. News is a chain of custody — مصدر to وكالة to مذيع to you — and every link is held together by two verbs: أكّد (confirmed) and نفى (denied). Today you learn the links, the verbs, and the professional art of saying neither. The spokesman is on the line; count how little he commits to."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u5-akkad",
+							"ar": "أكَّد",
+							"arPlain": "أكد",
+							"en": "confirmed; stressed",
+							"he": "אִישֵּׁר; הִדְגִּישׁ",
+							"pos": "verb",
+							"register": "news",
+							"example": {
+								"ar": "البلدية أكدت إنه ما في إصابات.",
+								"en": "The municipality confirmed there are no injuries."
+							},
+							"audio": "audio/tts/u5/u5-akkad.wav",
+							"audioEx": "audio/tts/u5/u5-akkad-ex.wav",
+							"root": "أ ك د",
+							"note": "Unit 1's أكيد (for sure), promoted to a verb: to make-sure, out loud, on the record."
+						},
+						{
+							"id": "u5-nafa",
+							"ar": "نَفى",
+							"arPlain": "نفى",
+							"en": "denied",
+							"he": "הִכְחִישׁ",
+							"pos": "verb",
+							"register": "news",
+							"example": {
+								"ar": "الناطق نفى خبر الإصابات.",
+								"en": "The spokesman denied the report of injuries."
+							},
+							"audio": "audio/tts/u5/u5-nafa.wav",
+							"audioEx": "audio/tts/u5/u5-nafa-ex.wav",
+							"root": "ن ف ي",
+							"note": "أكّد's twin — the pair carries half of all news. The same verb also means to exile: pushing away a claim, pushing away a person. Both senses will recur."
+						},
+						{
+							"id": "u5-bayan",
+							"ar": "بَيان",
+							"arPlain": "بيان",
+							"en": "(official) statement",
+							"he": "הוֹדָעָה רִשְׁמִית",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "البلدية طلعت بيان الصبح.",
+								"en": "The municipality put out a statement this morning."
+							},
+							"audio": "audio/tts/u5/u5-bayan.wav",
+							"audioEx": "audio/tts/u5/u5-bayan-ex.wav",
+							"root": "ب ي ن",
+							"note": "From بان — to become clear. A بيان is officialdom's promise of clarity; grade the promise yourself.",
+							"cognate": {
+								"kind": "shifted",
+								"he": "בִּינָה",
+								"note": "b-y-n: بين is between; a بيان makes things clear — tells them apart. Hebrew בינה is understanding, and הבין is to understand: to tell-between. In both languages, clarity is knowing what stands between what."
+							}
+						},
+						{
+							"id": "u5-natiq",
+							"ar": "ناطِق",
+							"arPlain": "ناطق",
+							"en": "spokesman",
+							"he": "דּוֹבֵר",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "الناطق باسم البلدية حكى للإذاعة.",
+								"en": "The municipality's spokesman talked to the radio."
+							},
+							"audio": "audio/tts/u5/u5-natiq.wav",
+							"audioEx": "audio/tts/u5/u5-natiq-ex.wav",
+							"root": "ن ط ق",
+							"note": "From نطق, to utter — but the full title is the point: الناطق باسم, the one who speaks IN THE NAME OF. Institutions talk through a person; the person is not the source, the باسم is."
+						},
+						{
+							"id": "u5-rasmi",
+							"ar": "رَسْمي",
+							"arPlain": "رسمي",
+							"en": "official (adj)",
+							"he": "רִשְׁמִי",
+							"pos": "adj",
+							"register": "shared",
+							"example": {
+								"ar": "الخبر صار رسمي — طلع بيان.",
+								"en": "The story is now official — a statement is out."
+							},
+							"audio": "audio/tts/u5/u5-rasmi.wav",
+							"audioEx": "audio/tts/u5/u5-rasmi-ex.wav",
+							"root": "ر س م",
+							"note": "From رسم, to draw/inscribe: official means written-down. مش رسمي — unofficial — is where most actual information lives.",
+							"cognate": {
+								"kind": "true",
+								"he": "רִשְׁמִי",
+								"note": "r-s-m / r-š-m: Arabic رسم inscribes; Hebrew רשם writes down (רשימה is a list, נרשם is registered). Both languages then agreed: רשמי/رسمي, the official, is whatever got itself written. Bureaucracy's oldest shared axiom."
+							}
+						},
+						{
+							"id": "u5-wakale",
+							"ar": "وَكالة",
+							"arPlain": "وكالة",
+							"en": "(news) agency",
+							"he": "סוֹכְנוּת",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "وكالة وفا نقلت الخبر أول وحدة.",
+								"en": "The Wafa agency carried the story first."
+							},
+							"audio": "audio/tts/u5/u5-wakale.wav",
+							"audioEx": "audio/tts/u5/u5-wakale-ex.wav",
+							"root": "و ك ل",
+							"note": "From وكيل, the deputy/agent — an agency acts in your name (there's باسم again). One more life: in refugee-camp speech, الوكالة with no adjective means UNRWA. Context decides."
+						},
+						{
+							"id": "u5-mas2ul",
+							"ar": "مَسْؤول",
+							"arPlain": "مسؤول",
+							"en": "official (person); responsible",
+							"he": "בַּעַל תַּפְקִיד; אַחְרַאי",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "مسؤول كبير حكى إنه التحقيق مستمر.",
+								"en": "A senior official said the investigation continues."
+							},
+							"audio": "audio/tts/u5/u5-mas2ul.wav",
+							"audioEx": "audio/tts/u5/u5-mas2ul-ex.wav",
+							"root": "س أ ل",
+							"note": "From سأل, to ask: the مسؤول is the askable one — whoever must answer. Which makes مين المسؤول؟ (who's responsible?) the region's most-asked and least-answered question."
+						},
+						{
+							"id": "u5-tahqiq",
+							"ar": "تَحْقيق",
+							"arPlain": "تحقيق",
+							"en": "investigation",
+							"he": "חֲקִירָה",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "فتحوا تحقيق بسبب الحريق.",
+								"en": "They opened an investigation into the fire's cause."
+							},
+							"audio": "audio/tts/u5/u5-tahqiq.wav",
+							"audioEx": "audio/tts/u5/u5-tahqiq-ex.wav",
+							"root": "ح ق ق",
+							"note": "Unit 4 taught you حق — truth, right, price. A تحقيق is truth-work: making-true. And التحقيق مستمر (the investigation continues) is the news' politest way of saying 'stop asking.'"
+						},
+						{
+							"id": "u5-sabab",
+							"ar": "سَبَب",
+							"arPlain": "سبب",
+							"en": "cause, reason",
+							"he": "סִיבָּה",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "شو سبب الحريق؟ لسا مش معروف.",
+								"en": "What caused the fire? Still unknown."
+							},
+							"audio": "audio/tts/u5/u5-sabab.wav",
+							"audioEx": "audio/tts/u5/u5-sabab-ex.wav",
+							"root": "س ب ب",
+							"note": "Every تحقيق hunts a سبب. Plural أسباب — as in لأسباب أمنية, 'for security reasons,' a phrase Unit 6 will teach you to hear a lot.",
+							"cognate": {
+								"kind": "shifted",
+								"he": "סִיבָּה",
+								"note": "When medieval Jewish translators — the Ibn Tibbons, rendering Arabic philosophy into Hebrew — needed 'cause' (Arabic سبب), they pressed the root of סבב, to turn, into service: סיבה. The meaning is an Arabic transplant that took so completely nobody feels the seam. Every Israeli סיבה still turns on it."
+							}
+						},
+						{
+							"id": "u5-kahraba",
+							"ar": "كَهْرَبا",
+							"arPlain": "كهربا",
+							"en": "electricity",
+							"he": "חשמל",
+							"pos": "noun",
+							"register": "street",
+							"example": {
+								"ar": "راحت الكهربا نص ساعة مبارح.",
+								"en": "The power went out for half an hour yesterday."
+							},
+							"audio": "audio/tts/u5/u5-kahraba.wav",
+							"audioEx": "audio/tts/u5/u5-kahraba-ex.wav",
+							"note": "الكهربا comes and goes — راحت وإجت — often enough to be a household member. The suspect in our fire: ماس كهربائي, a short circuit. And Unit 4's كهربجي, the electrician, finally has his subject."
+						}
+					]
+				},
+				{
+					"type": "dialogue",
+					"title": "The spokesman commits to nothing",
+					"titleAr": "الناطق عالخط",
+					"situation": "Morning radio, day two of the fire. The presenter wants answers; the municipality's spokesman has brought a full briefcase of ways not to give any. A masterclass in official Arabic — learn to hear what ISN'T said.",
+					"audio": "audio/tts/u5/d4.wav",
+					"ttsVoices": {
+						"المذيعة": {
+							"label": "Muthi3a",
+							"voice": "Sulafat",
+							"news": true
+						},
+						"الناطق": {
+							"label": "Natiq",
+							"voice": "Iapetus",
+							"news": true
+						}
+					},
+					"lines": [
+						{
+							"speaker": "المذيعة",
+							"ar": "معنا على الهاتف الناطق الرسمي باسم البلدية. صباح الخير.",
+							"en": "With us on the line: the official spokesman for the municipality. Good morning.",
+							"audio": "audio/tts/u5/d4-l01.wav"
+						},
+						{
+							"speaker": "الناطق",
+							"ar": "صباح النور، أهلاً فيكي وبالمستمعين الكرام.",
+							"en": "Good morning — greetings to you and to our dear listeners.",
+							"audio": "audio/tts/u5/d4-l02.wav"
+						},
+						{
+							"speaker": "المذيعة",
+							"ar": "نبدأ بالأهم: هل من إصابات؟",
+							"en": "Let's start with what matters most: are there injuries?",
+							"audio": "audio/tts/u5/d4-l03.wav"
+						},
+						{
+							"speaker": "الناطق",
+							"ar": "أؤكد لك وللجميع: لا إصابات إطلاقاً، والحمد لله.",
+							"en": "I confirm to you and to everyone: no injuries whatsoever, thank God.",
+							"audio": "audio/tts/u5/d4-l04.wav"
+						},
+						{
+							"speaker": "المذيعة",
+							"ar": "هناك من يتحدث عن ماس كهربائي. ما تعليقكم؟",
+							"en": "Some are talking about a short circuit. Your comment?",
+							"audio": "audio/tts/u5/d4-l05.wav"
+						},
+						{
+							"speaker": "الناطق",
+							"ar": "التحقيق ما زال مفتوحاً. عند اكتماله، سنصدر بياناً رسمياً.",
+							"en": "The investigation is still open. Upon its completion, we will issue an official statement.",
+							"audio": "audio/tts/u5/d4-l06.wav"
+						},
+						{
+							"speaker": "المذيعة",
+							"ar": "يعني لا تؤكدون ولا تنفون؟",
+							"en": "So you neither confirm nor deny?",
+							"audio": "audio/tts/u5/d4-l07.wav"
+						},
+						{
+							"speaker": "الناطق",
+							"ar": "أقول إن كل الاحتمالات مفتوحة، والكهرباء واحدة منها.",
+							"en": "I say that all possibilities are open — and electricity is one of them.",
+							"audio": "audio/tts/u5/d4-l08.wav"
+						},
+						{
+							"speaker": "المذيعة",
+							"ar": "وأصحاب المحلات؟ الخسائر كبيرة.",
+							"en": "And the shop owners? The losses are heavy.",
+							"audio": "audio/tts/u5/d4-l09.wav"
+						},
+						{
+							"speaker": "الناطق",
+							"ar": "البلدية ستقف مع كل من خسر. وهذا وعد — مش حكي جرايد.",
+							"en": "The municipality will stand with everyone who lost. And that's a promise — not newspaper talk.",
+							"audio": "audio/tts/u5/d4-l10.wav"
+						}
+					]
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "The one thing the spokesman DOES confirm:",
+							"options": [
+								"ما في إصابات",
+								"سبب الحريق",
+								"إنه ماس كهربائي",
+								"إنه ما رح يساعدوا حدا"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "On the short-circuit theory, he says:",
+							"options": [
+								"كل الاحتمالات مفتوحة",
+								"أكيد ماس",
+								"مستحيل",
+								"مش شغلة البلدية"
+							],
+							"answer": 0,
+							"why": "The professional non-answer: neither أكّد nor نفى. You will hear this exact dodge for the rest of your listening life."
+						},
+						{
+							"prompt": "When will there be a بيان رسمي?",
+							"options": [
+								"لما يخلص التحقيق",
+								"بكرا الصبح",
+								"ما في بيان",
+								"بعد النشرة"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "حكي جرايد means:",
+							"options": [
+								"empty talk",
+								"newspaper delivery",
+								"good news",
+								"a written statement"
+							],
+							"answer": 0,
+							"why": "'Newspaper talk' — words with no weight behind them. The street grading the press, in two words."
+						},
+						{
+							"prompt": "Play the word. Who is this?",
+							"options": [
+								"spokesman",
+								"viewer",
+								"neighbor",
+								"fireman"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-natiq.wav"
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "أكَّد",
+							"en": "confirmed",
+							"audio": "audio/tts/u5/u5-akkad.wav"
+						},
+						{
+							"ar": "نَفى",
+							"en": "denied",
+							"audio": "audio/tts/u5/u5-nafa.wav"
+						},
+						{
+							"ar": "بَيان",
+							"en": "official statement",
+							"audio": "audio/tts/u5/u5-bayan.wav"
+						},
+						{
+							"ar": "ناطِق",
+							"en": "spokesman",
+							"audio": "audio/tts/u5/u5-natiq.wav"
+						},
+						{
+							"ar": "رَسْمي",
+							"en": "official (adj)",
+							"audio": "audio/tts/u5/u5-rasmi.wav"
+						},
+						{
+							"ar": "وَكالة",
+							"en": "(news) agency",
+							"audio": "audio/tts/u5/u5-wakale.wav"
+						},
+						{
+							"ar": "مَسْؤول",
+							"en": "official (person)",
+							"audio": "audio/tts/u5/u5-mas2ul.wav"
+						},
+						{
+							"ar": "تَحْقيق",
+							"en": "investigation",
+							"audio": "audio/tts/u5/u5-tahqiq.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "البلدية ____ت إنه ما في إصابات.",
+							"en": "The municipality confirmed there are no injuries.",
+							"options": [
+								"أكد",
+								"نف",
+								"سأل"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c4-1.wav"
+						},
+						{
+							"ar": "المسؤول ____ الخبر تماماً.",
+							"en": "The official denied the report completely.",
+							"options": [
+								"نفى",
+								"طفى",
+								"ولع"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c4-2.wav"
+						},
+						{
+							"ar": "طلع ____ رسمي من البلدية.",
+							"en": "An official statement came out from the municipality.",
+							"options": [
+								"بيان",
+								"تحقيق",
+								"صوت"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c4-3.wav"
+						},
+						{
+							"ar": "مين ال____ عن هالإشي كله؟",
+							"en": "Who is responsible for all of this?",
+							"options": [
+								"مسؤول",
+								"ناطق",
+								"مذيع"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c4-4.wav"
+						},
+						{
+							"ar": "لسا ما عرفوا ____ الحريق.",
+							"en": "They still don't know the fire's cause.",
+							"options": [
+								"سبب",
+								"خبر",
+								"طعم"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c4-5.wav"
+						},
+						{
+							"ar": "راحت ال____ ساعتين اليوم.",
+							"en": "The power was out two hours today.",
+							"options": [
+								"كهربا",
+								"نار",
+								"مي"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c4-6.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "أكّد إنّه — نفى إنّه — لا أكّد ولا نفى",
+							"explanation": "The verdict verbs take Lesson 2's إنه-clause: أكدت البلدية إنه..., نفى الناطق إنه... . Between them lives the official dodge — لا أكد ولا نفى, neither confirmed nor denied — and its cousin كل الاحتمالات مفتوحة. Score every statement you hear against these three boxes: confirmed, denied, dodged. Most land in the third.",
+							"examples": [
+								{
+									"ar": "البلدية أكدت إنه التحقيق خلص.",
+									"en": "The municipality confirmed the investigation is done.",
+									"audio": "audio/tts/u5/g4-1-1.wav"
+								},
+								{
+									"ar": "المسؤول لا أكد ولا نفى — متل العادة.",
+									"en": "The official neither confirmed nor denied — as usual.",
+									"audio": "audio/tts/u5/g4-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "الخبر إللي طلع — المحل إللي ولّع",
+							"explanation": "إللي is the street's only relative pronoun — who, which, that, all of it: المحل إللي ولع (the shop that burned), الخبر إللي سمعته (the news I heard), الناس إللي فزعوا (the people who scrambled). The فصحى splits it into الذي/التي/الذين — you heard the anchor do it — but the street runs everything through إللي. It glues descriptions to things; from now on it's in every third sentence.",
+							"examples": [
+								{
+									"ar": "المحل إللي ولع رجع فتح اليوم.",
+									"en": "The shop that burned reopened today.",
+									"audio": "audio/tts/u5/g4-2-1.wav"
+								},
+								{
+									"ar": "الخبر إللي سمعته مبارح طلع صحيح.",
+									"en": "The news I heard yesterday turned out true.",
+									"audio": "audio/tts/u5/g4-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "رَسْمي",
+							"he": "רִשְׁמִי",
+							"kind": "true",
+							"story": "r-s-m: to inscribe. Arabic رسم draws and prescribes; Hebrew רשם lists and registers. Then both derived the same adjective the same way — رسمي/רשמי, 'written-down' = official. Two bureaucracies, one etymological rubber stamp."
+						},
+						{
+							"ar": "سَبَب",
+							"he": "סִיבָּה",
+							"kind": "shifted",
+							"story": "The cause célèbre of borrowed meanings: medieval Hebrew needed Arabic's سبب (cause) to translate Arabic philosophy, so the Tibbonid translators bent סבב — to turn — into סיבה. It took so well that a thousand years later every Israeli 'because' still pivots on an Arabic idea."
+						},
+						{
+							"ar": "بَيان",
+							"he": "בִּינָה",
+							"kind": "shifted",
+							"story": "b-y-n: from بين, between. Arabic's بيان is a clarification — officially, at least; Hebrew's בינה is understanding itself, and הבין is to tell things apart. Wisdom, both languages agree, is a matter of seeing what stands between."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 5,
+			"title": "Headline vs. details",
+			"titleAr": "من العنوان للتفاصيل",
+			"canDo": "I can take a headline apart, find the actual story in the details — and catch the quiet correction when yesterday's version falls apart.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "Day three. The fire is out; the coverage is not. Today: the anatomy of a news story — the عنوان that shouts, the تفاصيل that whisper, the تصحيح that mumbles — and the street verb that referees them all: طلع, 'turned out.' Your guide is a young man at the café doing what his generation does to the news: reading it out loud, register by register, and talking back."
+				},
+				{
+					"type": "vocab",
+					"title": "New words",
+					"items": [
+						{
+							"id": "u5-3unwan",
+							"ar": "عُنْوان",
+							"arPlain": "عنوان",
+							"en": "headline; address",
+							"he": "כּוֹתֶרֶת; כְּתוֹבֶת",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "العنوان أكبر من الخبر، زي دايماً.",
+								"en": "The headline is bigger than the story, as always."
+							},
+							"audio": "audio/tts/u5/u5-3unwan.wav",
+							"audioEx": "audio/tts/u5/u5-3unwan-ex.wav",
+							"root": "ع ن و ن",
+							"note": "One word for a headline and a home address — both are where you find the thing. Whether what you find matches the عنوان is this lesson's question."
+						},
+						{
+							"id": "u5-tafasil",
+							"ar": "تَفاصيل",
+							"arPlain": "تفاصيل",
+							"en": "details",
+							"he": "פְּרָטִים",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "التفاصيل بالنشرة الكاملة.",
+								"en": "Details in the full bulletin."
+							},
+							"audio": "audio/tts/u5/u5-tafasil.wav",
+							"audioEx": "audio/tts/u5/u5-tafasil-ex.wav",
+							"root": "ف ص ل",
+							"note": "Singular تفصيل, from فصل — to separate: details are the story taken apart. The عنوان sells; the تفاصيل tell."
+						},
+						{
+							"id": "u5-mulakhkhas",
+							"ar": "مُلَخَّص",
+							"arPlain": "ملخص",
+							"en": "summary",
+							"he": "תַּקְצִיר, סִיכּוּם",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "أعطيني ملخص — ما عندي وقت للتفاصيل.",
+								"en": "Give me the summary — no time for details."
+							},
+							"audio": "audio/tts/u5/u5-mulakhkhas.wav",
+							"audioEx": "audio/tts/u5/u5-mulakhkhas-ex.wav",
+							"root": "ل خ ص",
+							"note": "The verb is لخّص: لخصلي إياها — give me the short version. What you'll be asked to produce, in English, at the end of every Arc 2 clip. Consider yourself warned."
+						},
+						{
+							"id": "u5-hadath",
+							"ar": "حَدَث",
+							"arPlain": "حدث",
+							"en": "event",
+							"he": "אֵירוּעַ",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "حدث كبير وتغطية أكبر.",
+								"en": "A big event — and bigger coverage."
+							},
+							"audio": "audio/tts/u5/u5-hadath.wav",
+							"audioEx": "audio/tts/u5/u5-hadath-ex.wav",
+							"root": "ح د ث",
+							"note": "The thing itself, before anyone writes it up. The root makes حديث (new; talk) and أحداث (events/unrest) — and one very famous Hebrew word; see below.",
+							"cognate": {
+								"kind": "true",
+								"he": "חֲדָשׁוֹת",
+								"note": "ḥ-d-th / ḥ-d-sh: Arabic حدث the event, حديث the new; Hebrew חדש new, חודש the new moon, and חדשות — THE NEWS itself. Hebrew literally calls the news 'the new things'; Arabic went with الأخبار, 'the reports.' Two newsrooms, one ancient root — and it's been breaking news since the Bronze Age."
+							}
+						},
+						{
+							"id": "u5-tatawwurat",
+							"ar": "تَطَوُّرات",
+							"arPlain": "تطورات",
+							"en": "developments",
+							"he": "הִתְפַּתְּחוּיוֹת",
+							"pos": "noun",
+							"register": "news",
+							"example": {
+								"ar": "في تطورات جديدة بخبر الحريق.",
+								"en": "There are new developments in the fire story."
+							},
+							"audio": "audio/tts/u5/u5-tatawwurat.wav",
+							"audioEx": "audio/tts/u5/u5-tatawwurat-ex.wav",
+							"root": "ط و ر",
+							"note": "تابعوا التطورات — follow the developments: the phrase that keeps a story (and you) refreshing. Singular تطور, evolution/development."
+						},
+						{
+							"id": "u5-wad3",
+							"ar": "وَضْع",
+							"arPlain": "وضع",
+							"en": "situation",
+							"he": "מַצָּב",
+							"pos": "noun",
+							"register": "shared",
+							"example": {
+								"ar": "كيف الوضع عندكم اليوم؟",
+								"en": "How's the situation where you are today?"
+							},
+							"audio": "audio/tts/u5/u5-wad3.wav",
+							"audioEx": "audio/tts/u5/u5-wad3-ex.wav",
+							"root": "و ض ع",
+							"note": "THE word. كيف الوضع؟ asks about your morning and about the country in the same breath; الأوضاع, plural, is the Situation with a capital S. The purest specimen of the shared register: MSA bones, street soul."
+						},
+						{
+							"id": "u5-tili3",
+							"ar": "طِلِع",
+							"arPlain": "طلع",
+							"en": "turned out; came out, went up",
+							"he": "הִתְבָּרֵר; יָצָא, עָלָה",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "طلع الخبر مش مزبوط.",
+								"en": "The story turned out to be wrong."
+							},
+							"audio": "audio/tts/u5/u5-tili3.wav",
+							"audioEx": "audio/tts/u5/u5-tili3-ex.wav",
+							"root": "ط ل ع",
+							"note": "The street's swiss-army verb — the sun rises (طلعت الشمس), you head out (طلعت من الدار), and above all: the truth surfaces. طلع كذاب — turned out a liar. The people's correction mechanism, no printing required."
+						},
+						{
+							"id": "u5-dakhkham",
+							"ar": "ضَخَّم",
+							"arPlain": "ضخم",
+							"en": "exaggerated, blew up",
+							"he": "נִיפֵּחַ, הִגְזִים",
+							"pos": "verb",
+							"register": "street",
+							"example": {
+								"ar": "التلفزيون ضخم الخبر، زي عادته.",
+								"en": "The TV blew the story up, as usual."
+							},
+							"audio": "audio/tts/u5/u5-dakhkham.wav",
+							"audioEx": "audio/tts/u5/u5-dakhkham-ex.wav",
+							"root": "ض خ م",
+							"note": "From ضخم, huge: made-huge. The street's standing verdict on coverage — مضخّم — and the exact opposite of what a تصحيح does."
+						},
+						{
+							"id": "u5-ghatta",
+							"ar": "غَطّى",
+							"arPlain": "غطى",
+							"en": "covered (a story)",
+							"he": "סִיקֵּר",
+							"pos": "verb",
+							"register": "news",
+							"example": {
+								"ar": "كل القنوات غطت الحريق.",
+								"en": "Every channel covered the fire."
+							},
+							"audio": "audio/tts/u5/u5-ghatta.wav",
+							"audioEx": "audio/tts/u5/u5-ghatta-ex.wav",
+							"root": "غ ط ي",
+							"note": "تغطية = coverage. Same verb as the blanket — غطي حالك, cover yourself, it's cold. One word covers sleepers and stories; judge for yourself which gets tucked in more gently."
+						},
+						{
+							"id": "u5-sahhah",
+							"ar": "صَحَّح",
+							"arPlain": "صحح",
+							"en": "corrected",
+							"he": "תִּיקֵּן",
+							"pos": "verb",
+							"register": "shared",
+							"example": {
+								"ar": "الوكالة صححت الخبر بعد يوم.",
+								"en": "The agency corrected the story a day later."
+							},
+							"audio": "audio/tts/u5/u5-sahhah.wav",
+							"audioEx": "audio/tts/u5/u5-sahhah-ex.wav",
+							"root": "ص ح ح",
+							"note": "Unit 1's صحيح and Unit 4's صحتين, now transitive: to make-true. The تصحيح is journalism's quietest genre — Lesson 6's clip won't have one, but the habit of looking for it should be permanent.",
+							"cognate": {
+								"kind": "shifted",
+								"he": "צַח",
+								"note": "ṣ-ḥ-ḥ: Arabic صحّ is soundness — health (صحة), truth (صحيح), the table blessing (صحتين). Hebrew kept צח for the pure and the clear: צחות is crystalline speech. To correct a story — صحّح — is to restore it to clarity both languages filed under the same root."
+							}
+						}
+					]
+				},
+				{
+					"type": "listen",
+					"title": "Coffee and headlines",
+					"titleAr": "قهوة وعناوين",
+					"brief": "Morning after the statement: a young man at the café reads the fire coverage off his phone — headline voice, then his own. The «quoted» sentences are read as broadcast fusha; everything in between is pure street. One speaker, two registers: the whole unit in one voice.",
+					"preQuestions": [
+						"How many shops actually burned — versus the headline's version of events?",
+						"What was the cause in the end, and which register announces it?",
+						"His final verdict on headlines vs. corrections — catch the two verbs he lands on."
+					],
+					"transcript": [
+						{
+							"speaker": "الشب",
+							"ar": "«حريق هائل يلتهم سوق الخضار وسط المدينة». هائل! يلتهم!",
+							"en": "'Massive blaze devours the vegetable market downtown.' Massive! Devours!"
+						},
+						{
+							"speaker": "الشب",
+							"ar": "يا زلمة، محلين ولعوا. محلين. أنا كنت هناك.",
+							"en": "Man, two shops burned. Two. I was there."
+						},
+						{
+							"speaker": "الشب",
+							"ar": "بس العنوان لازم يخوّف — وإلا ما حدا بفتح الخبر.",
+							"en": "But the headline has to scare you — or nobody opens the story."
+						},
+						{
+							"speaker": "الشب",
+							"ar": "«التحقيق يرجح أن سبب الحريق ماس كهربائي». هاي معلومة. شكراً.",
+							"en": "'The investigation suggests the cause was a short circuit.' Now THAT's information. Thank you."
+						},
+						{
+							"speaker": "الشب",
+							"ar": "شايف؟ بالتفاصيل الخبر عاقل، وبالعنوان مجنون.",
+							"en": "See? In the details the story is sane; in the headline it's insane."
+						},
+						{
+							"speaker": "الشب",
+							"ar": "«البلدية تتعهد بتعويض المتضررين». إن شاء الله — بس هاي سمعناها قبل هيك.",
+							"en": "'The municipality pledges to compensate those affected.' Hopefully — but we've heard that one before."
+						},
+						{
+							"speaker": "الشب",
+							"ar": "وتحت، بخط صغير: «تصحيح: الخسائر أقل من المعلن سابقاً».",
+							"en": "And below, in small print: 'Correction: losses lower than previously announced.'"
+						},
+						{
+							"speaker": "الشب",
+							"ar": "يعني طلع الخبر نص اللي حكوه. العنوان بصرّخ — والتصحيح بوشوش. هيك الشغلة شغالة.",
+							"en": "So the story turned out half what they said. The headline screams — the correction whispers. That's how the machine runs."
+						}
+					],
+					"questions": [
+						{
+							"prompt": "The headline says يلتهم — the reality was:",
+							"options": [
+								"محلين بس",
+								"السوق كله",
+								"الفرن كمان",
+								"ولا محل"
+							],
+							"answer": 0,
+							"why": "ضخّموا — the gap between العنوان and التفاصيل is exactly this lesson."
+						},
+						{
+							"prompt": "Why must the headline scare, per our commentator?",
+							"options": [
+								"وإلا ما حدا بفتح الخبر",
+								"لأنه القانون هيك",
+								"عشان البلدية",
+								"لأنه الخبر كذب"
+							],
+							"answer": 0
+						},
+						{
+							"prompt": "Where does the story become 'sane'?",
+							"options": [
+								"بالتفاصيل",
+								"بالعنوان",
+								"بالصور",
+								"بالإعلانات"
+							],
+							"answer": 0,
+							"why": "بالتفاصيل الخبر عاقل وبالعنوان مجنون — frame it and hang it over your feed."
+						},
+						{
+							"prompt": "What arrived in small print?",
+							"options": [
+								"تصحيح",
+								"بيان جديد",
+								"خبر عاجل",
+								"حريق تاني"
+							],
+							"answer": 0,
+							"why": "The walk-back: screamed headline, whispered correction. صححوا الخبر — a day late, a font small."
+						},
+						{
+							"prompt": "His closing pair of verbs — the headline… and the correction…",
+							"options": [
+								"بصرّخ / بوشوش",
+								"بضحك / بحكي",
+								"بولع / بطفي",
+								"بكبر / بصغر"
+							],
+							"answer": 0,
+							"why": "Screams and whispers. If you remember one sentence from this unit's meta-lesson, make it this one."
+						}
+					],
+					"audio": "audio/tts/u5/listen5.wav",
+					"ttsVoice": "Algieba",
+					"ttsStyle": "Read aloud the following monologue in spoken Palestinian Levantine Arabic — a young man at a café reading news headlines from his phone and reacting to them. Sentences inside «...» guillemets are HEADLINES: read them in formal Modern Standard Arabic broadcast style, clear and measured, like a TV anchor. Everything else is his own sarcastic street commentary: casual, authentic Palestinian dialect (NOT MSA), pronounce إشي as 'ishi'. Speak noticeably slower than natural throughout — calm, learner-friendly pace, clear articulation, small pauses between sentences."
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "عُنْوان",
+							"en": "headline",
+							"audio": "audio/tts/u5/u5-3unwan.wav"
+						},
+						{
+							"ar": "تَفاصيل",
+							"en": "details",
+							"audio": "audio/tts/u5/u5-tafasil.wav"
+						},
+						{
+							"ar": "مُلَخَّص",
+							"en": "summary",
+							"audio": "audio/tts/u5/u5-mulakhkhas.wav"
+						},
+						{
+							"ar": "حَدَث",
+							"en": "event",
+							"audio": "audio/tts/u5/u5-hadath.wav"
+						},
+						{
+							"ar": "تَطَوُّرات",
+							"en": "developments",
+							"audio": "audio/tts/u5/u5-tatawwurat.wav"
+						},
+						{
+							"ar": "وَضْع",
+							"en": "situation",
+							"audio": "audio/tts/u5/u5-wad3.wav"
+						},
+						{
+							"ar": "طِلِع",
+							"en": "turned out",
+							"audio": "audio/tts/u5/u5-tili3.wav"
+						},
+						{
+							"ar": "ضَخَّم",
+							"en": "exaggerated",
+							"audio": "audio/tts/u5/u5-dakhkham.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "ال____ أكبر من الخبر.",
+							"en": "The headline is bigger than the story.",
+							"options": [
+								"عنوان",
+								"ملخص",
+								"وضع"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c5-1.wav"
+						},
+						{
+							"ar": "ال____ بالنشرة الكاملة، مش بالعنوان.",
+							"en": "The details are in the full bulletin, not the headline.",
+							"options": [
+								"تفاصيل",
+								"عناوين",
+								"إشاعات"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c5-2.wav"
+						},
+						{
+							"ar": "كيف ال____ عندكم بعد الحريق؟",
+							"en": "How's the situation there after the fire?",
+							"options": [
+								"وضع",
+								"طعم",
+								"عنوان"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c5-3.wav"
+						},
+						{
+							"ar": "التلفزيون ____ الخبر — محلين بس ولعوا.",
+							"en": "The TV inflated the story — only two shops burned.",
+							"options": [
+								"ضخم",
+								"طفى",
+								"غطى"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c5-4.wav"
+						},
+						{
+							"ar": "الوكالة ____ت الخبر بعد يوم.",
+							"en": "The agency corrected the story a day later.",
+							"options": [
+								"صحح",
+								"ضخم",
+								"ولع"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c5-5.wav"
+						},
+						{
+							"ar": "بالآخر ____ السبب ماس كهربائي.",
+							"en": "In the end the cause turned out to be a short circuit.",
+							"options": [
+								"طلع",
+								"ولع",
+								"نزل"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c5-6.wav"
+						}
+					]
+				},
+				{
+					"type": "grammar",
+					"title": "Pattern",
+					"points": [
+						{
+							"ar": "لغة العناوين: اندلاع، ارتفاع، إغلاق",
+							"explanation": "Headlines run on the مصدر — the verbal noun: no tense, no actor, just the event as a thing: اندلاع حريق (outbreak-of-fire), ارتفاع الأسعار (rising-of-prices), إغلاق السوق (closure-of-the-market). The first three seconds of any bulletin are masdar after masdar. Learn to unfold them back into sentences — اندلاع حريق = ولع حريق — and headlines stop being a wall. Warning: the next unit's vocabulary is almost entirely this machine at work.",
+							"examples": [
+								{
+									"ar": "اندلاع حريق في سوق الخضار وسط المدينة.",
+									"en": "Outbreak of fire in the vegetable market downtown.",
+									"audio": "audio/tts/u5/g5-1-1.wav"
+								},
+								{
+									"ar": "ارتفاع الأسعار قبل العيد.",
+									"en": "Prices rising ahead of the holiday.",
+									"audio": "audio/tts/u5/g5-1-2.wav"
+								}
+							]
+						},
+						{
+							"ar": "طِلِع إنّه... — the reveal verb",
+							"explanation": "طلع + إنه = it turned out that: طلع الخبر إشاعة (the story turned out a rumor), طلع السبب ماس (the cause turned out electrical), طلع معه حق (he turned out right). Where the paper prints تصحيح in small type, the street says طلع in a loud voice. It's the past tense of the truth: what the facts did once everyone finished talking.",
+							"examples": [
+								{
+									"ar": "طلع الخبر مضخّم — محلين بس ولعوا.",
+									"en": "The story turned out inflated — only two shops burned.",
+									"audio": "audio/tts/u5/g5-2-1.wav"
+								},
+								{
+									"ar": "طلع أبو العبد منيح، الحمد لله.",
+									"en": "Abu al-Abed turned out fine, thank God.",
+									"audio": "audio/tts/u5/g5-2-2.wav"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "cognates",
+					"title": "Hebrew bridges",
+					"items": [
+						{
+							"ar": "حَدَث",
+							"he": "חֲדָשׁוֹת",
+							"kind": "true",
+							"story": "ḥ-d-th / ḥ-d-sh: the crown jewel of this unit's ledger. Arabic حدث (event) and حديث (new); Hebrew חדש (new), חודש (the new moon), חדשות (the news — literally 'the new things'). The two languages built their entire news vocabulary on the same root and never compared notes. Now you have."
+						},
+						{
+							"ar": "صَحّ",
+							"he": "צַח",
+							"kind": "shifted",
+							"story": "ṣ-ḥ-ḥ: soundness and clarity. Arabic صح runs health (صحة), truth (صحيح), table blessings (صحتين), and corrections (صحّح); Hebrew's צח kept the crystalline — pure, radiant, צחות for polished speech. When the agency صححت the story, it did what both languages always meant: made it clear again."
+						}
+					]
+				}
+			]
+		},
+		{
+			"n": 6,
+			"title": "Review & free listening",
+			"titleAr": "مراجعة واستماع حر",
+			"canDo": "I can follow real street reactions to a real headline — register flips, hedges, and all — and summarize who believes what.",
+			"status": "ready",
+			"blocks": [
+				{
+					"type": "intro",
+					"body": "One fire, five retellings: the fence, the bulletin, the eyewitness, the spokesman, the headline. Now the machinery meets reality. Raya FM — an actual Ramallah station — takes a microphone into the street and asks people about the annexation plan that led every bulletin. The reporter asks in news Arabic; the street answers in yours. You will not catch everything. Catch the machinery: who sources, who hedges, who commits. (And keep the topic in your pocket — the next unit is الضفة itself.)"
+				},
+				{
+					"type": "listen",
+					"title": "Real street: the mic comes to you",
+					"titleAr": "استماع حر — ماذا يقول الشارع؟",
+					"brief": "Raya FM (Ramallah) asks people in the street about the Israeli annexation plan that was leading the bulletins — real voices, real speed, no simplification. The question arrives in news register; the answers come back in street register: the exact split you've spent five lessons training. Two minutes; you own more of it than you think.",
+					"preQuestions": [
+						"Catch the register flip: the framing is news Arabic, the answers are street. Where exactly does each speaker switch?",
+						"Score the sourcing and hedging you now know — بقولوا، يمكن، أكيد، والله: how sure is each voice, and how do you know?",
+						"Exit ticket: pick ONE speaker and give their opinion in one English sentence. That's the Arc 2 skill, starting now."
+					],
+					"transcript": [],
+					"questions": [],
+					"youtubeId": "GMKEY5L4Wn0"
+				},
+				{
+					"type": "quiz",
+					"title": "Did you catch it?",
+					"questions": [
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"breaking, urgent",
+								"fresh",
+								"expensive",
+								"official"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-3ajil.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"caught fire",
+								"put out (a fire)",
+								"spread",
+								"screamed"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-walla3.wav"
+						},
+						{
+							"prompt": "Play the word. What is it?",
+							"options": [
+								"news bulletin",
+								"rumor",
+								"headline",
+								"interview"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-nashra.wav"
+						},
+						{
+							"prompt": "Play the word. What is the speaker doing?",
+							"options": [
+								"explaining / rephrasing",
+								"denying",
+								"screaming",
+								"apologizing"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-ya3ni.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"rushed to help",
+								"ran away",
+								"slept",
+								"exaggerated"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-faza3.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"confirmed",
+								"denied",
+								"corrected",
+								"covered"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-akkad.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"denied",
+								"confirmed",
+								"announced",
+								"turned out"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-nafa.wav"
+						},
+						{
+							"prompt": "Play the word. What does it mean?",
+							"options": [
+								"turned out",
+								"caught fire",
+								"still",
+								"suddenly"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/u5-tili3.wav"
+						}
+					]
+				},
+				{
+					"type": "match",
+					"title": "Match",
+					"pairs": [
+						{
+							"ar": "عاجِل",
+							"en": "breaking, urgent",
+							"audio": "audio/tts/u5/u5-3ajil.wav"
+						},
+						{
+							"ar": "اِنْتَشَر",
+							"en": "spread (news, fire, rumor)",
+							"audio": "audio/tts/u5/u5-intashar.wav"
+						},
+						{
+							"ar": "الفُصْحى",
+							"en": "formal Arabic (MSA)",
+							"audio": "audio/tts/u5/u5-fusha.wav"
+						},
+						{
+							"ar": "شاهِد عِيان",
+							"en": "eyewitness",
+							"audio": "audio/tts/u5/u5-shahed.wav"
+						},
+						{
+							"ar": "ناطِق",
+							"en": "spokesman",
+							"audio": "audio/tts/u5/u5-natiq.wav"
+						},
+						{
+							"ar": "سَبَب",
+							"en": "cause, reason",
+							"audio": "audio/tts/u5/u5-sabab.wav"
+						},
+						{
+							"ar": "عُنْوان",
+							"en": "headline",
+							"audio": "audio/tts/u5/u5-3unwan.wav"
+						},
+						{
+							"ar": "صَحَّح",
+							"en": "corrected",
+							"audio": "audio/tts/u5/u5-sahhah.wav"
+						}
+					]
+				},
+				{
+					"type": "cloze",
+					"title": "Fill the gap",
+					"items": [
+						{
+							"ar": "خبر ____: حريق بسوق الخضرة!",
+							"en": "Breaking news: fire in the vegetable market!",
+							"options": [
+								"عاجل",
+								"رسمي",
+								"حلو"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c6-1.wav"
+						},
+						{
+							"ar": "المذيع بحكي فصحى وسيدو بحكي ____.",
+							"en": "The anchor speaks fusha and grandpa speaks dialect.",
+							"options": [
+								"عامية",
+								"فصحى",
+								"عبراني"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c6-2.wav"
+						},
+						{
+							"ar": "كنت ____ بقلي فلافل لما سمعت الصوت.",
+							"en": "I was frying falafel when I heard the sound.",
+							"options": [
+								"عم",
+								"رح",
+								"بس"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c6-3.wav"
+						},
+						{
+							"ar": "الناطق ما أكد وما ____.",
+							"en": "The spokesman neither confirmed nor denied.",
+							"options": [
+								"نفى",
+								"صحح",
+								"غطى"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c6-4.wav"
+						},
+						{
+							"ar": "العنوان ____ — بس التفاصيل عاقلة.",
+							"en": "The headline exaggerates — but the details are sane.",
+							"options": [
+								"مضخم",
+								"مطفي",
+								"مزبوط"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c6-5.wav"
+						},
+						{
+							"ar": "بالآخر ____ الخبر نص اللي حكوه.",
+							"en": "In the end the story turned out half what they'd said.",
+							"options": [
+								"طلع",
+								"ولع",
+								"فزع"
+							],
+							"answer": 0,
+							"audio": "audio/tts/u5/c6-6.wav"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -56,7 +56,7 @@ export const units: UnitMeta[] = [
 	{ id: 'unit-02', n: 2, arc: 1, title: 'Family & work at speed', titleAr: 'أهل وشغل', focus: 'Known ground pushed to listening fluency; numbers and times by ear.', status: 'ready' },
 	{ id: 'unit-03', n: 3, arc: 1, title: 'On the road', titleAr: 'عالطريق', focus: 'Serveece, directions, the checkpoint as daily procedure.', status: 'ready' },
 	{ id: 'unit-04', n: 4, arc: 1, title: 'Market & coffee', titleAr: 'السوق والقهوة', focus: 'Buying, haggling, hospitality scripts.', status: 'ready' },
-	{ id: 'unit-05', n: 5, arc: 2, title: 'Breaking news', titleAr: 'خبر عاجل', focus: 'News meta-language; the anchor-vs-street register split.', status: 'upcoming' },
+	{ id: 'unit-05', n: 5, arc: 2, title: 'Breaking news', titleAr: 'خبر عاجل', focus: 'News meta-language; the anchor-vs-street register split.', status: 'ready' },
 	{ id: 'unit-06', n: 6, arc: 2, title: 'The West Bank', titleAr: 'الضفة', focus: 'The occupation’s daily lexicon; geography as people reference it.', status: 'upcoming' },
 	{ id: 'unit-07', n: 7, arc: 2, title: 'Jerusalem', titleAr: 'القدس', focus: 'The city’s vocabulary: Al-Aqsa, Sheikh Jarrah, demolitions, IDs.', status: 'upcoming' },
 	{ id: 'unit-08', n: 8, arc: 2, title: 'Demonstration', titleAr: 'مظاهرة', focus: 'Protest language; understanding chanted speech.', status: 'upcoming' },

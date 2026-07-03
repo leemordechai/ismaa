@@ -24,6 +24,8 @@ node scripts/tts.mjs --jobs scripts/uN-retry.json --delay 6500   # if a retry fi
 
 # 1. AUTHOR content-src/unit-NN.src.json   (the only creative step — schema below)
 #    Pick the L6 youtubeId first (Ask Project search) so it goes straight in.
+#    BEFORE writing: read content-src/TAUGHT.md — the generated inventory of every
+#    taught word, grammar point, and cognate. Don't re-teach; revisit deliberately.
 
 # 2. Compile + validate (also emits split TTS manifests):
 node scripts/build-unit.mjs content-src/unit-NN.src.json --split 94
@@ -31,7 +33,8 @@ node scripts/build-unit.mjs content-src/unit-NN.src.json --split 94
 #    Fix validation errors in the source, recompile. Zero errors before proceeding.
 
 # 3. Wire (two one-line edits): import unit in src/lib/content/index.ts; flip status
-#    to 'ready' in src/lib/content/trajectory.ts.
+#    to 'ready' in src/lib/content/trajectory.ts. Then refresh the taught inventory:
+node scripts/inventory.mjs        # regenerates content-src/TAUGHT.md (checked in)
 
 # 4. Audio (~35 min background; ~190 jobs/unit):
 node scripts/tts.mjs --jobs scripts/uN-audio-a.json --delay 6500; node scripts/tts.mjs --jobs scripts/uN-audio-b.json --delay 6500
@@ -77,9 +80,12 @@ Each lesson: `title, titleAr, canDo, intro, weight?` plus any of (rendered in th
 
 "dialogue": { "t":"Title", "tAr":"عنوان", "sit":"situation line",
               "voices": { "بياع":["Bayya3","Charon"], "زبون":["Zabun","Algieba"] },  // Arabic name -> [LatinLabel, GeminiVoice]
+              // optional 3rd element "news": speaker reads in formal MSA broadcast style
+              // (anchors, spokesmen): "المذيع":["Muthi3","Charon","news"]
               "lines": [["بياع","عربي","English"], ...] },
 
 "listen":   { "t":..., "tAr":..., "brief":..., "speaker":"تيتا", "voice":"Sulafat",
+              "sty": "full custom TTS style prompt"?,   // overrides the monologue style (e.g. mixed registers)
               "pre":["listen-for 1", ...],
               "lines":[["عربي","English"], ...],            // OR for real clips:
               "youtubeId":"....",                            // (then no lines/voice)

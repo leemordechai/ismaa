@@ -1,0 +1,566 @@
+[
+	{
+		"text": "عاجِل",
+		"out": "static/audio/tts/u5/u5-3ajil.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "في خبر عاجل عالتلفزيون — تعالي شوفي.",
+		"out": "static/audio/tts/u5/u5-3ajil-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "حَريق",
+		"out": "static/audio/tts/u5/u5-hariq.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "ولع حريق كبير بسوق الخضرة.",
+		"out": "static/audio/tts/u5/u5-hariq-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "نار",
+		"out": "static/audio/tts/u5/u5-nar.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "الدخان كتير بس النار صغيرة.",
+		"out": "static/audio/tts/u5/u5-nar-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "وَلَّع",
+		"out": "static/audio/tts/u5/u5-walla3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "المحل ولع بلحظة.",
+		"out": "static/audio/tts/u5/u5-walla3-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "مَحَل",
+		"out": "static/audio/tts/u5/u5-mahall.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "سكروا المحلات بكير اليوم.",
+		"out": "static/audio/tts/u5/u5-mahall-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "إطْفائِيّة",
+		"out": "static/audio/tts/u5/u5-itfa2iyye.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "الإطفائية وصلت بعد ربع ساعة.",
+		"out": "static/audio/tts/u5/u5-itfa2iyye-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "إسْعاف",
+		"out": "static/audio/tts/u5/u5-is3af.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "إجت سيارة الإسعاف بسرعة.",
+		"out": "static/audio/tts/u5/u5-is3af-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "اِنْتَشَر",
+		"out": "static/audio/tts/u5/u5-intashar.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "الخبر انتشر بالحارة قبل التلفزيون.",
+		"out": "static/audio/tts/u5/u5-intashar-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "خَسائِر",
+		"out": "static/audio/tts/u5/u5-khasayer.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "خسائر كبيرة بالمحلات، بس ولا إصابة.",
+		"out": "static/audio/tts/u5/u5-khasayer-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "إصابة",
+		"out": "static/audio/tts/u5/u5-isabe.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "الحمد لله، ما في إصابات.",
+		"out": "static/audio/tts/u5/u5-isabe-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "AbuJamil: أم فادي! سمعتي شو صار؟\nUmFadi: لا، شو؟ خير إن شاء الله؟\nAbuJamil: في حريق بسوق الخضرة! الدنيا دخان.\nUmFadi: يا لطيف! مين حكالك؟\nAbuJamil: ابن أختي مرق من هناك هلّق. وشفت الإطفائية بحالي.\nUmFadi: ومحل أبو العبد؟ الله يستر!\nAbuJamil: بقولوا المحلات اللي جنب الفرن ولعوا. بس مش أكيد.\nUmFadi: في إصابات؟\nAbuJamil: حسب اللي سمعته، لا. بس الخسائر كبيرة.\nUmFadi: طيب افتح التلفزيون — أكيد في خبر عاجل.",
+		"out": "static/audio/tts/u5/d1.wav",
+		"speakers": "AbuJamil=Algieba,UmFadi=Sulafat",
+		"style": "TTS the following everyday conversation. Both speakers use authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) exactly as natives from Ramallah talk — NOT Modern Standard Arabic. Speak noticeably SLOWER than natural conversation: calm, learner-friendly pacing, clear articulation, brief pauses between turns — while keeping the casual dialect pronunciation. Pronounce شو صار as 'shu sar', إشي as 'ishi', هلّق as 'hallaq'."
+	},
+	{
+		"text": "أم فادي! سمعتي شو صار؟",
+		"out": "static/audio/tts/u5/d1-l01.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "لا، شو؟ خير إن شاء الله؟",
+		"out": "static/audio/tts/u5/d1-l02.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "في حريق بسوق الخضرة! الدنيا دخان.",
+		"out": "static/audio/tts/u5/d1-l03.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "يا لطيف! مين حكالك؟",
+		"out": "static/audio/tts/u5/d1-l04.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "ابن أختي مرق من هناك هلّق. وشفت الإطفائية بحالي.",
+		"out": "static/audio/tts/u5/d1-l05.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "ومحل أبو العبد؟ الله يستر!",
+		"out": "static/audio/tts/u5/d1-l06.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "بقولوا المحلات اللي جنب الفرن ولعوا. بس مش أكيد.",
+		"out": "static/audio/tts/u5/d1-l07.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "في إصابات؟",
+		"out": "static/audio/tts/u5/d1-l08.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "حسب اللي سمعته، لا. بس الخسائر كبيرة.",
+		"out": "static/audio/tts/u5/d1-l09.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "طيب افتح التلفزيون — أكيد في خبر عاجل.",
+		"out": "static/audio/tts/u5/d1-l10.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "ولع حريق كبير بسوق الخضرة.",
+		"out": "static/audio/tts/u5/c1-1.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "الخبر انتشر بالحارة بسرعة.",
+		"out": "static/audio/tts/u5/c1-2.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "وصلت الإطفائية بعد ربع ساعة.",
+		"out": "static/audio/tts/u5/c1-3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "الحمد لله، ما في إصابات.",
+		"out": "static/audio/tts/u5/c1-4.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "في خبر عاجل عالتلفزيون!",
+		"out": "static/audio/tts/u5/c1-5.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "في دخان كتير عند السوق.",
+		"out": "static/audio/tts/u5/g1-1-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "صار في حريق مبارح بالليل.",
+		"out": "static/audio/tts/u5/g1-1-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "بقولوا المحل ولع كله — الله أعلم.",
+		"out": "static/audio/tts/u5/g1-2-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "سمعت إنه ما في إصابات.",
+		"out": "static/audio/tts/u5/g1-2-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "مُذيع",
+		"out": "static/audio/tts/u5/u5-muthi3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "المذيع قرأ الخبر العاجل مرتين.",
+		"out": "static/audio/tts/u5/u5-muthi3-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "نَشْرة",
+		"out": "static/audio/tts/u5/u5-nashra.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "نشرة أخبار الستة أهم نشرة.",
+		"out": "static/audio/tts/u5/u5-nashra-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "الفُصْحى",
+		"out": "static/audio/tts/u5/u5-fusha.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "المذيع بحكي بالفصحى، مش زي الناس.",
+		"out": "static/audio/tts/u5/u5-fusha-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "العامِّيّة",
+		"out": "static/audio/tts/u5/u5-3ammiyye.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "بالبيت منحكي بالعامية طبعاً.",
+		"out": "static/audio/tts/u5/u5-3ammiyye-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "لَهْجة",
+		"out": "static/audio/tts/u5/u5-lahje.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "لهجة أهل الخليل غير عن لهجة نابلس.",
+		"out": "static/audio/tts/u5/u5-lahje-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "بَثّ مُباشِر",
+		"out": "static/audio/tts/u5/u5-mubashar.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "القناة عاملة بث مباشر من السوق.",
+		"out": "static/audio/tts/u5/u5-mubashar-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "مُشاهِد",
+		"out": "static/audio/tts/u5/u5-mushahed.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "مساء الخير مشاهدينا الكرام.",
+		"out": "static/audio/tts/u5/u5-mushahed-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "تَقْرير",
+		"out": "static/audio/tts/u5/u5-taqrir.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "شفت التقرير عن الحريق؟",
+		"out": "static/audio/tts/u5/u5-taqrir-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "مُقابَلة",
+		"out": "static/audio/tts/u5/u5-muqabale.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "عملوا مقابلة مع صاحب المحل.",
+		"out": "static/audio/tts/u5/u5-muqabale-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "يَعْني",
+		"out": "static/audio/tts/u5/u5-ya3ni.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "اندلع يعني ولّع، فهمت؟",
+		"out": "static/audio/tts/u5/u5-ya3ni-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "Muthi3: مساء الخير مشاهدينا الكرام. نبدأ نشرتنا بالحريق الذي اندلع مساء أمس في سوق الخضار.\nSido: اندلع! ليش يا زلمة ما بتقول ولّع زي خلق الله؟\nMuthi3: وقد سيطرت فرق الإطفاء على النيران بعد ساعتين من اندلاعها.\nSido: يعني طفوا النار بعد ساعتين. هيك منقولها إحنا.\nMuthi3: ولم تسجل أي إصابات، فيما تقدر الخسائر بعشرات آلاف الشواقل.\nSido: الحمد لله ما في إصابات. بس المصاري راحت — يا خسارة يا أبو العبد.\nMuthi3: وقال مصدر في البلدية إن سبب الحريق ما زال مجهولاً حتى الآن.\nSido: يعني بعرفوش ليش ولع. قول هيك من الأول!\nMuthi3: وفي الختام، تعود الحياة إلى طبيعتها في السوق صباح اليوم.\nSido: طبيعتها، الله يعينهم. خلص، خلصت النشرة — طفي التلفزيون يا ستي.",
+		"out": "static/audio/tts/u5/d2.wav",
+		"speakers": "Muthi3=Charon,Sido=Algieba",
+		"style": "TTS the following everyday conversation. Both speakers use authentic spoken Palestinian Levantine Arabic (اللهجة الفلسطينية المحكية) exactly as natives from Ramallah talk — NOT Modern Standard Arabic. Speak noticeably SLOWER than natural conversation: calm, learner-friendly pacing, clear articulation, brief pauses between turns — while keeping the casual dialect pronunciation. Pronounce شو صار as 'shu sar', إشي as 'ishi', هلّق as 'hallaq'. EXCEPTION: Muthi3 speaks in formal Modern Standard Arabic (الفصحى) with measured TV-news broadcast delivery — clear, official, NOT dialectal. Any other speaker stays fully colloquial Palestinian."
+	},
+	{
+		"text": "مساء الخير مشاهدينا الكرام. نبدأ نشرتنا بالحريق الذي اندلع مساء أمس في سوق الخضار.",
+		"out": "static/audio/tts/u5/d2-l01.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of an Arabic television news broadcast exactly once, slowly and clearly for a learner: formal Modern Standard Arabic (الفصحى), measured news-anchor delivery, official broadcast tone — NOT colloquial dialect."
+	},
+	{
+		"text": "اندلع! ليش يا زلمة ما بتقول ولّع زي خلق الله؟",
+		"out": "static/audio/tts/u5/d2-l02.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "وقد سيطرت فرق الإطفاء على النيران بعد ساعتين من اندلاعها.",
+		"out": "static/audio/tts/u5/d2-l03.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of an Arabic television news broadcast exactly once, slowly and clearly for a learner: formal Modern Standard Arabic (الفصحى), measured news-anchor delivery, official broadcast tone — NOT colloquial dialect."
+	},
+	{
+		"text": "يعني طفوا النار بعد ساعتين. هيك منقولها إحنا.",
+		"out": "static/audio/tts/u5/d2-l04.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "ولم تسجل أي إصابات، فيما تقدر الخسائر بعشرات آلاف الشواقل.",
+		"out": "static/audio/tts/u5/d2-l05.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of an Arabic television news broadcast exactly once, slowly and clearly for a learner: formal Modern Standard Arabic (الفصحى), measured news-anchor delivery, official broadcast tone — NOT colloquial dialect."
+	},
+	{
+		"text": "الحمد لله ما في إصابات. بس المصاري راحت — يا خسارة يا أبو العبد.",
+		"out": "static/audio/tts/u5/d2-l06.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "وقال مصدر في البلدية إن سبب الحريق ما زال مجهولاً حتى الآن.",
+		"out": "static/audio/tts/u5/d2-l07.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of an Arabic television news broadcast exactly once, slowly and clearly for a learner: formal Modern Standard Arabic (الفصحى), measured news-anchor delivery, official broadcast tone — NOT colloquial dialect."
+	},
+	{
+		"text": "يعني بعرفوش ليش ولع. قول هيك من الأول!",
+		"out": "static/audio/tts/u5/d2-l08.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "وفي الختام، تعود الحياة إلى طبيعتها في السوق صباح اليوم.",
+		"out": "static/audio/tts/u5/d2-l09.wav",
+		"voice": "Charon",
+		"style": "Read aloud this single line of an Arabic television news broadcast exactly once, slowly and clearly for a learner: formal Modern Standard Arabic (الفصحى), measured news-anchor delivery, official broadcast tone — NOT colloquial dialect."
+	},
+	{
+		"text": "طبيعتها، الله يعينهم. خلص، خلصت النشرة — طفي التلفزيون يا ستي.",
+		"out": "static/audio/tts/u5/d2-l10.wav",
+		"voice": "Algieba",
+		"style": "Read aloud this single line of spoken Palestinian Levantine Arabic dialogue exactly once, slowly and clearly — calm learner-friendly pace, but staying casual and authentically dialectal (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "المذيع بقرأ النشرة بالفصحى.",
+		"out": "static/audio/tts/u5/c2-1.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "بالبيت والشارع منحكي بالعامية.",
+		"out": "static/audio/tts/u5/c2-2.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "في بث مباشر من قدام السوق.",
+		"out": "static/audio/tts/u5/c2-3.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "عملوا مقابلة مع صاحب المحل اللي ولع.",
+		"out": "static/audio/tts/u5/c2-4.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "اندلع يعني ولّع — نفس الإشي.",
+		"out": "static/audio/tts/u5/c2-5.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "لا توجد إصابات — يعني: ما في إصابات.",
+		"out": "static/audio/tts/u5/g2-1-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "ماذا حدث في السوق؟ — يعني: شو صار بالسوق؟",
+		"out": "static/audio/tts/u5/g2-1-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "المذيع قال إنه ما في إصابات.",
+		"out": "static/audio/tts/u5/g2-2-1.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "جارتي حكتلي إنه المحل ولع كله.",
+		"out": "static/audio/tts/u5/g2-2-2.wav",
+		"voice": "Iapetus",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "شاهِد عِيان",
+		"out": "static/audio/tts/u5/u5-shahed.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "حكوا مع شاهد عيان من السوق.",
+		"out": "static/audio/tts/u5/u5-shahed-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "عين",
+		"out": "static/audio/tts/u5/u5-3en.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "شفت الدخان بعيني.",
+		"out": "static/audio/tts/u5/u5-3en-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "لَحْظة",
+		"out": "static/audio/tts/u5/u5-lahza.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "بلحظة صار كل إشي دخان.",
+		"out": "static/audio/tts/u5/u5-lahza-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "فَجْأة",
+		"out": "static/audio/tts/u5/u5-faj2a.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "فجأة سمعنا صوت عالي.",
+		"out": "static/audio/tts/u5/u5-faj2a-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "صوت",
+		"out": "static/audio/tts/u5/u5-sot.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "صوت الإطفائية وصل قبلها.",
+		"out": "static/audio/tts/u5/u5-sot-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "صَرَخ",
+		"out": "static/audio/tts/u5/u5-sarakh.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "وحدة صرخت: حريق! حريق!",
+		"out": "static/audio/tts/u5/u5-sarakh-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	},
+	{
+		"text": "رَكَض",
+		"out": "static/audio/tts/u5/u5-rakad.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud only the following Arabic vocabulary word, exactly once, very slowly and clearly with a calm teaching pace, in spoken Palestinian Levantine pronunciation (NOT Modern Standard Arabic), warm tone:"
+	},
+	{
+		"text": "الكل ركض عالسوق.",
+		"out": "static/audio/tts/u5/u5-rakad-ex.wav",
+		"voice": "Sulafat",
+		"style": "Read aloud the following short Palestinian Levantine Arabic sentence exactly once, slowly and very clearly — a calm, learner-friendly pace with each word articulated, but natural authentic dialect pronunciation (NOT Modern Standard Arabic):"
+	}
+]

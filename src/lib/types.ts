@@ -77,7 +77,8 @@ export type Block =
 			lines: DialogueLine[];
 			audio?: string;
 			// TTS metadata: maps Arabic speaker names to Latin labels + Gemini voices
-			ttsVoices?: Record<string, { label: string; voice: string }>;
+			// news: true = this speaker reads in formal MSA broadcast style (anchor register)
+			ttsVoices?: Record<string, { label: string; voice: string; news?: boolean }>;
 	  }
 	| {
 			type: 'listen';
@@ -86,6 +87,7 @@ export type Block =
 			brief: string;
 			audio?: string;
 			ttsVoice?: string;
+			ttsStyle?: string; // custom style prompt override (e.g. mixed headline/street registers)
 			youtubeId?: string;
 			preQuestions: string[];
 			transcript: DialogueLine[];
